@@ -75,7 +75,7 @@ text-decoration: line-through;
     left:-16px;
 }
 .mshell .input_text{
-    font:16px open_sansregular;
+    font:16px Inter;
     color:#5e61b9;
     margin-bottom: 20px;
     width: 100%;
@@ -101,7 +101,7 @@ text-decoration: line-through;
     box-sizing: border-box;	
     font-size: 16px;
     background-color: #ffffff;
-    font-family: 'open_sansregular';
+    font-family: 'Inter';
 }
 .mshell .myApp:after {
     content: "";
@@ -158,7 +158,7 @@ text-decoration: line-through;
     margin-top: 5px;
     position: relative;
     font-size: 12px;
-    font-family: open_sansregular;
+    font-family: Inter;
     color: #5e61b9;
 }
 .mshell .topicHeader{
@@ -172,7 +172,7 @@ text-decoration: line-through;
     padding: 3px;
     display: inline-block;
     float: right;
-    font: 15px 'open_sansregular';
+    font: 15px 'Inter';
 }
 .mshell .topicFooter{
     border-top:1px solid #5e61b9;
@@ -181,7 +181,7 @@ text-decoration: line-through;
     width:100%;
     margin-top: 20px;
     box-sizing: border-box;
-    font:15px 'open_sansregular';
+    font:15px 'Inter';
     color:#5e61b9;
     display: none;
 }
@@ -313,7 +313,7 @@ text-decoration: line-through;
     opacity: 1;
 }
 .mshell .btn{
-    font: 14px 'open_sansregular';
+    font: 14px 'Inter';
     height: 30px;
     line-height: 30px;
     text-align: center;
@@ -533,7 +533,7 @@ text-decoration: line-through;
     line-height: 17px;
     margin: 0 0 0 9px;
     display: none;
-    font-family: open_sansregular;
+    font-family: Inter;
     position: relative
 }
 .mshell .qTxt[disabled="disabled"]{
@@ -739,7 +739,7 @@ should_be:parent {
     box-sizing: border-box;
     resize: none;
     overflow: hidden;
-    font-family: open_sansregular;
+    font-family: Inter;
     min-height:41px !important;
 }
 
@@ -829,7 +829,7 @@ should_be:parent {
     list-style: none;
     cursor:pointer;
     font-size: 15px !important;
-    font-family: 'open_sansregular' !important;
+    font-family: 'Inter' !important;
     font-weight:normal !important;
     color: #333333 !important;
     background-color: white;
@@ -891,7 +891,7 @@ should_be:parent {
     box-sizing: border-box;
     word-break: break-word;  
     resize:none;
-    font:15px open_sansregular;
+    font:15px Inter;
     text-align: left;
     overflow: hidden;
 }
@@ -963,7 +963,7 @@ should_be:parent {
     padding: 0px 3px 0px 3px;
     margin: 0px 5px 5px 0px;
     text-align: center;
-    font: 15px open_sansregular;
+    font: 15px Inter;
     resize: none;
     overflow: hidden;
     float: left;
@@ -1307,7 +1307,7 @@ should_be:parent {
     position:relative;
     color: #333333;
     background-color: rgba(135,176,63,0.5);
-    font: 13px 'open_sansregular';
+    font: 13px 'Inter';
     width: 115px;
     display: table-cell;
     vertical-align: middle;
@@ -1395,7 +1395,7 @@ should_be:parent {
     content: counter(listStyle, upper-alpha);
      margin-left: -26px;
     float: left;
-    font-family: open_sansregular;
+    font-family: Inter;
 }
 .mshell .single_radio .radioBtn{
     counter-increment: listStyle;
@@ -1470,7 +1470,7 @@ should_be:parent {
 .mshell .noResTitle .rubric {
     margin-top: 12px;
     margin-bottom: 0px;
-    font-family: open_sansregular;
+    font-family: Inter;
 }
 .mshell .summary .emptyDiv .btn.tryAgain{
     margin-top: 10px;
@@ -1703,7 +1703,7 @@ should_be:parent {
 }
 .mshell .home_h2 span{
     color: #6F6F6F;
-    font: 16px 'open_sansregular';
+    font: 16px 'Inter';
 }
 .mshell .home_h2 span.ff_first:after{
     content: '\007C';
@@ -1712,7 +1712,7 @@ should_be:parent {
     font-weight: bold;
 }
 .mshell .home_h3 span{
-    font: 14px 'open_sansregular';
+    font: 14px 'Inter';
     color:#6F6F6F
 }
 .mshell .pract_eng{
@@ -1838,7 +1838,7 @@ should_be:parent {
     position: relative;
     padding:0px 20px;
     font-size: 12px;
-    font-family: open_sansregular;
+    font-family: Inter;
     color: #5e61b9;}
 .mshell .resultSummary{
     position: relative;
@@ -1911,7 +1911,7 @@ should_be:parent {
     vertical-align: middle;
     font-size: 15px;
     line-height: 20px;
-    font-family: open_sansregular;
+    font-family: Inter;
     padding-right: 6px;
 }
 .mshell .icon_wrap{
