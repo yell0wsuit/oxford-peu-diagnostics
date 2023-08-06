@@ -23,7 +23,7 @@
     </div></div>
 	<div class="linkFeedback">
 		     <div class="feedback_wrapper">
- <div class="feedback_header">Where to go in <i>Practical English Usage</i></div>
+ <div class="feedback_header">Explanations / answers</div>
     <ul>
      <li ng-repeat="f in d.exercise.feedback" ng-bind-html="f.desc | sanitize"></li>
     </ul>
@@ -31,9 +31,9 @@
 	</div>
 
         
-            <div class="btn skip" ng-show="!disable" ng-click="nextExercise()">Skip</div>
+            <div class="btn btn-secondary skip" ng-show="!disable" ng-click="nextExercise()">Skip</div>
            
-    <div class="btn checkAns" ng-show="!disable" ng-click="checkAns()">Check my answers</div>
-    <div class="btn next" ng-click="nextExercise()" ng-if="d.curr < (d.size - 1)">Next</div> 
-    <div class="btn resultsBtn" ng-show="disable" ng-click="results(d.level)" ng-if="d.curr >= (d.size - 1)">Results</div> 
+    <div class="btn btn-success checkAns" ng-show="!disable" ng-click="checkAns()">Check my answers</div>
+    <div class="btn btn-success next" ng-click="nextExercise()" ng-if="d.curr < (d.size - 1)">Next</div> 
+    <div class="btn btn-success resultsBtn" ng-show="disable" ng-click="results(d.level)" ng-if="d.curr >= (d.size - 1)">Results</div> 
 </div>

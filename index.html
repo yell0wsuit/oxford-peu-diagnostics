@@ -1,13 +1,13 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="en" data-bs-theme="auto">
 
 <head>
-    <meta charset="utf-8" />
     <title>Diagnostic Tests</title>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
     <meta name="description" content="The Diagnostic Tests help you improve your grammar and vocabulary skills." />
     <meta name="keywords" content="diagnostic tests, english grammar, grammar, vocabulary" />
     <meta name='viewport' content='width=device-width, initial-scale=1' />
-    <link href="styles/reset.css" rel="stylesheet" type="text/css" />
+    <link href="styles/bootstrap.min.css" rel="stylesheet" type="text/css" />
     <link href="styles/style.css" rel="stylesheet" type="text/css" />
 
     <link rel="icon" type="image/x-icon" href="images/favicon.ico" />
@@ -15,116 +15,170 @@
 </head>
 
 <body>
+    <div class="dropdown position-fixed bottom-0 end-0 mb-3 me-3 z-3">
+        <button class="btn btn-primary py-2 dropdown-toggle d-flex align-items-center" id="bd-theme" type="button"
+            aria-expanded="false" data-bs-toggle="dropdown" aria-label="Toggle theme (auto)">
+            <svg class="bi-nav my-1 me-2 theme-icon-active" width="1em" height="1em">
+                <use href="#circle-half"></use>
+            </svg>
+            <span id="bd-theme-text">Toggle theme</span>
+        </button>
+        <ul class="dropdown-menu dropdown-menu-end shadow" aria-labelledby="bd-theme-text">
+            <li>
+                <button type="button" class="dropdown-item d-flex align-items-center" data-bs-theme-value="light"
+                    aria-pressed="false">
+                    <svg class="bi-nav me-2 opacity-50 theme-icon" width="1em" height="1em">
+                        <use href="#sun-fill"></use>
+                    </svg>
+                    Light
+                    <svg class="bi-nav ms-auto d-none" width="1em" height="1em">
+                        <use href="#check2"></use>
+                    </svg>
+                </button>
+            </li>
+            <li>
+                <button type="button" class="dropdown-item d-flex align-items-center" data-bs-theme-value="dark"
+                    aria-pressed="false">
+                    <svg class="bi-nav me-2 opacity-50 theme-icon" width="1em" height="1em">
+                        <use href="#moon-stars-fill"></use>
+                    </svg>
+                    Dark
+                    <svg class="bi-nav ms-auto d-none" width="1em" height="1em">
+                        <use href="#check2"></use>
+                    </svg>
+                </button>
+            </li>
+            <li>
+                <button type="button" class="dropdown-item d-flex align-items-center active" data-bs-theme-value="auto"
+                    aria-pressed="true">
+                    <svg class="bi-nav me-2 opacity-50 theme-icon" width="1em" height="1em">
+                        <use href="#circle-half"></use>
+                    </svg>
+                    Follow OS theme
+                    <svg class="bi-nav ms-2 d-none" width="1em" height="1em">
+                        <use href="#check2"></use>
+                    </svg>
+                </button>
+            </li>
+        </ul>
+    </div>
     <div id="informational-content">
-        <div class="mloader"></div>
-        <div class="mshell" id="container">
-            <div class="loader"></div>
-            <div class="wrapper">
-                <div class="myApp" ng-app="myApp" ng-controller="mainCtrl">
-                    <div
-                        class="del_disabler"
-                        ng-show="deleteAll"
-                        style="position: absolute; z-index: 999999; width: 100%; height: 100%"
-                    ></div>
-
-                    <div class="home_page">
-                        <div class="hme_btn_wrp ng-scope">
-                            <div class="btn home_help common_page">
-                                <span ng-click="help_btn()" class="ng-binding">Help</span>
+        <div class="p-4 p-md-5">
+            <div class="mshell container" id="container">
+                <div id="iLoader" class="overlay d-flex justify-content-center align-items-center">
+                    <div class="d-flex justify-content-center">
+                        <div class="spinner-border" style="width: 5rem; height: 5rem;" role="status">
+                            <span class="visually-hidden">Loading...</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="wrapper">
+    
+                    <div class="myApp" ng-app="myApp" ng-controller="mainCtrl">
+                        <div class="del_disabler" ng-show="deleteAll"
+                            style="position:absolute;z-index:999999;width:100%;height:100%"></div>
+    
+                        <div class="home_page">
+                            <div class="d-flex justify-content-end">
+                                <button type="button" class="btn btn-primary common_page mb-md-5 ng-binding" ng-click="help_btn()">Help</button>
                             </div>
-                        </div>
-                        <div class="row _row">
-                            <h1 class="home_h1"><span>Diagnostic Tests</span></h1>
-                            <h2 class="home_h2">
-                                <span class="ff_first">Michael Swan</span>
-                                <span style="margin-left: -2px">David Baker</span>
-                            </h2>
-                            <h1 class="home_h3" style="margin: 67px 0 8px 0"><span>to accompany</span></h1>
-                        </div>
-                        <div class="row _row">
-                            <div>
-                                <div class="row1">
-                                    <span class="peu">Practical English Usage</span>
+                            <div class="mt-4 mb-5">
+                                <h1 class="fw-bold text-center mb-3">Diagnostic Tests</h1>
+                                <h4 class="text-secondary text-center mb-3">Michael Swan | David Baker</h4>
+                                <h5 class="text-center">to accompany</h5>
+                            </div>
+                            <div class="mt-4 mb-5">
+                                <div class="d-flex justify-content-center mb-5">
+                                    <span class="peu text-primary-emphasis fs-5 fw-semibold me-2">Practical English Usage</span>
                                     <span class="pract_eng"></span>
                                 </div>
-                            </div>
-                            <div class="mbox" id="sound_page">
-                                <h2 ng-click="load_section()">Start</h2>
-                                <!-- <h2 ng-click="delete_all()">Delete All</h2>-->
+                                <div class="d-flex justify-content-center" id="sound_page">
+                                    <button type="button" class="btn btn-success fs-3 rounded-4" ng-click="load_section()">Start</button>
+                                    <!-- <h2 ng-click="delete_all()">Delete All</h2>-->
+                                </div>
                             </div>
                         </div>
-                        <br /><br /><br /><br /><br />
-                    </div>
-                    <div ng-show="activity && !summary" class="header">
-                        <div class="lvlWrapper">
-                            <div class="topicHeader" ng-bind-html="d.topic | sanitize"></div>
-
-                            <span class="levelHolder">
-                                <span ng-if="d.level == 'b2'">Upper Intermediate</span
-                                ><span ng-if="d.level == 'c1'">Advanced</span
-                                ><span ng-if="d.level == 'c2'">Expert</span>
-                            </span>
-                        </div>
-                        <div class="totalQues_wrap">
-                            <div class="topicCounter" ng-hide="summary">
+                        <div ng-show="activity && !summary" class="header">
+                            <div class="lvlWrapper">
+                                <div class="topicHeader fs-3 text-primary-emphasis fw-semibold" ng-bind-html="d.topic | sanitize"></div>
+    
+                                <span class="text-info-emphasis float-start mb-2"> <span ng-if="d.level == 'b2'">Upper Intermediate</span><span
+                                        ng-if="d.level == 'c1'">Advanced</span><span ng-if="d.level == 'c2'">Expert</span>
+                                </span>
+                            </div>
+                            <div class="float-end bg-body-secondary p-1" ng-hide="summary">
                                 <span>{{d.curr + 1}}</span>
                                 <span>of</span>
                                 <span>{{d.size}}</span>
                             </div>
                         </div>
-                    </div>
-
-                    <div class="summaryWrapper" ng-show="summary">
-                        <div class="topicHeader ng-binding" ng-bind-html="d.topic | sanitize">verbs</div>
-                        <span ng-if="d.level == 'b2'">Upper Intermediate</span
-                        ><span ng-if="d.level == 'c1'">Advanced</span><span ng-if="d.level == 'c2'">Expert</span>
-                    </div>
-                    <div class="learningRec" scroll ng-hide="activity">
-                        <div class="header"><div class="topicHeader">{{d.topic}}</div></div>
-                        <div class="lrnData">
-                            <div class="tableTitle">
-                                <span>Upper Intermediate</span><span>Advanced</span><span>Expert</span>
+    
+                        <div class="summaryWrapper" ng-show="summary">
+                            <div class="topicHeader fs-3 text-primary-emphasis fw-semibold ng-binding" ng-bind-html="d.topic | sanitize">verbs</div>
+                            <span ng-if="d.level == 'b2'">Upper Intermediate</span><span
+                                ng-if="d.level == 'c1'">Advanced</span><span ng-if="d.level == 'c2'">Expert</span>
+    
+                        </div>
+                        <div class="learningRec" scroll ng-hide="activity">
+                            <div class="header mb-2">
+                                <div class="topicHeader fs-3 text-primary-emphasis fw-semibold">{{d.topic}}</div>
                             </div>
-                            <div class="learningRow" ng-repeat="i in main">
-                                <span class="lrnTxt" ng-bind-html="i.text | sanitize"></span>
-                                <div class="lrnBtnC">
-                                    <div
-                                        ng-repeat="d in i.status track by $index"
-                                        style="margin: 0 6px 0 0; display: table; float: left"
-                                    >
-                                        <div ng-switch on="d" style="display: table-row">
-                                            <span
-                                                ng-switch-when="0"
-                                                class="lrnBtn {{hoverC}}"
-                                                ng-mouseover="hoverC = 'hover'"
-                                                ng-mouseout="hoverC=''"
-                                                ng-click="go($index, $parent.$parent.$index, i.text)"
-                                                >Try</span
-                                            ><span
-                                                ng-switch-when="2"
-                                                class="lrnBtn results {{hoverC}}"
-                                                ng-mouseover="hoverC = 'hover'"
-                                                ng-mouseout="hoverC=''"
-                                                ng-click="results($index, $parent.$parent.$index, i.text)"
-                                                >Try again</span
-                                            ><span ng-switch-when="1" class="lrnBtn cd">&ndash;</span>
-                                        </div>
+                            <div class="row border-bottom py-2">
+                                <div class="col-lg-6 d-sm-none d-md-block"></div>
+                                <div class="col-lg-2 col-4 text-center d-flex justify-content-center align-items-center">
+                                    Upper Intermediate
+                                </div>
+                                <div class="col-lg-2 col-4 text-center d-flex justify-content-center align-items-center">
+                                    Advanced
+                                </div>
+                                <div class="col-lg-2 col-4 text-center d-flex justify-content-center align-items-center">
+                                    Expert
+                                </div>
+                            </div>
+                            <div class="row border-bottom py-2" ng-repeat="i in main">
+                                <div class="col-lg-6 col-12 mb-2">
+                                    <span ng-bind-html="i.text | sanitize"></span>
+                                </div>
+                                <div class="col-lg-2 col-4" ng-repeat="d in i.status track by $index">
+                                    <div ng-switch on="d">
+                                        <button type="button" ng-switch-when="0" class="btn btn-success w-100" ng-click="go($index, $parent.$parent.$index, i.text)">Try</button>
+                                        <button type="button" ng-switch-when="2" class="btn btn-warning w-100" ng-click="results($index, $parent.$parent.$index, i.text)">Try
+                                            again</button>
+                                        <button type="button" ng-switch-when="1" class="btn btn-info w-100">&ndash;</button>
                                     </div>
                                 </div>
                             </div>
                         </div>
-                    </div>
-                    <div class="activityArea" ng-show="activity" ng-include src="template"></div>
-                    <div class="topicFooter">
-                        <span><strong>Diagnostic Tests </strong></span>
-                        <br />
-                        <span>Practical English Usage</span><span class="peuLogo"></span>
+                        <div class="activityArea" ng-show="activity" ng-include src="template"></div>
+                        <div class="topicFooter">
+    
+                            <span><strong>Diagnostic Tests </strong></span>
+                            <br>
+                            <span>Practical English Usage</span><span class="peuLogo"></span>
+                        </div>
                     </div>
                 </div>
             </div>
         </div>
     </div>
 
+    <svg xmlns="http://www.w3.org/2000/svg" style="display: none;">
+        <symbol id="check2" viewBox="0 0 16 16">
+            <path d="M13.854 3.646a.5.5 0 0 1 0 .708l-7 7a.5.5 0 0 1-.708 0l-3.5-3.5a.5.5 0 1 1 .708-.708L6.5 10.293l6.646-6.647a.5.5 0 0 1 .708 0z" />
+        </symbol>
+        <symbol id="circle-half" viewBox="0 0 16 16">
+            <path d="M8 15A7 7 0 1 0 8 1v14zm0 1A8 8 0 1 1 8 0a8 8 0 0 1 0 16z" />
+        </symbol>
+        <symbol id="moon-stars-fill" viewBox="0 0 16 16">
+            <path d="M6 .278a.768.768 0 0 1 .08.858 7.208 7.208 0 0 0-.878 3.46c0 4.021 3.278 7.277 7.318 7.277.527 0 1.04-.055 1.533-.16a.787.787 0 0 1 .81.316.733.733 0 0 1-.031.893A8.349 8.349 0 0 1 8.344 16C3.734 16 0 12.286 0 7.71 0 4.266 2.114 1.312 5.124.06A.752.752 0 0 1 6 .278z" />
+            <path d="M10.794 3.148a.217.217 0 0 1 .412 0l.387 1.162c.173.518.579.924 1.097 1.097l1.162.387a.217.217 0 0 1 0 .412l-1.162.387a1.734 1.734 0 0 0-1.097 1.097l-.387 1.162a.217.217 0 0 1-.412 0l-.387-1.162A1.734 1.734 0 0 0 9.31 6.593l-1.162-.387a.217.217 0 0 1 0-.412l1.162-.387a1.734 1.734 0 0 0 1.097-1.097l.387-1.162zM13.863.099a.145.145 0 0 1 .274 0l.258.774c.115.346.386.617.732.732l.774.258a.145.145 0 0 1 0 .274l-.774.258a1.156 1.156 0 0 0-.732.732l-.258.774a.145.145 0 0 1-.274 0l-.258-.774a1.156 1.156 0 0 0-.732-.732l-.774-.258a.145.145 0 0 1 0-.274l.774-.258c.346-.115.617-.386.732-.732L13.863.1z" />
+        </symbol>
+        <symbol id="sun-fill" viewBox="0 0 16 16">
+            <path d="M8 12a4 4 0 1 0 0-8 4 4 0 0 0 0 8zM8 0a.5.5 0 0 1 .5.5v2a.5.5 0 0 1-1 0v-2A.5.5 0 0 1 8 0zm0 13a.5.5 0 0 1 .5.5v2a.5.5 0 0 1-1 0v-2A.5.5 0 0 1 8 13zm8-5a.5.5 0 0 1-.5.5h-2a.5.5 0 0 1 0-1h2a.5.5 0 0 1 .5.5zM3 8a.5.5 0 0 1-.5.5h-2a.5.5 0 0 1 0-1h2A.5.5 0 0 1 3 8zm10.657-5.657a.5.5 0 0 1 0 .707l-1.414 1.415a.5.5 0 1 1-.707-.708l1.414-1.414a.5.5 0 0 1 .707 0zm-9.193 9.193a.5.5 0 0 1 0 .707L3.05 13.657a.5.5 0 0 1-.707-.707l1.414-1.414a.5.5 0 0 1 .707 0zm9.193 2.121a.5.5 0 0 1-.707 0l-1.414-1.414a.5.5 0 0 1 .707-.707l1.414 1.414a.5.5 0 0 1 0 .707zM4.464 4.465a.5.5 0 0 1-.707 0L2.343 3.05a.5.5 0 1 1 .707-.707l1.414 1.414a.5.5 0 0 1 0 .708z" />
+        </symbol>
+    </svg>
+
+    <script src="scripts/bootstrap.bundle.min.js"></script>
     <script language="JavaScript" type="text/javascript" src="scripts/jquery.min.js"></script>
     <script language="JavaScript" type="text/javascript" src="scripts/jquery-ui.js"></script>
     <script language="JavaScript" type="text/javascript" src="scripts/jquery.ui.touch-punch.min.js"></script>
@@ -137,6 +191,72 @@
     <script language="JavaScript" type="text/javascript" src="scripts/app.js"></script>
     <script language="JavaScript" type="text/javascript" src="scripts/dir.js"></script>
     <script language="JavaScript" type="text/javascript" src="scripts/filters.js"></script>
+
+    <script>
+        /*!
+         * Color mode toggler for Bootstrap's docs (https://getbootstrap.com/)
+         * Copyright 2011-2022 The Bootstrap Authors
+         * Licensed under the Creative Commons Attribution 3.0 Unported License.
+         */
+        
+        (() => {
+            'use strict'
+        
+            const storedTheme = localStorage.getItem('theme')
+        
+            const getPreferredTheme = () => {
+                if (storedTheme) {
+                    return storedTheme
+                }
+        
+                return window.matchMedia('(prefers-color-scheme: dark)').matches ? 'dark' : 'light'
+            }
+        
+            const setTheme = function(theme) {
+                if (theme === 'auto' && window.matchMedia('(prefers-color-scheme: dark)').matches) {
+                    document.documentElement.setAttribute('data-bs-theme', 'dark')
+                } else {
+                    document.documentElement.setAttribute('data-bs-theme', theme)
+                }
+            }
+        
+            setTheme(getPreferredTheme())
+        
+            const showActiveTheme = theme => {
+                const activeThemeIcon = document.querySelector('.theme-icon-active use')
+                const btnToActive = document.querySelector(`[data-bs-theme-value="${theme}"]`)
+                const svgOfActiveBtn = btnToActive.querySelector('svg use').getAttribute('href')
+        
+                document.querySelectorAll('[data-bs-theme-value]').forEach(element => {
+                    element.classList.remove('active')
+                })
+        
+                btnToActive.classList.add('active')
+                activeThemeIcon.setAttribute('href', svgOfActiveBtn)
+            }
+        
+            window.matchMedia('(prefers-color-scheme: dark)').addEventListener('change', () => {
+                if (storedTheme !== 'light' || storedTheme !== 'dark') {
+                    setTheme(getPreferredTheme())
+                }
+            })
+        
+            window.addEventListener('DOMContentLoaded', () => {
+                showActiveTheme(getPreferredTheme())
+        
+                document.querySelectorAll('[data-bs-theme-value]')
+                    .forEach(toggle => {
+                        toggle.addEventListener('click', () => {
+                            const theme = toggle.getAttribute('data-bs-theme-value')
+                            localStorage.setItem('theme', theme)
+                            setTheme(theme)
+                            showActiveTheme(theme)
+                        })
+                    })
+            })
+        })()
+    </script>
+
 </body>
 
 </html>

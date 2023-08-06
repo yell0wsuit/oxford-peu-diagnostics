@@ -50,7 +50,7 @@ angular
                     }
                 });
                 temp = temp.join(
-                    "<div style='display:inline-block'><textarea rows='1' cols='1' class='gapFill' autocorrect='off' autocapitalize='none' spellcheck='false'></textarea></div>"
+                    "<div style='display:inline-block'><textarea rows='1' cols='1' class='gapFill form-control' autocorrect='off' autocapitalize='none' spellcheck='false'></textarea></div>"
                 );
                 return temp;
             }

@@ -12,9 +12,9 @@
                         </div>
                     </div>
                 </div>
-                <div class="radioText" ng-if="d.level == 'b2'" ><span style="font-family: open_sanssemibold">I got almost everything right.</span><br>You could try the Advanced test on the same topic.</div>
-                <div class="radioText" ng-if="d.level == 'c1'" ><span style="font-family: open_sanssemibold">I got almost everything right.</span><br>You could try the Expert test on the same topic.</div>
-                <div class="radioText" ng-if="d.level == 'c2'" ><span style="font-family: open_sanssemibold">I got almost everything right.</span><br>You clearly have an excellent knowledge of the topic.</div>
+                <div class="radioText" ng-if="d.level == 'b2'" ><span>I got almost everything right.</span><br>You could try the Advanced test on the same topic.</div>
+                <div class="radioText" ng-if="d.level == 'c1'" ><span>I got almost everything right.</span><br>You could try the Expert test on the same topic.</div>
+                <div class="radioText" ng-if="d.level == 'c2'" ><span>I got almost everything right.</span><br>You clearly have an excellent knowledge of the topic.</div>
             </div>
         </div>
 
@@ -26,7 +26,7 @@
                         </div>
                     </div>
                 </div>
-                <div class="radioText"><span style="font-family: open_sanssemibold">I gave a few wrong answers.</span><br>You could study the relevant entries in <i>Practical English Usage</i> (see 'Where to go in <i>Practical English Usage</i>'), come back to the test a bit later, and try those questions again.</div>
+                <div class="radioText"><span>I gave a few wrong answers.</span><br>You could study the relevant entries in <i>Practical English Usage</i> (see 'Explanations / answers'), come back to the test a bit later, and try those questions again.</div>
             </div>
         </div>
         <div class="radioParent">
@@ -37,19 +37,19 @@
                         </div>
                     </div>
                 </div>
-                <div class="radioText" ng-if="d.level == 'b2'"><span style="font-family: open_sanssemibold">I gave quite a lot of wrong answers.</span><br>You need to revise the basics in <i>Practical English Usage</i>.</div>
-                <div class="radioText" ng-if="d.level == 'c1'"><span style="font-family: open_sanssemibold">I gave quite a lot of wrong answers.</span><br>You could try the Upper Intermediate test on the same topic.</div>
-                <div class="radioText" ng-if="d.level == 'c2'"><span style="font-family: open_sanssemibold">I gave quite a lot of wrong answers.</span><br>You could try the Advanced test on the same topic.</div>
+                <div class="radioText" ng-if="d.level == 'b2'"><span>I gave quite a lot of wrong answers.</span><br>You need to revise the basics in <i>Practical English Usage</i>.</div>
+                <div class="radioText" ng-if="d.level == 'c1'"><span>I gave quite a lot of wrong answers.</span><br>You could try the Upper Intermediate test on the same topic.</div>
+                <div class="radioText" ng-if="d.level == 'c2'"><span>I gave quite a lot of wrong answers.</span><br>You could try the Advanced test on the same topic.</div>
             </div>
         </div>
     </div>
     <div class="resulFooter">
-        <div class="resulttfooterHeader"><span style="font-family: open_sanssemibold">Look back at the test.</span><br><span style="font-family: open_sansregular">Which entries in <i>Practical English Usage</i> do you think you should study?</span></div>
-        <div class="resultFeedback" contenteditable="true" spellcheck='false'></div>
+        <div class="resulttfooterHeader"><span>Look back at the test.</span><br><span>Which entries in <i>Practical English Usage</i> do you think you should study?</span></div>
+        <div class="resultFeedback form-control" contenteditable="true" spellcheck='false'></div>
     </div>
 </div>
 <div class="summaryBtn">
-    <div class="btn tryTest" ng-click="goInner()" style="clear:both;">Try test again</div><div ng-click="load_section()" class="btn lrnRec">Go to list of tests</div>
+    <div class="btn btn-secondary tryTest" ng-click="goInner()" style="clear:both;">Try test again</div><div ng-click="load_section()" class="btn btn-success lrnRec">Go to list of tests</div>
 </div>
 <style type="text/css">
     .activityArea {
