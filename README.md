@@ -5,5 +5,5 @@ The Diagnostic Tests tool help you improve your grammar and vocabulary skills. E
 ![](https://i.imgur.com/RJ1T0MN.png)
 
 ==**Also check out the other tools**==
-- iWriter: helps learners write effectively in English.
-- iSpeaker: helps learners speak English more accurately and fluently in a variety of situations.
+- [iWriter](https://github.com/yell0wsuit/iWriter): helps learners write effectively in English.
+- [iSpeaker](https://github.com/yell0wsuit/ispeaker): helps learners speak English more accurately and fluently in a variety of situations.
