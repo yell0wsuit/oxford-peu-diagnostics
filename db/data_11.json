@@ -1,0 +1,1173 @@
+{
+	"b2" :
+	{
+	"-unit": "12",
+	"-level": "b2",
+	"topic_name": "determiners (2): other determiners",
+	"exercise": [{
+		"template": "multi_radio",
+		"rubric": "Are these sentences possible: yes (Y) or no (N)?",
+		"rwText": ["Y", "N"],
+		"question": [{
+			"text": "I’ll take <item>all two</item> shirts, please.",
+			"answer": {
+				"right": "N"
+			}
+		}, {
+			"text": "I’ll take <item>all three</item> shirts, please.",
+			"answer": {
+				"right": "Y"
+			}
+		}, {
+			"text": "I’ll take <item>all the three</item> shirts, please.",
+			"answer": {
+				"right": "Y"
+			}
+		}],
+		"feedback": [{
+			"desc": "<xref-group><a href='u725fd0dd48eeb434.631f8527.158e41641c3.-f89'>146.1</a></xref-group><br/>If you thought <item>B</item> or <item>C</item> was wrong, <xref-group><a href='u725fd0dd48eeb434.631f8527.158e41641c3.-f89'>146.1</a>, <a href='u725fd0dd48eeb434.631f8527.158e41641c3.-e4e'>147.5</a></xref-group>. "
+		}]
+	}, {
+		"template": "multi_radio",
+		"rubric": "Can the options complete the sentences correctly: yes (Y) or no (N)?",
+		"rwText": ["Y", "N"],
+		"question": [{
+			"input_text": "<gap/> my friends like riding.",
+			"text": "All",
+			"answer": {
+				"right": "Y"
+			}
+		}, {
+			"text": "All of",
+			"answer": {
+				"right": "Y"
+			}
+		}, {
+			"input_text": "<gap/> children can be difficult.",
+			"text": "All",
+			"answer": {
+				"right": "Y"
+			}
+		}, {
+			"text": "All of",
+			"answer": {
+				"right": "N"
+			}
+		}, {
+			"input_text": "All <gap/> can come tomorrow.",
+			"text": "we",
+			"answer": {
+				"right": "N"
+			}
+		}, {
+			"text": "us",
+			"answer": {
+				"right": "N"
+			}
+		}, {
+			"text": "of us",
+			"answer": {
+				"right": "Y"
+			}
+		}, {
+			"input_text": "Emily sent her love to <gap/>.",
+			"text": "all them",
+			"answer": {
+				"right": "N"
+			}
+		}, {
+			"text": "them all",
+			"answer": {
+				"right": "Y"
+			}
+		}],
+		"feedback": [{
+			"desc": "<xref-group><a href='u725fd0dd48eeb434.631f8527.158e41641c3.-ef1'>147.1–3</a></xref-group>"
+		}]
+	}, {
+		"template": "multi_radio",
+		"rubric": "Right (R) or wrong (W)?",
+		"rwText": ["R", "W"],
+		"question": [{
+			"text": "Are you going to stay here <item>all the night</item>?",
+			"answer": {
+				"right": "W"
+			}
+		}, {
+			"text": "Are you going to stay here <item>all the time</item>?",
+			"answer": {
+				"right": "R"
+			}
+		}],
+		"feedback": [{
+			"desc": "<xref-group><a href='u725fd0dd48eeb434.631f8527.158e41641c3.-e4e'>147.5</a></xref-group>"
+		}]
+	}, {
+		"template": "multi_radio",
+		"rubric": "Are these expressions used correctly: yes (Y) or no (N)?",
+		"rwText": ["Y", "N"],
+		"question": [{
+			"text": "<item>Everybody</item> stood up.",
+			"answer": {
+				"right": "Y"
+			}
+		}, {
+			"text": "<item>Everyone</item> stood up.",
+			"answer": {
+				"right": "Y"
+			}
+		}, {
+			"text": "<item>All</item> stood up.",
+			"answer": {
+				"right": "N"
+			}
+		}, {
+			"text": "<item>All people</item> stood up.",
+			"answer": {
+				"right": "N"
+			}
+		}, {
+			"text": "<item>All the people</item> stood up.",
+			"answer": {
+				"right": "Y"
+			}
+		}],
+		"feedback": [{
+			"desc": "<xref-group><a href='u725fd0dd48eeb434.631f8527.158e41641c3.-dbf'>149.1</a></xref-group>"
+		}]
+	}, {
+		"template": "multi_radio",
+		"rubric": "Right (R) or wrong (W)?",
+		"rwText": ["R", "W"],
+		"question": [{
+			"text": "I like <item>all</item> music.",
+			"answer": {
+				"right": "R"
+			}
+		}, {
+			"text": "I like <item>every</item> music.",
+			"answer": {
+				"right": "W"
+			}
+		}, {
+			"text": "I like <item>all kinds of</item> music.",
+			"answer": {
+				"right": "R"
+			}
+		}, {
+			"text": "I like <item>every kind of</item> music.",
+			"answer": {
+				"right": "R"
+			}
+		}],
+		"feedback": [{
+			"desc": "<xref-group><a href='u725fd0dd48eeb434.631f8527.158e41641c3.-bae'>152.1</a><br><a href='u725fd0dd48eeb434.631f8527.158e41641c3.-b69'>152.3</a></xref-group>"
+		}]
+	}, {
+		"template": "multi_radio",
+		"rubric": "Can expressions A–D complete the sentence correctly: yes (Y) or no (N)?",
+		"rwText": ["Y", "N"],
+		"question": [{
+			"input_text": "She works here <gap/> except Sundays.",
+			"text": "all day",
+			"answer": {
+				"right": "Y"
+			}
+		}, {
+			"text": "all the days",
+			"answer": {
+				"right": "N"
+			}
+		}, {
+			"text": "all days",
+			"answer": {
+				"right": "N"
+			}
+		}, {
+			"text": "every day",
+			"answer": {
+				"right": "Y"
+			}
+		}],
+		"feedback": [{
+			"desc": "<xref-group><a href='u725fd0dd48eeb434.631f8527.158e41641c3.-e4e'>147.5</a><br><a href='u725fd0dd48eeb434.631f8527.158e41641c3.-b56'>152.4</a></xref-group>"
+		}]
+	}, {
+		"template": "multi_radio",
+		"rubric": "Right (R) or wrong (W)?",
+		"rwText": ["R", "W"],
+		"question": [{
+			"text": "She’s drunk <item>all the</item> orange juice.",
+			"answer": {
+				"right": "R"
+			}
+		}, {
+			"text": "She’s drunk <item>the whole</item> orange juice.",
+			"answer": {
+				"right": "W"
+			}
+		}, {
+			"text": "She’s eaten <item>all a</item> loaf of bread.",
+			"answer": {
+				"right": "W"
+			}
+		}, {
+			"text": "She’s eaten <item>a whole</item> loaf of bread.",
+			"answer": {
+				"right": "R"
+			}
+		}],
+		"feedback": [{
+			"desc": "<xref-group><a href='u725fd0dd48eeb434.631f8527.158e41641c3.-d1d'>150.3–4</a></xref-group>"
+		}]
+	}, {
+		"template": "single_radio",
+		"question": [{
+			"text": "Which is the most natural continuation?",
+			"input_text": "Eating too much sugar is bad for you.",
+			"option": ["Ask <item>all dentists</item>.", "Ask <item>any dentist</item>.", "Ask <item>every dentist</item>."],
+			"answer": "Ask any dentist."
+		}],
+		"feedback": [{
+			"desc": "<xref-group><a href='u725fd0dd48eeb434.631f8527.158e41641c3.-576'>160</a></xref-group>"
+		}]
+	}, {
+		"template": "multi_radio",
+		"rubric": "Are the replies possible: yes (Y) or no (N)?",
+		"rwText": ["Y", "N"],
+		"question": [{
+			"input_text": "‘Did you get the oil?’",
+			"text": "‘No, there <item>wasn’t any</item> left.’",
+			"answer": {
+				"right": "Y"
+			}
+		}, {
+			"text": "‘No, there <item>wasn’t some</item> left.’",
+			"answer": {
+				"right": "N"
+			}
+		}, {
+			"text": "‘No, there <item>was none</item> left.’",
+			"answer": {
+				"right": "Y"
+			}
+		}, {
+			"text": "‘No, there <item>wasn’t none</item> left.’",
+			"answer": {
+				"right": "N"
+			}
+		}],
+		"feedback": [{
+			"desc": "<xref-group><a href='u725fd0dd48eeb434.631f8527.158e41641c3.-511'>161.1</a></xref-group><br/>If you thought <item>B</item> was right, <xref-group><a href='u725fd0dd48eeb434.631f8527.158e41641c3.-7f6'>158.3</a></xref-group>.<br/>If you thought <item>D</item> was right, <xref-group><a href='u725fd0dd48eeb434.631f8527.158e41641c3.3a9f'>220.1</a></xref-group>. "
+		}]
+	}, {
+		"template": "single_radio",
+		"question": [{
+			"text": "Which host sounds more polite: A or B?",
+			"option": ["Would you like <item>some</item> more meat?", "Would you like <item>any</item> more meat?"],
+			"answer": "Would you like some more meat?"
+		}],
+		"feedback": [{
+			"desc": "<xref-group><a href='u725fd0dd48eeb434.631f8527.158e41641c3.-4e0'>161.2</a></xref-group>"
+		}]
+	}, {
+		"template": "multi_radio",
+		"rubric": "Right (R) or wrong (W)?",
+		"rwText": ["R", "W"],
+		"question": [{
+			"text": "She’s eaten <item>both</item> chops.",
+			"answer": {
+				"right": "R"
+			}
+		}, {
+			"text": "She’s eaten <item>the both</item> chops.",
+			"answer": {
+				"right": "W"
+			}
+		}, {
+			"text": "She’s eaten <item>both the</item> chops.",
+			"answer": {
+				"right": "R"
+			}
+		}, {
+			"text": "She’s eaten <item>both of</item> chops.",
+			"answer": {
+				"right": "W"
+			}
+		}, {
+			"text": "She’s eaten <item>both of the</item> chops.",
+			"answer": {
+				"right": "R"
+			}
+		}],
+		"feedback": [{
+			"desc": "<xref-group><a href='u725fd0dd48eeb434.631f8527.158e41641c3.-9ef'>155.2–3</a></xref-group>"
+		}]
+	}, {
+		"template": "multi_radio",
+		"rubric": "Right (R) or wrong (W)?",
+		"rwText": ["R", "W"],
+		"question": [{
+			"text": "<item>Both</item> the children have gone to bed.",
+			"answer": {
+				"right": "R"
+			}
+		}, {
+			"text": "The children have <item>both</item> gone to bed.",
+			"answer": {
+				"right": "R"
+			}
+		}, {
+			"text": "The children have gone to bed <item>both</item>.",
+			"answer": {
+				"right": "W"
+			}
+		}],
+		"feedback": [{
+			"desc": "<xref-group><a href='u725fd0dd48eeb434.631f8527.158e41641c3.-97c'>155.5</a></xref-group>"
+		}]
+	}, {
+		"template": "single_touch_button",
+		"rubric": "Which is more normal here: <i>has</i> or <i>have</i>?",
+		"question": [{
+			"text": "Each of us #singletouch a serious problem.",
+			"option": [
+				["has", "have"]
+			],
+			"answer": ["has"]
+		}],
+		"feedback": [{
+			"desc": "<xref-group><a href='u725fd0dd48eeb434.631f8527.158e41641c3.-b08'>153.2</a></xref-group>"
+		}]
+	}, {
+		"template": "single_touch_button",
+		"rubric": "Which option can complete this sentence correctly?",
+		"question": [{
+			"text": "There’s a meeting #singletouch six weeks.",
+			"option": [
+				["all", "all the", "each", "every"]
+			],
+			"answer": ["every"]
+		}],
+		"feedback": [{
+			"desc": "<xref-group><a href='u725fd0dd48eeb434.631f8527.158e41641c3.-c5f'>151.5</a><br><a href='u725fd0dd48eeb434.631f8527.158e41641c3.-b23'>153.1</a></xref-group>"
+		}]
+	}, {
+		"template": "single_touch_button",
+		"rubric": "<i>Little</i>, <i>a little</i>, <i>few</i> or <i>a few</i>?",
+		"question": [{
+			"text": "The average politician has #singletouch real power.",
+			"option": [
+				["little", "a little", "few", "a few"]
+			],
+			"answer": ["little"]
+		}, {
+			"text": "#singletouch people can speak a foreign language really fluently.",
+			"option": [
+				["Little", "A little", "Few", "A few"]
+			],
+			"answer": ["Few"]
+		}, {
+			"text": "Would you like #singletouch soup?",
+			"option": [
+				["little", "a little", "a few", "few"]
+			],
+			"answer": ["a little"]
+		}, {
+			"text": "Only #singletouch students in my class are studying two foreign languages.",
+			"option": [
+				["little", "a little", "a few", "few"]
+			],
+			"answer": ["a few"]
+		}, {
+			"text": "‘#singletouch knowledge is a dangerous thing.’ [old saying]",
+			"option": [
+				["Little", "A little", "A few", "Few"]
+			],
+			"answer": ["A little"]
+		}],
+		"feedback": [{
+			"desc": "<xref-group><a href='u725fd0dd48eeb434.631f8527.158e41641c3.-c0'>168.1–3</a></xref-group>"
+		}]
+	}, {
+		"template": "single_touch_button",
+		"rubric": "Who is most keen to move house and who is least keen?",
+		"question": [{
+			"input_text": "<speaker>alex</speaker> ‘I can think of <item>few</item> reasons to move house.’<br/><speaker>ben</speaker> ‘I can think of <item>a few</item> reasons to move house.’<br/><speaker>cara</speaker> ‘I can think of <item>quite a few</item> reasons to move house.’",
+			"text": "Most keen: #singletouch",
+			"option": [
+				["Alex", "Ben", "Cara"]
+			],
+			"answer": ["Cara"]
+		}, {
+			"text": "Least keen: #singletouch",
+			"option": [
+				["Alex", "Ben", "Cara"]
+			],
+			"answer": ["Alex"]
+		}],
+		"feedback": [{
+			"desc": "<xref-group><a href='u725fd0dd48eeb434.631f8527.158e41641c3.-9b'>168.2</a></xref-group>"
+		}]
+	}, {
+		"template": "multi_radio",
+		"rubric": "Are these sentences right (R) or wrong (W)?",
+		"rwText": ["R", "W"],
+		"question": [{
+			"text": "Lots of patience <item>are needed</item> to learn to teach small children. ",
+			"answer": {
+				"right": "W"
+			}
+		}, {
+			"text": "A lot of my friends <item>wants</item> to emigrate. ",
+			"answer": {
+				"right": "W"
+			}
+		}],
+		"feedback": [{
+			"desc": "<xref-group><a href='u725fd0dd48eeb434.631f8527.158e41641c3.203'>172.2</a></xref-group>"
+		}]
+	}, {
+		"template": "multi_radio",
+		"rubric": "Right (R) or wrong (W)?",
+		"rwText": ["R", "W"],
+		"question": [{
+			"text": "I need <item>more two</item> loaves of bread.",
+			"answer": {
+				"right": "W"
+			}
+		}, {
+			"text": "I need <item>two more</item> loaves of bread.",
+			"answer": {
+				"right": "R"
+			}
+		}, {
+			"text": "I need <item>another two</item> loaves of bread.",
+			"answer": {
+				"right": "R"
+			}
+		}],
+		"feedback": [{
+			"desc": "For <item>A</item> and <item>B</item>, <xref-group><a href='u725fd0dd48eeb434.631f8527.158e41641c3.-192'>166.3–4</a></xref-group>.<br/>For <item>C</item>, <xref-group><a href='u725fd0dd48eeb434.631f8527.158e4170750.2861'>550.3</a></xref-group>."
+		}]
+	}, {
+		"template": "multi_radio",
+		"rubric": "Are these sentences right (R) or wrong (W)?",
+		"rwText": ["R", "W"],
+		"question": [{
+			"text": "<item>Most</item> children like ice cream.",
+			"answer": {
+				"right": "R"
+			}
+		}, {
+			"text": "<item>The most</item> children like ice cream.",
+			"answer": {
+				"right": "W"
+			}
+		}, {
+			"text": "<item>Most of</item> children like ice cream.",
+			"answer": {
+				"right": "W"
+			}
+		}, {
+			"text": "The Romans conquered <item>most of</item> Europe.",
+			"answer": {
+				"right": "R"
+			}
+		}, {
+			"text": "The Romans conquered <item>the most of</item> Europe.",
+			"answer": {
+				"right": "W"
+			}
+		}],
+		"feedback": [{
+			"desc": "<xref-group><a href='u725fd0dd48eeb434.631f8527.158e41641c3.-13d'>167.1</a></xref-group>"
+		}]
+	}, {
+		"template": "multi_radio",
+		"rubric": "Are these sentences right: yes (Y) or no (N)?",
+		"rwText": ["Y", "N"],
+		"question": [{
+			"text": "<item>Neither brother</item> is married.",
+			"answer": {
+				"right": "Y"
+			}
+		}, {
+			"text": "<item>Neither of brothers</item> is married.",
+			"answer": {
+				"right": "N"
+			}
+		}, {
+			"text": "<item>Neither of her brothers</item> is married.",
+			"answer": {
+				"right": "Y"
+			}
+		}],
+		"feedback": [{
+			"desc": "<xref-group><a href='u725fd0dd48eeb434.631f8527.158e41641c3.-896'>157.1–2</a></xref-group>"
+		}]
+	}, {
+		"template": "single_touch_button",
+		"rubric": "<i>Some</i> or <i>any</i>?",
+		"question": [{
+			"text": "Could you please give me #singletouch advice?",
+			"option": [
+				["some", "any"]
+			],
+			"answer": ["some"]
+		}, {
+			"text": "You never give me #singletouch advice.",
+			"option": [
+				["some", "any"]
+			],
+			"answer": ["any"]
+		}, {
+			"text": "We got there without #singletouch trouble.",
+			"option": [
+				["some", "any"]
+			],
+			"answer": ["any"]
+		}],
+		"feedback": [{
+			"desc": "<xref-group><a href='u725fd0dd48eeb434.631f8527.158e41641c3.-4e0'>161.2–3</a></xref-group>"
+		}]
+	}]
+	}, 
+	"c1" :
+	{
+	"-unit": "12",
+	"-level": "c1",
+	"topic_name": "determiners (2): other determiners",
+	"exercise": [{
+		"template": "multi_radio",
+		"rubric": "Are these sentences correct: yes (Y) or no (N)?",
+		"rwText": ["Y", "N"],
+		"question": [{
+			"text": "<item>All that I have</item> is yours.",
+			"answer": {
+				"right": "Y"
+			}
+		}, {
+			"text": "<item>All what I have</item> is yours.",
+			"answer": {
+				"right": "N"
+			}
+		}, {
+			"text": "<item>All I have</item> is yours.",
+			"answer": {
+				"right": "Y"
+			}
+		}, {
+			"text": "<item>All</item> is yours.",
+			"answer": {
+				"right": "N"
+			}
+		}, {
+			"text": "She lost <item>everything that she owned</item>.",
+			"answer": {
+				"right": "Y"
+			}
+		}, {
+			"text": "She lost <item>all that she owned</item>.",
+			"answer": {
+				"right": "Y"
+			}
+		}, {
+			"text": "She lost <item>everything</item>.",
+			"answer": {
+				"right": "Y"
+			}
+		}, {
+			"text": "She lost <item>all</item>.",
+			"answer": {
+				"right": "N"
+			}
+		}],
+		"feedback": [{
+			"desc": "<xref-group><a href='u725fd0dd48eeb434.631f8527.158e41641c3.-da9'>149.2–3</a></xref-group>"
+		}]
+	}, {
+		"template": "single_radio",
+		"question": [{
+			"text": "What does this sentence mean?",
+			"input_text": "I wanted to please him, but <item>all I did</item> was to make him angry.",
+			"option": ["Everything that I did made him angry.", "Making him angry was the only thing I did."],
+			"answer": "Making him angry was the only thing I did."
+		}],
+		"feedback": [{
+			"desc": "<xref-group><a href='u725fd0dd48eeb434.631f8527.158e41641c3.-da9'>149.2</a></xref-group>"
+		}]
+	}, {
+		"template": "single_radio",
+		"question": [{
+			"text": "What does this sentence mean?",
+			"input_text": "I don’t read <item>just any</item> book.",
+			"option": ["I don’t read any books at all.", "I only read books that interest me.", "I read more than one book at a time."],
+			"answer": "I only read books that interest me."
+		}],
+		"feedback": [{
+			"desc": "<xref-group><a href='u725fd0dd48eeb434.631f8527.158e41641c3.-576'>160</a></xref-group><br/>For the use of <i>at all</i> in <item>A</item>, <xref-group><a href='u725fd0dd48eeb434.631f8527.158e4170750.-2286'>387.1</a></xref-group>."
+		}]
+	}, {
+		"template": "multi_radio",
+		"rubric": "Can expressions A–C complete the sentence correctly: yes (Y) or no (N)?",
+		"rwText": ["Y", "N"],
+		"question": [{
+			"input_text": "I’ve got five brothers, and <gap/> is different.",
+			"text": "each",
+			"answer": {
+				"right": "Y"
+			}
+		}, {
+			"text": "each one",
+			"answer": {
+				"right": "Y"
+			}
+		}, {
+			"text": "each of them",
+			"answer": {
+				"right": "Y"
+			}
+		}],
+		"feedback": [{
+			"desc": "<xref-group><a href='u725fd0dd48eeb434.631f8527.158e41641c3.-ada'>153.4</a></xref-group>"
+		}]
+	}, {
+		"template": "single_touch_button",
+		"rubric": "Which is better: <i>each</i> or <i>every</i>?",
+		"question": [{
+			"text": "#singletouch member of the team had a short personal meeting with the manager.",
+			"option": [
+				["Each", "Every"]
+			],
+			"answer": ["Each"]
+		}, {
+			"text": "#singletouch member of the team is free to play next Saturday.",
+			"option": [
+				["Each", "Every"]
+			],
+			"answer": ["Every"]
+		}, {
+			"text": "They’ve lost nearly #singletouch match they’ve played this season.",
+			"option": [
+				["each", "every"]
+			],
+			"answer": ["every"]
+		}],
+		"feedback": [{
+			"desc": "<xref-group><a href='u725fd0dd48eeb434.631f8527.158e41641c3.-a68'>154.2</a></xref-group>"
+		}]
+	}, {
+		"template": "multi_radio",
+		"rubric": "Is the reply right (R) or wrong (W)?",
+		"rwText": ["R", "W"],
+		"question": [{
+			"text": "‘What will your mother think?’ ‘That’s <item>the least of</item> my worries.’ ",
+			"answer": {
+				"right": "R"
+			}
+		}],
+		"feedback": [{
+			"desc": "<xref-group><a href='u725fd0dd48eeb434.631f8527.158e41641c3.7f'>170.1</a></xref-group>"
+		}]
+	}, {
+		"template": "multi_radio",
+		"rubric": "Is <i>little</i> used correctly in these sentences: yes (Y) or no (N)?",
+		"rwText": ["Y", "N"],
+		"question": [{
+			"text": "They had little hope.",
+			"answer": {
+				"right": "Y"
+			}
+		}, {
+			"text": "Their hope was little.",
+			"answer": {
+				"right": "N"
+			}
+		}],
+		"feedback": [{
+			"desc": "<xref-group><a href='u725fd0dd48eeb434.631f8527.158e41641c3.-3c'>168.5</a></xref-group>"
+		}]
+	}, {
+		"template": "multi_radio",
+		"rubric": "Right (R) or wrong (W)?",
+		"rwText": ["R", "W"],
+		"question": [{
+			"text": "I hate this job <item>more and more</item> every year.",
+			"answer": {
+				"right": "R"
+			}
+		}, {
+			"text": "You haven’t cooked enough potatoes. You need to cook <item>more and more</item>.",
+			"answer": {
+				"right": "W"
+			}
+		}],
+		"feedback": [{
+			"desc": "<xref-group><a href='u725fd0dd48eeb434.631f8527.158e41641c3.-184'>166.4</a></xref-group>"
+		}]
+	}, {
+		"template": "single_touch_button",
+		"rubric": "<i>Most</i>, <i>the most</i> or both?",
+		"question": [{
+			"text": "They all talk a lot, but your little girl talks #singletouch.",
+			"option": [
+				["most", "the most", "[both]"]
+			],
+			"answer": ["[both]"]
+		}],
+		"feedback": [{
+			"desc": "<xref-group><a href='u725fd0dd48eeb434.631f8527.158e41641c3.-103'>167.3</a></xref-group>"
+		}]
+	}, {
+		"template": "correction",
+		"rubric": "Can you improve this sentence?",
+		"question": [{
+			"text": "He’s got many men friends but he doesn’t know many women. ",
+			"answer": {
+				"right": [
+					"He's got a lot of men friends but he doesn't know many women.",
+					"He's got a lot of men friends but he doesn’t know many women.",
+					"He’s got a lot of men friends but he doesn't know many women.",
+					"He’s got a lot of men friends but he doesn’t know many women.",
+					"He's got lots of men friends but he doesn't know many women.",
+					"He's got lots of men friends but he doesn’t know many women.",
+					"He’s got lots of men friends but he doesn't know many women.",
+					"He’s got lots of men friends but he doesn’t know many women.",
+					"He's got plenty of men friends but he doesn't know many women.",
+					"He's got plenty of men friends but he doesn’t know many women.",
+					"He’s got plenty of men friends but he doesn't know many women.",
+					"He’s got plenty of men friends but he doesn’t know many women."
+				]
+			}
+		}],
+		"feedback": [{
+			"desc": "<xref-group><a href='u725fd0dd48eeb434.631f8527.158e41641c3.-26a'>165.4</a></xref-group>"
+		}]
+	}, {
+		"template": "single_radio",
+		"question": [{
+			"text": "Which of these sentences would be best in formal writing?",
+			"option": ["<item>Many</item> people are worried about rising prices.", "<item>A lot of</item> people are worried about rising prices.", "<item>Plenty of</item> people are worried about rising prices."],
+			"answer": "Many people are worried about rising prices."
+		}],
+		"feedback": [{
+			"desc": "<xref-group><a href='u725fd0dd48eeb434.631f8527.158e41641c3.-26a'>165.4</a></xref-group>"
+		}]
+	}, {
+		"template": "single_radio",
+		"question": [{
+			"text": "Which person is probably in more of a hurry: A or B?",
+			"option": ["Sorry, I can’t stop. <item>I haven’t got any time</item> to talk.", "Sorry, I can’t stop. <item>I’ve got no time</item> to talk."],
+			"answer": "Sorry, I can’t stop. I’ve got no time to talk."
+		}],
+		"feedback": [{
+			"desc": "<xref-group><a href='u725fd0dd48eeb434.631f8527.158e41641c3.-41d'>163.1</a></xref-group>"
+		}]
+	}, {
+		"template": "multi_radio",
+		"rubric": "Are these possible: yes (Y) or no (N)?",
+		"rwText": ["Y", "N"],
+		"question": [{
+			"text": "There <item>are no</item> completely harmless brands of cigarettes.",
+			"answer": {
+				"right": "Y"
+			}
+		}, {
+			"text": "There <item>aren’t any</item> completely harmless brands of cigarettes.",
+			"answer": {
+				"right": "Y"
+			}
+		}, {
+			"text": "<item>Not any</item> brands of cigarettes <item>are</item> completely harmless.",
+			"answer": {
+				"right": "N"
+			}
+		}],
+		"feedback": [{
+			"desc": "<xref-group><a href='u725fd0dd48eeb434.631f8527.158e41641c3.-3c2'>163.4</a></xref-group>"
+		}]
+	}, {
+		"template": "multi_radio",
+		"rubric": "Are these uses of <i>some</i> normal: yes (Y) or no (N)?",
+		"rwText": ["Y", "N"],
+		"question": [{
+			"text": "Bring <item>some food</item> in case we get hungry.",
+			"answer": {
+				"right": "Y"
+			}
+		}, {
+			"text": "The President appealed for <item>some food</item> for the earthquake victims.",
+			"answer": {
+				"right": "N"
+			}
+		}],
+		"feedback": [{
+			"desc": "<xref-group><a href='u725fd0dd48eeb434.631f8527.158e41641c3.-7b3'>158.5</a></xref-group>"
+		}]
+	}, {
+		"template": "multi_radio",
+		"rubric": "Right (R) or wrong (W)?",
+		"rwText": ["R", "W"],
+		"question": [{
+			"text": "Emily’s new boyfriend is <item>some musician</item>. I’d never heard of him or his band, but I heard him play last week and it was really bad.",
+			"answer": {
+				"right": "R"
+			}
+		}, {
+			"text": "That was <item>some party</item>! I’m so glad Sarah invited me; I really enjoyed myself.",
+			"answer": {
+				"right": "R"
+			}
+		}],
+		"feedback": [{
+			"desc": "<xref-group><a href='u725fd0dd48eeb434.631f8527.158e41641c3.-735'>158.8–9</a></xref-group>"
+		}]
+	}]
+	}, 
+	"c2" :
+	{
+	"-unit": "12",
+	"-level": "c2",
+	"topic_name": "determiners (2): other determiners",
+	"exercise": [{
+		"template": "multi_radio",
+		"rubric": "Right (R) or wrong (W)?",
+		"rwText": ["R", "W"],
+		"question": [{
+			"text": "She’s invited <item>us all</item>.",
+			"answer": {
+				"right": "R"
+			}
+		}, {
+			"text": "‘Who has she invited?’ ‘<item>Us all</item>.’",
+			"answer": {
+				"right": "W"
+			}
+		}, {
+			"text": "‘Who broke the window?’ ‘It was <item>them both</item>.’",
+			"answer": {
+				"right": "W"
+			}
+		}, {
+			"text": "She kissed <item>them each</item> on the forehead.",
+			"answer": {
+				"right": "R"
+			}
+		}, {
+			"text": "She kissed <item>them each</item>.",
+			"answer": {
+				"right": "W"
+			}
+		}, {
+			"text": "I bought them <item>two ice creams each</item>.",
+			"answer": {
+				"right": "R"
+			}
+		}, {
+			"text": "The ice creams cost <item>£1.50 each</item>.",
+			"answer": {
+				"right": "R"
+			}
+		}],
+		"feedback": [{
+			"desc": "For <i>all</i>, <xref-group><a href='u725fd0dd48eeb434.631f8527.158e41641c3.-eb4'>147.3</a></xref-group>.<br/>For <i>both</i>, <xref-group><a href='u725fd0dd48eeb434.631f8527.158e41641c3.-9bc'>155.4</a></xref-group>.<br/>For <i>each</i><xref-group><a href='u725fd0dd48eeb434.631f8527.158e41641c3.-af4'>153.3</a></xref-group>."
+		}]
+	}, {
+		"template": "multi_radio",
+		"rubric": "Right (R) or wrong (W)?",
+		"rwText": ["R", "W"],
+		"question": [{
+			"text": "<item>All the story</item> was completely unbelievable.",
+			"answer": {
+				"right": "W"
+			}
+		}, {
+			"text": "<item>All my family</item> were there for my birthday.",
+			"answer": {
+				"right": "R"
+			}
+		}, {
+			"text": "They stayed with us <item>all that week</item>.",
+			"answer": {
+				"right": "R"
+			}
+		}],
+		"feedback": [{
+			"desc": "<xref-group><a href='u725fd0dd48eeb434.631f8527.158e41641c3.-e73'>147.4</a></xref-group>"
+		}]
+	}, {
+		"template": "multi_radio",
+		"rubric": "Normal (N), unusual (U) or wrong (W)?",
+		"rwText": ["N", "U", "W"],
+		"question": [{
+			"text": "<item>All</item> is lost!",
+			"answer": {
+				"right": "U"
+			}
+		}],
+		"feedback": [{
+			"desc": "<xref-group><a href='u725fd0dd48eeb434.631f8527.158e41641c3.-d71'>149.3</a></xref-group>"
+		}]
+	}, {
+		"template": "single_touch_button",
+		"rubric": "A and B mean the same. Which is the most natural way of expressing this idea?",
+		"question": [{
+			"input_text": "<item>A</item> Every kind of bird can’t fly.<br/><item>B</item> Not every kind of bird can fly.",
+			"text": "#singletouch",
+			"option": [
+				["A", "B"]
+			],
+			"answer": ["B"]
+		}],
+		"feedback": [{
+			"desc": "<xref-group><a href='u725fd0dd48eeb434.631f8527.158e41641c3.-e31'>147.6</a><br><a href='u725fd0dd48eeb434.631f8527.158e41641c3.-c6c'>151.4</a></xref-group>"
+		}]
+	}, {
+		"template": "single_touch_button",
+		"rubric": "A and B mean the same. Which is the most natural way of expressing this idea?",
+		"question": [{
+			"input_text": "<item>A</item> All Americans don’t like hamburgers.<br/><item>B</item> Not all Americans like hamburgers.",
+			"text": "#singletouch",
+			"option": [
+				["A", "B"]
+			],
+			"answer": ["B"]
+		}],
+		"feedback": [{
+			"desc": "<xref-group><a href='u725fd0dd48eeb434.631f8527.158e41641c3.-e31'>147.6</a><br><a href='u725fd0dd48eeb434.631f8527.158e41641c3.-c6c'>151.4</a></xref-group>"
+		}]
+	}, {
+		"template": "multi_radio",
+		"rubric": "Right (R) or wrong (W)?",
+		"rwText": ["R", "W"],
+		"question": [{
+			"text": "It rained <item>the whole summer</item>.",
+			"answer": {
+				"right": "R"
+			}
+		}, {
+			"text": "It rained <item>the whole of the summer</item>.",
+			"answer": {
+				"right": "R"
+			}
+		}, {
+			"text": "By September, <item>whole London</item> was under water.",
+			"answer": {
+				"right": "W"
+			}
+		}, {
+			"text": "By September, <item>the whole of London</item> was under water. ",
+			"answer": {
+				"right": "R"
+			}
+		}],
+		"feedback": [{
+			"desc": "<xref-group><a href='u725fd0dd48eeb434.631f8527.158e41641c3.-d39'>150.2</a><br><a href='u725fd0dd48eeb434.631f8527.158e41641c3.-cfb'>150.5</a></xref-group>"
+		}]
+	}, {
+		"template": "multi_radio",
+		"rubric": "Right (R) or wrong (W)?",
+		"rwText": ["R", "W"],
+		"question": [{
+			"text": "She doesn’t care what either of her parents <item>says</item>.",
+			"answer": {
+				"right": "R"
+			}
+		}, {
+			"text": "She doesn’t care what either of her parents <item>say</item>.",
+			"answer": {
+				"right": "R"
+			}
+		}, {
+			"text": "Neither of my sisters <item>is</item> married.",
+			"answer": {
+				"right": "R"
+			}
+		}, {
+			"text": "Neither of my sisters <item>are</item> married.",
+			"answer": {
+				"right": "R"
+			}
+		}, {
+			"text": "None of my friends <item>is</item> interested.",
+			"answer": {
+				"right": "R"
+			}
+		}, {
+			"text": "None of my friends <item>are</item> interested.",
+			"answer": {
+				"right": "R"
+			}
+		}],
+		"feedback": [{
+			"desc": "The sentences with a plural verb are more informal: <xref-group><br><a href='u725fd0dd48eeb434.631f8527.158e41641c3.-913'>156.2</a><br><a href='u725fd0dd48eeb434.631f8527.158e41641c3.-883'>157.2</a><br><a href='u725fd0dd48eeb434.631f8527.158e41641c3.-406'>163.2</a></xref-group>."
+		}]
+	}, {
+		"template": "single_radio",
+		"question": [{
+			"text": "One of these is unusual. Which?",
+			"option": ["a great deal of money", "a large amount of money", "a large amount of people"],
+			"answer": "a large amount of people"
+		}],
+		"feedback": [{
+			"desc": "<xref-group><a href='u725fd0dd48eeb434.631f8527.158e41641c3.237'>172.4</a></xref-group>"
+		}]
+	}, {
+		"template": "single_touch_button",
+		"rubric": "Choose the correct verb form.",
+		"question": [{
+			"text": "A large number of problems #singletouch caused by poverty.",
+			"option": [
+				["is", "are"]
+			],
+			"answer": ["are"]
+		}, {
+			"text": "The majority of criminals #singletouch non-violent.",
+			"option": [
+				["is", "are"]
+			],
+			"answer": ["are"]
+		}],
+		"feedback": [{
+			"desc": "<xref-group><a href='u725fd0dd48eeb434.631f8527.158e41641c3.237'>172.4</a></xref-group>"
+		}]
+	}, {
+		"template": "multi_radio",
+		"rubric": "Formal (F), normal (N), informal (I) or wrong (W)?",
+		"rwText": ["F", "N", "I", "W"],
+		"question": [{
+			"text": "They lived <item>plenty of miles</item> from the town.",
+			"answer": {
+				"right": "W"
+			}
+		}],
+		"feedback": [{
+			"desc": "<xref-group><a href='u725fd0dd48eeb434.631f8527.158e41641c3.22a'>172.3</a></xref-group>"
+		}]
+	}, {
+		"template": "multi_radio",
+		"rubric": "Look at these sentences. Do determiners A–D follow the same pattern: yes (Y) or no (N)?",
+		"rwText": ["Y", "N"],
+		"question": [{
+			"input_text": "<item>Most nurses</item> are still women. <item>Right</item><br/><est>Most of nurses are still women.</est> <item>Wrong</item><br/><item>Most of the/our/these nurses</item> are still women. <item>Right</item><br/><item>Most of them</item> are still women. <item>Right</item>",
+			"text": "many",
+			"answer": {
+				"right": "Y"
+			}
+		}, {
+			"text": "a lot",
+			"answer": {
+				"right": "N"
+			}
+		}, {
+			"text": "more",
+			"answer": {
+				"right": "Y"
+			}
+		}, {
+			"text": "some",
+			"answer": {
+				"right": "Y"
+			}
+		}],
+		"feedback": [{
+			"desc": "For <item>A</item>, <xref-group><a href='u725fd0dd48eeb434.631f8527.158e41641c3.-2ba'>165.2</a></xref-group>.<br/>For <item>B</item>, <xref-group><a href='u725fd0dd48eeb434.631f8527.158e41641c3.203'>172.2</a></xref-group>.<br/>For <item>C</item>, <xref-group><a href='u725fd0dd48eeb434.631f8527.158e41641c3.-1bf'>166.1</a></xref-group>.<br/>For <item>D</item>, <xref-group><a href='u725fd0dd48eeb434.631f8527.158e41641c3.-794'>158.6</a></xref-group>."
+		}]
+	}, {
+		"template": "multi_radio",
+		"rubric": "Are these right: yes (Y) or no (N)?",
+		"rwText": ["Y", "N"],
+		"question": [{
+			"text": "Who earns <item>most</item> money in your family?",
+			"answer": {
+				"right": "Y"
+			}
+		}, {
+			"text": "Who earns <item>the most</item> money in your family?",
+			"answer": {
+				"right": "Y"
+			}
+		}],
+		"feedback": [{
+			"desc": "<xref-group><a href='u725fd0dd48eeb434.631f8527.158e41641c3.-103'>167.3</a></xref-group>"
+		}]
+	}, {
+		"template": "single_touch_button",
+		"rubric": "<i>Less</i>, <i>fewer</i> or both?",
+		"question": [{
+			"text": "I’ve got #singletouch problems now than I had ten years ago. ",
+			"option": [
+				["less", "fewer", "[both]"]
+			],
+			"answer": ["[both]"]
+		}, {
+			"text": "I’ve got #singletouch money now than I had ten years ago.",
+			"option": [
+				["less", "fewer", "[both]"]
+			],
+			"answer": ["less"]
+		}],
+		"feedback": [{
+			"desc": "<xref-group><a href='u725fd0dd48eeb434.631f8527.158e41641c3.e'>169.1</a></xref-group><br/>In <item>A</item>, both are possible, but some people consider <i>less</i> to be incorrect here."
+		}]
+	}, {
+		"template": "multi_radio",
+		"rubric": "Right (R) or wrong (W)?",
+		"rwText": ["R", "W"],
+		"question": [{
+			"text": "I <item>very much like</item> your hair.",
+			"answer": {
+				"right": "R"
+			}
+		}, {
+			"text": "We <item>very much appreciate</item> your help.",
+			"answer": {
+				"right": "R"
+			}
+		}, {
+			"text": "There’s <item>very much water</item> coming through the ceiling.",
+			"answer": {
+				"right": "W"
+			}
+		}],
+		"feedback": [{
+			"desc": "<xref-group><a href='u725fd0dd48eeb434.631f8527.158e41641c3.-207'>165.7</a></xref-group>"
+		}]
+	}, {
+		"template": "multi_radio",
+		"rubric": "Right (R) or wrong (W)?",
+		"rwText": ["R", "W"],
+		"question": [{
+			"text": "A whale is <item>no fish</item>.",
+			"answer": {
+				"right": "W"
+			}
+		}, {
+			"text": "George is <item>no fool</item>.",
+			"answer": {
+				"right": "R"
+			}
+		}, {
+			"text": "That’s <item>no problem</item> at all.",
+			"answer": {
+				"right": "R"
+			}
+		}],
+		"feedback": [{
+			"desc": "<xref-group><a href='u725fd0dd48eeb434.631f8527.158e41641c3.-3d6'>163.3</a></xref-group>"
+		}]
+	}, {
+		"template": "single_radio",
+		"question": [{
+			"text": "Why is <i>some</i> used in this sentence?",
+			"input_text": "Our products are exported to <item>some</item> sixteen countries.",
+			"option": ["It means ‘about’.", "It suggests that sixteen is not a large number in this context.", "It suggests that sixteen is an impressive number in this context.", "It means that not all of the sixteen countries import the products."],
+			"answer": "It suggests that sixteen is an impressive number in this context."
+		}],
+		"feedback": [{
+			"desc": "<xref-group><a href='u725fd0dd48eeb434.631f8527.158e41641c3.-70b'>158.10</a></xref-group>"
+		}]
+	}]
+	}
+}

@@ -1,0 +1,31 @@
+<div class="template  multi_radio_textEntry" ng-class="class" ng-controller="mRadioTextCtrl">
+	<div class="rubric"><span class="rubricNo">{{d.curr+1}}</span> <span class="rubricText" ng-bind-html="d.exercise.rubric | sanitize"></span></div>
+	<div class="questions">
+		<div class="rwDiv"><span ng-repeat="x in d.exercise.rwText track by $index">{{x}}</span></div>
+		<div class="questionSet" ng-repeat="a in d.exercise.question" repeat-done="loaded()">
+			<div class="qTxt" ng-disabled="checkData(a.text)"><span class="questionText" ng-bind-html="a.text | sanitize"></span></div>
+			<div class="qTxt" ng-disabled="checkData(a.item)"><span class="questionText" ng-bind-html="a.item | sanitize"></span></div>
+			<div class="radioC" data-ans="">
+				<div class="radioBtn" ng-click="radioClick($event,x)" ng-repeat="x in d.exercise.rwText track by $index">
+                                    <span class="patch"></span>
+                                    <span class="radio"><i></i></span>
+                                    <span class="radioTxt">{{x}}</span>
+                                </div>
+				
+			</div>
+		</div>
+		<div class="disabler" ng-show="disable"></div>
+	</div>
+	<div class="linkFeedback">
+		     <div class="feedback_wrapper">
+ <div class="feedback_header">Where to go in <i>Practical English Usage</i></div>
+    <ul>
+          <li ng-repeat="f in d.exercise.feedback" ng-bind-html="f.desc | sanitize"></li>   
+    </ul>
+    </div>
+	</div>
+	<div class="btn skip" ng-click="nextExercise('skip')" >Skip</div>
+	<div class="btn next" ng-click="nextExercise()" ng-if="d.curr < (d.size - 1)">Next</div>
+	<div class="btn checkAns" ng-click="checkAns()">Check my answers</div>
+            <div class="btn resultsBtn" ng-show="disable" ng-click="results(d.level)" ng-if="d.curr >= (d.size - 1)">Results</div> 
+</div>

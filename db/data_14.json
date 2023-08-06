@@ -1,0 +1,854 @@
+{
+	"b2" :
+	{
+	"-unit": "15",
+	"-level": "b2",
+	"topic_name": "comparison",
+	"exercise": [{
+		"template": "gapfill",
+		"hideRight": "true",
+		"rubric": "Write in the comparatives and superlatives of these adjectives.",
+		"sample": {
+			"text": "fat #gap #gap",
+			"answer": ["fatter", "fattest"]
+		},
+		"question": [{
+			"text": "thin #gap #gap",
+			"answer": [
+				["thinner"],
+				["thinnest"]
+			]
+		}, {
+			"text": "large #gap #gap",
+			"answer": [
+				["larger"],
+				["largest"]
+			]
+		}, {
+			"text": "small #gap #gap",
+			"answer": [
+				["smaller"],
+				["smallest"]
+			]
+		}, {
+			"text": "good #gap #gap",
+			"answer": [
+				["better"],
+				["best"]
+			]
+		}, {
+			"text": "bad #gap #gap",
+			"answer": [
+				["worse"],
+				["worst"]
+			]
+		}, {
+			"text": "happy #gap #gap",
+			"answer": [
+				["happier"],
+				["happiest"]
+			]
+		}, {
+			"text": "simple #gap #gap",
+			"answer": [
+				["simpler"],
+				["simplest"]
+			]
+		}, {
+			"text": "quiet #gap #gap",
+			"answer": [
+				["quieter"],
+				["quietest"]
+			]
+		}, {
+			"text": "intelligent #gap #gap",
+			"answer": [
+				["more intelligent"],
+				["most intelligent"]
+			]
+		}],
+		"feedback": [{
+			"desc": "<xref-group><a href='u725fd0dd48eeb434.631f8527.158e41641c3.22ca'>204.1–4</a></xref-group>"
+		}]
+	}, {
+		"template": "multi_radio",
+		"rubric": "Can words A–C complete the sentence correctly: yes (Y) or no (N)?",
+		"rwText": ["Y", "N"],
+		"question": [{
+			"input_text": "Today’s hotter <gap/> yesterday.",
+			"text": "as",
+			"answer": {
+				"right": "N"
+			}
+		}, {
+			"text": "than",
+			"answer": {
+				"right": "Y"
+			}
+		}, {
+			"text": "that",
+			"answer": {
+				"right": "N"
+			}
+		}],
+		"feedback": [{
+			"desc": "<xref-group><a href='u725fd0dd48eeb434.631f8527.158e41641c3.2507'>206.1</a></xref-group>"
+		}]
+	}, {
+		"template": "multi_radio",
+		"rubric": "Can words A–C complete the sentence correctly: yes (Y) or no (N)?",
+		"rwText": ["Y", "N"],
+		"question": [{
+			"input_text": "Emily’s <gap/> of the three girls.",
+			"text": "the taller",
+			"answer": {
+				"right": "N"
+			}
+		}, {
+			"text": "the tallest",
+			"answer": {
+				"right": "Y"
+			}
+		}, {
+			"text": "tallest",
+			"answer": {
+				"right": "N"
+			}
+		}],
+		"feedback": [{
+			"desc": "<xref-group><a href='u725fd0dd48eeb434.631f8527.158e41641c3.2520'>206.2</a></xref-group>"
+		}]
+	}, {
+		"template": "multi_radio",
+		"rubric": "Right (R) or wrong (W)?",
+		"rwText": ["R", "W"],
+		"question": [{
+			"text": "I’m getting <item>more and more fat</item>.",
+			"answer": {
+				"right": "W"
+			}
+		}, {
+			"text": "I’m getting <item>fatter and fatter</item>.",
+			"answer": {
+				"right": "R"
+			}
+		}, {
+			"text": "We’re going <item>more and more slowly</item>.",
+			"answer": {
+				"right": "R"
+			}
+		}, {
+			"text": "We’re going <item>more slowly and more slowly</item>.",
+			"answer": {
+				"right": "W"
+			}
+		}],
+		"feedback": [{
+			"desc": "<xref-group><a href='u725fd0dd48eeb434.631f8527.158e41641c3.2558'>206.4</a></xref-group>"
+		}]
+	}, {
+		"template": "multi_radio",
+		"rubric": "Right (R) or wrong (W)?",
+		"rwText": ["R", "W"],
+		"question": [{
+			"text": "Your room is <item>even untidier</item> than your brother’s.",
+			"answer": {
+				"right": "R"
+			}
+		}, {
+			"text": "Your room is <item>even more untidy</item> than your brother’s.",
+			"answer": {
+				"right": "R"
+			}
+		}],
+		"feedback": [{
+			"desc": "<xref-group><a href='u725fd0dd48eeb434.631f8527.158e41641c3.2558'>206.4</a></xref-group>"
+		}]
+	}, {
+		"template": "multi_radio",
+		"rubric": "Are these sentences normally right: yes (Y) or no (N)?",
+		"rwText": ["Y", "N"],
+		"question": [{
+			"text": "He sings better than <item>she</item>.",
+			"answer": {
+				"right": "N"
+			}
+		}, {
+			"text": "He sings better than <item>her</item>.",
+			"answer": {
+				"right": "Y"
+			}
+		}, {
+			"text": "He sings better than <item>she does</item>.",
+			"answer": {
+				"right": "Y"
+			}
+		}, {
+			"text": "She doesn’t sing as well as <item>he</item>.",
+			"answer": {
+				"right": "N"
+			}
+		}, {
+			"text": "She doesn’t sing as well as <item>him</item>.",
+			"answer": {
+				"right": "Y"
+			}
+		}, {
+			"text": "She doesn’t sing as well as <item>he does</item>.",
+			"answer": {
+				"right": "Y"
+			}
+		}],
+		"feedback": [{
+			"desc": "<xref-group><a href='u725fd0dd48eeb434.631f8527.158e41641c3.25a7'>206.6</a></xref-group>"
+		}]
+	}, {
+		"template": "multi_radio",
+		"rubric": "Can these expressions end the request correctly: yes (Y) or no (N)?",
+		"rwText": ["Y", "N"],
+		"question": [{
+			"input_text": "Could you all ... ",
+			"text": " ... be more quiet, please?",
+			"answer": {
+				"right": "Y"
+			}
+		}, {
+			"text": " ... be quieter, please?",
+			"answer": {
+				"right": "Y"
+			}
+		}, {
+			"text": " ... talk more quietly, please?",
+			"answer": {
+				"right": "Y"
+			}
+		}, {
+			"text": " ... talk quietlier, please?",
+			"answer": {
+				"right": "N"
+			}
+		}],
+		"feedback": [{
+			"desc": "<xref-group><a href='u725fd0dd48eeb434.631f8527.158e41641c3.2488'>205</a></xref-group>"
+		}]
+	}, {
+		"template": "multi_radio",
+		"rubric": "Can these expressions end the sentence correctly: yes (Y) or no (N)?",
+		"rwText": ["Y", "N"],
+		"question": [{
+			"input_text": "She’s the fastest player ... ",
+			"text": " ... <item>in</item> the team.",
+			"answer": {
+				"right": "Y"
+			}
+		}, {
+			"text": " ... <item>of</item> the team.",
+			"answer": {
+				"right": "N"
+			}
+		}, {
+			"text": " ... <item>in</item> them all.",
+			"answer": {
+				"right": "N"
+			}
+		}, {
+			"text": " ... <item>of</item> them all.",
+			"answer": {
+				"right": "Y"
+			}
+		}],
+		"feedback": [{
+			"desc": "<xref-group><a href='u725fd0dd48eeb434.631f8527.158e41641c3.25b9'>206.7</a></xref-group>"
+		}]
+	}, {
+		"template": "multi_radio",
+		"rubric": "Can words A–E complete the sentence correctly: yes (Y) or no (N)?",
+		"rwText": ["Y", "N"],
+		"question": [{
+			"input_text": "Your new flat is <gap/> nicer than mine.",
+			"text": "much",
+			"answer": {
+				"right": "Y"
+			}
+		}, {
+			"text": "very",
+			"answer": {
+				"right": "N"
+			}
+		}, {
+			"text": "very much",
+			"answer": {
+				"right": "Y"
+			}
+		}, {
+			"text": "far",
+			"answer": {
+				"right": "Y"
+			}
+		}, {
+			"text": "a lot",
+			"answer": {
+				"right": "Y"
+			}
+		}],
+		"feedback": [{
+			"desc": "<xref-group><a href='u725fd0dd48eeb434.631f8527.158e41641c3.262a'>207.1</a></xref-group>"
+		}]
+	}]
+	}, 
+	"c1" :
+	{
+	"-unit": "15",
+	"-level": "c1",
+	"topic_name": "comparison",
+	"exercise": [{
+		"template": "multi_radio",
+		"rubric": "Right (R) or wrong (W)?",
+		"rwText": ["R", "W"],
+		"question": [{
+			"text": "She’s the <item>politest</item> child I know.",
+			"answer": {
+				"right": "R"
+			}
+		}, {
+			"text": "Lucy is definitely the <item>most polite</item> child in the class.",
+			"answer": {
+				"right": "R"
+			}
+		}, {
+			"text": "Jones is the <item>most common</item> surname in Wales.",
+			"answer": {
+				"right": "R"
+			}
+		}, {
+			"text": "The <item>commonest</item> reason given for absence from work is flu.",
+			"answer": {
+				"right": "R"
+			}
+		}],
+		"feedback": [{
+			"desc": "<xref-group><a href='u725fd0dd48eeb434.631f8527.158e41641c3.237d'>204.3</a></xref-group>"
+		}]
+	}, {
+		"template": "multi_radio",
+		"rubric": "Can these words complete the sentence correctly: yes (Y) or no (N)?",
+		"rwText": ["Y", "N"],
+		"question": [{
+			"input_text": "He’s <gap/> friendly as she is.",
+			"text": "as",
+			"answer": {
+				"right": "Y"
+			}
+		}, {
+			"text": "so",
+			"answer": {
+				"right": "N"
+			}
+		}, {
+			"text": "not as",
+			"answer": {
+				"right": "Y"
+			}
+		}, {
+			"text": "not so",
+			"answer": {
+				"right": "Y"
+			}
+		}],
+		"feedback": [{
+			"desc": "<xref-group><a href='u725fd0dd48eeb434.631f8527.158e41641c3.2173'>203.1–2</a></xref-group>"
+		}]
+	}, {
+		"template": "single_radio",
+		"question": [{
+			"text": "Which sounds most natural: A, B or C?",
+			"option": ["You ought to rest <item>as much time</item> as possible.", "You ought to rest <item>for as much</item> as possible.", "You ought to rest <item>as much</item> as possible."],
+			"answer": "You ought to rest as much as possible."
+		}],
+		"feedback": [{
+			"desc": "<xref-group><a href='u725fd0dd48eeb434.631f8527.158e41641c3.21c3'>203.5</a></xref-group>"
+		}]
+	}, {
+		"template": "multi_radio",
+		"rubric": "Can the words below complete the sentence correctly: yes (Y) or no (N)?",
+		"rwText": ["Y", "N"],
+		"question": [{
+			"input_text": "It’s <gap/> as cold as yesterday.",
+			"text": "almost",
+			"answer": {
+				"right": "Y"
+			}
+		}, {
+			"text": "not nearly",
+			"answer": {
+				"right": "Y"
+			}
+		}, {
+			"text": "just",
+			"answer": {
+				"right": "Y"
+			}
+		}, {
+			"text": "like",
+			"answer": {
+				"right": "N"
+			}
+		}, {
+			"text": "nothing like",
+			"answer": {
+				"right": "Y"
+			}
+		}, {
+			"text": "every bit",
+			"answer": {
+				"right": "Y"
+			}
+		}, {
+			"text": "exactly",
+			"answer": {
+				"right": "Y"
+			}
+		}, {
+			"text": "not quite",
+			"answer": {
+				"right": "Y"
+			}
+		}],
+		"feedback": [{
+			"desc": "<xref-group><a href='u725fd0dd48eeb434.631f8527.158e41641c3.2214'>203.8</a></xref-group>"
+		}]
+	}, {
+		"template": "single_radio",
+		"question": [{
+			"text": "Which sounds more natural: A or B?",
+			"input_text": "I used to think he was clever. Now ... ",
+			"option": ["... I’m not <item>as</item> sure.", "... I’m not <item>so</item> sure."],
+			"answer": "... I’m not so sure."
+		}],
+		"feedback": [{
+			"desc": "<xref-group><a href='u725fd0dd48eeb434.631f8527.158e41641c3.2244'>203.10</a></xref-group>"
+		}]
+	}, {
+		"template": "multi_radio",
+		"rubric": "Can phrases A–D finish the sentence correctly: yes (Y) or no (N)?",
+		"rwText": ["Y", "N"],
+		"question": [{
+			"input_text": "This room is ... ",
+			"text": " ... as cold as ice.",
+			"answer": {
+				"right": "Y"
+			}
+		}, {
+			"text": " ... cold as ice.",
+			"answer": {
+				"right": "Y"
+			}
+		}, {
+			"text": " ... as small as a cupboard.",
+			"answer": {
+				"right": "Y"
+			}
+		}, {
+			"text": " ... small as a cupboard.",
+			"answer": {
+				"right": "N"
+			}
+		}],
+		"feedback": [{
+			"desc": "<xref-group><a href='u725fd0dd48eeb434.631f8527.158e41641c3.2244'>203.10–11</a></xref-group>"
+		}]
+	}, {
+		"template": "multi_radio",
+		"rubric": "Do expressions A–D complete the sentences naturally: yes (Y) or no (N)?",
+		"rwText": ["Y", "N"],
+		"question": [{
+			"input_text": "Can you drive a bit <gap/>, please?",
+			"text": "slower ",
+			"answer": {
+				"right": "Y"
+			}
+		}, {
+			"text": "more slowly ",
+			"answer": {
+				"right": "Y"
+			}
+		}, {
+			"input_text": "I am pleased to report that inflation has risen <gap/> than last month.",
+			"text": "slower ",
+			"answer": {
+				"right": "N"
+			}
+		}, {
+			"text": "more slowly ",
+			"answer": {
+				"right": "Y"
+			}
+		}],
+		"feedback": [{
+			"desc": "<xref-group><a href='u725fd0dd48eeb434.631f8527.158e41641c3.2488'>205</a></xref-group>"
+		}]
+	}, {
+		"template": "multi_radio",
+		"rubric": "Right (R) or wrong (W)?",
+		"rwText": ["R", "W"],
+		"question": [{
+			"text": "Strawberry and chocolate are my favourite flavours, but I think chocolate is <item>the nicer</item> of the two.",
+			"answer": {
+				"right": "R"
+			}
+		}],
+		"feedback": [{
+			"desc": "<xref-group><a href='u725fd0dd48eeb434.631f8527.158e41641c3.254a'>206.3</a></xref-group>"
+		}]
+	}, {
+		"template": "multi_radio",
+		"rubric": "Right (R) or wrong (W)?",
+		"rwText": ["R", "W"],
+		"question": [{
+			"text": "<item>More</item> it is dangerous, <item>more</item> I like it.",
+			"answer": {
+				"right": "W"
+			}
+		}, {
+			"text": "<item>The more</item> it is dangerous, <item>the more</item> I like it.",
+			"answer": {
+				"right": "W"
+			}
+		}],
+		"feedback": [{
+			"desc": "<xref-group><a href='u725fd0dd48eeb434.631f8527.158e41641c3.256b'>206.5</a></xref-group>"
+		}]
+	}, {
+		"template": "multi_radio",
+		"rubric": "Right (R) or wrong (W)?",
+		"rwText": ["R", "W"],
+		"question": [{
+			"text": "The more coffee <item>that</item> you drink, the more excitable <item>that</item> you’ll be.",
+			"answer": {
+				"right": "W"
+			}
+		}, {
+			"text": "The more coffee <item>that</item> you drink, the more excitable you’ll be.",
+			"answer": {
+				"right": "R"
+			}
+		}, {
+			"text": "The more coffee you drink, the more excitable you’ll be.",
+			"answer": {
+				"right": "R"
+			}
+		}],
+		"feedback": [{
+			"desc": "<xref-group><a href='u725fd0dd48eeb434.631f8527.158e41641c3.256b'>206.5</a></xref-group>"
+		}]
+	}, {
+		"template": "single_radio",
+		"question": [{
+			"text": "Which sounds more natural: A or B?",
+			"option": ["You’re more stubborn than <item>anybody</item> I know.", "You’re more stubborn than <item>everybody</item> I know."],
+			"answer": "You’re more stubborn than anybody I know."
+		}],
+		"feedback": [{
+			"desc": "<xref-group><a href='u725fd0dd48eeb434.631f8527.158e41641c3.25e1'>206.8</a></xref-group>"
+		}]
+	}, {
+		"template": "single_touch_button",
+		"rubric": "Which expressions complete the sentences correctly? If both are possible, select ‘both’.",
+		"question": [{
+			"text": "Your computer is #singletouch better than the one I bought.",
+			"option": [
+				["much", "quite", "[both]"]
+			],
+			"answer": ["much"]
+		}, {
+			"text": "I’m feeling #singletouch better after the flu I had last week.",
+			"option": [
+				["much", "quite", "[both]"]
+			],
+			"answer": ["[both]"]
+		}, {
+			"text": "This is #singletouch the best wine I’ve tasted this year.",
+			"option": [
+				["much", "quite", "[both]"]
+			],
+			"answer": ["[both]"]
+		}],
+		"feedback": [{
+			"desc": "<xref-group><a href='u725fd0dd48eeb434.631f8527.158e41641c3.262a'>207.1</a><br><a href='u725fd0dd48eeb434.631f8527.158e41641c3.26aa'>207.3</a></xref-group>"
+		}]
+	}, {
+		"template": "multi_radio",
+		"rubric": "Can expressions A–D complete this sentence correctly: yes (Y) or no (N)?",
+		"rwText": ["Y", "N"],
+		"question": [{
+			"input_text": "Your new house is <gap/> in the street.",
+			"text": "the very nicest",
+			"answer": {
+				"right": "Y"
+			}
+		}, {
+			"text": "the much nicest",
+			"answer": {
+				"right": "N"
+			}
+		}, {
+			"text": "much the nicest",
+			"answer": {
+				"right": "Y"
+			}
+		}, {
+			"text": "by far the nicest",
+			"answer": {
+				"right": "Y"
+			}
+		}],
+		"feedback": [{
+			"desc": "<xref-group><a href='u725fd0dd48eeb434.631f8527.158e41641c3.26aa'>207.3–4</a></xref-group>"
+		}]
+	}]
+	}, 
+	"c2" :
+	{
+	"-unit": "15",
+	"-level": "c2",
+	"topic_name": "comparison",
+	"exercise": [{
+		"template": "single_radio",
+		"question": [{
+			"text": "What does this mean?",
+			"input_text": "There are <item>as many as 40 students</item> in some of the classes.",
+			"option": ["Some of the classes have up to 40 students.", "Some of the classes have 40 students, and that’s a lot.", "Some of the classes have exactly 40 students."],
+			"answer": "Some of the classes have 40 students, and that’s a lot."
+		}],
+		"feedback": [{
+			"desc": "<xref-group><a href='u725fd0dd48eeb434.631f8527.158e41641c3.21de'>203.6</a></xref-group>"
+		}]
+	}, {
+		"template": "multi_radio",
+		"rubric": "Right (R) or wrong (W)?",
+		"rwText": ["R", "W"],
+		"question": [{
+			"text": "We’ll get there <item>as soon as you do</item>.",
+			"answer": {
+				"right": "R"
+			}
+		}, {
+			"text": "We’ll get there <item>as soon as you will</item>.",
+			"answer": {
+				"right": "R"
+			}
+		}],
+		"feedback": [{
+			"desc": "<xref-group><a href='u725fd0dd48eeb434.631f8527.158e41641c3.222e'>203.9</a></xref-group>"
+		}]
+	}, {
+		"template": "single_radio",
+		"question": [{
+			"text": "Which one of these comparative expressions is wrong?",
+			"option": ["The road’s getting <item>more and more steep</item>.", "I’m tall, but my brother is <item>more tall</item>.", "<item>He’s more lazy</item> than stupid.", "You couldn’t be <item>more wrong</item>."],
+			"answer": "I’m tall, but my brother is more tall."
+		}],
+		"feedback": [{
+			"desc": "<xref-group><a href='u725fd0dd48eeb434.631f8527.158e41641c3.243d'>204.5</a></xref-group>"
+		}]
+	}, {
+		"template": "multi_radio",
+		"rubric": "Are these right: yes (Y) or no (N)?",
+		"rwText": ["Y", "N"],
+		"question": [{
+			"text": "You’ll have <item>much more</item> opportunities in America.",
+			"answer": {
+				"right": "N"
+			}
+		}, {
+			"text": "You’ll have <item>many more</item> opportunities in America.",
+			"answer": {
+				"right": "Y"
+			}
+		}, {
+			"text": "You’ll have <item>far more</item> opportunities in America.",
+			"answer": {
+				"right": "Y"
+			}
+		}, {
+			"text": "There are <item>far less</item> opportunities in this country.",
+			"answer": {
+				"right": "Y"
+			}
+		}, {
+			"text": "There are <item>many less</item> opportunities in this country.",
+			"answer": {
+				"right": "N"
+			}
+		}, {
+			"text": "There are <item>many fewer</item> opportunities in this country.",
+			"answer": {
+				"right": "Y"
+			}
+		}, {
+			"text": "There are <item>a lot fewer</item> opportunities in this country.",
+			"answer": {
+				"right": "Y"
+			}
+		}, {
+			"text": "There are <item>much fewer</item> opportunities in this country.",
+			"answer": {
+				"right": "N"
+			}
+		}],
+		"feedback": [{
+			"desc": "<xref-group><a href='u725fd0dd48eeb434.631f8527.158e41641c3.e'>169.1</a><br><a href='u725fd0dd48eeb434.631f8527.158e4170750.-6764'>318.9</a></xref-group>"
+		}]
+	}, {
+		"template": "multi_radio",
+		"rubric": "Right (R) or wrong (W)?",
+		"rwText": ["R", "W"],
+		"question": [{
+			"text": "We’ve set up a special class for the <item>cleverer</item> students.",
+			"answer": {
+				"right": "R"
+			}
+		}],
+		"feedback": [{
+			"desc": "<xref-group><a href='u725fd0dd48eeb434.631f8527.158e41641c3.2701'>208.1</a></xref-group>"
+		}]
+	}, {
+		"template": "multi_radio",
+		"rubric": "Are these right: yes (Y) or no (N)?",
+		"rwText": ["Y", "N"],
+		"question": [{
+			"text": "He explained it all carefully, but I was <item>none the wiser</item>.",
+			"answer": {
+				"right": "Y"
+			}
+		}, {
+			"text": "He explained it all carefully, but I was <item>not the wiser</item>.",
+			"answer": {
+				"right": "N"
+			}
+		}, {
+			"text": "He explained it all carefully, but I was <item>none wiser</item>.",
+			"answer": {
+				"right": "N"
+			}
+		}, {
+			"text": "He explained it all carefully, but I was <item>no wiser</item>.",
+			"answer": {
+				"right": "Y"
+			}
+		}],
+		"feedback": [{
+			"desc": "<xref-group><a href='u725fd0dd48eeb434.631f8527.158e41641c3.2714'>208.2</a></xref-group>"
+		}]
+	}, {
+		"template": "multi_radio",
+		"rubric": "Right (R) or wrong (W)?",
+		"rwText": ["R", "W"],
+		"question": [{
+			"text": "My grandmother can run <item>twice as</item> fast as you.",
+			"answer": {
+				"right": "R"
+			}
+		}, {
+			"text": "My grandmother can run <item>twice faster than you</item>.",
+			"answer": {
+				"right": "W"
+			}
+		}, {
+			"text": "I can run <item>three times as fast as you</item>.",
+			"answer": {
+				"right": "R"
+			}
+		}, {
+			"text": "I can run <item>three times faster than you</item>.",
+			"answer": {
+				"right": "R"
+			}
+		}],
+		"feedback": [{
+			"desc": "<xref-group><a href='u725fd0dd48eeb434.631f8527.158e41641c3.272e'>208.3</a></xref-group>"
+		}]
+	}, {
+		"template": "multi_radio",
+		"rubric": "Right (R) or wrong (W)?",
+		"rwText": ["R", "W"],
+		"question": [{
+			"text": "I spent more money <item>than was sensible</item> yesterday.",
+			"answer": {
+				"right": "R"
+			}
+		}, {
+			"text": "I spent more money <item>than it was sensible</item> yesterday.",
+			"answer": {
+				"right": "W"
+			}
+		}, {
+			"text": "There were more people at the meeting <item>than we had expected</item>.",
+			"answer": {
+				"right": "R"
+			}
+		}, {
+			"text": "There were more people at the meeting <item>than we had expected them</item>.",
+			"answer": {
+				"right": "W"
+			}
+		}],
+		"feedback": [{
+			"desc": "<xref-group><a href='u725fd0dd48eeb434.631f8527.158e41641c3.2754'>208.4</a></xref-group>"
+		}]
+	}, {
+		"template": "multi_radio",
+		"rubric": "Right (R) or wrong (W)?",
+		"rwText": ["R", "W"],
+		"question": [{
+			"text": "She was the first woman <item>to climb</item> Everest solo.",
+			"answer": {
+				"right": "R"
+			}
+		}, {
+			"text": "She was the first woman <item>who climbed</item> Everest solo.",
+			"answer": {
+				"right": "R"
+			}
+		}, {
+			"text": "Is this the first time <item>for you to stay</item> here?",
+			"answer": {
+				"right": "W"
+			}
+		}, {
+			"text": "Is this the first time <item>you’ve stayed</item> here?",
+			"answer": {
+				"right": "R"
+			}
+		}],
+		"feedback": [{
+			"desc": "<xref-group><a href='u725fd0dd48eeb434.631f8527.158e41641c3.277f'>208.5</a></xref-group>"
+		}]
+	}, {
+		"template": "single_touch_button",
+		"rubric": "Which expressions complete the sentences correctly? If both are possible, select ‘both’.",
+		"question": [{
+			"text": "Of all my friends, he’s #singletouch.",
+			"option": [
+				["nicest", "the nicest", "[both]"]
+			],
+			"answer": ["[both]"]
+		}, {
+			"text": "He’s #singletouch when he’s with children.",
+			"option": [
+				["nicest", "the nicest", "[both]"]
+			],
+			"answer": ["nicest"]
+		}, {
+			"text": "Which of you can run #singletouch?",
+			"option": [
+				["fastest", "the fastest", "[both]"]
+			],
+			"answer": ["[both]"]
+		}],
+		"feedback": [{
+			"desc": "<xref-group><a href='u725fd0dd48eeb434.631f8527.158e41641c3.27a0'>208.6</a></xref-group>"
+		}]
+	}]
+	}
+}

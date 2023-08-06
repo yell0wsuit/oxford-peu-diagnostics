@@ -1,0 +1,602 @@
+{
+	"b2" :
+	{
+	"-unit": "06",
+	"-level": "b2",
+	"topic_name": "modals (1): certainty, probability, etc",
+	"exercise": [{
+		"template": "multi_radio",
+		"rubric": "Right (R) or wrong (W)?",
+		"rwText": ["R", "W"],
+		"question": [{
+			"text": "I must water the plants today.",
+			"answer": {
+				"right": "R"
+			}
+		}, {
+			"text": "I must water the plants yesterday.",
+			"answer": {
+				"right": "W"
+			}
+		}, {
+			"text": "I must to water the plants yesterday.",
+			"answer": {
+				"right": "W"
+			}
+		}, {
+			"text": "I must watered the plants yesterday.",
+			"answer": {
+				"right": "W"
+			}
+		}],
+		"feedback": [{
+			"desc": "<xref-group><a href='u725fd0dd48eeb434.631f8527.158e41641c3.-6482'>68.1</a></xref-group>"
+		}]
+	}, {
+		"template": "dragdrop_notrans",
+		"hideRight": "true",
+		"rubric": "Choose the correct expression to complete the sentence.",
+		"option": ["can",
+			"to can",
+			"to can to",
+			"to be able",
+			"to be able to",
+			"be able to"
+		],
+		"question": [{
+			"text": "I’d like #drop skate.",
+			"answer": [
+				["to be able to"]
+			]
+		}],
+		"feedback": [{
+			"desc": "<xref-group><a href='u725fd0dd48eeb434.631f8527.158e41641c3.-6482'>68.1</a></xref-group>"
+		}]
+	}, {
+		"template": "multi_radio",
+		"rubric": "Right (R) or wrong (W)?",
+		"rwText": ["R", "W"],
+		"question": [{
+			"text": "You should have called me yesterday.",
+			"answer": {
+				"right": "R"
+			}
+		}],
+		"feedback": [{
+			"desc": "<xref-group><a href='u725fd0dd48eeb434.631f8527.158e41641c3.-6482'>68.1</a></xref-group>"
+		}]
+	}, {
+		"template": "multi_radio",
+		"rubric": "Are these contractions common (C) or unusual (U)?",
+		"rwText": ["C", "U"],
+		"question": [{
+			"text": "can’t",
+			"answer": {
+				"right": "C"
+			}
+		}, {
+			"text": "mustn’t",
+			"answer": {
+				"right": "C"
+			}
+		}, {
+			"text": "mayn’t",
+			"answer": {
+				"right": "U"
+			}
+		}, {
+			"text": "shouldn’t",
+			"answer": {
+				"right": "C"
+			}
+		}],
+		"feedback": [{
+			"desc": "<xref-group><a href='u725fd0dd48eeb434.631f8527.158e41641c3.-63fd'>68.2</a></xref-group><br/><item>C</item> (<i>mayn’t</i>) is very unusual. "
+		}]
+	}, {
+		"template": "multi_radio",
+		"rubric": "Can the verb forms complete the sentence correctly: yes (Y) or no (N)?",
+		"rwText": ["Y", "N"],
+		"question": [{
+			"input_text": "She <gap/> be at home. I’ll phone home and find out.",
+			"text": "can’t",
+			"answer": {
+				"right": "N"
+			}
+		}, {
+			"text": "may not",
+			"answer": {
+				"right": "Y"
+			}
+		}, {
+			"text": "might not",
+			"answer": {
+				"right": "Y"
+			}
+		}],
+		"feedback": [{
+			"desc": "<xref-group><a href='u725fd0dd48eeb434.631f8527.158e41641c3.-6167'>71.4</a></xref-group>"
+		}]
+	}, {
+		"template": "single_radio",
+		"question": [{
+			"text": "Who is more likely to be going to London tomorrow?",
+			"input_text": "<speaker>joe</speaker>: I <item>may</item> be going to London tomorrow.<br/><speaker>emily</speaker>: I <item>might</item> be going to London tomorrow.",
+			"option": ["Joe.", "Emily.", "We don’t know."],
+			"answer": "Joe."
+		}],
+		"feedback": [{
+			"desc": "<xref-group><a href='u725fd0dd48eeb434.631f8527.158e41641c3.-61a5'>71.2</a></xref-group>"
+		}]
+	}, {
+		"template": "single_radio",
+		"question": [{
+			"text": "A host is greeting his guests. Which is the best way to complete the sentence?",
+			"input_text": "Thanks for coming, Emily. And you <gap/> Emily’s husband. I’ve heard a lot about you.",
+			"option": ["are", "should be", "must be"],
+			"answer": "must be"
+		}],
+		"feedback": [{
+			"desc": "<xref-group><a href='u725fd0dd48eeb434.631f8527.158e41641c3.-63b9'>69.1</a></xref-group>"
+		}]
+	}, {
+		"template": "single_radio",
+		"question": [{
+			"text": "What does this sentence mean?",
+			"input_text": "Liverpool <item>should</item> win the cup this year.",
+			"option": ["I think Liverpool will definitely win.", "I think Liverpool will very probably win."],
+			"answer": "I think Liverpool will very probably win."
+		}],
+		"feedback": [{
+			"desc": "<xref-group><a href='u725fd0dd48eeb434.631f8527.158e41641c3.-6265'>70.1</a></xref-group>"
+		}]
+	}]
+	}, 
+	"c1" :
+	{
+	"-unit": "06",
+	"-level": "c1",
+	"topic_name": "modals (1): certainty, probability, etc",
+	"exercise": [{
+		"template": "multi_radio",
+		"rubric": "Can these modal verb forms complete the reply: yes (Y) or no (N)?",
+		"rwText": ["Y", "N"],
+		"question": [{
+			"input_text": "‘Who sent these flowers?’ ‘I’m not sure. It <gap/> your mother.’",
+			"text": "<item>could</item> have been",
+			"answer": {
+				"right": "Y"
+			}
+		}, {
+			"text": "<item>might</item> have been",
+			"answer": {
+				"right": "Y"
+			}
+		}, {
+			"text": "<item>may</item> have been",
+			"answer": {
+				"right": "Y"
+			}
+		}],
+		"feedback": [{
+			"desc": "<xref-group><a href='u725fd0dd48eeb434.631f8527.158e41641c3.-60f9'>71.8</a></xref-group>"
+		}]
+	}, {
+		"template": "single_radio",
+		"question": [{
+			"text": "What does this sentence express? ",
+			"input_text": "You <item>could</item> ask before you borrow my car.",
+			"option": ["a suggestion", "a request", "a criticism"],
+			"answer": "a criticism"
+		}],
+		"feedback": [{
+			"desc": "<xref-group><a href='u725fd0dd48eeb434.631f8527.158e41641c3.-5b57'>80.3</a></xref-group>"
+		}]
+	}, {
+		"template": "multi_radio_textEntry",
+		"rubric": "Is this sentence right (R) or wrong (W)? When you have checked your answer, correct the sentence if it’s wrong.",
+		"rwText": ["R", "W"],
+		"question": [{
+			"text": "If you worked less hard, you <item>may</item> feel less tired. ",
+			"answer": [{
+				"right": "W"
+			}, {
+				"right": [
+					"If you worked less hard, you might feel less tired.",
+					"If you worked less hard you might feel less tired.",
+					"you might feel less tired",
+					"you might",
+					"might"
+				]
+			}]
+
+		}],
+		"feedback": [{
+			"desc": "<xref-group><a href='u725fd0dd48eeb434.631f8527.158e41641c3.-613f'>71.5</a></xref-group>"
+		}]
+	}, {
+		"template": "multi_radio",
+		"rubric": "Right (R) or wrong (W)?",
+		"rwText": ["R", "W"],
+		"question": [{
+			"text": "I hope that the young couple <item>will</item> enjoy years of happiness.",
+			"answer": {
+				"right": "R"
+			}
+		}, {
+			"text": "I hope that the young couple <item>may</item> enjoy years of happiness.",
+			"answer": {
+				"right": "R"
+			}
+		}, {
+			"text": "I hope that the young couple <item>might</item> enjoy years of happiness.",
+			"answer": {
+				"right": "W"
+			}
+		}, {
+			"text": "<item>May</item> you both be very happy together!",
+			"answer": {
+				"right": "R"
+			}
+		}],
+		"feedback": [{
+			"desc": "If you thought <item>B</item> or <item>D</item> was wrong, <xref-group><a href='u725fd0dd48eeb434.631f8527.158e41641c3.-6079'>72.1</a></xref-group>."
+		}]
+	}, {
+		"template": "single_radio",
+		"question": [{
+			"text": "Which expression(s) can end the sentence: A, B or both?",
+			"input_text": "She <item>might have told me</item> she was going to stay out all night; ... ",
+			"option": [" ... I really can’t remember.", " ... I’m so angry with her.", "Both"],
+			"answer": "Both"
+		}],
+		"feedback": [{
+			"desc": "<xref-group><a href='u725fd0dd48eeb434.631f8527.158e41641c3.-60f9'>71.8</a>, <a href='u725fd0dd48eeb434.631f8527.158e41641c3.-5b57'>80.3</a></xref-group><br/>With meaning <item>A</item>, <i>might</i> would be stressed in speech.<br/>With meaning <item>B</item>, <i>told</i> would be stressed. "
+		}]
+	}, {
+		"template": "multi_radio",
+		"rubric": "Right (R) or wrong (W)?",
+		"rwText": ["R", "W"],
+		"question": [{
+			"text": "He <item>can’t have got</item> my message.",
+			"answer": {
+				"right": "R"
+			}
+		}, {
+			"text": "He <item>couldn’t have got</item> my message.",
+			"answer": {
+				"right": "R"
+			}
+		}, {
+			"text": "He <item>may not have got</item> my message.",
+			"answer": {
+				"right": "R"
+			}
+		}, {
+			"text": "He <item>might not have got</item> my message.",
+			"answer": {
+				"right": "R"
+			}
+		}],
+		"feedback": [{
+			"desc": "<xref-group><a href='u725fd0dd48eeb434.631f8527.158e41641c3.-6341'>69.4</a><br><a href='u725fd0dd48eeb434.631f8527.158e41641c3.-60f9'>71.8–9</a></xref-group>"
+		}]
+	}, {
+		"template": "multi_radio",
+		"rubric": "Do these sentences mean the same as <i>I’m sure he didn’t get my message</i>: yes (Y) or no (N)? ",
+		"rwText": ["Y", "N"],
+		"question": [{
+			"text": "He <item>can’t have got</item> my message.",
+			"answer": {
+				"right": "Y"
+			}
+		}, {
+			"text": "He <item>couldn’t have got</item> my message.",
+			"answer": {
+				"right": "Y"
+			}
+		}, {
+			"text": "He <item>may not have got</item> my message.",
+			"answer": {
+				"right": "N"
+			}
+		}, {
+			"text": "He <item>might not have got</item> my message.",
+			"answer": {
+				"right": "N"
+			}
+		}],
+		"feedback": [{
+			"desc": "<xref-group><a href='u725fd0dd48eeb434.631f8527.158e41641c3.-6341'>69.4</a><br><a href='u725fd0dd48eeb434.631f8527.158e41641c3.-6167'>71.4</a></xref-group>"
+		}]
+	}, {
+		"template": "single_radio",
+		"question": [{
+			"text": "What does the writer of this letter mean?",
+			"input_text": "Dear Sir – You <item>will recently have received</item> our new price list.",
+			"option": ["I think you received our new price list recently.", "I’m certain that you received our new price list recently."],
+			"answer": "I’m certain that you received our new price list recently."
+		}],
+		"feedback": [{
+			"desc": "<xref-group><a href='u725fd0dd48eeb434.631f8527.158e41641c3.-631c'>69.5</a></xref-group>"
+		}]
+	}, {
+		"template": "multi_radio",
+		"rubric": "Are the replies correct: yes (Y) or no (N)?",
+		"rwText": ["Y", "N"],
+		"question": [{
+			"input_text": "‘We went on a cruise last month.’",
+			"text": "‘That <item>must</item> have been nice.’",
+			"answer": {
+				"right": "Y"
+			}
+		}, {
+			"text": "‘That <item>should</item> have been nice.’",
+			"answer": {
+				"right": "N"
+			}
+		}, {
+			"text": "‘That <item>can’t</item> have been cheap.’",
+			"answer": {
+				"right": "Y"
+			}
+		}],
+		"feedback": [{
+			"desc": "<xref-group><a href='u725fd0dd48eeb434.631f8527.158e41641c3.-6341'>69.4</a></xref-group>"
+		}]
+	}, {
+		"template": "multi_radio",
+		"rubric": "Can the question tags end the sentence: yes (Y) or no (N)?",
+		"rwText": ["Y", "N"],
+		"question": [{
+			"input_text": "It must be nice to be so popular, …",
+			"text": "… isn’t it?",
+			"answer": {
+				"right": "N"
+			}
+		}, {
+			"text": "… can’t it?",
+			"answer": {
+				"right": "N"
+			}
+		}, {
+			"text": "… mustn’t it?",
+			"answer": {
+				"right": "Y"
+			}
+		}],
+		"feedback": [{
+			"desc": "<xref-group><a href='u725fd0dd48eeb434.631f8527.158e41641c3.-6397'>69.2</a></xref-group>"
+		}]
+	}, {
+		"template": "multi_radio",
+		"rubric": "Can the verb forms complete the sentence correctly: yes (Y) or no (N)?",
+		"rwText": ["Y", "N"],
+		"question": [{
+			"input_text": "She <gap/> in the meeting, but she wasn’t there.",
+			"text": "should be",
+			"answer": {
+				"right": "N"
+			}
+		}, {
+			"text": "should have been",
+			"answer": {
+				"right": "Y"
+			}
+		}, {
+			"text": "was supposed to be",
+			"answer": {
+				"right": "Y"
+			}
+		}],
+		"feedback": [{
+			"desc": "<xref-group><a href='u725fd0dd48eeb434.631f8527.158e41641c3.-5da8'>76.2</a></xref-group>"
+		}]
+	}, {
+		"template": "multi_radio",
+		"rubric": "Right (R) or wrong (W)?",
+		"rwText": ["R", "W"],
+		"question": [{
+			"text": "It <item>oughtn’t</item> rain today.",
+			"answer": {
+				"right": "W"
+			}
+		}, {
+			"text": "We ought to leave now, <item>oughtn’t we</item>?",
+			"answer": {
+				"right": "R"
+			}
+		}],
+		"feedback": [{
+			"desc": "<xref-group><a href='u725fd0dd48eeb434.631f8527.158e41641c3.-5d86'>76.3</a></xref-group>"
+		}]
+	}]
+	}, 
+	"c2" :
+	{
+	"-unit": "06",
+	"-level": "c2",
+	"topic_name": "modals (1): certainty, probability, etc",
+	"exercise": [{
+		"template": "multi_radio",
+		"rubric": "Are the replies right (R) or wrong (W)?",
+		"rwText": ["R", "W"],
+		"question": [{
+			"input_text": "‘Where’s Sarah?’",
+			"text": "‘She <item>can</item> be with Joe.’",
+			"answer": {
+				"right": "W"
+			}
+		}, {
+			"text": "‘She <item>may</item> be with Joe.’",
+			"answer": {
+				"right": "R"
+			}
+		}, {
+			"text": "‘She <item>could</item> be with Joe.’",
+			"answer": {
+				"right": "R"
+			}
+		}, {
+			"text": "‘She <item>might</item> be with Joe.’",
+			"answer": {
+				"right": "R"
+			}
+		}],
+		"feedback": [{
+			"desc": "<xref-group><a href='u725fd0dd48eeb434.631f8527.158e41641c3.-61e5'>71.1</a></xref-group>"
+		}]
+	}, {
+		"template": "multi_radio",
+		"rubric": "Can the modal verbs complete the sentence correctly: yes (Y) or no (N)?",
+		"rwText": ["Y", "N"],
+		"question": [{
+			"input_text": "We <gap/> go camping this summer; I’m not sure.",
+			"text": "may",
+			"answer": {
+				"right": "Y"
+			}
+		}, {
+			"text": "might",
+			"answer": {
+				"right": "Y"
+			}
+		}, {
+			"text": "can",
+			"answer": {
+				"right": "N"
+			}
+		}, {
+			"text": "could",
+			"answer": {
+				"right": "Y"
+			}
+		}],
+		"feedback": [{
+			"desc": "<xref-group><a href='u725fd0dd48eeb434.631f8527.158e41641c3.-61e5'>71.1</a></xref-group>"
+		}]
+	}, {
+		"template": "multi_radio",
+		"rubric": "Are these uses of <i>may</i> right (R) or wrong (W)?",
+		"rwText": ["R", "W"],
+		"question": [{
+			"text": "<item>May you be</item> in London next week?",
+			"answer": {
+				"right": "W"
+			}
+		}, {
+			"text": "<item>Do you think you may be</item> in London next week?",
+			"answer": {
+				"right": "R"
+			}
+		}, {
+			"text": "<item>I may be</item> in London next week.",
+			"answer": {
+				"right": "R"
+			}
+		}],
+		"feedback": [{
+			"desc": "<xref-group><a href='u725fd0dd48eeb434.631f8527.158e41641c3.-618e'>71.3</a></xref-group>"
+		}]
+	}, {
+		"template": "multi_radio",
+		"rubric": "Right (R) or wrong (W)?",
+		"rwText": ["R", "W"],
+		"question": [{
+			"text": "We <item>could have spent yesterday</item> on the beach if we’d planned things better.",
+			"answer": {
+				"right": "R"
+			}
+		}, {
+			"text": "We <item>could have spent today</item> on the beach if we’d planned things better.",
+			"answer": {
+				"right": "R"
+			}
+		}],
+		"feedback": [{
+			"desc": "<xref-group><a href='u725fd0dd48eeb434.631f8527.158e41641c3.-5989'>82.6</a></xref-group>"
+		}]
+	}, {
+		"template": "multi_radio",
+		"rubric": "Right (R) or wrong (W)?",
+		"rwText": ["R", "W"],
+		"question": [{
+			"text": "You were stupid to try climbing up the cliff. You <item>may have killed</item> yourself. ",
+			"answer": {
+				"right": "R"
+			}
+		}],
+		"feedback": [{
+			"desc": "<i>You might have killed yourself</i> is the traditionally correct form, but more and more people are now using <i>may have</i> with this meaning.<br/><xref-group><a href='u725fd0dd48eeb434.631f8527.158e41641c3.-60d2'>71.9</a></xref-group>"
+		}]
+	}, {
+		"template": "single_radio",
+		"question": [{
+			"text": "What does this sentence mean?",
+			"input_text": "He <item>may be</item> clever, but he hasn’t got much common sense.",
+			"option": ["I agree that he’s clever, but ... ", "Perhaps he’s clever, but ... ", "He’s clever sometimes, but ... "],
+			"answer": "I agree that he’s clever, but ... "
+		}],
+		"feedback": [{
+			"desc": "<xref-group><a href='u725fd0dd48eeb434.631f8527.158e41641c3.-605f'>72.2</a></xref-group>"
+		}]
+	}, {
+		"template": "multi_radio",
+		"rubric": "Right (R) or wrong (W)?",
+		"rwText": ["R", "W"],
+		"question": [{
+			"text": "Anna wasn’t at the station. She <item>may have missed</item> her train.",
+			"answer": {
+				"right": "R"
+			}
+		}, {
+			"text": "Jack isn’t answering his phone. He <item>may have gone</item> out by now.",
+			"answer": {
+				"right": "R"
+			}
+		}, {
+			"text": "By the end of this year I <item>may have saved</item> enough money to go to America.",
+			"answer": {
+				"right": "R"
+			}
+		}],
+		"feedback": [{
+			"desc": "<xref-group><a href='u725fd0dd48eeb434.631f8527.158e41641c3.-60f9'>71.8</a></xref-group>"
+		}]
+	}, {
+		"template": "single_radio",
+		"question": [{
+			"text": "One of these sentences is wrong. Which one?",
+			"option": ["He only left the office five minutes ago. He <item>can’t be</item> home yet.", "He only left the office five minutes ago. He <item>mustn’t be</item> home yet.", "She walked past without saying hello. She <item>can’t have seen</item> us.", "She walked past without saying hello. She <item>mustn’t have seen</item> us."],
+			"answer": "He only left the office five minutes ago. He mustn’t be home yet."
+		}],
+		"feedback": [{
+			"desc": "<xref-group><a href='u725fd0dd48eeb434.631f8527.158e41641c3.-62ce'>69.8</a></xref-group>"
+		}]
+	}, {
+		"template": "multi_radio",
+		"rubric": "Are these good explanations of the sentence: yes (Y) or no (N)?",
+		"rwText": ["Y", "N"],
+		"question": [{
+			"input_text": "Jake should get the manager’s job, I think.",
+			"text": "I think Jake will definitely get the job.",
+			"answer": {
+				"right": "N"
+			}
+		}, {
+			"text": "I think Jake will very probably get the job.",
+			"answer": {
+				"right": "Y"
+			}
+		}, {
+			"text": "I think Jake deserves to get the job.",
+			"answer": {
+				"right": "Y"
+			}
+		}],
+		"feedback": [{
+			"desc": "<xref-group><a href='u725fd0dd48eeb434.631f8527.158e41641c3.-6265'>70.1</a><br><a href='u725fd0dd48eeb434.631f8527.158e41641c3.-5dde'>76.1</a></xref-group>"
+		}]
+	}]
+	}
+}

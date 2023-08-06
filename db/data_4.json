@@ -1,0 +1,762 @@
+{
+	"b2" :
+	{
+	"-unit": "05",
+	"-level": "b2",
+	"topic_name": "passives ",
+	"exercise": [{
+		"template": "multi_radio",
+		"rubric": "Look at the question. Do the replies sound natural: yes (Y) or no (N)?",
+		"rwText": ["Y", "N"],
+		"question": [{
+			"input_text": "‘Are the windows still dirty?’",
+			"text": "‘No, I’ve cleaned them.’",
+			"answer": {
+				"right": "Y"
+			}
+		}, {
+			"text": "‘No, they’ve been cleaned.’",
+			"answer": {
+				"right": "Y"
+			}
+		}, {
+			"text": "‘No, they’ve been cleaned by me.’",
+			"answer": {
+				"right": "N"
+			}
+		}],
+		"feedback": [{
+			"desc": "<xref-group><a href='u725fd0dd48eeb434.631f8527.158e41641c3.-6b32'>58</a></xref-group>"
+		}]
+	}, {
+		"template": "multi_radio",
+		"rubric": "Would these sentences be natural in an academic article: yes (Y) or no (N)?",
+		"rwText": ["Y", "N"],
+		"question": [{
+			"text": "<item>People have written</item> too many books about the Second World War.",
+			"answer": {
+				"right": "N"
+			}
+		}, {
+			"text": "Too many books <item>have been written</item> about the Second World War.",
+			"answer": {
+				"right": "Y"
+			}
+		}, {
+			"text": "<item>I have not yet analysed</item> the results of the experiment.",
+			"answer": {
+				"right": "N"
+			}
+		}, {
+			"text": "The results of the experiment <item>have not yet been analysed</item>.",
+			"answer": {
+				"right": "Y"
+			}
+		}],
+		"feedback": [{
+			"desc": "<xref-group><a href='u725fd0dd48eeb434.631f8527.158e41641c3.-67ae'>67.1</a></xref-group>"
+		}]
+	}, {
+		"template": "multi_radio",
+		"rubric": "Can these verb forms be used in English: yes (Y) or no (N)?",
+		"rwText": ["Y", "N"],
+		"question": [{
+			"text": "to have been invited",
+			"answer": {
+				"right": "Y"
+			}
+		}, {
+			"text": "being watched",
+			"answer": {
+				"right": "Y"
+			}
+		}, {
+			"text": "having been told",
+			"answer": {
+				"right": "Y"
+			}
+		}, {
+			"text": "having be spoken to",
+			"answer": {
+				"right": "N"
+			}
+		}, {
+			"text": "being looked at",
+			"answer": {
+				"right": "Y"
+			}
+		}],
+		"feedback": [{
+			"desc": "<xref-group><a href='u725fd0dd48eeb434.631f8527.158e41641c3.-6c41'>57.1</a></xref-group>"
+		}]
+	}, {
+		"template": "multi_radio",
+		"rubric": "Are the passive forms right (R) or wrong (W)?",
+		"rwText": ["R", "W"],
+		"question": [{
+			"text": "Lunch <item>is prepared</item> now. It’s nearly ready.",
+			"answer": {
+				"right": "W"
+			}
+		}, {
+			"text": "Lunch <item>is being prepared</item> now. It’s nearly ready.",
+			"answer": {
+				"right": "R"
+			}
+		}, {
+			"text": "Lunch <item>is preparing</item> now. It’s nearly ready.",
+			"answer": {
+				"right": "W"
+			}
+		}],
+		"feedback": [{
+			"desc": "<xref-group><a href='u725fd0dd48eeb434.631f8527.158e41641c3.-6c41'>57.1–2</a></xref-group>"
+		}]
+	}, {
+		"template": "multi_radio",
+		"rubric": "Are the passive forms right (R) or wrong (W)?",
+		"rwText": ["R", "W"],
+		"question": [{
+			"text": "James <item>is promoted</item> by the company.",
+			"answer": {
+				"right": "W"
+			}
+		}, {
+			"text": "James <item>has promoted</item> by the company.",
+			"answer": {
+				"right": "W"
+			}
+		}, {
+			"text": "James <item>has been promoted</item> by the company.",
+			"answer": {
+				"right": "R"
+			}
+		}],
+		"feedback": [{
+			"desc": "<xref-group><a href='u725fd0dd48eeb434.631f8527.158e41641c3.-6c41'>57.1–2</a></xref-group>"
+		}]
+	}, {
+		"template": "multi_radio",
+		"rubric": "Right (R) or wrong (W)? ",
+		"rwText": ["R", "W"],
+		"question": [{
+			"text": "<item>We were questioning</item> by the police for several hours.",
+			"answer": {
+				"right": "W"
+			}
+		}, {
+			"text": "<item>We were put</item> in the police cells overnight.",
+			"answer": {
+				"right": "R"
+			}
+		}, {
+			"text": "In the morning, <item>we have released</item>.",
+			"answer": {
+				"right": "W"
+			}
+		}],
+		"feedback": [{
+			"desc": "<xref-group><a href='u725fd0dd48eeb434.631f8527.158e41641c3.-6c41'>57.1</a><br><a href='u725fd0dd48eeb434.631f8527.158e41641c3.-6b70'>57.4</a></xref-group>"
+		}]
+	}, {
+		"template": "correction",
+		"hideRight": "true",
+		"rubric": "Change the sentences into passive sentences with the same meaning.",
+		"sample": {
+			"text": "She gave her sister the car. ",
+			"answer": ["Her sister was given the car."]
+		},
+		"question": [{
+			"text": "The bank sent me the wrong forms. ",
+			"answer": {
+				"right": [
+					"I was sent the wrong forms.",
+					"I was sent the wrong forms by the bank."
+				]
+			}
+		}, {
+			"text": "We pay them a lot of money for doing very little. ",
+			"answer": {
+				"right": [
+					"They are paid a lot of money for doing very little.",
+					"They're paid a lot of money for doing very little.",
+					"They are paid a lot of money by us for doing very little.",
+					"They're paid a lot of money by us for doing very little."
+				]
+			}
+		}, {
+			"text": "They will never tell us the real truth. ",
+			"answer": {
+				"right": [
+					"We will never be told the real truth.",
+					"We’ll never be told the real truth.",
+					"We will never be told the real truth.",
+					"We'll never be told the real truth."
+				]
+			}
+		}],
+		"feedback": [{
+			"desc": "<xref-group><a href='u725fd0dd48eeb434.631f8527.158e41641c3.-6a71'>61</a></xref-group>"
+		}]
+	}, {
+		"template": "multi_radio",
+		"rubric": "Right (R) or wrong (W)?",
+		"rwText": ["R", "W"],
+		"question": [{
+			"text": "I was told <item>to wait</item> outside the station at six o’clock.",
+			"answer": {
+				"right": "R"
+			}
+		}, {
+			"text": "I was told <item>to be waiting</item> outside the station at six o’clock.",
+			"answer": {
+				"right": "R"
+			}
+		}, {
+			"text": "She is expected <item>to be released</item> today.",
+			"answer": {
+				"right": "R"
+			}
+		}, {
+			"text": "He is thought <item>to have escaped</item> last night.",
+			"answer": {
+				"right": "R"
+			}
+		}],
+		"feedback": [{
+			"desc": "For <item>A</item>, <xref-group><a href='u725fd0dd48eeb434.631f8527.158e41641c3.-68e3'>64.1</a></xref-group>.<br/>For <item>B</item>, <xref-group><a href='u725fd0dd48eeb434.631f8527.158e41641c3.-6861'>64.5</a></xref-group>.<br/>For <item>C</item> and <item>D</item>, <xref-group><a href='u725fd0dd48eeb434.631f8527.158e41641c3.-68c5'>64.2</a>, <a href='u725fd0dd48eeb434.631f8527.158e41641c3.-6861'>64.5</a></xref-group>."
+		}]
+	}, {
+		"template": "single_radio",
+		"question": [{
+			"text": "Somebody has paid for your meal in a restaurant. Which passive sentence is right: A, B or C?",
+			"option": ["Has been paid for your meal.", "Your meal has been paid.", "Your meal has been paid for."],
+			"answer": "Your meal has been paid for."
+		}],
+		"feedback": [{
+			"desc": "<xref-group><a href='u725fd0dd48eeb434.631f8527.158e41641c3.-69d7'>62.1</a></xref-group>"
+		}]
+	}]
+	}, 
+	"c1" :
+	{
+	"-unit": "05",
+	"-level": "c1",
+	"topic_name": "passives",
+	"exercise": [{
+		"template": "correction",
+		"rubric": "Change the sentences into passive sentences with the same meaning.",
+		"sample": {
+			"text": "She gave her sister the car. ",
+			"answer": ["Her sister was given the car."]
+		},
+		"question": [{
+			"text": "I have told him to return the money by next Friday. ",
+			"answer": {
+				"right": [
+					"He has been told to return the money by next Friday.",
+					"He's been told to return the money by next Friday.",
+					"He’s been told to return the money by next Friday."
+				]
+			}
+		}, {
+			"text": "We are giving them another week to finish the job. ",
+			"answer": {
+				"right": [
+					"They are being given another week to finish the job.",
+					"They're being given another week to finish the job.",
+					"They’re being given another week to finish the job."
+				]
+			}
+		}, {
+			"text": "Somebody will send us the papers next week. ",
+			"answer": {
+				"right": [
+					"We will be sent the papers next week.",
+					"We'll be sent the papers next week.",
+					"We’ll be sent the papers next week."
+				]
+			}
+		}],
+		"feedback": [{
+			"desc": "<xref-group><a href='u725fd0dd48eeb434.631f8527.158e41641c3.-6a71'>61</a></xref-group>"
+		}]
+	}, {
+		"template": "gapfill",
+		"rubric": "Write two passive sentences with the same meaning.",
+		"question": [{
+			"input_text": "He has given the keys to his sister.",
+			"text": "The keys #gap.",
+			"answer": [
+				["have been given to his sister"]
+			]
+		}, {
+			"text": "His sister #gap.",
+			"answer": [
+				["has been given the keys"]
+			]
+		}, {
+			"input_text": "The company lent you a laptop last week.",
+			"text": "You #gap.",
+			"answer": [
+				["were lent a laptop last week"]
+			]
+		}, {
+			"text": "A laptop #gap.",
+			"answer": [
+				["was lent to you last week"]
+			]
+		}],
+		"feedback": [{
+			"desc": "<xref-group><a href='u725fd0dd48eeb434.631f8527.158e41641c3.-6a71'>61</a></xref-group>"
+		}]
+	}, {
+		"template": "single_radio",
+		"question": [{
+			"text": "Which of these two passive structures would people most normally use?",
+			"input_text": "<item>A</item> The keys have been given to his sister.<br/><item>B</item> His sister has been given the keys.<br/><item>C</item> You were lent a laptop last week.<br/><item>D</item> A laptop was lent to you last week.",
+			"option": ["The one used in A and D.", "The one used in B and C."],
+			"answer": "The one used in B and C."
+		}],
+		"feedback": [{
+			"desc": "<xref-group><a href='u725fd0dd48eeb434.631f8527.158e41641c3.-6a71'>61</a></xref-group>"
+		}]
+	}, {
+		"template": "multi_radio",
+		"rubric": "Right (R) or wrong (W)?",
+		"rwText": ["R", "W"],
+		"question": [{
+			"text": "<item>I was given</item> this watch by my father.",
+			"answer": {
+				"right": "R"
+			}
+		}, {
+			"text": "This watch was <item>given me</item> by my father.",
+			"answer": {
+				"right": "R"
+			}
+		}, {
+			"text": "This watch was <item>given to me</item> by my father.",
+			"answer": {
+				"right": "R"
+			}
+		}],
+		"feedback": [{
+			"desc": "<xref-group><a href='u725fd0dd48eeb434.631f8527.158e41641c3.-6a71'>61</a></xref-group>"
+		}]
+	}, {
+		"template": "single_radio",
+		"question": [{
+			"text": "Which sounds more natural?",
+			"option": ["Emily wanting to tell everybody what to do surprised me.", "I was surprised by Emily wanting to tell everybody what to do."],
+			"answer": "I was surprised by Emily wanting to tell everybody what to do."
+		}],
+		"feedback": [{
+			"desc": "<xref-group><a href='u725fd0dd48eeb434.631f8527.158e41641c3.-6771'>67.4</a></xref-group>"
+		}]
+	}, {
+		"template": "multi_radio",
+		"rubric": "Right (R) or wrong (W)?",
+		"rwText": ["R", "W"],
+		"question": [{
+			"text": "Everybody thought that she was clever.",
+			"answer": {
+				"right": "R"
+			}
+		}, {
+			"text": "That she was clever was thought by everybody.",
+			"answer": {
+				"right": "W"
+			}
+		}, {
+			"text": "It was thought by everybody that she was clever.",
+			"answer": {
+				"right": "R"
+			}
+		}],
+		"feedback": [{
+			"desc": "<xref-group><a href='u725fd0dd48eeb434.631f8527.158e41641c3.-6943'>63.1</a></xref-group>"
+		}]
+	}, {
+		"template": "multi_radio",
+		"rubric": "Right (R) or wrong (W)?",
+		"rwText": ["R", "W"],
+		"question": [{
+			"text": "We believe <item>that he is</item> dangerous.",
+			"answer": {
+				"right": "R"
+			}
+		}, {
+			"text": "We believe <item>him to be</item> dangerous.",
+			"answer": {
+				"right": "R"
+			}
+		}, {
+			"text": "He <item>is believed to be</item> dangerous.",
+			"answer": {
+				"right": "R"
+			}
+		}, {
+			"text": "They <item>say that he is </item>dangerous.",
+			"answer": {
+				"right": "R"
+			}
+		}, {
+			"text": "They <item>say him to be</item> dangerous.",
+			"answer": {
+				"right": "W"
+			}
+		}, {
+			"text": "He <item>is said to be</item> dangerous.",
+			"answer": {
+				"right": "R"
+			}
+		}],
+		"feedback": [{
+			"desc": "<xref-group><a href='u725fd0dd48eeb434.631f8527.158e41641c3.-68c5'>64.2</a></xref-group>"
+		}]
+	}, {
+		"template": "single_touch_button",
+		"rubric": "<i>Tell</i>, <i>to tell</i> or both?",
+		"question": [{
+			"text": "He was made #singletouch them everything.",
+			"option": [
+				["tell", "to tell", "[both]"]
+			],
+			"answer": ["to tell"]
+		}],
+		"feedback": [{
+			"desc": "<xref-group><a href='u725fd0dd48eeb434.631f8527.158e41641c3.-689f'>64.3</a></xref-group>"
+		}]
+	}, {
+		"template": "multi_radio",
+		"rubric": "Is this sentence right (R) or wrong (W)?",
+		"rwText": ["R", "W"],
+		"question": [{
+			"text": "The escaped lion <item>is thought to be</item> dangerous.",
+			"answer": {
+				"right": "R"
+			}
+		}],
+		"feedback": [{
+			"desc": "<xref-group><a href='u725fd0dd48eeb434.631f8527.158e41641c3.-68c5'>64.2</a></xref-group>"
+		}]
+	}, {
+		"template": "single_touch_button",
+		"rubric": "<i>To be</i>, <i>being</i> or both?",
+		"question": [{
+			"text": "There are understood #singletouch more than 3,000 different languages in the world.",
+			"option": [
+				["to be", "being", "[both]"]
+			],
+			"answer": ["to be"]
+		}],
+		"feedback": [{
+			"desc": "<xref-group><a href='u725fd0dd48eeb434.631f8527.158e41641c3.-6876'>64.4</a></xref-group>"
+		}]
+	}, {
+		"template": "multi_radio",
+		"rubric": "Right (R) or wrong (W)?",
+		"rwText": ["R", "W"],
+		"question": [{
+			"text": "My suitcase <item>is packed</item> and I’m ready to go.",
+			"answer": {
+				"right": "R"
+			}
+		}, {
+			"text": "My suitcase <item>has been packed</item> and I’m ready to go.",
+			"answer": {
+				"right": "R"
+			}
+		}, {
+			"text": "There’s been an accident – my car <item>is hit</item>.",
+			"answer": {
+				"right": "W"
+			}
+		}, {
+			"text": "There’s been an accident – my car <item>has been hit</item>.",
+			"answer": {
+				"right": "R"
+			}
+		}],
+		"feedback": [{
+			"desc": "<xref-group><a href='u725fd0dd48eeb434.631f8527.158e41641c3.-67f4'>66</a></xref-group>"
+		}]
+	}]
+	}, 
+	"c2" :
+	{
+	"-unit": "05",
+	"-level": "c2",
+	"topic_name": "passives",
+	"exercise": [{
+		"template": "multi_radio",
+		"rubric": "Are these forms normal (N), unusual (U) or wrong (W)?",
+		"rwText": ["N", "U", "W"],
+		"question": [{
+			"text": "How long <item>has</item> this work <item>been being done</item>?",
+			"answer": {
+				"right": "U"
+			}
+		}, {
+			"text": "She <item>will be being interviewed</item> tomorrow morning.",
+			"answer": {
+				"right": "U"
+			}
+		}],
+		"feedback": [{
+			"desc": "<xref-group><a href='u725fd0dd48eeb434.631f8527.158e41641c3.-6c41'>57.1</a></xref-group>"
+		}]
+	}, {
+		"template": "gapfill",
+		"hideRight": "true",
+		"rubric": "Complete these sentences with suitable prepositions. DON’T use <i>by</i>.",
+		"question": [{
+			"text": "I was shocked #gap her behaviour.",
+			"answer": [
+				["at"]
+			]
+		}, {
+			"text": "Anna’s very frightened #gap spiders.",
+			"answer": [
+				["of"]
+			]
+		}, {
+			"text": "We’re worried #gap the future.",
+			"answer": [
+				["about"]
+			]
+		}, {
+			"text": "I’m excited #gap the possibility of getting a new job.",
+			"answer": [
+				["about",
+					"at"
+				]
+			]
+		}, {
+			"text": "Everybody’s annoyed #gap you.",
+			"answer": [
+				["with"]
+			]
+		}, {
+			"text": "I’m surprised #gap your attitude.",
+			"answer": [
+				["at"]
+			]
+		}, {
+			"text": "The man is known #gap the police.",
+			"answer": [
+				["to"]
+			]
+		}, {
+			"text": "The room was filled #gap thick smoke.",
+			"answer": [
+				["with"]
+			]
+		}, {
+			"text": "The mountains are covered #gap snow.",
+			"answer": [
+				["with",
+					"in"
+				]
+			]
+		}],
+		"feedback": [{
+			"desc": "<xref-group><a href='u725fd0dd48eeb434.631f8527.158e41641c3.-6b32'>58</a></xref-group>"
+		}]
+	}, {
+		"template": "single_radio",
+		"question": [{
+			"text": "Which reply is best?",
+			"input_text": "‘How are your brothers?’",
+			"option": ["‘Fine. Daniel’s restoring an old house.’", "‘Fine. An old house is being restored by Daniel.’"],
+			"answer": "‘Fine. Daniel’s restoring an old house.’"
+		}],
+		"feedback": [{
+			"desc": "<xref-group><a href='u725fd0dd48eeb434.631f8527.158e41641c3.-6799'>67.2</a></xref-group>"
+		}]
+	}, {
+		"template": "freetext",
+		"rubric": "Why does this text keep changing from active to passive and back?",
+		"question": [{
+			"text": "He <item>waited</item> for two hours; then he <item>was seen</item> by a doctor; then he <item>was sent</item> back to the waiting room. He <item>sat</item> there for another two hours – by this time he <item>was getting</item> angry. Then he <item>was taken</item> upstairs ... "
+		}, {
+			"text": ""
+		}],
+		"answer": "This makes it possible to keep the same topic (the hospital patient) as subject.",
+		"feedback": [{
+			"desc": "<xref-group><a href='u725fd0dd48eeb434.631f8527.158e41641c3.-6784'>67.3</a></xref-group>"
+		}]
+	}, {
+		"template": "single_radio",
+		"question": [{
+			"text": "Which sentence is more natural?",
+			"option": ["Jack trying to tell everybody what he thought annoyed me.", "I was annoyed by Jack trying to tell everybody what he thought."],
+			"answer": "I was annoyed by Jack trying to tell everybody what he thought."
+		}],
+		"feedback": [{
+			"desc": "<xref-group><a href='u725fd0dd48eeb434.631f8527.158e41641c3.-6771'>67.4</a></xref-group>"
+		}]
+	}, {
+		"template": "multi_radio",
+		"rubric": "Right (R) or wrong (W)?",
+		"rwText": ["R", "W"],
+		"question": [{
+			"text": "The plan has been carefully looked at.",
+			"answer": {
+				"right": "R"
+			}
+		}, {
+			"text": "He was thrown stones at.",
+			"answer": {
+				"right": "W"
+			}
+		}, {
+			"text": "That table mustn’t be put cups on.",
+			"answer": {
+				"right": "W"
+			}
+		}, {
+			"text": "Your brother can’t be relied on.",
+			"answer": {
+				"right": "R"
+			}
+		}],
+		"feedback": [{
+			"desc": "<xref-group><a href='u725fd0dd48eeb434.631f8527.158e41641c3.-69d7'>62.1–2</a></xref-group>"
+		}]
+	}, {
+		"template": "multi_radio",
+		"rubric": "Right (R) or wrong (W)?",
+		"rwText": ["R", "W"],
+		"question": [{
+			"text": "<item>It was decided</item> to put off the meeting until the following week.",
+			"answer": {
+				"right": "R"
+			}
+		}, {
+			"text": "<item>It was agreed</item> to advertise for a new secretary.",
+			"answer": {
+				"right": "R"
+			}
+		}, {
+			"text": "<item>It is not expected</item> to have difficulty in finding somebody suitably qualified.",
+			"answer": {
+				"right": "W"
+			}
+		}],
+		"feedback": [{
+			"desc": "<xref-group><a href='u725fd0dd48eeb434.631f8527.158e41641c3.-6914'>63.2</a></xref-group>"
+		}]
+	}, {
+		"template": "multi_radio",
+		"rubric": "Right (R) or wrong (W)?",
+		"rwText": ["R", "W"],
+		"question": [{
+			"text": "I <item>was asked to send</item> full details to the manager.",
+			"answer": {
+				"right": "R"
+			}
+		}, {
+			"text": "Andrew <item>was chosen to be</item> our spokesperson.",
+			"answer": {
+				"right": "R"
+			}
+		}, {
+			"text": "Doris <item>was wanted to be</item> the union representative.",
+			"answer": {
+				"right": "W"
+			}
+		}, {
+			"text": "They <item>were told not to speak</item> to the press.",
+			"answer": {
+				"right": "R"
+			}
+		}, {
+			"text": "Our staff <item>are liked to make</item> suggestions to the management.",
+			"answer": {
+				"right": "W"
+			}
+		}],
+		"feedback": [{
+			"desc": "<xref-group><a href='u725fd0dd48eeb434.631f8527.158e41641c3.-68e3'>64.1</a><br><a href='u725fd0dd48eeb434.631f8527.158e41641c3.-6854'>64.6</a></xref-group>"
+		}]
+	}, {
+		"template": "multi_radio",
+		"rubric": "Right (R) or wrong (W)?",
+		"rwText": ["R", "W"],
+		"question": [{
+			"text": "Goethe<item> was considered</item> a genius by his contemporaries.",
+			"answer": {
+				"right": "R"
+			}
+		}, {
+			"text": "Alice <item>was elected</item> President of the Association.",
+			"answer": {
+				"right": "R"
+			}
+		}, {
+			"text": "Dr Hastings <item>was regarded as</item> an expert in criminal law.",
+			"answer": {
+				"right": "R"
+			}
+		}, {
+			"text": "Louis <item>was seen as</item> a sort of clown.",
+			"answer": {
+				"right": "R"
+			}
+		}, {
+			"text": "Jessica <item>was called</item> stupid by the other children.",
+			"answer": {
+				"right": "R"
+			}
+		}, {
+			"text": "The house <item>has been made</item> much more attractive by the new owners.",
+			"answer": {
+				"right": "R"
+			}
+		}],
+		"feedback": [{
+			"desc": "<xref-group><a href='u725fd0dd48eeb434.631f8527.158e41641c3.-6834'>65</a></xref-group>"
+		}]
+	}, {
+		"template": "multi_radio",
+		"rubric": "Some ideas can be expressed with both active and passive structures with little difference. Is this true (T) or false (F) for the following pairs of sentences?",
+		"rwText": ["T", "F"],
+		"question": [{
+			"text": "I <item>worry</item> about Chris. / I<item>’m worried</item> about Chris.",
+			"answer": {
+				"right": "T"
+			}
+		}, {
+			"text": "Suddenly the door <item>opened</item>. / Suddenly the door <item>was opened</item>.",
+			"answer": {
+				"right": "T"
+			}
+		}, {
+			"text": "We <item>concern</item> about Joe. / We<item>’re concerned</item> about Joe.",
+			"answer": {
+				"right": "F"
+			}
+		}, {
+			"text": "My shoes <item>are wearing</item> out. / My shoes <item>are being worn</item> out.",
+			"answer": {
+				"right": "F"
+			}
+		}, {
+			"text": "He fell overboard and <item>drowned</item>. / He fell overboard and <item>was drowned</item>.",
+			"answer": {
+				"right": "T"
+			}
+		}, {
+			"text": "Stop chatting – there’s work <item>to do</item>. / Stop chatting – there’s work <item>to be done</item>.",
+			"answer": {
+				"right": "T"
+			}
+		}],
+		"feedback": [{
+			"desc": "<xref-group><a href='u725fd0dd48eeb434.631f8527.158e41641c3.-6e01'>Section 6</a></xref-group> Introduction"
+		}]
+	}]
+	}
+}

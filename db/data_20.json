@@ -1,0 +1,689 @@
+{
+	"b2" :
+	{
+	"-unit": "21",
+	"-level": "b2",
+	"topic_name": "other adverbial clauses",
+	"exercise": [{
+		"template": "multi_radio",
+		"rubric": "Do the pairs of sentences mean the same: yes (Y) or no (N)?",
+		"rwText": ["Y", "N"],
+		"question": [{
+			"text": "I finished early <item>because</item> I worked fast. <item>Because</item> I worked fast, I finished early.",
+			"answer": {
+				"right": "Y"
+			}
+		}, {
+			"text": "He did military service <item>after</item> he went to university. <item>After</item> he did military service, he went to university.",
+			"answer": {
+				"right": "N"
+			}
+		}],
+		"feedback": [{
+			"desc": "For <item>A</item>, <xref-group><a href='u725fd0dd48eeb434.631f8527.158e4170750.-1f91'>393.2</a></xref-group>.<br/>For <item>B</item>, <xref-group><a href='u725fd0dd48eeb434.631f8527.158e41641c3.55db'>249.1</a></xref-group>."
+		}]
+	}, {
+		"template": "multi_radio",
+		"rubric": "Right (R) or wrong (W)?",
+		"rwText": ["R", "W"],
+		"question": [{
+			"text": "Don’t forget to call your mother <item>before you leave</item> this afternoon.",
+			"answer": {
+				"right": "R"
+			}
+		}, {
+			"text": "PLEASE PUT OUT ALL LIGHTS <item>BEFORE LEAVING</item> THE OFFICE.",
+			"answer": {
+				"right": "R"
+			}
+		}],
+		"feedback": [{
+			"desc": "<xref-group><a href='u725fd0dd48eeb434.631f8527.158e41641c3.567e'>250.2</a><br><a href='u725fd0dd48eeb434.631f8527.158e41641c3.56b6'>250.5</a></xref-group>"
+		}]
+	}, {
+		"template": "single_touch_button",
+		"rubric": "Choose the correct word or phrase to complete the sentence.",
+		"question": [{
+			"text": "I’ll call you before I #singletouch.",
+			"option": [
+				["will come", "have come", "come"]
+			],
+			"answer": ["come"]
+		}],
+		"feedback": [{
+			"desc": "<xref-group><a href='u725fd0dd48eeb434.631f8527.158e41641c3.567e'>250.2</a></xref-group>"
+		}]
+	}, {
+		"template": "multi_radio",
+		"rubric": "Right (R) or wrong (W)?",
+		"rwText": ["R", "W"],
+		"question": [{
+			"text": "He went out <item>before I had finished my sentence</item>.",
+			"answer": {
+				"right": "R"
+			}
+		}],
+		"feedback": [{
+			"desc": "<xref-group><a href='u725fd0dd48eeb434.631f8527.158e41641c3.5698'>250.3</a></xref-group>"
+		}]
+	}, {
+		"template": "multi_radio",
+		"rubric": "Right (R) or wrong (W)?",
+		"rwText": ["R", "W"],
+		"question": [{
+			"text": "His parents died <item>while</item> he was 12.",
+			"answer": {
+				"right": "W"
+			}
+		}, {
+			"text": "His parents died <item>when</item> he was 12.",
+			"answer": {
+				"right": "R"
+			}
+		}, {
+			"text": "His parents died <item>as</item> he was 12.",
+			"answer": {
+				"right": "W"
+			}
+		}],
+		"feedback": [{
+			"desc": "<xref-group><a href='u725fd0dd48eeb434.631f8527.158e41641c3.5725'>251.2</a></xref-group>"
+		}]
+	}, {
+		"template": "multi_radio",
+		"rubric": "Can these options complete the sentence correctly: yes (Y) or no (N)?",
+		"rwText": ["Y", "N"],
+		"question": [{
+			"input_text": "Hold it in both hands <gap/> I do.",
+			"text": "as",
+			"answer": {
+				"right": "Y"
+			}
+		}, {
+			"text": "how",
+			"answer": {
+				"right": "N"
+			}
+		}, {
+			"text": "like",
+			"answer": {
+				"right": "Y"
+			}
+		}, {
+			"text": "the way",
+			"answer": {
+				"right": "Y"
+			}
+		}],
+		"feedback": [{
+			"desc": "<xref-group><a href='u725fd0dd48eeb434.631f8527.158e4170750.b63'>492.6</a><br><a href='u725fd0dd48eeb434.631f8527.158e4170750.17d6'>515</a></xref-group>"
+		}]
+	}, {
+		"template": "multi_radio",
+		"rubric": "Can options A–D complete the sentence correctly: yes (Y) or no (N)?",
+		"rwText": ["Y", "N"],
+		"question": [{
+			"input_text": "It looks <gap/> it’s going to rain.",
+			"text": "if",
+			"answer": {
+				"right": "N"
+			}
+		}, {
+			"text": "as if",
+			"answer": {
+				"right": "Y"
+			}
+		}, {
+			"text": "as though",
+			"answer": {
+				"right": "Y"
+			}
+		}, {
+			"text": "like",
+			"answer": {
+				"right": "Y"
+			}
+		}],
+		"feedback": [{
+			"desc": "<xref-group><a href='u725fd0dd48eeb434.631f8527.158e4170750.-27d9'>378</a></xref-group>"
+		}]
+	}, {
+		"template": "single_touch_button",
+		"rubric": "<i>Because</i>, <i>because of</i> or both?",
+		"question": [{
+			"text": "I was late #singletouch it rained.",
+			"option": [
+				["because", "because of", "[both]"]
+			],
+			"answer": ["because"]
+		}, {
+			"text": "I was late #singletouch the rain.",
+			"option": [
+				["because", "because of", "[both]"]
+			],
+			"answer": ["because of"]
+		}, {
+			"text": "I was late #singletouch you.",
+			"option": [
+				["because", "because of", "[both]"]
+			],
+			"answer": ["because of"]
+		}, {
+			"text": "I was late #singletouch I met you.",
+			"option": [
+				["because", "because of", "[both]"]
+			],
+			"answer": ["because"]
+		}],
+		"feedback": [{
+			"desc": "<xref-group><a href='u725fd0dd48eeb434.631f8527.158e4170750.-1fb5'>393.1</a></xref-group>"
+		}]
+	}, {
+		"template": "multi_radio",
+		"rubric": "Right (R) or wrong (W)?",
+		"rwText": ["R", "W"],
+		"question": [{
+			"text": "It doesn’t matter whether we go by bus or train, it’ll take at least six hours.",
+			"answer": {
+				"right": "R"
+			}
+		}, {
+			"text": "Whether we go by bus or train, it’ll take at least six hours.",
+			"answer": {
+				"right": "R"
+			}
+		}],
+		"feedback": [{
+			"desc": "<xref-group><a href='u725fd0dd48eeb434.631f8527.158e41641c3.593d'>254</a></xref-group>"
+		}]
+	}, {
+		"template": "single_radio",
+		"question": [{
+			"text": "What does this sentence mean?",
+			"input_text": "The actor playing Hamlet is Norbert Smythe, <item>whoever that may be</item>.",
+			"option": ["I don’t care which actor is playing Hamlet.", "I’ve never heard of Norbert Smythe."],
+			"answer": "I’ve never heard of Norbert Smythe."
+		}],
+		"feedback": [{
+			"desc": "<xref-group><a href='u725fd0dd48eeb434.631f8527.158e41641c3.581f'>252.5</a></xref-group>"
+		}]
+	}]
+	}, 
+	"c1" :
+	{
+	"-unit": "21",
+	"-level": "c1",
+	"topic_name": "other adverbial clauses",
+	"exercise": [{
+		"template": "multi_radio",
+		"rubric": "Look at this sentence. Are the statements below it true: yes (Y) or no (N)?",
+		"rwText": ["Y", "N"],
+		"question": [{
+			"input_text": "Kate looks as if she is rich and Harry talks as if he was rich.",
+			"text": "Kate is definitely rich.",
+			"answer": {
+				"right": "N"
+			}
+		}, {
+			"text": "It’s possible that Kate is rich.",
+			"answer": {
+				"right": "Y"
+			}
+		}, {
+			"text": "It’s possible that Harry is rich.",
+			"answer": {
+				"right": "N"
+			}
+		}, {
+			"text": "Harry is definitely not rich.",
+			"answer": {
+				"right": "Y"
+			}
+		}],
+		"feedback": [{
+			"desc": "<xref-group><a href='u725fd0dd48eeb434.631f8527.158e4170750.-27b6'>378.2</a></xref-group>"
+		}]
+	}, {
+		"template": "multi_radio",
+		"rubric": "Can expressions A–D complete the sentence: yes (Y) or no (N)?",
+		"rwText": ["Y", "N"],
+		"question": [{
+			"input_text": "You can take my car <gap/> you bring it back this evening.",
+			"text": "as long as",
+			"answer": {
+				"right": "Y"
+			}
+		}, {
+			"text": "so long as",
+			"answer": {
+				"right": "Y"
+			}
+		}, {
+			"text": "on condition that",
+			"answer": {
+				"right": "Y"
+			}
+		}, {
+			"text": "provided",
+			"answer": {
+				"right": "Y"
+			}
+		}],
+		"feedback": [{
+			"desc": "<xref-group><a href='u725fd0dd48eeb434.631f8527.158e41641c3.53a9'>246</a><br><a href='u725fd0dd48eeb434.631f8527.158e4170750.-276d'>379</a></xref-group>"
+		}]
+	}, {
+		"template": "multi_radio",
+		"rubric": "Right (R) or wrong (W)?",
+		"rwText": ["R", "W"],
+		"question": [{
+			"text": "While I <item>sat</item> reading the paper, Penny <item>cooked</item> lunch.",
+			"answer": {
+				"right": "R"
+			}
+		}, {
+			"text": "While I <item>was sitting</item> reading the paper, Penny <item>was cooking</item> lunch.",
+			"answer": {
+				"right": "R"
+			}
+		}, {
+			"text": "As the fire <item>died</item> down, Angela <item>drifted</item> off to sleep.",
+			"answer": {
+				"right": "R"
+			}
+		}, {
+			"text": "As the fire <item>was dying</item> down, Angela <item>was drifting</item> off to sleep.",
+			"answer": {
+				"right": "W"
+			}
+		}],
+		"feedback": [{
+			"desc": "<xref-group><a href='u725fd0dd48eeb434.631f8527.158e41641c3.56e4'>251</a></xref-group>"
+		}]
+	}, {
+		"template": "single_radio",
+		"question": [{
+			"text": "Which sentences mean the same?",
+			"input_text": "<item>1</item> <item>Now</item> Jake’s arrived, we can eat.<br/><item>2</item> <item>Once</item> Jake’s arrived, we can eat.<br/><item>3</item> <item>When</item> Jake’s arrived, we can eat.",
+			"option": ["1 and 2", "1 and 3", "2 and 3"],
+			"answer": "2 and 3"
+		}],
+		"feedback": [{
+			"desc": "<xref-group><a href='u725fd0dd48eeb434.631f8527.158e4170750.2427'>538</a><br><a href='u725fd0dd48eeb434.631f8527.158e4170750.25bb'>543</a></xref-group>"
+		}]
+	}, {
+		"template": "single_touch_button",
+		"rubric": "Which is the best option for each sentence?",
+		"question": [{
+			"text": "I can’t help you, #singletouch busy you are.",
+			"option": [
+				["how", "however"]
+			],
+			"answer": ["however"]
+		}, {
+			"text": "#singletouch happens, I still want to be your friend.",
+			"option": [
+				["What", "Whatever"]
+			],
+			"answer": ["Whatever"]
+		}, {
+			"text": "I don’t understand #singletouch you can drink such strong coffee.",
+			"option": [
+				["how", "however"]
+			],
+			"answer": ["how"]
+		}, {
+			"text": "He takes a photo of his children with him #singletouch he goes.",
+			"option": [
+				["where", "wherever"]
+			],
+			"answer": ["wherever"]
+		}],
+		"feedback": [{
+			"desc": "<xref-group><a href='u725fd0dd48eeb434.631f8527.158e41641c3.57a2'>252.1</a></xref-group>"
+		}]
+	}, {
+		"template": "multi_radio",
+		"rubric": "Right (R) or wrong (W)?",
+		"rwText": ["R", "W"],
+		"question": [{
+			"text": "<item>Whichever laptop</item> you buy, make sure it isn’t too heavy.",
+			"answer": {
+				"right": "R"
+			}
+		}, {
+			"text": "<item>Whoever people</item> you meet, always try to be as friendly as possible.",
+			"answer": {
+				"right": "W"
+			}
+		}, {
+			"text": "<item>Whatever she says</item> to you, you must do what we agreed.",
+			"answer": {
+				"right": "R"
+			}
+		}],
+		"feedback": [{
+			"desc": "<xref-group><a href='u725fd0dd48eeb434.631f8527.158e41641c3.57c8'>252.2</a></xref-group>"
+		}]
+	}, {
+		"template": "multi_radio",
+		"rubric": "Are these sentences correct: yes (Y) or no (N)?",
+		"rwText": ["Y", "N"],
+		"question": [{
+			"text": "<item>Whether you like it or not</item>, I’m coming anyway.",
+			"answer": {
+				"right": "Y"
+			}
+		}, {
+			"text": "<item>Whether or not you like it</item>, I’m coming anyway.",
+			"answer": {
+				"right": "Y"
+			}
+		}, {
+			"text": "<item>Whether you like it or whether not</item>, I’m coming anyway.",
+			"answer": {
+				"right": "N"
+			}
+		}, {
+			"text": "<item>Whether you like it or whether you don’t</item>, I’m coming anyway.",
+			"answer": {
+				"right": "Y"
+			}
+		}],
+		"feedback": [{
+			"desc": "<xref-group><a href='u725fd0dd48eeb434.631f8527.158e41641c3.593d'>254</a></xref-group>"
+		}]
+	}, {
+		"template": "multi_radio",
+		"rubric": "Right (R) or wrong (W)?",
+		"rwText": ["R", "W"],
+		"question": [{
+			"text": "He worries more than is necessary.",
+			"answer": {
+				"right": "R"
+			}
+		}],
+		"feedback": [{
+			"desc": "<xref-group><a href='u725fd0dd48eeb434.631f8527.158e41641c3.59cb'>256.1</a></xref-group>"
+		}]
+	}, {
+		"template": "multi_radio",
+		"rubric": "Right (R) or wrong (W)?",
+		"rwText": ["R", "W"],
+		"question": [{
+			"text": "We’ve got food for as many people as they want it.",
+			"answer": {
+				"right": "W"
+			}
+		}],
+		"feedback": [{
+			"desc": "<xref-group><a href='u725fd0dd48eeb434.631f8527.158e41641c3.59cb'>256.1</a></xref-group>"
+		}]
+	}, {
+		"template": "multi_radio",
+		"rubric": "Right (R) or wrong (W)?",
+		"rwText": ["R", "W"],
+		"question": [{
+			"text": "I spend my money <item>how I like</item>.",
+			"answer": {
+				"right": "R"
+			}
+		}, {
+			"text": "Look at <item>how</item> those cats wash each other.",
+			"answer": {
+				"right": "R"
+			}
+		}, {
+			"text": "Look at <item>the way how</item> those cats wash each other.",
+			"answer": {
+				"right": "W"
+			}
+		}, {
+			"text": "Look at <item>the way</item> those cats wash each other.",
+			"answer": {
+				"right": "R"
+			}
+		}],
+		"feedback": [{
+			"desc": "<xref-group><a href='u725fd0dd48eeb434.631f8527.158e4170750.b63'>492.6</a></xref-group>"
+		}]
+	}]
+	}, 
+	"c2" :
+	{
+	"-unit": "21",
+	"-level": "c2",
+	"topic_name": "other adverbial clauses",
+	"exercise": [{
+		"template": "single_touch_button",
+		"rubric": "Choose the correct expression to complete the sentence.",
+		"question": [{
+			"text": "I’m sending you the bill, #singletouch agreed.",
+			"option": [
+				["as was", "as it was", "it was"]
+			],
+			"answer": ["as was"]
+		}],
+		"feedback": [{
+			"desc": "<xref-group><a href='u725fd0dd48eeb434.631f8527.158e41641c3.59cb'>256.1</a></xref-group>"
+		}]
+	}, {
+		"template": "multi_radio",
+		"rubric": "Are the sentence beginnings possible: yes (Y) or no (N)?",
+		"rwText": ["Y", "N"],
+		"question": [{
+			"input_text": "... she went back out.",
+			"text": "Cold though it was, ...",
+			"answer": {
+				"right": "Y"
+			}
+		}, {
+			"text": "Cold as it was, ...",
+			"answer": {
+				"right": "Y"
+			}
+		}, {
+			"text": "As cold as it was, ...",
+			"answer": {
+				"right": "Y"
+			}
+		}],
+		"feedback": [{
+			"desc": "<xref-group><a href='u725fd0dd48eeb434.631f8527.158e41641c3.5973'>255</a></xref-group><br/><item>A</item> would be unusual in American English.<br/><item>C</item> would be less usual in British English."
+		}]
+	}, {
+		"template": "multi_radio",
+		"rubric": "Right (R) or wrong (W)?",
+		"rwText": ["R", "W"],
+		"question": [{
+			"text": "Just because you’re older than me <item>doesn’t mean</item> you can do what you like.",
+			"answer": {
+				"right": "R"
+			}
+		}, {
+			"text": "Just because you’re older than me <item>it doesn’t mean</item> you can do what you like.",
+			"answer": {
+				"right": "R"
+			}
+		}],
+		"feedback": [{
+			"desc": "<xref-group><a href='u725fd0dd48eeb434.631f8527.158e4170750.-1f75'>393.3</a></xref-group>"
+		}]
+	}, {
+		"template": "single_radio",
+		"question": [{
+			"text": "Which of these continuations are right: A, B or both?",
+			"input_text": "You look as if you …",
+			"option": ["… have seen a ghost.", "… had seen a ghost.", "Both"],
+			"answer": "Both"
+		}],
+		"feedback": [{
+			"desc": "<xref-group><a href='u725fd0dd48eeb434.631f8527.158e4170750.-27b6'>378.2</a></xref-group>"
+		}]
+	}, {
+		"template": "multi_radio",
+		"rubric": "Right (R) or wrong (W)?",
+		"rwText": ["R", "W"],
+		"question": [{
+			"text": "Tell me <item>immediately</item> you have any news.",
+			"answer": {
+				"right": "R"
+			}
+		}, {
+			"text": "<item>Directly</item> I walked in the door, I could smell smoke.",
+			"answer": {
+				"right": "R"
+			}
+		}, {
+			"text": "I loved you <item>the moment</item> I saw you.",
+			"answer": {
+				"right": "R"
+			}
+		}],
+		"feedback": [{
+			"desc": "<xref-group><a href='u725fd0dd48eeb434.631f8527.158e4170750.cb1'>495</a></xref-group>"
+		}]
+	}, {
+		"template": "multi_radio",
+		"rubric": "Are these sentences correct: yes (Y) or no (N)?",
+		"rwText": ["Y", "N"],
+		"question": [{
+			"text": "<item>Now</item> the exams are over, I can enjoy myself.",
+			"answer": {
+				"right": "Y"
+			}
+		}, {
+			"text": "<item>Now that</item> the exams are over, I can enjoy myself.",
+			"answer": {
+				"right": "Y"
+			}
+		}, {
+			"text": "<item>Once</item> I’ve finished my exams, I’ll be able to enjoy myself.",
+			"answer": {
+				"right": "Y"
+			}
+		}, {
+			"text": "<item>Once that</item> I’ve finished my exams, I’ll be able to enjoy myself.",
+			"answer": {
+				"right": "N"
+			}
+		}],
+		"feedback": [{
+			"desc": "<xref-group><a href='u725fd0dd48eeb434.631f8527.158e4170750.2427'>538</a><br><a href='u725fd0dd48eeb434.631f8527.158e4170750.25bb'>543</a></xref-group>"
+		}]
+	}, {
+		"template": "multi_radio",
+		"rubric": "Can expressions A–C complete the sentence correctly: yes (Y) or no (N)?",
+		"rwText": ["Y", "N"],
+		"question": [{
+			"input_text": "Whatever <gap/>, you have to do what we say.",
+			"text": "your opinions",
+			"answer": {
+				"right": "Y"
+			}
+		}, {
+			"text": "your opinions are",
+			"answer": {
+				"right": "Y"
+			}
+		}, {
+			"text": "are your opinions",
+			"answer": {
+				"right": "N"
+			}
+		}],
+		"feedback": [{
+			"desc": "<xref-group><a href='u725fd0dd48eeb434.631f8527.158e41641c3.582f'>252.6</a></xref-group>"
+		}]
+	}, {
+		"template": "multi_radio",
+		"rubric": "Are these sentences right (R) or wrong (W)?",
+		"rwText": ["R", "W"],
+		"question": [{
+			"text": "A good student, <item>however clever</item>, won’t succeed without working hard.",
+			"answer": {
+				"right": "R"
+			}
+		}, {
+			"text": "An insect bite, <item>whatever its type</item>, should be treated immediately.",
+			"answer": {
+				"right": "R"
+			}
+		}],
+		"feedback": [{
+			"desc": "<xref-group><a href='u725fd0dd48eeb434.631f8527.158e41641c3.582f'>252.6</a></xref-group>"
+		}]
+	}, {
+		"template": "multi_radio",
+		"rubric": "Are these replies right (R), wrong (W) or possibly impolite (I)?",
+		"rwText": ["R", "W", "I"],
+		"question": [{
+			"input_text": "‘Would you like potatoes or rice?’",
+			"text": "‘However.’",
+			"answer": {
+				"right": "W"
+			}
+		}, {
+			"text": "‘Whichever.’",
+			"answer": {
+				"right": "R"
+			}
+		}, {
+			"text": "‘Whatever.’",
+			"answer": {
+				"right": "I"
+			}
+		}],
+		"feedback": [{
+			"desc": "<xref-group><a href='u725fd0dd48eeb434.631f8527.158e41641c3.5846'>252.7</a></xref-group>"
+		}]
+	}, {
+		"template": "multi_radio",
+		"rubric": "Look at this sentence. Can expressions A–C be added after <i>doubts</i>: yes (Y) or no (N)?",
+		"rwText": ["Y", "N"],
+		"question": [{
+			"input_text": "Don’t you have any doubts about his new girlfriend?",
+			"text": "at all",
+			"answer": {
+				"right": "Y"
+			}
+		}, {
+			"text": "whatever",
+			"answer": {
+				"right": "Y"
+			}
+		}, {
+			"text": "whatsoever",
+			"answer": {
+				"right": "Y"
+			}
+		}],
+		"feedback": [{
+			"desc": "<xref-group><a href='u725fd0dd48eeb434.631f8527.158e41641c3.5877'>252.8</a></xref-group>"
+		}]
+	}, {
+		"template": "multi_radio",
+		"rubric": "Are these sentences correct: yes (Y) or no (N)?",
+		"rwText": ["Y", "N"],
+		"question": [{
+			"text": "No matter what you do is fine with me.",
+			"answer": {
+				"right": "N"
+			}
+		}, {
+			"text": "I’ll always love you, no matter what.",
+			"answer": {
+				"right": "Y"
+			}
+		}, {
+			"text": "No matter when you come.",
+			"answer": {
+				"right": "N"
+			}
+		}],
+		"feedback": [{
+			"desc": "<xref-group><a href='u725fd0dd48eeb434.631f8527.158e41641c3.58a4'>253</a></xref-group>"
+		}]
+	}]
+	}
+}

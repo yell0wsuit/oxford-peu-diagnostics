@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8" />
+    <title>Diagnostic Tests</title>
+    <meta name="description" content="The Diagnostic Tests help you improve your grammar and vocabulary skills." />
+    <meta name="keywords" content="diagnostic tests, english grammar, grammar, vocabulary" />
+    <meta name='viewport' content='width=device-width, initial-scale=1' />
+    <link href="styles/reset.css" rel="stylesheet" type="text/css" />
+    <link href="styles/style.css" rel="stylesheet" type="text/css" />
+
+    <link rel="icon" type="image/x-icon" href="images/favicon.ico" />
+
+</head>
+
+<body>
+    <div id="informational-content">
+        <div class="mloader"></div>
+        <div class="mshell" id="container">
+            <div class="loader"></div>
+            <div class="wrapper">
+                <div class="myApp" ng-app="myApp" ng-controller="mainCtrl">
+                    <div
+                        class="del_disabler"
+                        ng-show="deleteAll"
+                        style="position: absolute; z-index: 999999; width: 100%; height: 100%"
+                    ></div>
+
+                    <div class="home_page">
+                        <div class="hme_btn_wrp ng-scope">
+                            <div class="btn home_help common_page">
+                                <span ng-click="help_btn()" class="ng-binding">Help</span>
+                            </div>
+                        </div>
+                        <div class="row _row">
+                            <h1 class="home_h1"><span>Diagnostic Tests</span></h1>
+                            <h2 class="home_h2">
+                                <span class="ff_first">Michael Swan</span>
+                                <span style="margin-left: -2px">David Baker</span>
+                            </h2>
+                            <h1 class="home_h3" style="margin: 67px 0 8px 0"><span>to accompany</span></h1>
+                        </div>
+                        <div class="row _row">
+                            <div>
+                                <div class="row1">
+                                    <span class="peu">Practical English Usage</span>
+                                    <span class="pract_eng"></span>
+                                </div>
+                            </div>
+                            <div class="mbox" id="sound_page">
+                                <h2 ng-click="load_section()">Start</h2>
+                                <!-- <h2 ng-click="delete_all()">Delete All</h2>-->
+                            </div>
+                        </div>
+                        <br /><br /><br /><br /><br />
+                    </div>
+                    <div ng-show="activity && !summary" class="header">
+                        <div class="lvlWrapper">
+                            <div class="topicHeader" ng-bind-html="d.topic | sanitize"></div>
+
+                            <span class="levelHolder">
+                                <span ng-if="d.level == 'b2'">Upper Intermediate</span
+                                ><span ng-if="d.level == 'c1'">Advanced</span
+                                ><span ng-if="d.level == 'c2'">Expert</span>
+                            </span>
+                        </div>
+                        <div class="totalQues_wrap">
+                            <div class="topicCounter" ng-hide="summary">
+                                <span>{{d.curr + 1}}</span>
+                                <span>of</span>
+                                <span>{{d.size}}</span>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="summaryWrapper" ng-show="summary">
+                        <div class="topicHeader ng-binding" ng-bind-html="d.topic | sanitize">verbs</div>
+                        <span ng-if="d.level == 'b2'">Upper Intermediate</span
+                        ><span ng-if="d.level == 'c1'">Advanced</span><span ng-if="d.level == 'c2'">Expert</span>
+                    </div>
+                    <div class="learningRec" scroll ng-hide="activity">
+                        <div class="header"><div class="topicHeader">{{d.topic}}</div></div>
+                        <div class="lrnData">
+                            <div class="tableTitle">
+                                <span>Upper Intermediate</span><span>Advanced</span><span>Expert</span>
+                            </div>
+                            <div class="learningRow" ng-repeat="i in main">
+                                <span class="lrnTxt" ng-bind-html="i.text | sanitize"></span>
+                                <div class="lrnBtnC">
+                                    <div
+                                        ng-repeat="d in i.status track by $index"
+                                        style="margin: 0 6px 0 0; display: table; float: left"
+                                    >
+                                        <div ng-switch on="d" style="display: table-row">
+                                            <span
+                                                ng-switch-when="0"
+                                                class="lrnBtn {{hoverC}}"
+                                                ng-mouseover="hoverC = 'hover'"
+                                                ng-mouseout="hoverC=''"
+                                                ng-click="go($index, $parent.$parent.$index, i.text)"
+                                                >Try</span
+                                            ><span
+                                                ng-switch-when="2"
+                                                class="lrnBtn results {{hoverC}}"
+                                                ng-mouseover="hoverC = 'hover'"
+                                                ng-mouseout="hoverC=''"
+                                                ng-click="results($index, $parent.$parent.$index, i.text)"
+                                                >Try again</span
+                                            ><span ng-switch-when="1" class="lrnBtn cd">&ndash;</span>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="activityArea" ng-show="activity" ng-include src="template"></div>
+                    <div class="topicFooter">
+                        <span><strong>Diagnostic Tests </strong></span>
+                        <br />
+                        <span>Practical English Usage</span><span class="peuLogo"></span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script language="JavaScript" type="text/javascript" src="scripts/jquery.min.js"></script>
+    <script language="JavaScript" type="text/javascript" src="scripts/jquery-ui.js"></script>
+    <script language="JavaScript" type="text/javascript" src="scripts/jquery.ui.touch-punch.min.js"></script>
+    <script language="JavaScript" type="text/javascript" src="scripts/scorm.js"></script>
+    <script language="JavaScript" type="text/javascript" src="scripts/jquery.ns-autogrow.js"></script>
+    <script language="JavaScript" type="text/javascript" src="scripts/angular.min.js"></script>
+    <script language="JavaScript" type="text/javascript" src="scripts/angular-touch.js"></script>
+    <script language="JavaScript" type="text/javascript" src="scripts/angular-sanitize.min.js"></script>
+    <script language="JavaScript" type="text/javascript" src="scripts/sortable.js"></script>
+    <script language="JavaScript" type="text/javascript" src="scripts/app.js"></script>
+    <script language="JavaScript" type="text/javascript" src="scripts/dir.js"></script>
+    <script language="JavaScript" type="text/javascript" src="scripts/filters.js"></script>
+</body>
+
+</html>

@@ -1,0 +1,1313 @@
+{
+	"b2" :
+	{
+	"-unit": "26",
+	"-level": "b2",
+	"topic_name": "spelling, pronunciation and punctuation",
+	"exercise": [{
+		"template": "multi_radio",
+		"rubric": "Should these normally have capital letters: yes (Y) or no (N)?",
+		"rwText": ["Y", "N"],
+		"question": [{
+			"text": "the <item>e</item>arth",
+			"answer": {
+				"right": "N"
+			}
+		}, {
+			"text": "the <item>s</item>un",
+			"answer": {
+				"right": "N"
+			}
+		}, {
+			"text": "the <item>m</item>oon",
+			"answer": {
+				"right": "N"
+			}
+		}, {
+			"text": "<item>m</item>ars",
+			"answer": {
+				"right": "Y"
+			}
+		}, {
+			"text": "on <item>t</item>uesday",
+			"answer": {
+				"right": "Y"
+			}
+		}, {
+			"text": "at <item>e</item>aster",
+			"answer": {
+				"right": "Y"
+			}
+		}, {
+			"text": "next <item>s</item>ummer",
+			"answer": {
+				"right": "N"
+			}
+		}],
+		"feedback": [{
+			"desc": "<xref-group><a href='u725fd0dd48eeb434.631f8527.158e4170750.-3ff0'>341</a></xref-group>"
+		}]
+	}, {
+		"template": "multi_radio",
+		"rubric": "Are these right (R) or wrong (W)?",
+		"rwText": ["R", "W"],
+		"question": [{
+			"text": "He’s a <item>H</item>indu.",
+			"answer": {
+				"right": "R"
+			}
+		}, {
+			"text": "She’s <item>j</item>ewish.",
+			"answer": {
+				"right": "W"
+			}
+		}, {
+			"text": "He’s <item>r</item>ussian.",
+			"answer": {
+				"right": "W"
+			}
+		}, {
+			"text": "He studies <item>j</item>apanese <item>h</item>istory.",
+			"answer": {
+				"right": "W"
+			}
+		}, {
+			"text": "He studies <item>J</item>apanese <item>h</item>istory.",
+			"answer": {
+				"right": "R"
+			}
+		}, {
+			"text": "He studies <item>J</item>apanese <item>H</item>istory.",
+			"answer": {
+				"right": "W"
+			}
+		}],
+		"feedback": [{
+			"desc": "<xref-group><a href='u725fd0dd48eeb434.631f8527.158e4170750.-3ff0'>341</a></xref-group>"
+		}]
+	}, {
+		"template": "gapfill",
+		"hideRight": "true",
+		"rubric": "Change these words to adverbs.",
+		"sample": {
+			"text": "right #gap",
+			"answer": ["rightly"]
+		},
+		"question": [{
+			"text": "real #gap",
+			"answer": [
+				["really"]
+			]
+		}, {
+			"text": "complete #gap",
+			"answer": [
+				["completely"]
+			]
+		}, {
+			"text": "true #gap",
+			"answer": [
+				["truly"]
+			]
+		}, {
+			"text": "whole #gap",
+			"answer": [
+				["wholly"]
+			]
+		}, {
+			"text": "full #gap",
+			"answer": [
+				["fully"]
+			]
+		}, {
+			"text": "happy #gap",
+			"answer": [
+				["happily"]
+			]
+		}, {
+			"text": "idle #gap",
+			"answer": [
+				["idly"]
+			]
+		}, {
+			"text": "able #gap",
+			"answer": [
+				["ably"]
+			]
+		}],
+		"feedback": [{
+			"desc": "<xref-group><a href='u725fd0dd48eeb434.631f8527.158e4170750.-3d86'>345</a></xref-group>"
+		}]
+	}, {
+		"template": "multi_radio_textEntry",
+		"hideRight": "true",
+		"rubric": "Is the spelling of the highlighted word right (R) or wrong (W)? When you have checked your answers, correct any wrong spellings.",
+		"rwText": ["R", "W"],
+		"question": [{
+			"text": "I was <item>hoping</item> for a pay increase. ",
+			"answer": {
+				"right": "R"
+			}
+		}, {
+			"text": "We found a <item>shadey</item> beach, five minutes’ walk from the hotel. ",
+			"answer": [{
+				"right": "W"
+			}, {
+				"right": "shady"
+			}]
+		}, {
+			"text": "We’ve had a most <item>agreeable</item> evening. ",
+			"answer": {
+				"right": "R"
+			}
+		}, {
+			"text": "She was late and I was <item>begining</item> to worry. ",
+			"answer": [{
+				"right": "W"
+			}, {
+				"right": "beginning"
+			}]
+		}, {
+			"text": "Thanks for inviting me, but I hadn’t <item>planned</item> to go out tonight. ",
+			"answer": {
+				"right": "R"
+			}
+		}],
+		"feedback": [{
+			"desc": "<xref-group><a href='u725fd0dd48eeb434.631f8527.158e4170750.-3cec'>346–347</a></xref-group>"
+		}]
+	}, {
+		"template": "single_touch_button",
+		"rubric": "Which spelling(s) is/are right: the first, the second or both? ",
+		"question": [{
+			"text": "#singletouch",
+			"option": [
+				["excitment", "excitement", "[both]"]
+			],
+			"answer": ["excitement"]
+		}, {
+			"text": "#singletouch",
+			"option": [
+				["definitly", "definitely", "[both]"]
+			],
+			"answer": ["definitely"]
+		}, {
+			"text": "#singletouch",
+			"option": [
+				["argument", "arguement", "[both]"]
+			],
+			"answer": ["argument"]
+		}],
+		"feedback": [{
+			"desc": "<xref-group><a href='u725fd0dd48eeb434.631f8527.158e4170750.-3cae'>346.2</a></xref-group>"
+		}]
+	}, {
+		"template": "multi_radio",
+		"rubric": "Right (R) or wrong (W)?",
+		"rwText": ["R", "W"],
+		"question": [{
+			"text": "Have you <item>layed</item> the table yet?",
+			"answer": {
+				"right": "W"
+			}
+		}, {
+			"text": "She <item>played</item> the piano for us.",
+			"answer": {
+				"right": "R"
+			}
+		}, {
+			"text": "I <item>payed</item> the electricity bill yesterday.",
+			"answer": {
+				"right": "W"
+			}
+		}],
+		"feedback": [{
+			"desc": "<xref-group><a href='u725fd0dd48eeb434.631f8527.158e4170750.-3a43'>348.4</a></xref-group>"
+		}]
+	}, {
+		"template": "single_radio",
+		"question": [{
+			"text": "Which of these is a spelling rule learnt by English-speaking children?",
+			"option": ["‘<item>i</item> before <item>e</item>, except after <item>c</item>.’", "‘<item>i</item> before <item>e</item>, except after <item>g</item>.’", "‘<item>i</item> before <item>e</item>, except after <item>t</item>.’"],
+			"answer": "‘i before e, except after c.’"
+		}],
+		"feedback": [{
+			"desc": "<xref-group><a href='u725fd0dd48eeb434.631f8527.158e4170750.-3990'>350</a></xref-group>"
+		}]
+	}, {
+		"template": "gapfill",
+		"hideRight": "true",
+		"rubric": "Write the letter(s) that is/are not normally pronounced.",
+		"sample": {
+			"text": "ASPIRIN #gap DAUGHTER #gap",
+			"answer": ["I", "GH"]
+		},
+		"question": [{
+			"text": "BUSINESS #gap",
+			"answer": [
+				["I"]
+			]
+		}, {
+			"text": "CHOCOLATE #gap",
+			"answer": [
+				["O"]
+			]
+		}, {
+			"text": "DIFFERENT #gap",
+			"answer": [
+				["E"]
+			]
+		}, {
+			"text": "MARRIAGE #gap",
+			"answer": [
+				["A"]
+			]
+		}, {
+			"text": "RESTAURANT #gap",
+			"answer": [
+				["AU"]
+			]
+		}, {
+			"text": "COMFORTABLE #gap",
+			"answer": [
+				["OR"]
+			]
+		}, {
+			"text": "INTERESTING #gap",
+			"answer": [
+				["E"]
+			]
+		}, {
+			"text": "USUALLY #gap",
+			"answer": [
+				["U"]
+			]
+		}],
+		"feedback": [{
+			"desc": "<xref-group><a href='u725fd0dd48eeb434.631f8527.158e4170750.-3936'>351.1–2</a></xref-group>"
+		}]
+	}, {
+		"template": "multi_radio",
+		"rubric": "Are the highlighted letters in these words pronounced (P) or not (NP)?",
+		"rwText": ["P", "NP"],
+		"question": [{
+			"text": "CLIM<item>B</item>",
+			"answer": {
+				"right": "NP"
+			}
+		}, {
+			"text": "CUCUM<item>B</item>ER",
+			"answer": {
+				"right": "P"
+			}
+		}, {
+			"text": "MUS<item>C</item>LE",
+			"answer": {
+				"right": "NP"
+			}
+		}, {
+			"text": "MUS<item>C</item>ULAR",
+			"answer": {
+				"right": "P"
+			}
+		}, {
+			"text": "<item>H</item>ONEST",
+			"answer": {
+				"right": "NP"
+			}
+		}, {
+			"text": "<item>H</item>ORRIBLE",
+			"answer": {
+				"right": "P"
+			}
+		}, {
+			"text": "<item>H</item>ONOUR",
+			"answer": {
+				"right": "NP"
+			}
+		}, {
+			"text": "<item>W</item>RITE",
+			"answer": {
+				"right": "NP"
+			}
+		}, {
+			"text": "<item>W</item>RONG",
+			"answer": {
+				"right": "NP"
+			}
+		}, {
+			"text": "<item>W</item>HO",
+			"answer": {
+				"right": "NP"
+			}
+		}],
+		"feedback": [{
+			"desc": "<xref-group><a href='u725fd0dd48eeb434.631f8527.158e4170750.-38bc'>351.3</a></xref-group>"
+		}]
+	}, {
+		"template": "multi_radio",
+		"rubric": "In these words is <i>ea</i> pronounced the same (S) as or differently (D) from how it is pronounced in <i>head</i>?",
+		"rwText": ["S", "D"],
+		"question": [{
+			"text": "ALR<item>EA</item>DY",
+			"answer": {
+				"right": "S"
+			}
+		}, {
+			"text": "PL<item>EA</item>SURE",
+			"answer": {
+				"right": "S"
+			}
+		}, {
+			"text": "BR<item>EA</item>K",
+			"answer": {
+				"right": "D"
+			}
+		}, {
+			"text": "THR<item>EA</item>T",
+			"answer": {
+				"right": "S"
+			}
+		}, {
+			"text": "SW<item>EA</item>TER",
+			"answer": {
+				"right": "S"
+			}
+		}, {
+			"text": "W<item>EA</item>THER",
+			"answer": {
+				"right": "S"
+			}
+		}, {
+			"text": "GR<item>EA</item>T",
+			"answer": {
+				"right": "D"
+			}
+		}, {
+			"text": "ST<item>EA</item>K",
+			"answer": {
+				"right": "D"
+			}
+		}, {
+			"text": "M<item>EA</item>NT",
+			"answer": {
+				"right": "S"
+			}
+		}],
+		"feedback": [{
+			"desc": "<xref-group><a href='u725fd0dd48eeb434.631f8527.158e4170750.-3734'>351.6</a></xref-group>"
+		}]
+	}, {
+		"template": "multi_radio",
+		"rubric": " In these words is <i>o</i> pronounced the same (S) as or differently (D) from how it is pronounced in <i>love</i>?",
+		"rwText": ["S", "D"],
+		"question": [{
+			"text": "T<item>O</item>",
+			"answer": {
+				"right": "D"
+			}
+		}, {
+			"text": "BR<item>O</item>THER",
+			"answer": {
+				"right": "S"
+			}
+		}, {
+			"text": "C<item>O</item>ME",
+			"answer": {
+				"right": "S"
+			}
+		}, {
+			"text": "L<item>O</item>SE",
+			"answer": {
+				"right": "D"
+			}
+		}, {
+			"text": "M<item>O</item>NEY",
+			"answer": {
+				"right": "S"
+			}
+		}, {
+			"text": "N<item>O</item>NE",
+			"answer": {
+				"right": "S"
+			}
+		}, {
+			"text": "PR<item>O</item>VE",
+			"answer": {
+				"right": "D"
+			}
+		}, {
+			"text": "T<item>O</item>NGUE",
+			"answer": {
+				"right": "S"
+			}
+		}, {
+			"text": "W<item>O</item>N",
+			"answer": {
+				"right": "S"
+			}
+		}, {
+			"text": "AB<item>O</item>VE",
+			"answer": {
+				"right": "S"
+			}
+		}],
+		"feedback": [{
+			"desc": "<xref-group><a href='u725fd0dd48eeb434.631f8527.158e4170750.-3688'>351.9</a></xref-group>"
+		}]
+	}, {
+		"template": "multi_radio",
+		"rubric": "Right (R) or wrong (W)?",
+		"rwText": ["R", "W"],
+		"question": [{
+			"text": "<item>She hadn’t</item> been there for more than five minutes before he arrived.",
+			"answer": {
+				"right": "R"
+			}
+		}, {
+			"text": "<item>She’d not</item> been there for more than five minutes before he arrived.",
+			"answer": {
+				"right": "R"
+			}
+		}, {
+			"text": "Take a seat – <item>I won’t</item> be long.",
+			"answer": {
+				"right": "R"
+			}
+		}, {
+			"text": "Take a seat – <item>I’ll not</item> be long.",
+			"answer": {
+				"right": "R"
+			}
+		}, {
+			"text": "I’m afraid <item>she isn’t</item> coming.",
+			"answer": {
+				"right": "R"
+			}
+		}, {
+			"text": "I’m afraid <item>she’s not </item>coming.",
+			"answer": {
+				"right": "R"
+			}
+		}],
+		"feedback": [{
+			"desc": "<xref-group><a href='u725fd0dd48eeb434.631f8527.158e4170750.-4850'>337.2</a></xref-group>"
+		}]
+	}, {
+		"template": "multi_radio",
+		"rubric": "Are the full forms possible equivalents for the contractions: yes (Y) or no (N)?",
+		"rwText": ["Y", "N"],
+		"question": [{
+			"input_text": "it’s",
+			"text": "it is",
+			"answer": {
+				"right": "Y"
+			}
+		}, {
+			"text": "it has",
+			"answer": {
+				"right": "Y"
+			}
+		}, {
+			"text": "it was",
+			"answer": {
+				"right": "N"
+			}
+		}, {
+			"input_text": "you’d",
+			"text": "you did",
+			"answer": {
+				"right": "N"
+			}
+		}, {
+			"text": "you had",
+			"answer": {
+				"right": "Y"
+			}
+		}, {
+			"text": "you would",
+			"answer": {
+				"right": "Y"
+			}
+		}],
+		"feedback": [{
+			"desc": "<xref-group><a href='u725fd0dd48eeb434.631f8527.158e4170750.-4814'>337.4</a></xref-group>"
+		}]
+	}, {
+		"template": "multi_radio",
+		"rubric": "Right (R) or wrong (W) (in standard British English)?",
+		"rwText": ["R", "W"],
+		"question": [{
+			"text": "I’m late, <item>amn’t I</item>?",
+			"answer": {
+				"right": "W"
+			}
+		}, {
+			"text": "He’s late, <item>isn’t he</item>?",
+			"answer": {
+				"right": "R"
+			}
+		}, {
+			"text": "They’re late, <item>aren’t they</item>?",
+			"answer": {
+				"right": "R"
+			}
+		}],
+		"feedback": [{
+			"desc": "<xref-group><a href='u725fd0dd48eeb434.631f8527.158e4170750.-48be'>337</a></xref-group> Notes"
+		}]
+	}, {
+		"template": "multi_radio_textEntry",
+		"hideRight": "true",
+		"ignorePunctuate": "False",
+		"rubric": "Are the apostrophes (’) right (R) or wrong (W)? When you have checked your answers, correct any sentences where the apostrophes are wrong.",
+		"rwText": ["R", "W"],
+		"question": [{
+			"text": "The money is your<punc>’</punc>s. ",
+			"answer": [{
+				"right": "W"
+			}, {
+				"right": "The money is yours."
+			}]
+		}, {
+			"text": "The cat has<punc>’</punc>nt had it<punc>’</punc>s food yet. ",
+			"answer": [{
+				"right": "W"
+			}, {
+				"right": [
+					"The cat hasn't had its food yet.",
+					"The cat hasn’t had its food yet."
+				]
+			}]
+		}, {
+			"text": "Who<item>’</item>s house did she stay in? ",
+			"answer": [{
+				"right": "W"
+			}, {
+				"right": "Whose house did she stay in?"
+			}]
+
+		}],
+		"feedback": [{
+			"desc": "<xref-group><a href='u725fd0dd48eeb434.631f8527.158e4170750.-4066'>340.1–2</a></xref-group>"
+		}]
+	}, {
+		"template": "correction",
+		"hideRight": "true",
+		"ignorePunctuate": "False",
+		"rubric": "Write the sentences. Add commas if necessary; if no commas are needed, write the sentences unchanged.",
+		"question": [{
+			"text": "It is quite natural that you should want to see your father. ",
+			"answer": {
+				"right": "It is quite natural that you should want to see your father."
+			}
+		}, {
+			"text": "Your father however did not agree.",
+			"answer": {
+				"right": "Your father, however, did not agree."
+			}
+		}, {
+			"text": "The driver in the Ferrari was cornering superbly. ",
+			"answer": {
+				"right": "The driver in the Ferrari was cornering superbly."
+			}
+		}, {
+			"text": "What we need most of all is more time.",
+			"answer": {
+				"right": "What we need most of all is more time."
+			}
+		}, {
+			"text": "Everybody realised that I was a foreigner.",
+			"answer": {
+				"right": "Everybody realised that I was a foreigner."
+			}
+		}],
+		"feedback": [{
+			"desc": "For <item>A</item>, <xref-group><a href='u725fd0dd48eeb434.631f8527.158e4170750.-7cef'>296.6</a></xref-group>.<br/>For <item>B</item>, <xref-group><a href='u725fd0dd48eeb434.631f8527.158e4170750.-7cc2'>296.8</a></xref-group>.<br/>For <item>C</item>, <xref-group><a href='u725fd0dd48eeb434.631f8527.158e4170750.-7d1d'>296.4</a></xref-group>.<br/>For <item>D</item>, <xref-group><a href='u725fd0dd48eeb434.631f8527.158e4170750.-7d4c'>296.1</a></xref-group>.<br/>For <item>E</item>, <xref-group><a href='u725fd0dd48eeb434.631f8527.158e4170750.-7cef'>296.6</a></xref-group>."
+		}]
+	}]
+	}, 
+	"c1" :
+	{
+	"-unit": "26",
+	"-level": "c1",
+	"topic_name": "spelling, pronunciation and punctuation",
+	"exercise": [{
+		"template": "multi_radio",
+		"rubric": "In these sentences, are capital letters used correctly: yes (Y) or no (N)?",
+		"rwText": ["Y", "N"],
+		"question": [{
+			"text": "He teaches at a University.",
+			"answer": {
+				"right": "N"
+			}
+		}, {
+			"text": "He teaches at a university.",
+			"answer": {
+				"right": "Y"
+			}
+		}, {
+			"text": "He teaches at Oxford University.",
+			"answer": {
+				"right": "Y"
+			}
+		}, {
+			"text": "He teaches at Oxford university.",
+			"answer": {
+				"right": "N"
+			}
+		}, {
+			"text": "I think the Prime Minister is attending the summit.",
+			"answer": {
+				"right": "Y"
+			}
+		}, {
+			"text": "How is the Polish prime minister elected?",
+			"answer": {
+				"right": "Y"
+			}
+		}],
+		"feedback": [{
+			"desc": "<xref-group><a href='u725fd0dd48eeb434.631f8527.158e4170750.-3ff0'>341</a></xref-group>"
+		}]
+	}, {
+		"template": "gapfill",
+		"hideRight": "true",
+		"rubric": "Change these words to adverbs.",
+		"sample": {
+			"text": "easy #gap",
+			"answer": ["easily"]
+		},
+		"question": [{
+			"text": "dry #gap",
+			"answer": [
+				["drily",
+					"dryly"
+				]
+			]
+		}, {
+			"text": "shy #gap",
+			"answer": [
+				["shyly"]
+			]
+		}, {
+			"text": "sly #gap",
+			"answer": [
+				["slyly"]
+			]
+		}, {
+			"text": "noble #gap",
+			"answer": [
+				["nobly"]
+			]
+		}, {
+			"text": "tragic #gap",
+			"answer": [
+				["tragically"]
+			]
+		}, {
+			"text": "public #gap",
+			"answer": [
+				["publicly"]
+			]
+		}, {
+			"text": "comic#gap",
+			"answer": [
+				["comically"]
+			]
+		}],
+		"feedback": [{
+			"desc": "<xref-group><a href='u725fd0dd48eeb434.631f8527.158e4170750.-3d86'>345</a></xref-group>"
+		}]
+	}, {
+		"template": "multi_radio",
+		"rubric": "Right (R) or wrong (W)?",
+		"rwText": ["R", "W"],
+		"question": [{
+			"text": "She’s been <item>out-of-work</item> since last March.",
+			"answer": {
+				"right": "W"
+			}
+		}, {
+			"text": "He’s an <item>out-of-work</item> miner.",
+			"answer": {
+				"right": "R"
+			}
+		}],
+		"feedback": [{
+			"desc": "<xref-group><a href='u725fd0dd48eeb434.631f8527.158e4170750.-3f00'>342.3</a></xref-group> b"
+		}]
+	}, {
+		"template": "single_touch_button",
+		"rubric": "Which spelling(s) is/are right: the first, the second or both? ",
+		"question": [{
+			"text": "#singletouch",
+			"option": [
+				["replacable", "replac<item>e</item>able", "[both]"]
+			],
+			"answer": ["replaceable"]
+		}, {
+			"text": "#singletouch",
+			"option": [
+				["couragous", "courag<item>e</item>ous", "[both]"]
+			],
+			"answer": ["courageous"]
+		}, {
+			"text": "#singletouch",
+			"option": [
+				["charging", "charg<item>e</item>ing", "[both]"]
+			],
+			"answer": ["charging"]
+		}, {
+			"text": "#singletouch",
+			"option": [
+				["judgment", "judg<item>e</item>ment", "[both]"]
+			],
+			"answer": ["[both]"]
+		}, {
+			"text": "#singletouch",
+			"option": [
+				["acknowledgment", "acknowledg<item>e</item>ment", "[both]"]
+			],
+			"answer": ["[both]"]
+		}, {
+			"text": "#singletouch",
+			"option": [
+				["likable", "lik<item>e</item>able", "[both]"]
+			],
+			"answer": ["[both]"]
+		}, {
+			"text": "#singletouch",
+			"option": [
+				["milage", "mil<item>e</item>age", "[both]"]
+			],
+			"answer": ["mileage"]
+		}],
+		"feedback": [{
+			"desc": "<xref-group><a href='u725fd0dd48eeb434.631f8527.158e4170750.-3cec'>346</a></xref-group>"
+		}]
+	}, {
+		"template": "multi_radio",
+		"rubric": "Right (R) or wrong (W)?",
+		"rwText": ["R", "W"],
+		"question": [{
+			"text": "Normally July is much <item>drier</item> than June.",
+			"answer": {
+				"right": "R"
+			}
+		}, {
+			"text": "We’ve just bought a new washing machine and clothes <item>drier</item>.",
+			"answer": {
+				"right": "W"
+			}
+		}],
+		"feedback": [{
+			"desc": "<xref-group><a href='u725fd0dd48eeb434.631f8527.158e4170750.-3a7d'>348.2</a></xref-group>"
+		}]
+	}, {
+		"template": "correction",
+		"hideRight": "true",
+		"rubric": "Correct any mistakes in these sentences.",
+		"question": [{
+			"text": "The horse I was <item>betting</item> on <item>gallopped</item> towards the finishing post. ",
+			"answer": {
+				"right": "galloped"
+			}
+		}, {
+			"text": "An <item>upseting</item> atmosphere has been <item>developing</item> among the staff since we last met. ",
+			"answer": {
+				"right": "upsetting"
+			}
+		}],
+		"feedback": [{
+			"desc": "<xref-group><a href='u725fd0dd48eeb434.631f8527.158e4170750.-3bd5'>347.3–5</a></xref-group>"
+		}]
+	}, {
+		"template": "single_radio",
+		"question": [{
+			"text": "Look at the highlighted vowels in the words below. Which one is pronounced differently from the vowel in <i>love</i>? ",
+			"option": ["<item>O</item>NE", "<item>O</item>NCE", "C<item>OU</item>PLE", "C<item>OU</item>NTRY", "SH<item>OU</item>LD", "EN<item>OU</item>GH", "BL<item>OO</item>D", "D<item>OE</item>S"],
+			"answer": "SHOULD"
+		}],
+		"feedback": [{
+			"desc": "<xref-group><a href='u725fd0dd48eeb434.631f8527.158e4170750.-3688'>351.9</a><br><a href='u725fd0dd48eeb434.631f8527.158e4170750.-35b4'>351.12</a></xref-group>"
+		}]
+	}, {
+		"template": "single_radio",
+		"question": [{
+			"text": "Look at the highlighted vowels in the words below. Which one is pronounced differently from the vowel in <i>time</i>?",
+			"option": ["B<item>I</item>CYCLE", "B<item>I</item>OLOGY", "B<item>I</item>TTERNESS", "B<item>U</item>Y", "<item>I</item>DEA", "SOC<item>I</item>ETY"],
+			"answer": "BITTERNESS"
+		}],
+		"feedback": [{
+			"desc": "<xref-group><a href='u725fd0dd48eeb434.631f8527.158e4170750.-357b'>351.13</a></xref-group>"
+		}]
+	}, {
+		"template": "multi_radio",
+		"rubric": "Are these contracted forms written correctly in British English: yes (Y) or no (N)?",
+		"rwText": ["Y", "N"],
+		"question": [{
+			"text": "‘You<punc>’ll</punc> be surprised,’ she said.",
+			"answer": {
+				"right": "Y"
+			}
+		}, {
+			"text": "‘Your mother<punc>’ll</punc> be surprised,’ she said.",
+			"answer": {
+				"right": "N"
+			}
+		}, {
+			"text": "We<punc>’ve</punc> decided to split up.",
+			"answer": {
+				"right": "Y"
+			}
+		}, {
+			"text": "Jack and I<punc>’ve</punc> decided to split up.",
+			"answer": {
+				"right": "N"
+			}
+		}],
+		"feedback": [{
+			"desc": "<xref-group><a href='u725fd0dd48eeb434.631f8527.158e4170750.-48b0'>337.1</a></xref-group>"
+		}]
+	}, {
+		"template": "single_touch_button",
+		"rubric": "Which of the contracted forms in each group is pronounced with a different vowel sound from the others (in British English)?",
+		"question": [{
+			"text": "#singletouch",
+			"option": [
+				["<item>we</item>’d", "<item>we</item>’ll", "<item>we</item>’re", "<item>we</item>’ve"]
+			],
+			"answer": ["we’re"]
+		}, {
+			"text": "#singletouch",
+			"option": [
+				["<item>they</item>’d", "<item>they</item>’ll", "<item>they</item>’re", "<item>they</item>’ve"]
+			],
+			"answer": ["they’re"]
+		}, {
+			"text": "#singletouch",
+			"option": [
+				["<item>a</item>ren’t", "c<item>a</item>n’t", "h<item>a</item>sn’t", "sh<item>a</item>n’t"]
+			],
+			"answer": ["hasn’t"]
+		}, {
+			"text": "#singletouch",
+			"option": [
+				["c<item>ou</item>ldn’t", "<item>ou</item>ghtn’t", "sh<item>ou</item>ldn’t", "w<item>ou</item>ldn’t"]
+			],
+			"answer": ["oughtn’t"]
+		}],
+		"feedback": [{
+			"desc": "<xref-group><a href='u725fd0dd48eeb434.631f8527.158e4170750.-4814'>337.4</a></xref-group>"
+		}]
+	}, {
+		"template": "multi_radio",
+		"rubric": "Is this sentence right (R) or wrong (W)?",
+		"rwText": ["R", "W"],
+		"question": [{
+			"text": "I asked her if she would be so kind as to tell me what time it was? ",
+			"answer": {
+				"right": "W"
+			}
+		}],
+		"feedback": [{
+			"desc": "<xref-group><a href='u725fd0dd48eeb434.631f8527.158e4170750.-7e18'>293.3</a></xref-group>"
+		}]
+	}, {
+		"template": "multi_radio",
+		"rubric": "Is the highlighted punctuation right (R) or wrong (W)?",
+		"rwText": ["R", "W"],
+		"question": [{
+			"text": "It is a fine idea<punc>;</punc> let us hope that it is going to work.",
+			"answer": {
+				"right": "R"
+			}
+		}, {
+			"text": "The blue dress was warmer<punc>,</punc> on the other hand<punc>,</punc> the purple one was prettier.",
+			"answer": {
+				"right": "W"
+			}
+		}, {
+			"text": "You may use the sports facilities subject to the following conditions<punc>;</punc> that your subscription is paid regularly<punc>;</punc> that you arrange for all necessary cleaning to be carried out<punc>;</punc> that you undertake to make good any damage.",
+			"answer": {
+				"right": "W"
+			}
+		}],
+		"feedback": [{
+			"desc": "<xref-group><a href='u725fd0dd48eeb434.631f8527.158e4170750.-7de3'>294.2</a><br><a href='u725fd0dd48eeb434.631f8527.158e4170750.-7d86'>295.1–2</a><br><a href='u725fd0dd48eeb434.631f8527.158e4170750.-7cd4'>296.7</a></xref-group>"
+		}]
+	}, {
+		"template": "multi_radio",
+		"rubric": "Use or non-use of commas: right (R) or wrong (W)?",
+		"rwText": ["R", "W"],
+		"question": [{
+			"text": "She had very little to live on, but she would never have dreamed of taking what was not hers.",
+			"answer": {
+				"right": "R"
+			}
+		}, {
+			"text": "She was poor but she was honest.",
+			"answer": {
+				"right": "R"
+			}
+		}],
+		"feedback": [{
+			"desc": "<xref-group><a href='u725fd0dd48eeb434.631f8527.158e4170750.-7cfe'>296.5</a></xref-group>"
+		}]
+	}, {
+		"template": "multi_radio",
+		"rubric": "Are the quotation marks written correctly in these sentences: yes (Y) or no (N)?",
+		"rwText": ["Y", "N"],
+		"question": [{
+			"text": "<punc>‘</punc>My least favourite sentence,<punc>’</punc> said Fiona, <punc>‘</punc>is <punc>“</punc>It’s time to go home<punc>”</punc>.<punc>’</punc>",
+			"answer": {
+				"right": "Y"
+			}
+		}, {
+			"text": "<punc>‘</punc>My least favourite sentence,<punc>’</punc> said Fiona, <punc>‘</punc>is <punc>‘</punc>It’s time to go home<punc>’</punc>.<punc>’</punc>",
+			"answer": {
+				"right": "N"
+			}
+		}, {
+			"text": "<punc>“</punc>My least favourite sentence,<punc>”</punc> said Fiona, <punc>“</punc>is <punc>‘</punc>It’s time to go home<punc>’</punc>.<punc>”</punc>",
+			"answer": {
+				"right": "Y"
+			}
+		}],
+		"feedback": [{
+			"desc": "<xref-group><a href='u725fd0dd48eeb434.631f8527.158e4170750.-7bf1'>298.1</a></xref-group>"
+		}]
+	}]
+	}, 
+	"c2" :
+	{
+	"-unit": "26",
+	"-level": "c2",
+	"topic_name": "pronunciation",
+	"exercise": [{
+		"template": "single_touch_button",
+		"rubric": "Where is the main stress on each of the following words?",
+		"question": [{
+			"text": "photograph #singletouch",
+			"option": [
+				["pho", "to", "graph"]
+			],
+			"answer": ["pho"]
+		}, {
+			"text": "photographer #singletouch",
+			"option": [
+				["pho", "to", "gra", "pher"]
+			],
+			"answer": ["to"]
+		}, {
+			"text": "photographic #singletouch",
+			"option": [
+				["pho", "to", "gra", "phic"]
+			],
+			"answer": ["gra"]
+		}],
+		"feedback": [{
+			"desc": "<xref-group><a href='u725fd0dd48eeb434.631f8527.158e4170750.-6f77'>313.2</a></xref-group>"
+		}]
+	}, {
+		"template": "single_touch_button",
+		"rubric": "Which words would probably be stressed most strongly in the following sentences?",
+		"question": [{
+			"text": "#singletouch!",
+			"option": [
+				["I", "feel", "great"]
+			],
+			"answer": ["great"]
+		}, {
+			"text": "#singletouch #singletouch.",
+			"option": [
+				["That", "child", "really", "has", "grown"]
+			],
+			"answer": ["has"]
+		}, {
+			"text": "#singletouch.",
+			"option": [
+				["I", "expected", "to", "win", "and", "I", "did", "win"]
+			],
+			"answer": ["did"]
+		}, {
+			"text": "#singletouch.",
+			"option": [
+				["Do", "sit", "down"]
+			],
+			"answer": ["Do"]
+		}],
+		"feedback": [{
+			"desc": "<xref-group><a href='u725fd0dd48eeb434.631f8527.158e4170750.-6e68'>313.5</a></xref-group>"
+		}]
+	}, {
+		"template": "dragdrop_notrans",
+		"alphaOrder": "false",
+		"clone": "true",
+		"rubric": "Which four words would normally be stressed in speech in the following sentence?",
+		"option": ["back",
+			"been",
+			"car",
+			"damaged",
+			"had",
+			"of",
+			"She",
+			"sure",
+			"that",
+			"the",
+			"was"
+		],
+		"question": [{
+			"input_text": "She was sure that the back of the car had been damaged.",
+			"text": "#drop",
+			"answer": [
+				["sure",
+					"back",
+					"car",
+					"damaged"
+				]
+			]
+		}, {
+			"text": "#drop",
+			"answer": [
+				["sure",
+					"back",
+					"car",
+					"damaged"
+				]
+			]
+		}, {
+			"text": "#drop",
+			"answer": [
+				["sure",
+					"back",
+					"car",
+					"damaged"
+				]
+			]
+		}, {
+			"text": "#drop",
+			"answer": [
+				["sure",
+					"back",
+					"car",
+					"damaged"
+				]
+			]
+		}],
+		"feedback": [{
+			"desc": "<xref-group><a href='u725fd0dd48eeb434.631f8527.158e4170750.-6dfc'>313.6</a></xref-group>"
+		}]
+	}, {
+		"template": "dragdrop_notrans",
+		"alphaOrder": "false",
+		"clone": "true",
+		"rubric": "Some common short English words have two pronunciations: a ‘strong form’, used when they are stressed, and a ‘weak form’, used when they are not stressed. For example, <i>for</i> can be pronounced like <i>four</i> (strong form) or like the end of <i>offer</i> (weak form). Which of the following words can have both strong and weak forms? Two can’t.",
+		"option": ["and",
+			"at",
+			"can",
+			"have",
+			"must",
+			"of",
+			"off",
+			"on",
+			"was",
+			"were"
+		],
+		"question": [{
+			"text": "#drop",
+			"answer": [
+				["and",
+					"at",
+					"can",
+					"have",
+					"must",
+					"of",
+					"was",
+					"were"
+				]
+			]
+		}, {
+			"text": "#drop",
+			"answer": [
+				["and",
+					"at",
+					"can",
+					"have",
+					"must",
+					"of",
+					"was",
+					"were"
+				]
+			]
+		}, {
+			"text": "#drop",
+			"answer": [
+				["and",
+					"at",
+					"can",
+					"have",
+					"must",
+					"of",
+					"was",
+					"were"
+				]
+			]
+		}, {
+			"text": "#drop",
+			"answer": [
+				["and",
+					"at",
+					"can",
+					"have",
+					"must",
+					"of",
+					"was",
+					"were"
+				]
+			]
+		}, {
+			"text": "#drop",
+			"answer": [
+				["and",
+					"at",
+					"can",
+					"have",
+					"must",
+					"of",
+					"was",
+					"were"
+				]
+			]
+		}, {
+			"text": "#drop",
+			"answer": [
+				["and",
+					"at",
+					"can",
+					"have",
+					"must",
+					"of",
+					"was",
+					"were"
+				]
+			]
+		}, {
+			"text": "#drop",
+			"answer": [
+				["and",
+					"at",
+					"can",
+					"have",
+					"must",
+					"of",
+					"was",
+					"were"
+				]
+			]
+		}, {
+			"text": "#drop",
+			"answer": [
+				["and",
+					"at",
+					"can",
+					"have",
+					"must",
+					"of",
+					"was",
+					"were"
+				]
+			]
+		}],
+		"feedback": [{
+			"desc": "<xref-group><a href='u725fd0dd48eeb434.631f8527.158e4170750.-6cbd'>315.3</a></xref-group>"
+		}]
+	}, {
+		"template": "multi_radio",
+		"rubric": "Would the highlighted words normally be pronounced with strong (S) or weak (W) forms in these sentences?",
+		"rwText": ["S", "W"],
+		"question": [{
+			"text": "What are you looking <item>at</item>?",
+			"answer": {
+				"right": "S"
+			}
+		}, {
+			"text": "I’m looking <item>at</item> you.",
+			"answer": {
+				"right": "W"
+			}
+		}, {
+			"text": "I <item>must</item> go now.",
+			"answer": {
+				"right": "W"
+			}
+		}, {
+			"text": "Yes, you <item>must</item>.",
+			"answer": {
+				"right": "S"
+			}
+		}, {
+			"text": "This is <item>for</item> Andrew.",
+			"answer": {
+				"right": "W"
+			}
+		}, {
+			"text": "You <item>were</item> late again this morning.",
+			"answer": {
+				"right": "W"
+			}
+		}, {
+			"text": "Perhaps you <item>can</item> help me with this.",
+			"answer": {
+				"right": "W"
+			}
+		}, {
+			"text": "It <item>was</item>n’t me.",
+			"answer": {
+				"right": "S"
+			}
+		}],
+		"feedback": [{
+			"desc": "<xref-group><a href='u725fd0dd48eeb434.631f8527.158e4170750.-6d03'>315.2</a></xref-group>"
+		}]
+	}, {
+		"template": "multi_radio",
+		"rubric": "Are these statements true: yes (Y) or no (N)?",
+		"rwText": ["Y", "N"],
+		"question": [{
+			"text": "<item>Going to</item> is often pronounced like <item>gonna</item>.",
+			"answer": {
+				"right": "Y"
+			}
+		}, {
+			"text": "<item>Got to</item> is often pronounced like <item>gotta</item>.",
+			"answer": {
+				"right": "Y"
+			}
+		}, {
+			"text": "<item>Went to</item> is often pronounced like <item>wenna</item>.",
+			"answer": {
+				"right": "N"
+			}
+		}, {
+			"text": "<item>Want to</item> is often pronounced like <item>wanna</item>.",
+			"answer": {
+				"right": "Y"
+			}
+		}, {
+			"text": "<item>Have to</item> is often pronounced like <item>hafta</item>.",
+			"answer": {
+				"right": "Y"
+			}
+		}, {
+			"text": "<item>Mean to</item> is often pronounced like <item>meana</item>.",
+			"answer": {
+				"right": "N"
+			}
+		}],
+		"feedback": [{
+			"desc": "For <item>A</item>, <xref-group><a href='u725fd0dd48eeb434.631f8527.158e41641c3.-7ffa'>35.5</a></xref-group>.<br/>For <item>B</item>, <xref-group><a href='u725fd0dd48eeb434.631f8527.158e41641c3.-5ed2'>74.3</a></xref-group>.<br/>For <item>D</item>, <xref-group><a href='u725fd0dd48eeb434.631f8527.158e4170750.4f3f'>618.4</a></xref-group>.<br/>For <item>E</item>, <xref-group><a href='u725fd0dd48eeb434.631f8527.158e41641c3.-5ed2'>74.3</a></xref-group>. "
+		}]
+	}]
+	}
+}

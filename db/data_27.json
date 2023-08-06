@@ -1,0 +1,1623 @@
+{
+	"b2" :
+	{
+	"-unit": "28",
+	"-level": "b2",
+	"topic_name": "words (2): other confusable words",
+	"exercise": [{
+		"template": "single_touch_button",
+		"rubric": "<i>Begin</i>, <i>start</i> or both?",
+		"question": [{
+			"text": "Did you #singletouch playing the piano when you were a small child?",
+			"option": [
+				["begin", "start", "[both]"]
+			],
+			"answer": ["[both]"]
+		}, {
+			"text": "We will #singletouch the service with a short prayer and a minute’s silence.",
+			"option": [
+				["begin", "start", "[both]"]
+			],
+			"answer": ["[both]"]
+		}, {
+			"text": "I think we ought to #singletouch at six, while the roads are still empty.",
+			"option": [
+				["begin", "start", "[both]"]
+			],
+			"answer": ["start"]
+		}],
+		"feedback": [{
+			"desc": "<xref-group><a href='u725fd0dd48eeb434.631f8527.158e4170750.-1c5b'>398</a></xref-group>"
+		}]
+	}, {
+		"template": "single_touch_button",
+		"rubric": "<i>Lend</i>, <i>borrow</i> or both?",
+		"question": [{
+			"text": "Can I #singletouch your bicycle to go to the shops?",
+			"option": [
+				["lend", "borrow", "[both]"]
+			],
+			"answer": ["borrow"]
+		}],
+		"feedback": [{
+			"desc": "<xref-group><a href='u725fd0dd48eeb434.631f8527.158e4170750.-189d'>408</a></xref-group>"
+		}]
+	}, {
+		"template": "multi_radio",
+		"rubric": "Right (R) or wrong (W)?",
+		"rwText": ["R", "W"],
+		"question": [{
+			"text": "<item>I borrowed some money from my brother</item> and now I can’t pay it back.",
+			"answer": {
+				"right": "R"
+			}
+		}, {
+			"text": "<item>I borrowed my brother some money</item> and now I can’t pay it back.",
+			"answer": {
+				"right": "W"
+			}
+		}, {
+			"text": "<item>I lent my coat to Josh</item> and I never saw it again.",
+			"answer": {
+				"right": "R"
+			}
+		}, {
+			"text": "<item>I lent Josh my coat</item> and I never saw it again.",
+			"answer": {
+				"right": "R"
+			}
+		}],
+		"feedback": [{
+			"desc": "<xref-group><a href='u725fd0dd48eeb434.631f8527.158e4170750.-189d'>408</a></xref-group>"
+		}]
+	}, {
+		"template": "single_touch_button",
+		"rubric": "<i>Bring</i>, <i>take</i> or both in British English?",
+		"question": [{
+			"text": "This is a great party. It was nice of you to #singletouch me here.",
+			"option": [
+				["bring", "take", "[both]"]
+			],
+			"answer": ["bring"]
+		}, {
+			"text": "Let’s have one more drink, and then I’ll #singletouch you home.",
+			"option": [
+				["bring", "take", "[both]"]
+			],
+			"answer": ["take"]
+		}],
+		"feedback": [{
+			"desc": "<xref-group><a href='u725fd0dd48eeb434.631f8527.158e4170750.-1851'>409</a></xref-group>"
+		}]
+	}, {
+		"template": "single_touch_button",
+		"rubric": "<i>Broad</i>, <i>wide</i> or both?",
+		"question": [{
+			"text": "The car is too #singletouch for the garage.",
+			"option": [
+				["broad", "wide", "[both]"]
+			],
+			"answer": ["wide"]
+		}, {
+			"text": "The river is about a kilometre #singletouch.",
+			"option": [
+				["broad", "wide", "[both]"]
+			],
+			"answer": ["wide"]
+		}, {
+			"text": "Everyone loves pandas: it’s because of their beautiful #singletouch eyes.",
+			"option": [
+				["broad", "wide", "[both]"]
+			],
+			"answer": ["wide"]
+		}, {
+			"text": "Anna and I have reached #singletouch agreement on all the most important issues.",
+			"option": [
+				["broad", "wide", "[both]"]
+			],
+			"answer": ["broad"]
+		}],
+		"feedback": [{
+			"desc": "<xref-group><a href='u725fd0dd48eeb434.631f8527.158e4170750.-1765'>412</a></xref-group>"
+		}]
+	}, {
+		"template": "single_touch_button",
+		"rubric": "<i>Close(d)</i>, <i>shut</i> or both?",
+		"question": [{
+			"text": "I #singletouch the door and sat down.",
+			"option": [
+				["closed", "shut", "[both]"]
+			],
+			"answer": ["[both]"]
+		}, {
+			"text": "I hadn’t realised that the shop #singletouch at five.",
+			"option": [
+				["closed", "shut", "[both]"]
+			],
+			"answer": ["[both]"]
+		}, {
+			"text": "[Dentist to patient] Now #singletouch your mouth, please.",
+			"option": [
+				["close", "shut", "[both]"]
+			],
+			"answer": ["close"]
+		}, {
+			"text": "The dog wouldn’t stop barking, so we #singletouch him out of the house.",
+			"option": [
+				["closed", "shut", "[both]"]
+			],
+			"answer": ["shut"]
+		}, {
+			"text": "The chairman #singletouch the meeting with a vote of thanks.",
+			"option": [
+				["closed", "shut", "[both]"]
+			],
+			"answer": ["closed"]
+		}, {
+			"text": "The railway line was #singletouch because there were leaves on the track.",
+			"option": [
+				["closed", "shut", "[both]"]
+			],
+			"answer": ["closed"]
+		}],
+		"feedback": [{
+			"desc": "<xref-group><a href='u725fd0dd48eeb434.631f8527.158e4170750.-1404'>422</a></xref-group>"
+		}]
+	}, {
+		"template": "multi_radio",
+		"rubric": "<i>Come</i> and <i>go</i>: right (R) or wrong (W)?",
+		"rwText": ["R", "W"],
+		"question": [{
+			"text": "‘Maria, would you come here please?’ ‘OK, I’m <item>going</item>.’",
+			"answer": {
+				"right": "W"
+			}
+		}, {
+			"text": "Let’s <item>go</item> and visit your parents.",
+			"answer": {
+				"right": "R"
+			}
+		}, {
+			"text": "Can I <item>come</item> and see you soon?",
+			"answer": {
+				"right": "R"
+			}
+		}],
+		"feedback": [{
+			"desc": "<xref-group><a href='u725fd0dd48eeb434.631f8527.158e4170750.-135a'>424</a></xref-group>"
+		}]
+	}, {
+		"template": "single_touch_button",
+		"rubric": "<i>Do</i> or <i>make</i>?",
+		"question": [{
+			"text": "I’m not going to #singletouch any work today.",
+			"option": [
+				["do", "make"]
+			],
+			"answer": ["do"]
+		}, {
+			"text": "I think I’ll #singletouch a cake for Jake’s party.",
+			"option": [
+				["do", "make"]
+			],
+			"answer": ["make"]
+		}, {
+			"text": "We need to #singletouch a plan, in case we have problems tomorrow.",
+			"option": [
+				["do", "make"]
+			],
+			"answer": ["make"]
+		}, {
+			"text": "Can you #singletouch the shopping, please?",
+			"option": [
+				["do", "make"]
+			],
+			"answer": ["do"]
+		}, {
+			"text": "Can you #singletouch me a big favour?",
+			"option": [
+				["do", "make"]
+			],
+			"answer": ["do"]
+		}, {
+			"text": "My new boss finds it hard to #singletouch a decision.",
+			"option": [
+				["do", "make"]
+			],
+			"answer": ["make"]
+		}, {
+			"text": "You really need to #singletouch an effort!",
+			"option": [
+				["do", "make"]
+			],
+			"answer": ["make"]
+		}, {
+			"text": "You really need to #singletouch your best!",
+			"option": [
+				["do", "make"]
+			],
+			"answer": ["do"]
+		}],
+		"feedback": [{
+			"desc": "<xref-group><a href='u725fd0dd48eeb434.631f8527.158e4170750.-fb5'>435</a></xref-group>"
+		}]
+	}, {
+		"template": "single_touch_button",
+		"rubric": "<i>End</i> or <i>finish</i>?",
+		"question": [{
+			"text": "The Second World War #singletouch in 1945.",
+			"option": [
+				["ended", "finished"]
+			],
+			"answer": ["ended"]
+		}, {
+			"text": "The footpath #singletouch at the farmhouse.",
+			"option": [
+				["ends", "finishes"]
+			],
+			"answer": ["ends"]
+		}, {
+			"text": "Should I #singletouch this letter with ‘Yours faithfully’ or ‘Yours sincerely’?",
+			"option": [
+				["end", "finish"]
+			],
+			"answer": ["end"]
+		}, {
+			"text": "Yesterday I #singletouch working in the garden when it got dark.",
+			"option": [
+				["ended", "finished"]
+			],
+			"answer": ["finished"]
+		}],
+		"feedback": [{
+			"desc": "<xref-group><a href='u725fd0dd48eeb434.631f8527.158e4170750.-af2'>448</a></xref-group>"
+		}]
+	}, {
+		"template": "single_touch_button",
+		"rubric": "<i>Fit</i> or <i>suit</i>?",
+		"question": [{
+			"text": "These shoes don’t #singletouch me: have you got a larger size?",
+			"option": [
+				["fit", "suit"]
+			],
+			"answer": ["fit"]
+		}, {
+			"text": "Have you got the same jacket in grey? Brown doesn’t #singletouch me.",
+			"option": [
+				["fit", "suit"]
+			],
+			"answer": ["suit"]
+		}, {
+			"text": "‘When can we meet next week?’ ‘Does Tuesday #singletouch you?’",
+			"option": [
+				["fit", "suit"]
+			],
+			"answer": ["suit"]
+		}],
+		"feedback": [{
+			"desc": "<xref-group><a href='u725fd0dd48eeb434.631f8527.158e4170750.-d5'>467</a></xref-group>"
+		}]
+	}, {
+		"template": "single_touch_button",
+		"rubric": "<i>Forget</i>, <i>leave</i> or both?",
+		"question": [{
+			"text": "Where’s your umbrella? Did you #singletouch it at home?",
+			"option": [
+				["forget", "leave", "[both]"]
+			],
+			"answer": ["leave"]
+		}],
+		"feedback": [{
+			"desc": "<xref-group><a href='u725fd0dd48eeb434.631f8527.158e4170750.116'>470</a></xref-group>"
+		}]
+	}, {
+		"template": "gapfill",
+		"hideRight": "true",
+		"rubric": "Fill in the gaps using <i>hear</i> or <i>listen to</i> (in the correct form).",
+		"question": [{
+			"text": "I once #gap Frank Sinatra singing live.",
+			"answer": [
+				["heard"]
+			]
+		}, {
+			"text": "Have you #gap the news? There’s been a terrible accident. ",
+			"answer": [
+				["heard"]
+			]
+		}, {
+			"text": "When you phoned, I was #gap the news on the radio.",
+			"answer": [
+				["listening to"]
+			]
+		}, {
+			"text": "I #gap them talking, but I wasn’t really #gap their conversation. ",
+			"answer": [
+				["heard"],
+				["listening to"]
+			]
+		}],
+		"feedback": [{
+			"desc": "<xref-group><a href='u725fd0dd48eeb434.631f8527.158e4170750.69e'>481</a></xref-group>"
+		}]
+	}, {
+		"template": "single_touch_button",
+		"rubric": "<i>Here</i> or <i>there</i>?",
+		"question": [{
+			"text": "‘Who’s that?’ ‘It’s Sarah #singletouch.’",
+			"option": [
+				["here", "there"]
+			],
+			"answer": ["here"]
+		}, {
+			"text": "‘Hello, Sarah. Is Tom #singletouch?’ ‘No, I’m sorry he isn’t #singletouch.’",
+			"option": [
+				["here", "there"],
+				["here", "there"]
+			],
+			"answer": ["there", "here"]
+		}],
+		"feedback": [{
+			"desc": "<xref-group><a href='u725fd0dd48eeb434.631f8527.158e4170750.7c8'>484</a></xref-group>"
+		}]
+	}, {
+		"template": "single_touch_button",
+		"rubric": "<i>High</i>, <i>tall</i> or <i>long</i>?",
+		"question": [{
+			"text": "How #singletouch are you?",
+			"option": [
+				["high", "tall", "long"]
+			],
+			"answer": ["tall"]
+		}, {
+			"text": "There’s a beautiful #singletouch tree in the garden.",
+			"option": [
+				["high", "tall", "long"]
+			],
+			"answer": ["tall"]
+		}, {
+			"text": "Could you pass me a tin of peaches, please? That shelf is too #singletouch for me.",
+			"option": [
+				["high", "tall", "long"]
+			],
+			"answer": ["high"]
+		}, {
+			"text": "Alex has got beautiful #singletouch legs.",
+			"option": [
+				["high", "tall", "long"]
+			],
+			"answer": ["long"]
+		}],
+		"feedback": [{
+			"desc": "<xref-group><a href='u725fd0dd48eeb434.631f8527.158e4170750.84d'>485</a></xref-group>"
+		}]
+	}, {
+		"template": "multi_radio",
+		"rubric": "Right (R) or wrong (W)?",
+		"rwText": ["R", "W"],
+		"question": [{
+			"text": "‘<item>How’s</item> Adrian?’ ‘He’s quiet and a bit shy.’",
+			"answer": {
+				"right": "W"
+			}
+		}, {
+			"text": "‘<item>What’s</item> Adrian <item>like</item>?’ ‘He’s quiet and a bit shy.’",
+			"answer": {
+				"right": "R"
+			}
+		}, {
+			"text": "‘<item>How was</item> the film?’ ‘Very funny and well acted, but a bit too long.’",
+			"answer": {
+				"right": "R"
+			}
+		}, {
+			"text": "‘<item>What was</item> the film <item>like</item>?’ ‘Very funny and well acted, but a bit too long.’",
+			"answer": {
+				"right": "R"
+			}
+		}],
+		"feedback": [{
+			"desc": "<xref-group><a href='u725fd0dd48eeb434.631f8527.158e4170750.bce'>493</a></xref-group>"
+		}]
+	}, {
+		"template": "single_touch_button",
+		"rubric": "<i>Opportunity</i>, <i>possibility</i> or both?",
+		"question": [{
+			"text": "I have the #singletouch to go to Denmark this year.",
+			"option": [
+				["opportunity", "possibility", "[both]"]
+			],
+			"answer": ["opportunity"]
+		}],
+		"feedback": [{
+			"desc": "<xref-group><a href='u725fd0dd48eeb434.631f8527.158e4170750.2736'>547</a></xref-group>"
+		}]
+	}, {
+		"template": "single_touch_button",
+		"rubric": "<i>Play</i>, <i>game</i> or both?",
+		"question": [{
+			"text": "Chess is a very slow #singletouch.",
+			"option": [
+				["play", "game", "[both]"]
+			],
+			"answer": ["game"]
+		}, {
+			"text": "Children learn a great deal through #singletouch. ",
+			"option": [
+				["play", "game", "[both]"]
+			],
+			"answer": ["play"]
+		}],
+		"feedback": [{
+			"desc": "<xref-group><a href='u725fd0dd48eeb434.631f8527.158e4170750.2acf'>555.1</a></xref-group>"
+		}]
+	}, {
+		"template": "single_touch_button",
+		"rubric": "<i>Small</i> or <i>little</i>?",
+		"question": [{
+			"text": "Two #singletouch coffees, please.",
+			"option": [
+				["small", "little"]
+			],
+			"answer": ["small"]
+		}, {
+			"text": "He wears a ring on his #singletouch finger.",
+			"option": [
+				["small", "little"]
+			],
+			"answer": ["little"]
+		}, {
+			"text": "He’s too #singletouch to play in goal. ",
+			"option": [
+				["small", "little"]
+			],
+			"answer": ["small"]
+		}, {
+			"text": "You’re a very naughty #singletouch girl!",
+			"option": [
+				["small", "little"]
+			],
+			"answer": ["little"]
+		}, {
+			"text": "The baby looked so #singletouch and helpless.",
+			"option": [
+				["small", "little"]
+			],
+			"answer": ["small"]
+		}],
+		"feedback": [{
+			"desc": "<xref-group><a href='u725fd0dd48eeb434.631f8527.158e4170750.3807'>580</a></xref-group>"
+		}]
+	}, {
+		"template": "multi_radio",
+		"rubric": "<i>Soon</i>, <i>early</i> or <i>quickly</i>? Can these words complete the sentences correctly: yes (Y) or no (No)? (More than one might be possible.)",
+		"rwText": ["Y", "N"],
+		"question": [{
+			"input_text": "We usually go to Spain <gap/> in the year.",
+			"text": "soon",
+			"answer": {
+				"right": "N"
+			}
+		}, {
+			"text": "early",
+			"answer": {
+				"right": "Y"
+			}
+		}, {
+			"text": "quickly",
+			"answer": {
+				"right": "N"
+			}
+		}, {
+			"input_text": "I usually get up <gap/> – at about 6.30 am.",
+			"text": "soon",
+			"answer": {
+				"right": "N"
+			}
+		}, {
+			"text": "early",
+			"answer": {
+				"right": "Y"
+			}
+		}, {
+			"text": "quickly",
+			"answer": {
+				"right": "N"
+			}
+		}, {
+			"input_text": "Best wishes for a/an <gap/> recovery.",
+			"text": "soon",
+			"answer": {
+				"right": "N"
+			}
+		}, {
+			"text": "early",
+			"answer": {
+				"right": "Y"
+			}
+		}, {
+			"text": "quickly",
+			"answer": {
+				"right": "N"
+			}
+		}, {
+			"input_text": "I hope you can do the repair <gap/> – I really need the car.",
+			"text": "soon",
+			"answer": {
+				"right": "Y"
+			}
+		}, {
+			"text": "early",
+			"answer": {
+				"right": "N"
+			}
+		}, {
+			"text": "quickly",
+			"answer": {
+				"right": "Y"
+			}
+		}, {
+			"input_text": "He did the repair much too <gap/> and it’s still not working.",
+			"text": "soon",
+			"answer": {
+				"right": "N"
+			}
+		}, {
+			"text": "early",
+			"answer": {
+				"right": "N"
+			}
+		}, {
+			"text": "quickly",
+			"answer": {
+				"right": "Y"
+			}
+		}],
+		"feedback": [{
+			"desc": "<xref-group><a href='u725fd0dd48eeb434.631f8527.158e4170750.3dfc'>591</a></xref-group>"
+		}]
+	}]
+	}, 
+	"c1" :
+	{
+	"-unit": "28",
+	"-level": "c1",
+	"topic_name": "words (2): other confusable words",
+	"exercise": [{
+		"template": "single_touch_button",
+		"rubric": "<i>Agreed</i>, <i>accepted</i> or both?",
+		"question": [{
+			"text": "I #singletouch to meet them here.",
+			"option": [
+				["agreed", "accepted", "[both]"]
+			],
+			"answer": ["agreed"]
+		}],
+		"feedback": [{
+			"desc": "<xref-group><a href='u725fd0dd48eeb434.631f8527.158e4170750.-31b9'>355</a></xref-group>"
+		}]
+	}, {
+		"template": "multi_radio",
+		"rubric": "<i>Almost</i>, <i>nearly</i> or <i>practically</i>? Can these words complete the sentences correctly: yes (Y) or no (N)? (More than one might be possible.)",
+		"rwText": ["Y", "N"],
+		"question": [{
+			"input_text": "I’ve very <gap/> finished.",
+			"text": "almost",
+			"answer": {
+				"right": "N"
+			}
+		}, {
+			"text": "nearly",
+			"answer": {
+				"right": "Y"
+			}
+		}, {
+			"text": "practically",
+			"answer": {
+				"right": "N"
+			}
+		}, {
+			"input_text": "He’s got a strange accent; he sounds <gap/> foreign to me.",
+			"text": "almost",
+			"answer": {
+				"right": "Y"
+			}
+		}, {
+			"text": "nearly",
+			"answer": {
+				"right": "N"
+			}
+		}, {
+			"text": "practically",
+			"answer": {
+				"right": "Y"
+			}
+		}, {
+			"input_text": "She’s <gap/> never at home.",
+			"text": "almost",
+			"answer": {
+				"right": "Y"
+			}
+		}, {
+			"text": "nearly",
+			"answer": {
+				"right": "N"
+			}
+		}, {
+			"text": "practically",
+			"answer": {
+				"right": "Y"
+			}
+		}, {
+			"input_text": "He eats <gap/> nothing.",
+			"text": "almost",
+			"answer": {
+				"right": "Y"
+			}
+		}, {
+			"text": "nearly",
+			"answer": {
+				"right": "N"
+			}
+		}, {
+			"text": "practically",
+			"answer": {
+				"right": "Y"
+			}
+		}],
+		"feedback": [{
+			"desc": "<xref-group><a href='u725fd0dd48eeb434.631f8527.158e4170750.-2db0'>366</a></xref-group>"
+		}]
+	}, {
+		"template": "single_touch_button",
+		"rubric": "<i>Back</i> or <i>again</i>?",
+		"question": [{
+			"text": "I don’t think she got your text: you’d better text her #singletouch.",
+			"option": [
+				["back", "again"]
+			],
+			"answer": ["again"]
+		}, {
+			"text": "If I write to you every week, will you write #singletouch?",
+			"option": [
+				["back", "again"]
+			],
+			"answer": ["back"]
+		}, {
+			"text": "The bicycle you sold me is too small. Can I sell it #singletouch to you?",
+			"option": [
+				["back", "again"]
+			],
+			"answer": ["back"]
+		}],
+		"feedback": [{
+			"desc": "<xref-group><a href='u725fd0dd48eeb434.631f8527.158e4170750.-2176'>390</a></xref-group>"
+		}]
+	}, {
+		"template": "multi_radio",
+		"rubric": "Are these sentences correct: yes (Y) or no (N)?",
+		"rwText": ["Y", "N"],
+		"question": [{
+			"text": "I stood up, and then <item>I sat back down</item>.",
+			"answer": {
+				"right": "Y"
+			}
+		}, {
+			"text": "I stood up, and then <item>I sat down again</item>.",
+			"answer": {
+				"right": "Y"
+			}
+		}, {
+			"text": "I’ll be <item>back in the office</item> on Monday.",
+			"answer": {
+				"right": "Y"
+			}
+		}, {
+			"text": "I’ll be <item>in the office again</item> on Monday.",
+			"answer": {
+				"right": "Y"
+			}
+		}],
+		"feedback": [{
+			"desc": "<xref-group><a href='u725fd0dd48eeb434.631f8527.158e4170750.-2176'>390</a></xref-group>"
+		}]
+	}, {
+		"template": "multi_radio",
+		"rubric": "<i>Big</i>, <i>large</i> or <i>great</i>? Can these words complete the sentences correctly: yes (Y) or no (N)? (More than one might be possible.)",
+		"rwText": ["Y", "N"],
+		"question": [{
+			"input_text": "We lived in a <gap/> house: there were six bedrooms.",
+			"text": "big",
+			"answer": {
+				"right": "Y"
+			}
+		}, {
+			"text": "large",
+			"answer": {
+				"right": "Y"
+			}
+		}, {
+			"text": "great",
+			"answer": {
+				"right": "N"
+			}
+		}, {
+			"input_text": "Most people agree that Mahatma Gandhi was a <gap/> man.",
+			"text": "big",
+			"answer": {
+				"right": "N"
+			}
+		}, {
+			"text": "large",
+			"answer": {
+				"right": "N"
+			}
+		}, {
+			"text": "great",
+			"answer": {
+				"right": "Y"
+			}
+		}, {
+			"input_text": "‘What’s your new flat like?’ ‘There’s not much space, but it’s really <gap/>. I love living there.’",
+			"text": "big",
+			"answer": {
+				"right": "N"
+			}
+		}, {
+			"text": "large",
+			"answer": {
+				"right": "N"
+			}
+		}, {
+			"text": "great",
+			"answer": {
+				"right": "Y"
+			}
+		}, {
+			"input_text": "If you think that, you’re making a very <gap/> mistake.",
+			"text": "big",
+			"answer": {
+				"right": "Y"
+			}
+		}, {
+			"text": "large",
+			"answer": {
+				"right": "N"
+			}
+		}, {
+			"text": "great",
+			"answer": {
+				"right": "Y"
+			}
+		}, {
+			"input_text": "I have <gap/> respect for her ideas.",
+			"text": "big",
+			"answer": {
+				"right": "N"
+			}
+		}, {
+			"text": "large",
+			"answer": {
+				"right": "N"
+			}
+		}, {
+			"text": "great",
+			"answer": {
+				"right": "Y"
+			}
+		}],
+		"feedback": [{
+			"desc": "<xref-group><a href='u725fd0dd48eeb434.631f8527.158e4170750.-1a05'>404</a></xref-group>"
+		}]
+	}, {
+		"template": "single_touch_button",
+		"rubric": "<i>Brought up</i>, <i>educated</i> or both?",
+		"question": [{
+			"text": "These children are very badly #singletouch. They’re always shouting and fighting each other.",
+			"option": [
+				["brought up", "educated", "[both]"]
+			],
+			"answer": ["brought up"]
+		}],
+		"feedback": [{
+			"desc": "<xref-group><a href='u725fd0dd48eeb434.631f8527.158e4170750.-17be'>410</a></xref-group>"
+		}]
+	}, {
+		"template": "multi_radio",
+		"rubric": "Right (R) or wrong (W)?",
+		"rwText": ["R", "W"],
+		"question": [{
+			"text": "‘What shall we eat tonight?’ ‘Well, I could <item>make</item> an omelette.’",
+			"answer": {
+				"right": "R"
+			}
+		}, {
+			"text": "‘What shall we eat tonight?’ ‘Well, I could <item>do</item> an omelette.’",
+			"answer": {
+				"right": "R"
+			}
+		}, {
+			"text": "He’s old enough to <item>make</item> his own bed now.",
+			"answer": {
+				"right": "R"
+			}
+		}, {
+			"text": "I’ll <item>do</item> the vacuuming once I’ve <item>done</item> the beds.",
+			"answer": {
+				"right": "R"
+			}
+		}],
+		"feedback": [{
+			"desc": "<xref-group><a href='u725fd0dd48eeb434.631f8527.158e4170750.-fb5'>435</a></xref-group>"
+		}]
+	}, {
+		"template": "multi_radio",
+		"rubric": "<i>Finally</i>, <i>at last</i>, <i>in the end</i> or <i>at the end</i>? Can these expressions complete the sentences correctly: yes (Y) or no (N)? (More than one option may be possible.)",
+		"rwText": ["Y", "N"],
+		"question": [{
+			"input_text": "Josh has <gap/> found a job.",
+			"text": "finally",
+			"answer": {
+				"right": "Y"
+			}
+		}, {
+			"text": "at last",
+			"answer": {
+				"right": "Y"
+			}
+		}, {
+			"text": "in the end",
+			"answer": {
+				"right": "N"
+			}
+		}, {
+			"text": "at the end",
+			"answer": {
+				"right": "N"
+			}
+		}, {
+			"input_text": "<gap/>! Where the hell have you been?",
+			"text": "finally",
+			"answer": {
+				"right": "N"
+			}
+		}, {
+			"text": "at last",
+			"answer": {
+				"right": "Y"
+			}
+		}, {
+			"text": "in the end",
+			"answer": {
+				"right": "N"
+			}
+		}, {
+			"text": "at the end",
+			"answer": {
+				"right": "N"
+			}
+		}, {
+			"input_text": "First, release the handbrake. Then, check your mirror. <gap/>, start the car.",
+			"text": "finally",
+			"answer": {
+				"right": "Y"
+			}
+		}, {
+			"text": "at last",
+			"answer": {
+				"right": "N"
+			}
+		}, {
+			"text": "in the end",
+			"answer": {
+				"right": "N"
+			}
+		}, {
+			"text": "at the end",
+			"answer": {
+				"right": "N"
+			}
+		}, {
+			"input_text": "Every question should have a question mark <gap/>.",
+			"text": "finally",
+			"answer": {
+				"right": "N"
+			}
+		}, {
+			"text": "at last",
+			"answer": {
+				"right": "N"
+			}
+		}, {
+			"text": "in the end",
+			"answer": {
+				"right": "N"
+			}
+		}, {
+			"text": "at the end",
+			"answer": {
+				"right": "Y"
+			}
+		}, {
+			"input_text": "We looked at lots of different makes of car, but <gap/> it was a question of price.",
+			"text": "finally",
+			"answer": {
+				"right": "Y"
+			}
+		}, {
+			"text": "at last",
+			"answer": {
+				"right": "N"
+			}
+		}, {
+			"text": "in the end",
+			"answer": {
+				"right": "Y"
+			}
+		}, {
+			"text": "at the end",
+			"answer": {
+				"right": "N"
+			}
+		}],
+		"feedback": [{
+			"desc": "<xref-group><a href='u725fd0dd48eeb434.631f8527.158e4170750.-1c8'>465</a></xref-group>"
+		}]
+	}, {
+		"template": "multi_radio",
+		"rubric": "Right (R) or wrong (W) in British English?",
+		"rwText": ["R", "W"],
+		"question": [{
+			"text": "We <item>let</item> our house to some students.",
+			"answer": {
+				"right": "R"
+			}
+		}, {
+			"text": "We <item>rented</item> our house to some students.",
+			"answer": {
+				"right": "R"
+			}
+		}, {
+			"text": "We <item>hired</item> our house to some students.",
+			"answer": {
+				"right": "W"
+			}
+		}, {
+			"text": "They <item>let</item> a house from us.",
+			"answer": {
+				"right": "W"
+			}
+		}, {
+			"text": "They <item>rented</item> a house from us.",
+			"answer": {
+				"right": "R"
+			}
+		}, {
+			"text": "They <item>hired</item> a house from us.",
+			"answer": {
+				"right": "W"
+			}
+		}],
+		"feedback": [{
+			"desc": "<xref-group><a href='u725fd0dd48eeb434.631f8527.158e4170750.8ab'>486</a></xref-group>"
+		}]
+	}, {
+		"template": "single_touch_button",
+		"rubric": "<i>Ill</i>, <i>sick</i> or both in British English?",
+		"question": [{
+			"text": "I’m looking after my #singletouch mother.",
+			"option": [
+				["ill", "sick", "[both]"]
+			],
+			"answer": ["sick"]
+		}, {
+			"text": "I didn’t come to work yesterday because I was #singletouch.",
+			"option": [
+				["ill", "sick", "[both]"]
+			],
+			"answer": ["[both]"]
+		}, {
+			"text": "I think it’s food poisoning: I was #singletouch three times in the night.",
+			"option": [
+				["ill", "sick", "[both]"]
+			],
+			"answer": ["sick"]
+		}],
+		"feedback": [{
+			"desc": "<xref-group><a href='u725fd0dd48eeb434.631f8527.158e4170750.c83'>494</a></xref-group>"
+		}]
+	}, {
+		"template": "gapfill",
+		"hideRight": "true",
+		"rubric": "Fill in the missing day in the reply.",
+		"question": [{
+			"input_text": "‘Fred is coming <item>in</item> two days’ time and then Emma is arriving three days <item>later</item>.’",
+			"text": "‘OK. Today is Monday. That means Emma’s arriving on #gap.’",
+			"answer": [
+				["Saturday"]
+			]
+		}],
+		"feedback": [{
+			"desc": "<xref-group><a href='u725fd0dd48eeb434.631f8527.158e4170750.13bd'>506</a></xref-group>"
+		}]
+	}, {
+		"template": "single_touch_button",
+		"rubric": "<i>Last week</i>, <i>the last week</i> or both?",
+		"question": [{
+			"text": "I was ill #singletouch but I’m OK this week.",
+			"option": [
+				["last week", "the last week", "[both]"]
+			],
+			"answer": ["last week"]
+		}, {
+			"text": "I’ve had a cold for #singletouch and I feel terrible.",
+			"option": [
+				["last week", "the last week", "[both]"]
+			],
+			"answer": ["the last week"]
+		}, {
+			"text": "In #singletouch of our trip something funny happened.",
+			"option": [
+				["last week", "the last week", "[both]"]
+			],
+			"answer": ["the last week"]
+		}],
+		"feedback": [{
+			"desc": "<xref-group><a href='u725fd0dd48eeb434.631f8527.158e4170750.1319'>505</a></xref-group>"
+		}]
+	}, {
+		"template": "single_radio",
+		"question": [{
+			"text": "Look at this sentence. Which of the continuations is correct?",
+			"input_text": "It’s only June now, but I’m already looking forward to January 1st.",
+			"option": ["<item>Next year</item> will be wonderful.", "<item>The next year</item> will be wonderful."],
+			"answer": "Next year will be wonderful."
+		}],
+		"feedback": [{
+			"desc": "<xref-group><a href='u725fd0dd48eeb434.631f8527.158e4170750.220c'>533</a></xref-group>"
+		}]
+	}, {
+		"template": "single_touch_button",
+		"rubric": "Is <i>maybe</i> or <i>perhaps</i> better here?",
+		"question": [{
+			"text": "[political speech] ‘This country is facing what is #singletouch the greatest crisis in its history.’",
+			"option": [
+				["maybe", "perhaps"]
+			],
+			"answer": ["perhaps"]
+		}],
+		"feedback": [{
+			"desc": "<xref-group><a href='u725fd0dd48eeb434.631f8527.158e4170750.1dbd'>525</a></xref-group>"
+		}]
+	}, {
+		"template": "multi_radio",
+		"rubric": "Right (R) or wrong (W)?",
+		"rwText": ["R", "W"],
+		"question": [{
+			"text": "Cars can park on both sides of the <item>road</item>.",
+			"answer": {
+				"right": "R"
+			}
+		}, {
+			"text": "Cars can park on both sides of the <item>street</item>.",
+			"answer": {
+				"right": "R"
+			}
+		}, {
+			"text": "The <item>road</item> out of our village goes up a steep hill.",
+			"answer": {
+				"right": "R"
+			}
+		}, {
+			"text": "The <item>street</item> out of our village goes up a steep hill.",
+			"answer": {
+				"right": "W"
+			}
+		}],
+		"feedback": [{
+			"desc": "<xref-group><a href='u725fd0dd48eeb434.631f8527.158e4170750.31cb'>570</a></xref-group>"
+		}]
+	}, {
+		"template": "multi_radio",
+		"rubric": "Right (R) or wrong (W)?",
+		"rwText": ["R", "W"],
+		"question": [{
+			"text": "My watch is five minutes <item>slow</item>.",
+			"answer": {
+				"right": "R"
+			}
+		}, {
+			"text": "My watch is five minutes <item>early</item>.",
+			"answer": {
+				"right": "W"
+			}
+		}, {
+			"text": "My watch is five minutes <item>fast</item>.",
+			"answer": {
+				"right": "R"
+			}
+		}, {
+			"text": "My watch is five minutes <item>late</item>.",
+			"answer": {
+				"right": "W"
+			}
+		}],
+		"feedback": [{
+			"desc": "<xref-group><a href='u725fd0dd48eeb434.631f8527.158e4170750.3e30'>591.2</a></xref-group>"
+		}]
+	}, {
+		"template": "single_touch_button",
+		"rubric": "Which sounds better: <i>talk</i> or <i>speak</i>?",
+		"question": [{
+			"text": "May I #singletouch to Mr Walker, please?",
+			"option": [
+				["talk", "speak"]
+			],
+			"answer": ["speak"]
+		}, {
+			"text": "Why do you #singletouch such nonsense?",
+			"option": [
+				["talk", "speak"]
+			],
+			"answer": ["talk"]
+		}, {
+			"text": "Now I am delighted to introduce Professor Martha Wilson, who has kindly agreed to #singletouch on recent developments in genetics.",
+			"option": [
+				["talk", "speak"]
+			],
+			"answer": ["speak"]
+		}, {
+			"text": "And now here’s our old friend Jim Brown, who’s going to #singletouch to us about his mountaineering expedition to the Himalayas.",
+			"option": [
+				["talk", "speak"]
+			],
+			"answer": ["talk"]
+		}],
+		"feedback": [{
+			"desc": "<xref-group><a href='u725fd0dd48eeb434.631f8527.158e4170750.3f57'>594</a></xref-group>"
+		}]
+	}, {
+		"template": "single_touch_button",
+		"rubric": "Which sounds better here: <i>thankful</i> or <i>grateful</i>?",
+		"question": [{
+			"text": "I’m so #singletouch that we avoided the accident on the motorway.",
+			"option": [
+				["thankful", "grateful"]
+			],
+			"answer": ["thankful"]
+		}],
+		"feedback": [{
+			"desc": "<xref-group><a href='u725fd0dd48eeb434.631f8527.158e4170750.4594'>604</a></xref-group>"
+		}]
+	}]
+	}, 
+	"c2" :
+	{
+	"-unit": "28",
+	"-level": "c2",
+	"topic_name": "words (2): other confusable words ",
+	"exercise": [{
+		"template": "multi_radio",
+		"rubric": "Right (R) or wrong (W)?",
+		"rwText": ["R", "W"],
+		"question": [{
+			"text": "<item>They don’t allow to make</item> personal phone calls from the office.",
+			"answer": {
+				"right": "W"
+			}
+		}, {
+			"text": "<item>It is not allowed to make</item> personal phone calls from the office.",
+			"answer": {
+				"right": "W"
+			}
+		}, {
+			"text": "<item>We are not allowed to make</item> personal phone calls from the office.",
+			"answer": {
+				"right": "R"
+			}
+		}, {
+			"text": "The children <item>are not permitted out</item> at night.",
+			"answer": {
+				"right": "W"
+			}
+		}, {
+			"text": "We got to the theatre at 6.00, but we <item>were only let in</item> at 6.30.",
+			"answer": {
+				"right": "R"
+			}
+		}],
+		"feedback": [{
+			"desc": "<xref-group><a href='u725fd0dd48eeb434.631f8527.158e4170750.-2e2b'>365</a></xref-group>"
+		}]
+	}, {
+		"template": "multi_radio",
+		"rubric": "<i>Also</i>, <i>as well</i>, and/or <i>too</i>? Can these words/expressions complete the sentences correctly: yes (Y) or no (N)?",
+		"rwText": ["Y", "N"],
+		"question": [{
+			"input_text": "She plays the piano and <gap/> the flute.",
+			"text": "also",
+			"answer": {
+				"right": "Y"
+			}
+		}, {
+			"text": "as well",
+			"answer": {
+				"right": "N"
+			}
+		}, {
+			"text": "too",
+			"answer": {
+				"right": "N"
+			}
+		}, {
+			"input_text": "He’s been to Peru, and I have <gap/>.",
+			"text": "also",
+			"answer": {
+				"right": "N"
+			}
+		}, {
+			"text": "as well",
+			"answer": {
+				"right": "Y"
+			}
+		}, {
+			"text": "too",
+			"answer": {
+				"right": "Y"
+			}
+		}, {
+			"input_text": "‘I’m fed up.’ ‘Me <gap/>.’",
+			"text": "also",
+			"answer": {
+				"right": "N"
+			}
+		}, {
+			"text": "as well",
+			"answer": {
+				"right": "N"
+			}
+		}, {
+			"text": "too",
+			"answer": {
+				"right": "Y"
+			}
+		}],
+		"feedback": [{
+			"desc": "<xref-group><a href='u725fd0dd48eeb434.631f8527.158e4170750.-2c3b'>369</a></xref-group>"
+		}]
+	}, {
+		"template": "multi_radio",
+		"rubric": "Can words A–R complete the sentences correctly: yes (Y) or no (N)?",
+		"rwText": ["Y", "N"],
+		"question": [{
+			"input_text": "Please <gap/> ready now.",
+			"text": "become",
+			"answer": {
+				"right": "N"
+			}
+		}, {
+			"text": "get",
+			"answer": {
+				"right": "Y"
+			}
+		}, {
+			"input_text": "I’m <gap/> more and more impatient.",
+			"text": "becoming",
+			"answer": {
+				"right": "Y"
+			}
+		}, {
+			"text": "getting",
+			"answer": {
+				"right": "Y"
+			}
+		}, {
+			"input_text": "How did that window <gap/> broken?",
+			"text": "become",
+			"answer": {
+				"right": "N"
+			}
+		}, {
+			"text": "get",
+			"answer": {
+				"right": "Y"
+			}
+		}, {
+			"input_text": "She’s looking forward to <gap/> a grandmother.",
+			"text": "becoming",
+			"answer": {
+				"right": "Y"
+			}
+		}, {
+			"text": "getting",
+			"answer": {
+				"right": "N"
+			}
+		}, {
+			"input_text": "I think that meat has <gap/> bad.",
+			"text": "got",
+			"answer": {
+				"right": "N"
+			}
+		}, {
+			"text": "gone",
+			"answer": {
+				"right": "Y"
+			}
+		}, {
+			"input_text": "May all your dreams <gap/> true.",
+			"text": "get",
+			"answer": {
+				"right": "N"
+			}
+		}, {
+			"text": "come",
+			"answer": {
+				"right": "Y"
+			}
+		}, {
+			"text": "turn",
+			"answer": {
+				"right": "N"
+			}
+		}, {
+			"input_text": "I don’t want to <gap/> old.",
+			"text": "get",
+			"answer": {
+				"right": "Y"
+			}
+		}, {
+			"text": "grow",
+			"answer": {
+				"right": "Y"
+			}
+		}, {
+			"input_text": "When she’s embarrassed she always <gap/> red.",
+			"text": "gets",
+			"answer": {
+				"right": "N"
+			}
+		}, {
+			"text": "goes",
+			"answer": {
+				"right": "Y"
+			}
+		}, {
+			"text": "turns",
+			"answer": {
+				"right": "Y"
+			}
+		}],
+		"feedback": [{
+			"desc": "<xref-group><a href='u725fd0dd48eeb434.631f8527.158e4170750.-1f20'>394</a></xref-group>"
+		}]
+	}, {
+		"template": "freetext",
+		"rubric": "When can you use <i>though</i> but not <i>although</i>?",
+		"question": [{
+			"text": ""
+		}],
+		"answer": "As an adverb at the end of a sentence to mean ‘however’.",
+		"feedback": [{
+			"desc": "<xref-group><a href='u725fd0dd48eeb434.631f8527.158e4170750.-2b51'>371</a></xref-group>"
+		}]
+	}, {
+		"template": "single_radio",
+		"question": [{
+			"text": "<i>Because</i>, <i>as</i> and <i>since</i> can all be used to introduce causes or reasons. How is <i>because</i> different from the other two?",
+			"option": ["Unlike <i>because</i>, <i>as</i> and <i>since</i> are used most often when the reason is not the most important part of the information given in the sentence.", "Unlike <i>as</i> and <i>since</i>, <i>because</i> can be used when there is no time-reference in the sentence.", "<i>Because</i> makes the reason more persuasive than <i>as</i> or <i>since</i>."],
+			"answer": "Unlike because, as and since are used most often when the reason is not the most important part of the information given in the sentence."
+		}],
+		"feedback": [{
+			"desc": "<xref-group><a href='u725fd0dd48eeb434.631f8527.158e4170750.-2873'>377</a></xref-group>"
+		}]
+	}, {
+		"template": "multi_radio",
+		"rubric": "Right (R) or wrong (W) in British English?",
+		"rwText": ["R", "W"],
+		"question": [{
+			"text": "Can you <item>bring</item> the car to the garage tomorrow? I won’t have time.",
+			"answer": {
+				"right": "W"
+			}
+		}, {
+			"text": "I’ll arrive at the station at 6.00. Can you <item>take</item> the car and pick me up?",
+			"answer": {
+				"right": "W"
+			}
+		}, {
+			"text": "‘Where’s that report?’ ‘I <item>brought</item> it to you when you were in the boardroom.’",
+			"answer": {
+				"right": "R"
+			}
+		}, {
+			"text": "We’re going out to dinner tonight. Would you like to join us and <item>bring</item> your girlfriend?",
+			"answer": {
+				"right": "R"
+			}
+		}],
+		"feedback": [{
+			"desc": "<xref-group><a href='u725fd0dd48eeb434.631f8527.158e4170750.-1851'>409</a></xref-group>"
+		}]
+	}, {
+		"template": "multi_radio",
+		"rubric": "Right (R) or wrong (W)?",
+		"rwText": ["R", "W"],
+		"question": [{
+			"text": "Anna’s back in London. I’m going to <item>come</item> and see her at the weekend.",
+			"answer": {
+				"right": "W"
+			}
+		}, {
+			"text": "Can you <item>come</item> and see me in my office tomorrow?",
+			"answer": {
+				"right": "R"
+			}
+		}, {
+			"text": "We’re going to the cinema tonight. Would you like to <item>come</item> with us?",
+			"answer": {
+				"right": "R"
+			}
+		}, {
+			"text": "He waited for her till six o’clock, but she didn’t <item>come</item>.",
+			"answer": {
+				"right": "R"
+			}
+		}],
+		"feedback": [{
+			"desc": "<xref-group><a href='u725fd0dd48eeb434.631f8527.158e4170750.-135a'>424</a></xref-group>"
+		}]
+	}, {
+		"template": "multi_radio",
+		"rubric": "Right (R) or wrong (W)?",
+		"rwText": ["R", "W"],
+		"question": [{
+			"text": "What time <item>do you expect</item> her to phone?",
+			"answer": {
+				"right": "R"
+			}
+		}, {
+			"text": "What time <item>are you expecting</item> her to phone?",
+			"answer": {
+				"right": "R"
+			}
+		}, {
+			"text": "I <item>expect</item> she’ll phone about 6.00.",
+			"answer": {
+				"right": "R"
+			}
+		}, {
+			"text": "I<item>’m expecting</item> she’ll phone about 6.00.",
+			"answer": {
+				"right": "W"
+			}
+		}, {
+			"text": "I hope Jack <item>doesn’t miss</item> the train.",
+			"answer": {
+				"right": "R"
+			}
+		}, {
+			"text": "I hope Jack <item>won’t miss</item> the train.",
+			"answer": {
+				"right": "R"
+			}
+		}],
+		"feedback": [{
+			"desc": "<xref-group><a href='u725fd0dd48eeb434.631f8527.158e4170750.-622'>457</a></xref-group>"
+		}]
+	}, {
+		"template": "single_touch_button",
+		"rubric": "Choose the right answers.",
+		"question": [{
+			"input_text": "Film A is <item>quite good</item>. Film B is <item>rather good</item>. Film C is <item>fairly good</item>.",
+			"text": "#singletouch is best.",
+			"option": [
+				["Film A", "Film B", "Film C"]
+			],
+			"answer": ["Film B"]
+		}, {
+			"text": "#singletouch is least good.",
+			"option": [
+				["Film A", "Film B", "Film C"]
+			],
+			"answer": ["Film C"]
+		}],
+		"feedback": [{
+			"desc": "<xref-group><a href='u725fd0dd48eeb434.631f8527.158e4170750.-43a'>460</a></xref-group>"
+		}]
+	}, {
+		"template": "single_touch_button",
+		"rubric": "<i>Get</i>, <i>go</i> or both?",
+		"question": [{
+			"text": "I’m not sure I can #singletouch over that wall.",
+			"option": [
+				["get", "go", "[both]"]
+			],
+			"answer": ["get"]
+		}, {
+			"text": "I usually #singletouch to Bristol by car. ",
+			"option": [
+				["get", "go", "[both]"]
+			],
+			"answer": ["go"]
+		}, {
+			"text": "There was a lot of traffic, and I only managed to #singletouch to the meeting at 8.30.",
+			"option": [
+				["get", "go", "[both]"]
+			],
+			"answer": ["get"]
+		}],
+		"feedback": [{
+			"desc": "<xref-group><a href='u725fd0dd48eeb434.631f8527.158e4170750.2f1'>473</a></xref-group>"
+		}]
+	}, {
+		"template": "multi_radio",
+		"rubric": "Are these right: yes (Y) or no (N)?",
+		"rwText": ["Y", "N"],
+		"question": [{
+			"text": "I <item>no more</item> support the Labour Party.",
+			"answer": {
+				"right": "N"
+			}
+		}, {
+			"text": "I <item>no longer</item> support the Labour Party.",
+			"answer": {
+				"right": "Y"
+			}
+		}, {
+			"text": "I <item>don’t</item> support the Labour Party <item>any more</item>.",
+			"answer": {
+				"right": "Y"
+			}
+		}, {
+			"text": "I <item>don’t</item> support the Labour Party <item>any longer</item>.",
+			"answer": {
+				"right": "Y"
+			}
+		}],
+		"feedback": [{
+			"desc": "<xref-group><a href='u725fd0dd48eeb434.631f8527.158e4170750.2323'>535</a></xref-group>"
+		}]
+	}, {
+		"template": "multi_radio",
+		"rubric": "Are these right: yes (Y) or no (N)?",
+		"rwText": ["Y", "N"],
+		"question": [{
+			"text": "It’s <item>quite a</item> good film.",
+			"answer": {
+				"right": "Y"
+			}
+		}, {
+			"text": "It’s <item>rather a</item> good film.",
+			"answer": {
+				"right": "Y"
+			}
+		}, {
+			"text": "It’s <item>fairly a</item> good film.",
+			"answer": {
+				"right": "N"
+			}
+		}],
+		"feedback": [{
+			"desc": "<xref-group><a href='u725fd0dd48eeb434.631f8527.158e4170750.2eb5'>564.2</a><br><a href='u725fd0dd48eeb434.631f8527.158e4170750.2f78'>565.2</a></xref-group>"
+		}]
+	}, {
+		"template": "multi_radio",
+		"rubric": "Right (R) or wrong (W)?",
+		"rwText": ["R", "W"],
+		"question": [{
+			"text": "<item>I’m used to drive</item> in London now, but it was hard at the beginning.",
+			"answer": {
+				"right": "W"
+			}
+		}, {
+			"text": "<item>You’ll soon get used to living</item> in the country.",
+			"answer": {
+				"right": "R"
+			}
+		}],
+		"feedback": [{
+			"desc": "<xref-group><a href='u725fd0dd48eeb434.631f8527.158e4170750.4cbf'>615</a></xref-group>"
+		}]
+	}]
+	}
+}

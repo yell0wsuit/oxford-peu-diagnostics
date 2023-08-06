@@ -1,0 +1,1101 @@
+{
+	"b2" :
+	{
+	"-unit": "24",
+	"-level": "b2",
+	"topic_name": "speech and spoken exchanges",
+	"exercise": [{
+		"template": "multi_radio",
+		"rubric": "Right (R) or wrong (W)?",
+		"rwText": ["R", "W"],
+		"question": [{
+			"text": "You’re the new secretary, aren’t you?",
+			"answer": {
+				"right": "R"
+			}
+		}, {
+			"text": "Are you the new secretary, aren’t you?",
+			"answer": {
+				"right": "W"
+			}
+		}, {
+			"text": "You’re not the new secretary, are you?",
+			"answer": {
+				"right": "R"
+			}
+		}],
+		"feedback": [{
+			"desc": "<xref-group><a href='u725fd0dd48eeb434.631f8527.158e4170750.-7578'>305.2</a></xref-group>"
+		}]
+	}, {
+		"template": "multi_radio",
+		"rubric": "Are these question tags used correctly: yes (Y) or no (N)?",
+		"rwText": ["Y", "N"],
+		"question": [{
+			"text": "Sophie can speak Japanese, <item>can’t she?</item>",
+			"answer": {
+				"right": "Y"
+			}
+		}, {
+			"text": "You like oysters, <item>don’t you?</item>",
+			"answer": {
+				"right": "Y"
+			}
+		}, {
+			"text": "You wouldn’t like a puppy, <item>wouldn’t you?</item>",
+			"answer": {
+				"right": "N"
+			}
+		}, {
+			"text": "Harry gave you his address, <item>didn’t he?</item>",
+			"answer": {
+				"right": "Y"
+			}
+		}, {
+			"text": "She doesn’t smoke, <item>doesn’t she?</item>",
+			"answer": {
+				"right": "N"
+			}
+		}],
+		"feedback": [{
+			"desc": "<xref-group><a href='u725fd0dd48eeb434.631f8527.158e4170750.-7578'>305.2–3</a></xref-group>"
+		}]
+	}, {
+		"template": "single_touch_button",
+		"rubric": "Choose the right question tag.",
+		"question": [{
+			"text": "They can all swim, #singletouch?",
+			"option": [
+				["can’t they", "don’t they"]
+			],
+			"answer": ["can’t they"]
+		}, {
+			"text": "They all speak German, #singletouch?",
+			"option": [
+				["can’t they", "don’t they"]
+			],
+			"answer": ["don’t they"]
+		}, {
+			"text": "You’ve brought the map, #singletouch?",
+			"option": [
+				["didn’t you", "haven’t you"]
+			],
+			"answer": ["haven’t you"]
+		}, {
+			"text": "He’s coming next month, #singletouch?",
+			"option": [
+				["isn’t he", "doesn’t he"]
+			],
+			"answer": ["isn’t he"]
+		}, {
+			"text": "He comes every month, #singletouch?",
+			"option": [
+				["isn’t he", "doesn’t he"]
+			],
+			"answer": ["doesn’t he"]
+		}, {
+			"text": "You wanted to come with us, #singletouch?",
+			"option": [
+				["didn’t you", "wouldn’t you"]
+			],
+			"answer": ["didn’t you"]
+		}],
+		"feedback": [{
+			"desc": "<xref-group><a href='u725fd0dd48eeb434.631f8527.158e4170750.-7558'>305.3</a></xref-group>"
+		}]
+	}, {
+		"template": "multi_radio",
+		"rubric": "Right (R) or wrong (W)?",
+		"rwText": ["R", "W"],
+		"question": [{
+			"text": "You never say what you’re thinking, <item>don’t you?</item>",
+			"answer": {
+				"right": "W"
+			}
+		}, {
+			"text": "He could never refuse a drink, <item>couldn’t he?</item>",
+			"answer": {
+				"right": "W"
+			}
+		}],
+		"feedback": [{
+			"desc": "<xref-group><a href='u725fd0dd48eeb434.631f8527.158e4170750.-754b'>305.4</a></xref-group>"
+		}]
+	}, {
+		"template": "multi_radio",
+		"rubric": "Formal (F), normal (N) or wrong (W)?",
+		"rwText": ["F", "N", "W"],
+		"question": [{
+			"input_text": "They promised to repay us within six months, …",
+			"text": "… did they not?",
+			"answer": {
+				"right": "F"
+			}
+		}, {
+			"text": "… did not they?",
+			"answer": {
+				"right": "W"
+			}
+		}, {
+			"text": "… didn’t they?",
+			"answer": {
+				"right": "N"
+			}
+		}],
+		"feedback": [{
+			"desc": "<xref-group><a href='u725fd0dd48eeb434.631f8527.158e4170750.-758b'>305.1</a></xref-group>"
+		}]
+	}, {
+		"template": "gapfill",
+		"hideRight": "true",
+		"rubric": "Turn the questions into statements with question tags.",
+		"sample": {
+			"text": "Are you Spanish? #gap",
+			"answer": ["You're Spanish, aren't you?"]
+		},
+		"question": [{
+			"text": "Do you know my sister? #gap",
+			"answer": [
+				["You know my sister, don't you?",
+					"You know my sister, don’t you?"
+				]
+			]
+		}, {
+			"text": "Is the office on the first floor? #gap",
+			"answer": [
+				["The office is on the first floor, isn't it?",
+					"The office is on the first floor, isn’t it?"
+				]
+			]
+		}, {
+			"text": "Do you like chocolate cake? #gap",
+			"answer": [
+				["You like chocolate cake, don't you?",
+					"You like chocolate cake, don’t you?"
+				]
+			]
+		}, {
+			"text": "Would you like some more tea? #gap",
+			"answer": [
+				["You'd like some more tea, wouldn't you?",
+					"You'd like some more tea, wouldn’t you?",
+					"You’d like some more tea, wouldn't you?",
+					"You’d like some more tea, wouldn’t you?",
+					"You would like some more tea, wouldn't you?",
+					"You would like some more tea, wouldn’t you?",
+					"You would like some more tea, wouldn't you?",
+					"You would like some more tea, wouldn’t you?"
+				]
+			]
+		}, {
+			"text": "Did you speak to my boss at the meeting? #gap",
+			"answer": [
+				["You spoke to my boss at the meeting, didn't you?",
+					"You spoke to my boss at the meeting, didn’t you?"
+				]
+			]
+		}, {
+			"text": "Can you ride a bicycle? #gap",
+			"answer": [
+				["You can ride a bicycle, can't you?",
+					"You can ride a bicycle, can’t you?"
+				]
+			]
+		}, {
+			"text": "Will you come again next week? #gap",
+			"answer": [
+				["You'll come again next week, won't you?",
+					"You'll come again next week, won’t you?",
+					"You’ll come again next week, won't you?",
+					"You’ll come again next week, won’t you?",
+					"You will come again next week, won't you?",
+					"You will come again next week, won’t you?",
+					"You will come again next week, won't you?",
+					"You will come again next week, won’t you?"
+				]
+			]
+		}],
+		"feedback": [{
+			"desc": "<xref-group><a href='u725fd0dd48eeb434.631f8527.158e4170750.-7558'>305.3</a></xref-group>"
+		}]
+	}, {
+		"template": "gapfill",
+		"hideRight": "true",
+		"rubric": "Kevin is talking to his grandmother. Change his <i>Yes</i>/<i>No</i> answers to proper short answers.",
+		"sample": {
+			"text": "‘Are you enjoying school, Kevin?’ ‘Yes.’ #gap",
+			"answer": ["Yes, I am."]
+		},
+		"question": [{
+			"text": "‘Do you like your teachers?’ ‘Yes.’ #gap",
+			"answer": [
+				["Yes, I do."]
+			]
+		}, {
+			"text": "‘Are your teachers nice to you?’ ‘Yes.’ #gap",
+			"answer": [
+				["Yes, they are."]
+			]
+		}, {
+			"text": "‘Have you decided what you want to do once you’ve left school?‘ ‘No.’ #gap",
+			"answer": [
+				["No, I haven't.",
+					"No, I haven’t."
+				]
+			]
+		}, {
+			"text": "‘Would you like to go to university?’ ‘No.’ #gap",
+			"answer": [
+				["No, I wouldn't.",
+					"No, I wouldn’t."
+				]
+			]
+		}, {
+			"text": "‘Will you go to university if your parents want you to?’ ‘No.’ #gap",
+			"answer": [
+				["No, I won't.",
+					"No, I won’t."
+				]
+			]
+		}],
+		"feedback": [{
+			"desc": "<xref-group><a href='u725fd0dd48eeb434.631f8527.158e4170750.-7334'>308</a></xref-group>"
+		}]
+	}, {
+		"template": "gapfill",
+		"rubric": "Answer these questions with short answers (not just <i>Yes</i>/<i>No</i>) that are true for you.",
+		"question": [{
+			"text": "Can you play the piano? #gap",
+			"answer": [
+				["Yes, I can.",
+					"No, I can't.",
+					"No, I can’t."
+				]
+			]
+		}, {
+			"text": "Do you do some exercise every day? #gap",
+			"answer": [
+				["Yes, I do.",
+					"No, I don't.",
+					"No, I don’t."
+				]
+			]
+		}, {
+			"text": "Would you like to have more free time? #gap",
+			"answer": [
+				["Yes, I would.",
+					"No, I wouldn't.",
+					"No, I wouldn’t."
+				]
+			]
+		}, {
+			"text": "Have you got a bicycle? #gap",
+			"answer": [
+				["Yes, I have.",
+					"No, I haven't.",
+					"No, I haven’t."
+				]
+			]
+		}, {
+			"text": "Did you do a lot of sport at primary school? #gap",
+			"answer": [
+				["Yes, I did.",
+					"No, I didn't.",
+					"No, I didn’t."
+				]
+			]
+		}, {
+			"text": "Will you ever go to the moon? #gap",
+			"answer": [
+				["Yes, I will.",
+					"No, I won't.",
+					"No, I won’t."
+				]
+			]
+		}],
+		"feedback": [{
+			"desc": "<xref-group><a href='u725fd0dd48eeb434.631f8527.158e4170750.-7334'>308</a></xref-group>"
+		}]
+	}, {
+		"template": "multi_radio",
+		"rubric": "Do the replies sound rude: yes (Y) or no (N)?",
+		"rwText": ["Y", "N"],
+		"question": [{
+			"input_text": "‘When does the film start?’",
+			"text": "‘How should I know?’",
+			"answer": {
+				"right": "Y"
+			}
+		}, {
+			"text": "‘How would I know?’",
+			"answer": {
+				"right": "Y"
+			}
+		}, {
+			"text": "‘How can I find out?’",
+			"answer": {
+				"right": "N"
+			}
+		}],
+		"feedback": [{
+			"desc": "<xref-group><a href='u725fd0dd48eeb434.631f8527.158e4170750.-76a3'>303.2</a></xref-group>"
+		}]
+	}]
+	}, 
+	"c1" :
+	{
+	"-unit": "24",
+	"-level": "c1",
+	"topic_name": "speech and spoken exchanges",
+	"exercise": [{
+		"template": "single_touch_button",
+		"rubric": "Choose the right option for each sentence.",
+		"question": [{
+			"text": "It’s no good, #singletouch it?",
+			"option": [
+				["is", "isn’t"]
+			],
+			"answer": ["is"]
+		}, {
+			"text": "It’s hardly rained at all this summer, #singletouch it?",
+			"option": [
+				["has", "hasn’t"]
+			],
+			"answer": ["has"]
+		}, {
+			"text": "There’s little we can do about it, #singletouch there?",
+			"option": [
+				["is", "isn’t"]
+			],
+			"answer": ["is"]
+		}],
+		"feedback": [{
+			"desc": "<xref-group><a href='u725fd0dd48eeb434.631f8527.158e4170750.-754b'>305.4</a></xref-group>"
+		}]
+	}, {
+		"template": "single_radio",
+		"question": [{
+			"text": "What does this sentence mean?",
+			"input_text": "You couldn’t lend me £5, could you?",
+			"option": ["You weren’t able to lend me £5 when I asked you.", "Could you lend me £5, please?"],
+			"answer": "Could you lend me £5, please?"
+		}],
+		"feedback": [{
+			"desc": "<xref-group><a href='u725fd0dd48eeb434.631f8527.158e4170750.-7516'>305.6</a></xref-group>"
+		}]
+	}, {
+		"template": "multi_radio_textEntry",
+		"hideRight": "true",
+		"rubric": "Are the replies right (R) or wrong (W) in informal spoken English? When you have checked your answers, correct any wrong replies.",
+		"rwText": ["R", "W"],
+		"question": [{
+			"text": "‘You didn’t phone Debbie last night.’ ‘<item>No, but I did this morning.</item>’ ",
+			"answer": {
+				"right": "R"
+			}
+		}, {
+			"text": "‘I think she likes cakes.’ ‘<item>Yes, she really likes.</item>’ ",
+			"answer": [{
+				"right": "W"
+			}, {
+				"right": [
+					"Yes, she really does.",
+					"'Yes, she really does.'",
+					"‘Yes, she really does.’"
+				]
+			}]
+		}, {
+			"text": "‘Is she happy?’ ‘<item>I think she is.</item>’ ",
+			"answer": {
+				"right": "R"
+			}
+		}, {
+			"text": "‘Have you got a pen?’ ‘<item>I think I have.</item> Yes, here you are.’ ",
+			"answer": {
+				"right": "R"
+			}
+		}, {
+			"text": "‘That job didn’t take him long to do.’ ‘<item>It certainly didn’t.</item>’ ",
+			"answer": {
+				"right": "R"
+			}
+		}],
+		"feedback": [{
+			"desc": "<xref-group><a href='u725fd0dd48eeb434.631f8527.158e4170750.-7334'>308</a></xref-group>"
+		}]
+	}, {
+		"template": "gapfill",
+		"hideRight": "true",
+		"rubric": "Complete each exchange with a two-word reply question.",
+		"sample": {
+			"text": "‘It was a terrible party.’ #gap ‘Yes, it was.’",
+			"answer": ["'Was it?'"]
+		},
+		"question": [{
+			"text": "‘We had a great trip last summer.’ ‘#gap?’ ‘Yes, we went to China.’",
+			"answer": [
+				["Did you"]
+			]
+		}, {
+			"text": "‘I’ve got a headache.’ ‘Oh dear, #gap? I’ll get you an aspirin.’",
+			"answer": [
+				["have you"]
+			]
+		}, {
+			"text": "‘Jack likes that girl next door.’ ‘#gap? I don’t think she likes him.’",
+			"answer": [
+				["Does he"]
+			]
+		}, {
+			"text": "‘I don’t understand.’ ‘#gap? I’m sorry, I’ll explain it again.’",
+			"answer": [
+				["Don't you",
+					"Don’t you"
+				]
+			]
+		}, {
+			"text": "‘It was a lovely concert.’ ‘Yes, #gap? I really enjoyed it, too.’",
+			"answer": [
+				["wasn't it",
+					"wasn’t it"
+				]
+			]
+		}],
+		"feedback": [{
+			"desc": "<xref-group><a href='u725fd0dd48eeb434.631f8527.158e4170750.-73b2'>307</a></xref-group>"
+		}]
+	}, {
+		"template": "multi_radio",
+		"rubric": "Can expressions A–C end this sentence correctly: yes (Y) or no (N)?",
+		"rwText": ["Y", "N"],
+		"question": [{
+			"input_text": "Louise can dance beautifully, and ... ",
+			"text": " ... so her sister.",
+			"answer": {
+				"right": "N"
+			}
+		}, {
+			"text": " ... so can her sister.",
+			"answer": {
+				"right": "Y"
+			}
+		}, {
+			"text": " ... so her sister can.",
+			"answer": {
+				"right": "N"
+			}
+		}],
+		"feedback": [{
+			"desc": "<xref-group><a href='u725fd0dd48eeb434.631f8527.158e4170750.-7272'>309.1</a></xref-group>"
+		}]
+	}, {
+		"template": "gapfill",
+		"hideRight": "true",
+		"rubric": "Fill in the right word to complete the sentence correctly.",
+		"question": [{
+			"text": "‘I’ve lost their address.’ ‘So #gap I.’",
+			"answer": [
+				["have"]
+			]
+		}, {
+			"text": "I was very tired and so #gap the others.",
+			"answer": [
+				["were"]
+			]
+		}, {
+			"text": "‘We live in a small village.’ ‘So #gap my parents.’",
+			"answer": [
+				["do"]
+			]
+		}, {
+			"text": "‘My daughter just wants to make money.’ ‘So #gap my brother when he was her age, and now he’s a millionaire.’",
+			"answer": [
+				["did"]
+			]
+		}],
+		"feedback": [{
+			"desc": "<xref-group><a href='u725fd0dd48eeb434.631f8527.158e4170750.-7272'>309.1</a></xref-group>"
+		}]
+	}, {
+		"template": "multi_radio",
+		"rubric": "Are these questions possible in informal speech: yes (Y) or no (N)?",
+		"rwText": ["Y", "N"],
+		"question": [{
+			"text": "You’re working late tonight?",
+			"answer": {
+				"right": "Y"
+			}
+		}, {
+			"text": "This is your car?",
+			"answer": {
+				"right": "Y"
+			}
+		}, {
+			"text": "Where you are going this afternoon?",
+			"answer": {
+				"right": "N"
+			}
+		}, {
+			"text": "That’s the boss?",
+			"answer": {
+				"right": "Y"
+			}
+		}],
+		"feedback": [{
+			"desc": "<xref-group><a href='u725fd0dd48eeb434.631f8527.158e4170750.-7727'>302</a></xref-group>"
+		}]
+	}, {
+		"template": "multi_radio",
+		"rubric": "Look at these questions. Do the speakers definitely want to leave: yes (Y) or no (N)",
+		"rwText": ["Y", "N"],
+		"question": [{
+			"input_text": "<speaker>speaker 1</speaker>: <item>Would it be better</item> for me to leave now?<br/><speaker>speaker 2</speaker>: <item>Wouldn’t it be better</item> for me to leave now?<br/><speaker>speaker 3</speaker>: <item>Why shouldn’t I</item> leave now?",
+			"text": "speaker 1",
+			"answer": {
+				"right": "N"
+			}
+		}, {
+			"text": "speaker 2",
+			"answer": {
+				"right": "Y"
+			}
+		}, {
+			"text": "speaker 3",
+			"answer": {
+				"right": "Y"
+			}
+		}],
+		"feedback": [{
+			"desc": "<xref-group><a href='u725fd0dd48eeb434.631f8527.158e4170750.-70f3'>310.5</a></xref-group>"
+		}]
+	}, {
+		"template": "single_radio",
+		"question": [{
+			"text": "Look at these questions (again). Which speaker most wants to leave?",
+			"input_text": "<speaker>speaker 1</speaker>: <item>Would it be better</item> for me to leave now?<br/><speaker>speaker 2</speaker>: <item>Wouldn’t it be better</item> for me to leave now?<br/><speaker>speaker 3</speaker>: <item>Why shouldn’t I</item> leave now?",
+			"option": ["Speaker 1", "Speaker 2", "Speaker 3"],
+			"answer": "Speaker 3"
+		}],
+		"feedback": [{
+			"desc": "<xref-group><a href='u725fd0dd48eeb434.631f8527.158e4170750.-76a3'>303.2</a><br><a href='u725fd0dd48eeb434.631f8527.158e4170750.-70f3'>310.5</a></xref-group>"
+		}]
+	}, {
+		"template": "single_radio",
+		"question": [{
+			"text": "Which sounds more polite: A or B?",
+			"option": ["<item>I’m hoping</item> you can help me.", "<item>I hope</item> you can help me."],
+			"answer": "I’m hoping you can help me."
+		}],
+		"feedback": [{
+			"desc": "<xref-group><a href='u725fd0dd48eeb434.631f8527.158e4170750.-70b0'>311.2</a></xref-group>"
+		}]
+	}]
+	}, 
+	"c2" :
+	{
+	"-unit": "24",
+	"-level": "c2",
+	"topic_name": "speech and spoken exchanges",
+	"exercise": [{
+		"template": "multi_radio",
+		"rubric": "Right (R) or wrong (W)?",
+		"rwText": ["R", "W"],
+		"question": [{
+			"text": "I’m late, <item>aren’t I</item>?",
+			"answer": {
+				"right": "R"
+			}
+		}, {
+			"text": "There’s something wrong, <item>isn’t there</item>?",
+			"answer": {
+				"right": "R"
+			}
+		}, {
+			"text": "Nobody phoned, <item>did they</item>?",
+			"answer": {
+				"right": "R"
+			}
+		}, {
+			"text": "So you’re moving to London, <item>are you</item>?",
+			"answer": {
+				"right": "R"
+			}
+		}, {
+			"text": "This is the last bus, <item>is it</item>?",
+			"answer": {
+				"right": "R"
+			}
+		}, {
+			"text": "Have a good time, <item>did you</item>?",
+			"answer": {
+				"right": "R"
+			}
+		}],
+		"feedback": [{
+			"desc": "For <item>A</item>, <xref-group><a href='u725fd0dd48eeb434.631f8527.158e4170750.-74e7'>306.1</a></xref-group>.<br/>For <item>B</item>, <xref-group><a href='u725fd0dd48eeb434.631f8527.158e4170750.-74a7'>306.4</a></xref-group>.<br/>For <item>C</item>, <xref-group><a href='u725fd0dd48eeb434.631f8527.158e4170750.-748a'>306.5</a></xref-group>.<br/>For <item>D</item>, <xref-group><a href='u725fd0dd48eeb434.631f8527.158e4170750.-744a'>306.7</a></xref-group>.<br/>For <item>E</item>, <xref-group><a href='u725fd0dd48eeb434.631f8527.158e4170750.-744a'>306.7</a></xref-group>.<br/>For <item>F</item>, <xref-group><a href='u725fd0dd48eeb434.631f8527.158e4170750.-7422'>306.8</a></xref-group>."
+		}]
+	}, {
+		"template": "multi_radio",
+		"rubric": "Can the verbs complete the sentences correctly: yes (Y) or no (N)?. More than one may be possible.",
+		"rwText": ["Y", "N"],
+		"question": [{
+			"input_text": "Do come in, <gap/> you?",
+			"text": "won’t",
+			"answer": {
+				"right": "Y"
+			}
+		}, {
+			"text": "would",
+			"answer": {
+				"right": "Y"
+			}
+		}, {
+			"text": "couldn’t",
+			"answer": {
+				"right": "N"
+			}
+		}, {
+			"text": "will",
+			"answer": {
+				"right": "Y"
+			}
+		}, {
+			"input_text": "Give me a hand, <gap/> you?",
+			"text": "can",
+			"answer": {
+				"right": "N"
+			}
+		}, {
+			"text": "could",
+			"answer": {
+				"right": "N"
+			}
+		}, {
+			"text": "will",
+			"answer": {
+				"right": "Y"
+			}
+		}, {
+			"text": "would",
+			"answer": {
+				"right": "Y"
+			}
+		}, {
+			"text": "can’t",
+			"answer": {
+				"right": "Y"
+			}
+		}, {
+			"text": "won’t",
+			"answer": {
+				"right": "Y"
+			}
+		}, {
+			"input_text": "Don’t forget, <gap/> you?",
+			"text": "can’t",
+			"answer": {
+				"right": "N"
+			}
+		}, {
+			"text": "will",
+			"answer": {
+				"right": "Y"
+			}
+		}, {
+			"text": "would",
+			"answer": {
+				"right": "N"
+			}
+		}, {
+			"text": "can",
+			"answer": {
+				"right": "N"
+			}
+		}, {
+			"input_text": "Let’s have a party, <gap/> we?",
+			"text": "should",
+			"answer": {
+				"right": "N"
+			}
+		}, {
+			"text": "shall",
+			"answer": {
+				"right": "Y"
+			}
+		}, {
+			"text": "will",
+			"answer": {
+				"right": "N"
+			}
+		}, {
+			"text": "would",
+			"answer": {
+				"right": "N"
+			}
+		}],
+		"feedback": [{
+			"desc": "<xref-group><a href='u725fd0dd48eeb434.631f8527.158e4170750.-74d9'>306.2–3</a></xref-group><br/><item>A</item>: <i>won’t</i> is polite British English.<br/><item>I</item>: <i>can’t</i> expresses annoyance.<br/><item>J</item>: <i>won’t</i> expresses annoyance."
+		}]
+	}, {
+		"template": "multi_radio",
+		"rubric": "Are these natural in speech: yes (Y) or no (N)?",
+		"rwText": ["Y", "N"],
+		"question": [{
+			"text": "People like that I just can’t stand.",
+			"answer": {
+				"right": "Y"
+			}
+		}, {
+			"text": "A lot of good that does me.",
+			"answer": {
+				"right": "Y"
+			}
+		}, {
+			"text": "What she wanted I never found out.",
+			"answer": {
+				"right": "Y"
+			}
+		}, {
+			"text": "Strange people they are!",
+			"answer": {
+				"right": "Y"
+			}
+		}, {
+			"text": "Last for ever, these shoes will.",
+			"answer": {
+				"right": "Y"
+			}
+		}],
+		"feedback": [{
+			"desc": "<xref-group><a href='u725fd0dd48eeb434.631f8527.158e4170750.-7a3d'>299.2</a></xref-group>"
+		}]
+	}, {
+		"template": "multi_radio",
+		"rubric": "Is this spoken structure normal (N), strange (S) or impossible (I)?",
+		"rwText": ["N", "S", "I"],
+		"question": [{
+			"text": "<item>One of my brothers, his wife’s a singer, he says</item> it’s really hard to make a living at it.",
+			"answer": {
+				"right": "N"
+			}
+		}],
+		"feedback": [{
+			"desc": "<xref-group><a href='u725fd0dd48eeb434.631f8527.158e4170750.-7a52'>299.1</a></xref-group>"
+		}]
+	}, {
+		"template": "multi_radio",
+		"rubric": "Are these normal (N), strange (S) or impossible (I)?",
+		"rwText": ["N", "S", "I"],
+		"question": [{
+			"text": "Me, I don’t care.",
+			"answer": {
+				"right": "N"
+			}
+		}, {
+			"text": "He hasn’t a chance, Fred.",
+			"answer": {
+				"right": "N"
+			}
+		}, {
+			"text": "Hasn’t a chance, Fred.",
+			"answer": {
+				"right": "N"
+			}
+		}, {
+			"text": "I don’t think much of the party, me.",
+			"answer": {
+				"right": "I"
+			}
+		}, {
+			"text": "I don’t think much of the party, myself.",
+			"answer": {
+				"right": "N"
+			}
+		}, {
+			"text": "Crazy, that driver.",
+			"answer": {
+				"right": "N"
+			}
+		}, {
+			"text": "Really got on my nerves, Sylvia did.",
+			"answer": {
+				"right": "N"
+			}
+		}, {
+			"text": "You’ve gone mad, you have.",
+			"answer": {
+				"right": "N"
+			}
+		}, {
+			"text": "You’ve gone mad, have you.",
+			"answer": {
+				"right": "I"
+			}
+		}],
+		"feedback": [{
+			"desc": "<xref-group><a href='u725fd0dd48eeb434.631f8527.158e4170750.-7a03'>299.3–4</a></xref-group>"
+		}]
+	}, {
+		"template": "multi_radio",
+		"rubric": "In these exchanges, are the replies correct: yes (Y) or no (N)?",
+		"rwText": ["Y", "N"],
+		"question": [{
+			"text": "‘I’m getting married.’ ‘<item>You’re getting married?</item>’",
+			"answer": {
+				"right": "Y"
+			}
+		}, {
+			"text": "‘She’s invited 13 people to dinner.’ ‘<item>She’s invited how many?</item>’",
+			"answer": {
+				"right": "Y"
+			}
+		}, {
+			"text": "‘I’ve broken the fettle gauge.’ ‘<item>The what have you broken?</item>’",
+			"answer": {
+				"right": "N"
+			}
+		}, {
+			"text": "‘Where are you going?’ ‘<item>Where I’m going? Home.</item>’",
+			"answer": {
+				"right": "N"
+			}
+		}, {
+			"text": "‘Are you tired?’ ‘<item>Am I tired?</item> I’m exhausted.’",
+			"answer": {
+				"right": "Y"
+			}
+		}],
+		"feedback": [{
+			"desc": "<xref-group><a href='u725fd0dd48eeb434.631f8527.158e4170750.-764c'>304</a></xref-group>"
+		}]
+	}, {
+		"template": "multi_radio",
+		"rubric": "Right (R) or wrong (W)?",
+		"rwText": ["R", "W"],
+		"question": [{
+			"text": "<item>Whether we can stay with my mother</item> is another matter.",
+			"answer": {
+				"right": "R"
+			}
+		}, {
+			"text": "<item>Whether I’m happy?</item> What do you think?",
+			"answer": {
+				"right": "W"
+			}
+		}],
+		"feedback": [{
+			"desc": "<xref-group><a href='u725fd0dd48eeb434.631f8527.158e41641c3.593d'>254</a><br><a href='u725fd0dd48eeb434.631f8527.158e4170750.-75ee'>304.3</a></xref-group>"
+		}]
+	}, {
+		"template": "dragdrop_notrans",
+		"clone": "true",
+		"rubric": "Put in appropriate discourse markers from the box. More than one may be possible in some cases. Not all the words and expressions in the box are used.",
+		"option": ["actually",
+			"after all",
+			"anyway",
+			"at least",
+			"certainly",
+			"I mean",
+			"in fact",
+			"it’s true that",
+			"mind you",
+			"of course",
+			"sort of",
+			"you know"
+		],
+		"question": [{
+			"text": "The trip was quite short. #drop, we were only away for five days.",
+			"answer": [
+				["actually",
+					"I mean",
+					"in fact",
+					"you know"
+				]
+			]
+		}, {
+			"text": "I really don’t want to do it. It’s not my kind of thing. #drop, you can’t make me, can you?",
+			"answer": [
+				["after all",
+					"anyway",
+					"I mean"
+				]
+			]
+		}, {
+			"text": "She phoned last Monday. #drop, I think that’s when it was.",
+			"answer": [
+				["at least",
+					"anyway"
+				]
+			]
+		}, {
+			"text": "The party was good, #drop, it was sensational. ",
+			"answer": [
+				["actually",
+					"I mean",
+					"in fact"
+				]
+			]
+		}, {
+			"text": "I’ve nothing against Conservatives. #drop, I wouldn’t want my daughter to marry one.",
+			"answer": [
+				["mind you",
+					"of course"
+				]
+			]
+		}, {
+			"text": "#drop she was selfish, bad-tempered and unfaithful. But I loved her.",
+			"answer": [
+				["certainly",
+					"it’s true that",
+					"of course",
+					"you know"
+				]
+			]
+		}, {
+			"text": "Why don’t you come round at about, I don’t know, maybe #drop four o’clock, around then?",
+			"answer": [
+				["sort of",
+					"you know"
+				]
+			]
+		}, {
+			"text": "I don’t remember whether it was Dan, Joe or Sebastian who told me. #drop, it was one of those guys. ",
+			"answer": [
+				["anyway"]
+			]
+		}],
+		"feedback": [{
+			"desc": "<xref-group><a href='u725fd0dd48eeb434.631f8527.158e4170750.-793a'>301</a></xref-group> These are the most probable discourse markers in each sentence. Usually more than one is possible, depending on the exact function of the sentence in context. "
+		}]
+	}, {
+		"template": "multi_radio",
+		"rubric": "Imagine that a stranger, standing next to you in a queue, asks you to hold something for her for a moment. Would these ways of making the request be very polite (VP), polite (P) or not polite (NP)?",
+		"rwText": ["VP", "P", "NP"],
+		"question": [{
+			"text": "Hold this for me.",
+			"answer": {
+				"right": "NP"
+			}
+		}, {
+			"text": "Please hold this for me.",
+			"answer": {
+				"right": "NP"
+			}
+		}, {
+			"text": "You’d better hold this for me.",
+			"answer": {
+				"right": "NP"
+			}
+		}, {
+			"text": "I wonder if you could possibly hold this for me?",
+			"answer": {
+				"right": "VP"
+			}
+		}, {
+			"text": "Couldn’t you hold this for me?",
+			"answer": {
+				"right": "NP"
+			}
+		}, {
+			"text": "Could you possibly hold this for me?",
+			"answer": {
+				"right": "VP"
+			}
+		}, {
+			"text": "You couldn’t hold this for me, could you?",
+			"answer": {
+				"right": "P"
+			}
+		}, {
+			"text": "Would you mind holding this for me?",
+			"answer": {
+				"right": "P"
+			}
+		}],
+		"feedback": [{
+			"desc": "<xref-group><a href='u725fd0dd48eeb434.631f8527.158e4170750.-716a'>310</a></xref-group>"
+		}]
+	}, {
+		"template": "multi_radio",
+		"rubric": "Are these possible ways of asking for help: yes (Y) or no (N)?",
+		"rwText": ["Y", "N"],
+		"question": [{
+			"text": "<item>I hope</item> you can help me.",
+			"answer": {
+				"right": "Y"
+			}
+		}, {
+			"text": "<item>I’m hoping</item> you can help me.",
+			"answer": {
+				"right": "Y"
+			}
+		}, {
+			"text": "<item>I’ll hope</item> you can help me.",
+			"answer": {
+				"right": "N"
+			}
+		}, {
+			"text": "<item>I’ll be hoping</item> you can help me.",
+			"answer": {
+				"right": "N"
+			}
+		}, {
+			"text": "<item>I was hoping</item> you could help me.",
+			"answer": {
+				"right": "Y"
+			}
+		}, {
+			"text": "<item>I hoped</item> you could help me.",
+			"answer": {
+				"right": "N"
+			}
+		}, {
+			"text": "<item>I would hope</item> you could help me.",
+			"answer": {
+				"right": "N"
+			}
+		}],
+		"feedback": [{
+			"desc": "<xref-group><a href='u725fd0dd48eeb434.631f8527.158e4170750.-70cf'>311</a></xref-group>"
+		}]
+	}, {
+		"template": "multi_radio",
+		"rubric": "Might a shop assistant say these sentences: yes (Y) or no (N)?",
+		"rwText": ["Y", "N"],
+		"question": [{
+			"text": "How much <item>will you want </item>to spend, sir?",
+			"answer": {
+				"right": "N"
+			}
+		}, {
+			"text": "How much <item>do you want</item> to spend, sir?",
+			"answer": {
+				"right": "Y"
+			}
+		}, {
+			"text": "How much <item>did you want</item> to spend, sir?",
+			"answer": {
+				"right": "Y"
+			}
+		}, {
+			"text": "<item>That will be</item> £37.50, sir.",
+			"answer": {
+				"right": "Y"
+			}
+		}, {
+			"text": "<item>That’s</item> £37.50, sir.",
+			"answer": {
+				"right": "Y"
+			}
+		}, {
+			"text": "<item>That was</item> £37.50, sir.",
+			"answer": {
+				"right": "N"
+			}
+		}],
+		"feedback": [{
+			"desc": "<xref-group><a href='u725fd0dd48eeb434.631f8527.158e4170750.-70cf'>311</a></xref-group>"
+		}]
+	}]
+	}
+}

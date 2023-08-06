@@ -1,0 +1,1202 @@
+{
+	"b2" :
+	{
+	"-unit": "14",
+	"-level": "b2",
+	"topic_name": "adjectives and adverbials",
+	"exercise": [{
+		"template": "single_touch_button",
+		"rubric": "Choose the right option to complete each sentence correctly.",
+		"question": [{
+			"text": "My sister Jill is two years #singletouch than me.",
+			"option": [
+				["elder", "older"]
+			],
+			"answer": ["older"]
+		}, {
+			"text": "I think that fish you caught is still #singletouch.",
+			"option": [
+				["live", "alive"]
+			],
+			"answer": ["alive"]
+		}],
+		"feedback": [{
+			"desc": "<xref-group><a href='u725fd0dd48eeb434.631f8527.158e41641c3.fd8'>183.2</a></xref-group>"
+		}]
+	}, {
+		"template": "multi_radio",
+		"rubric": "Look at these examples. Do the adjectives below follow the same pattern: yes (Y) or no (N)?",
+		"rwText": ["Y", "N"],
+		"sample": [{
+			"text": "The baby’s asleep. ",
+			"answer": {
+				"right": "Y"
+			}
+		}, {
+			"text": " An asleep baby. ",
+			"answer": {
+				"right": "N"
+			}
+		}],
+		"question": [{
+			"text": "afraid",
+			"answer": {
+				"right": "Y"
+			}
+		}, {
+			"text": "alive",
+			"answer": {
+				"right": "Y"
+			}
+		}, {
+			"text": "alone",
+			"answer": {
+				"right": "Y"
+			}
+		}, {
+			"text": "angry",
+			"answer": {
+				"right": "N"
+			}
+		}, {
+			"text": "awake",
+			"answer": {
+				"right": "Y"
+			}
+		}, {
+			"text": "awful",
+			"answer": {
+				"right": "N"
+			}
+		}],
+		"feedback": [{
+			"desc": "<xref-group><a href='u725fd0dd48eeb434.631f8527.158e41641c3.102f'>183.3</a></xref-group>"
+		}]
+	}, {
+		"template": "multi_radio",
+		"rubric": "Right (R) or wrong (W)?",
+		"rwText": ["R", "W"],
+		"question": [{
+			"text": "The wall is <item>two metres high</item>.",
+			"answer": {
+				"right": "R"
+			}
+		}, {
+			"text": "My brother is <item>ten years older</item> than me.",
+			"answer": {
+				"right": "R"
+			}
+		}, {
+			"text": "Your house is <item>thousands of dollars worth</item> more than mine.",
+			"answer": {
+				"right": "W"
+			}
+		}, {
+			"text": "The path is <item>two kilometres long</item>.",
+			"answer": {
+				"right": "R"
+			}
+		}],
+		"feedback": [{
+			"desc": "<xref-group><a href='u725fd0dd48eeb434.631f8527.158e41641c3.1308'>186.4</a></xref-group>"
+		}]
+	}, {
+		"template": "multi_radio",
+		"rubric": "Can you improve these sentences by taking out the highlighted words: yes (Y) or no (N)?",
+		"rwText": ["Y", "N"],
+		"question": [{
+			"text": "Let’s go somewhere <item>that is</item> quiet. ",
+			"answer": {
+				"right": "Y"
+			}
+		}, {
+			"text": "The most important <item>thing</item> is to be happy.",
+			"answer": {
+				"right": "N"
+			}
+		}],
+		"feedback": [{
+			"desc": "For <item>A</item>, <xref-group><a href='u725fd0dd48eeb434.631f8527.158e41641c3.1357'>186.6</a></xref-group>.<br/>For <item>B</item>, <xref-group><a data-symbol='false' href='u725fd0dd48eeb434.631f8527.158e41641c3.13c7'>188</a></xref-group> <item>Introduction</item>."
+		}]
+	}, {
+		"template": "multi_radio",
+		"rubric": "Are these adjectives in the right order: yes (Y) or no (N)? ",
+		"rwText": ["Y", "N"],
+		"question": [{
+			"text": "a <item>green wine</item> bottle",
+			"answer": {
+				"right": "Y"
+			}
+		}, {
+			"text": "<item>dancing leather</item> shoes",
+			"answer": {
+				"right": "N"
+			}
+		}, {
+			"text": "a <item>political old</item> idea",
+			"answer": {
+				"right": "N"
+			}
+		}, {
+			"text": "the <item>latest educational</item> reform",
+			"answer": {
+				"right": "Y"
+			}
+		}, {
+			"text": "a <item>cool lovely</item> drink",
+			"answer": {
+				"right": "N"
+			}
+		}, {
+			"text": "<item>green beautiful</item> mountains",
+			"answer": {
+				"right": "N"
+			}
+		}, {
+			"text": "that <item>fat silly</item> cat",
+			"answer": {
+				"right": "N"
+			}
+		}],
+		"feedback": [{
+			"desc": "<xref-group><a href='u725fd0dd48eeb434.631f8527.158e41641c3.1094'>184</a></xref-group>"
+		}]
+	}, {
+		"template": "single_radio",
+		"question": [{
+			"text": "Which is normal: A, B or C?",
+			"option": ["He was tall and dark and handsome.", "He was tall, dark and handsome.", "He was tall, dark, handsome."],
+			"answer": "He was tall, dark and handsome."
+		}],
+		"feedback": [{
+			"desc": "<xref-group><a href='u725fd0dd48eeb434.631f8527.158e41641c3.1230'>185.1</a></xref-group>"
+		}]
+	}, {
+		"template": "multi_radio",
+		"rubric": "Right (R) or wrong (W)?",
+		"rwText": ["R", "W"],
+		"question": [{
+			"text": "He’s collecting money for <item>the blind</item>.",
+			"answer": {
+				"right": "R"
+			}
+		}, {
+			"text": "<item>The tired</item> went to bed and the rest of us sat up talking.",
+			"answer": {
+				"right": "W"
+			}
+		}, {
+			"text": "<item>The old</item> deserve to be looked after when they need help.",
+			"answer": {
+				"right": "R"
+			}
+		}],
+		"feedback": [{
+			"desc": "<xref-group><a href='u725fd0dd48eeb434.631f8527.158e41641c3.13e6'>188.1</a></xref-group>"
+		}]
+	}, {
+		"template": "multi_radio",
+		"rubric": "Are these right (R) or wrong (W)?",
+		"rwText": ["R", "W"],
+		"question": [{
+			"text": "<item>The French</item> are usually very patriotic.",
+			"answer": {
+				"right": "R"
+			}
+		}, {
+			"text": "<item>A French</item> is usually very patriotic.",
+			"answer": {
+				"right": "W"
+			}
+		}, {
+			"text": "<item>A Frenchman</item> is usually very patriotic.",
+			"answer": {
+				"right": "R"
+			}
+		}],
+		"feedback": [{
+			"desc": "<xref-group><a href='u725fd0dd48eeb434.631f8527.158e41641c3.1458'>188.2</a></xref-group>"
+		}]
+	}, {
+		"template": "multi_radio",
+		"rubric": "Is the word <i>loaf</i> necessary in this sentence: yes (Y) or no (N)?",
+		"rwText": ["Y", "N"],
+		"question": [{
+			"text": "I’d like two large loaves and one small <item>loaf</item>.",
+			"answer": {
+				"right": "N"
+			}
+		}],
+		"feedback": [{
+			"desc": "<xref-group><a href='u725fd0dd48eeb434.631f8527.158e41641c3.14ae'>188.5</a></xref-group>"
+		}]
+	}, {
+		"template": "multi_radio",
+		"rubric": "Are these sentences right (R) or wrong (W)?",
+		"rwText": ["R", "W"],
+		"question": [{
+			"text": "She danced <item>happy</item> into the room.",
+			"answer": {
+				"right": "W"
+			}
+		}, {
+			"text": "I didn’t understand them <item>very good</item>.",
+			"answer": {
+				"right": "W"
+			}
+		}, {
+			"text": "It was <item>terrible</item> warm yesterday.",
+			"answer": {
+				"right": "W"
+			}
+		}, {
+			"text": "I didn’t work <item>very hard</item> for the exam.",
+			"answer": {
+				"right": "R"
+			}
+		}, {
+			"text": "She smiled <item>friendly</item> at me.",
+			"answer": {
+				"right": "W"
+			}
+		}],
+		"feedback": [{
+			"desc": "<xref-group><a href='u725fd0dd48eeb434.631f8527.158e41641c3.17b2'>193–194.1</a></xref-group>"
+		}]
+	}, {
+		"template": "multi_radio",
+		"rubric": "Are these possible: yes (Y) or no (N)?",
+		"rwText": ["Y", "N"],
+		"question": [{
+			"text": "<item>Stupidly</item>, I forgot my keys.",
+			"answer": {
+				"right": "Y"
+			}
+		}, {
+			"text": "I <item>stupidly</item> forgot my keys.",
+			"answer": {
+				"right": "Y"
+			}
+		}, {
+			"text": "I forgot my keys <item>stupidly</item>.",
+			"answer": {
+				"right": "N"
+			}
+		}],
+		"feedback": [{
+			"desc": "<xref-group><a href='u725fd0dd48eeb434.631f8527.158e41641c3.1c63'>197</a></xref-group>"
+		}]
+	}, {
+		"template": "multi_radio",
+		"rubric": "Are these sentences right (R) or wrong (W)?",
+		"rwText": ["R", "W"],
+		"question": [{
+			"text": "I <item>never</item> ask her about her marriage.",
+			"answer": {
+				"right": "R"
+			}
+		}, {
+			"text": "<item>Never</item> I ask her about her marriage.",
+			"answer": {
+				"right": "W"
+			}
+		}, {
+			"text": "<item>Never</item> ask her about her marriage.",
+			"answer": {
+				"right": "R"
+			}
+		}],
+		"feedback": [{
+			"desc": "<xref-group><a href='u725fd0dd48eeb434.631f8527.158e41641c3.1cce'>198.1</a></xref-group>"
+		}]
+	}, {
+		"template": "multi_radio",
+		"rubric": "Right (R) or wrong (W)?",
+		"rwText": ["R", "W"],
+		"question": [{
+			"text": "Here comes your bus.",
+			"answer": {
+				"right": "R"
+			}
+		}, {
+			"text": "Here your bus comes.",
+			"answer": {
+				"right": "W"
+			}
+		}, {
+			"text": "Here it comes.",
+			"answer": {
+				"right": "R"
+			}
+		}, {
+			"text": "Here comes it.",
+			"answer": {
+				"right": "W"
+			}
+		}],
+		"feedback": [{
+			"desc": "<xref-group><a href='u725fd0dd48eeb434.631f8527.158e41641c3.1eeb'>201.2</a></xref-group>"
+		}]
+	}, {
+		"template": "multi_radio",
+		"rubric": "Right (R) or wrong (W)?",
+		"rwText": ["R", "W"],
+		"question": [{
+			"text": "<item>Every day</item> I have a shower.",
+			"answer": {
+				"right": "R"
+			}
+		}, {
+			"text": "I have a shower <item>every day</item>.",
+			"answer": {
+				"right": "R"
+			}
+		}],
+		"feedback": [{
+			"desc": "<xref-group><a href='u725fd0dd48eeb434.631f8527.158e41641c3.1f36'>201.3</a></xref-group>"
+		}]
+	}, {
+		"template": "multi_radio",
+		"rubric": "Right (R) or wrong (W)?",
+		"rwText": ["R", "W"],
+		"question": [{
+			"text": "Don’t throw out of the window orange peel.",
+			"answer": {
+				"right": "W"
+			}
+		}, {
+			"text": "Don’t throw orange peel out of the window.",
+			"answer": {
+				"right": "R"
+			}
+		}],
+		"feedback": [{
+			"desc": "<xref-group><a href='u725fd0dd48eeb434.631f8527.158e41641c3.1bc4'>196.1</a></xref-group>"
+		}]
+	}, {
+		"template": "multi_radio",
+		"rubric": "Is this sentence right (R) or wrong (W)?",
+		"rwText": ["R", "W"],
+		"question": [{
+			"text": "Put the butter in the fridge at once.",
+			"answer": {
+				"right": "R"
+			}
+		}],
+		"feedback": [{
+			"desc": "<xref-group><a href='u725fd0dd48eeb434.631f8527.158e41641c3.1f5d'>201.4</a></xref-group>"
+		}]
+	}, {
+		"template": "multi_radio",
+		"rubric": "Right (R) or wrong (W)?",
+		"rwText": ["R", "W"],
+		"question": [{
+			"text": "<item>Usually</item> I take the train to work.",
+			"answer": {
+				"right": "R"
+			}
+		}, {
+			"text": "I <item>usually</item> take the train to work.",
+			"answer": {
+				"right": "R"
+			}
+		}, {
+			"text": "I take <item>usually</item> the train to work.",
+			"answer": {
+				"right": "W"
+			}
+		}],
+		"feedback": [{
+			"desc": "For <item>A</item> and <item>B</item>, <xref-group><a href='u725fd0dd48eeb434.631f8527.158e41641c3.1cce'>198.1</a></xref-group>.<br/>For <item>C</item>, <xref-group><a href='u725fd0dd48eeb434.631f8527.158e41641c3.1bc4'>196.1</a></xref-group>."
+		}]
+	}, {
+		"template": "multi_radio",
+		"rubric": "Are these sentences right (R) or wrong (W)?",
+		"rwText": ["R", "W"],
+		"question": [{
+			"text": "<item>Hardly</item> it matters.",
+			"answer": {
+				"right": "W"
+			}
+		}, {
+			"text": "It <item>hardly</item> matters.",
+			"answer": {
+				"right": "R"
+			}
+		}, {
+			"text": "It matters <item>hardly</item>.",
+			"answer": {
+				"right": "W"
+			}
+		}, {
+			"text": "<item>Almost</item> it was dark.",
+			"answer": {
+				"right": "W"
+			}
+		}, {
+			"text": "It was <item>almost</item> dark.",
+			"answer": {
+				"right": "R"
+			}
+		}, {
+			"text": "It was dark <item>almost</item>.",
+			"answer": {
+				"right": "W"
+			}
+		}],
+		"feedback": [{
+			"desc": "<xref-group><a href='u725fd0dd48eeb434.631f8527.158e41641c3.1d42'>198.3</a></xref-group>"
+		}]
+	}]
+	}, 
+	"c1" :
+	{
+	"-unit": "14",
+	"-level": "c1",
+	"topic_name": "adjectives and adverbials",
+	"exercise": [{
+		"template": "multi_radio",
+		"rubric": "Right (R) or wrong (W)?",
+		"rwText": ["R", "W"],
+		"question": [{
+			"text": "He’s an <item>only</item> child.",
+			"answer": {
+				"right": "R"
+			}
+		}, {
+			"text": "It’s <item>sheer</item> madness.",
+			"answer": {
+				"right": "R"
+			}
+		}, {
+			"text": "That child is <item>only</item>.",
+			"answer": {
+				"right": "W"
+			}
+		}, {
+			"text": "That madness is <item>sheer</item>.",
+			"answer": {
+				"right": "W"
+			}
+		}],
+		"feedback": [{
+			"desc": "<xref-group><a href='u725fd0dd48eeb434.631f8527.158e41641c3.fd8'>183.2</a></xref-group>"
+		}]
+	}, {
+		"template": "single_touch_button",
+		"rubric": "Which is the most common option for each sentence?",
+		"question": [{
+			"text": "‘How do you feel?’ ‘I feel very #singletouch, thanks.’",
+			"option": [
+				["well", "healthy"]
+			],
+			"answer": ["well"]
+		}, {
+			"text": "‘He’s a very #singletouch man: he never takes time off work.’",
+			"option": [
+				["fit", "well"]
+			],
+			"answer": ["fit"]
+		}],
+		"feedback": [{
+			"desc": "<xref-group><a href='u725fd0dd48eeb434.631f8527.158e41641c3.102f'>183.3</a></xref-group>"
+		}]
+	}, {
+		"template": "multi_radio",
+		"rubric": "Are these word orders right (R) or wrong (W)?",
+		"rwText": ["R", "W"],
+		"question": [{
+			"text": "Send all the <item>available tickets</item>, please.",
+			"answer": {
+				"right": "R"
+			}
+		}, {
+			"text": "Send all the <item>tickets available</item>, please.",
+			"answer": {
+				"right": "R"
+			}
+		}, {
+			"text": "I gave the keys to the <item>upstairs woman</item>.",
+			"answer": {
+				"right": "W"
+			}
+		}, {
+			"text": "I gave the keys to the <item>woman upstairs</item>.",
+			"answer": {
+				"right": "R"
+			}
+		}, {
+			"text": "It’s the only <item>possible solution</item>.",
+			"answer": {
+				"right": "R"
+			}
+		}, {
+			"text": "It’s the only <item>solution possible</item>.",
+			"answer": {
+				"right": "R"
+			}
+		}],
+		"feedback": [{
+			"desc": "<xref-group><a href='u725fd0dd48eeb434.631f8527.158e41641c3.12d2'>186.2</a></xref-group>"
+		}]
+	}, {
+		"template": "multi_radio",
+		"rubric": "Right (R) or wrong (W)?",
+		"rwText": ["R", "W"],
+		"question": [{
+			"text": "She is <item>a person too polite</item> to refuse.",
+			"answer": {
+				"right": "W"
+			}
+		}, {
+			"text": "She is <item>too polite a person</item> to refuse.",
+			"answer": {
+				"right": "R"
+			}
+		}, {
+			"text": "Those <item>girls are too kind</item> to refuse.",
+			"answer": {
+				"right": "R"
+			}
+		}, {
+			"text": "Those <item>are too kind girls</item> to refuse.",
+			"answer": {
+				"right": "W"
+			}
+		}],
+		"feedback": [{
+			"desc": "<xref-group><a href='u725fd0dd48eeb434.631f8527.158e41641c3.1375'>187</a></xref-group>"
+		}]
+	}, {
+		"template": "multi_radio",
+		"rubric": "Are the adjectives in the right order: yes (Y) or no (N)?",
+		"rwText": ["Y", "N"],
+		"question": [{
+			"text": "She lives in a <item>big modern red brick</item> flat. ",
+			"answer": {
+				"right": "Y"
+			}
+		}, {
+			"text": "I bought a <item>new big sports Italian red</item> car last week. ",
+			"answer": {
+				"right": "N"
+			}
+		}],
+		"feedback": [{
+			"desc": "<xref-group><a href='u725fd0dd48eeb434.631f8527.158e41641c3.10a2'>184.1</a><br><a href='u725fd0dd48eeb434.631f8527.158e41641c3.1146'>184.3</a><br><a href='u725fd0dd48eeb434.631f8527.158e41641c3.11c5'>184.5</a></xref-group>"
+		}]
+	}, {
+		"template": "multi_radio",
+		"rubric": "Right (R) or wrong (W)?",
+		"rwText": ["R", "W"],
+		"question": [{
+			"text": "My <item>last two jobs</item> were really boring. I hope this one will be more interesting.",
+			"answer": {
+				"right": "R"
+			}
+		}, {
+			"text": "First, she told me she was getting married. The <item>big second shock</item> was that the wedding is next week.",
+			"answer": {
+				"right": "W"
+			}
+		}],
+		"feedback": [{
+			"desc": "<xref-group><a href='u725fd0dd48eeb434.631f8527.158e41641c3.11ac'>184.4</a></xref-group>"
+		}]
+	}, {
+		"template": "multi_radio",
+		"rubric": "Are these sentences right (R) or wrong (W)?",
+		"rwText": ["R", "W"],
+		"question": [{
+			"text": "The poor <item>has</item> rights, just like the rest of us.",
+			"answer": {
+				"right": "W"
+			}
+		}, {
+			"text": "The poor <item>have</item> rights, just like the rest of us.",
+			"answer": {
+				"right": "R"
+			}
+		}, {
+			"text": "<item>The problems of the poor</item> are often serious.",
+			"answer": {
+				"right": "R"
+			}
+		}, {
+			"text": "<item>The poor’s problems</item> are often serious.",
+			"answer": {
+				"right": "W"
+			}
+		}, {
+			"text": "<item>Poor people’s problems</item> are often serious.",
+			"answer": {
+				"right": "R"
+			}
+		}],
+		"feedback": [{
+			"desc": "<xref-group><a href='u725fd0dd48eeb434.631f8527.158e41641c3.13e6'>188.1</a></xref-group>"
+		}]
+	}, {
+		"template": "multi_radio",
+		"rubric": "Right (R) or wrong (W) in informal speech?",
+		"rwText": ["R", "W"],
+		"question": [{
+			"text": "‘I’ll have three of those blue shirts and two of the <item>white ones</item>.’",
+			"answer": {
+				"right": "R"
+			}
+		}, {
+			"text": "‘Can I wash <item>the reds</item> and <item>the whites</item> all together?’",
+			"answer": {
+				"right": "R"
+			}
+		}],
+		"feedback": [{
+			"desc": "<xref-group><a href='u725fd0dd48eeb434.631f8527.158e41641c3.14ae'>188.5</a></xref-group>"
+		}]
+	}, {
+		"template": "multi_radio",
+		"rubric": "Right (R) or wrong (W)?",
+		"rwText": ["R", "W"],
+		"question": [{
+			"text": "He drove <item>angrily</item> off.",
+			"answer": {
+				"right": "W"
+			}
+		}, {
+			"text": "You speak really <item>well</item> English.",
+			"answer": {
+				"right": "W"
+			}
+		}, {
+			"text": "She read the email <item>slowly</item>.",
+			"answer": {
+				"right": "R"
+			}
+		}],
+		"feedback": [{
+			"desc": "<xref-group><a href='u725fd0dd48eeb434.631f8527.158e41641c3.1bc4'>196.1</a><br><a href='u725fd0dd48eeb434.631f8527.158e41641c3.1c11'>196.3</a></xref-group>"
+		}]
+	}, {
+		"template": "multi_radio",
+		"rubric": "Are these adverb positions normal: yes (Y) or no (N)?",
+		"rwText": ["Y", "N"],
+		"question": [{
+			"text": "<item>Usually</item> I get up early.",
+			"answer": {
+				"right": "Y"
+			}
+		}, {
+			"text": "I <item>usually</item> get up early.",
+			"answer": {
+				"right": "Y"
+			}
+		}, {
+			"text": "<item>Always</item> I get up early.",
+			"answer": {
+				"right": "N"
+			}
+		}, {
+			"text": "I <item>always</item> get up early.",
+			"answer": {
+				"right": "Y"
+			}
+		}, {
+			"text": "I get up early <item>always</item>.",
+			"answer": {
+				"right": "N"
+			}
+		}],
+		"feedback": [{
+			"desc": "<xref-group><a href='u725fd0dd48eeb434.631f8527.158e41641c3.1cce'>198.1</a></xref-group>"
+		}]
+	}, {
+		"template": "multi_radio",
+		"rubric": "Are these adverb positions normal: yes (Y) or no (N)?",
+		"rwText": ["Y", "N"],
+		"question": [{
+			"text": "<item>Today</item> I’m going to London.",
+			"answer": {
+				"right": "Y"
+			}
+		}, {
+			"text": "I’m going <item>today</item> to London.",
+			"answer": {
+				"right": "N"
+			}
+		}, {
+			"text": "I’m going to London <item>today</item>.",
+			"answer": {
+				"right": "Y"
+			}
+		}, {
+			"text": "<item>Soon</item> everything will be different.",
+			"answer": {
+				"right": "Y"
+			}
+		}, {
+			"text": "Everything will <item>soon</item> be different.",
+			"answer": {
+				"right": "Y"
+			}
+		}, {
+			"text": "Everything will be different <item>soon</item>.",
+			"answer": {
+				"right": "Y"
+			}
+		}],
+		"feedback": [{
+			"desc": "<xref-group><a href='u725fd0dd48eeb434.631f8527.158e41641c3.1f36'>201.3</a></xref-group>"
+		}]
+	}, {
+		"template": "multi_radio",
+		"rubric": "Are the continuations right (R) or wrong (W)?",
+		"rwText": ["R", "W"],
+		"question": [{
+			"input_text": "I don’t trust politicians.",
+			"text": "I have <item>never</item> and I will <item>never</item>.",
+			"answer": {
+				"right": "W"
+			}
+		}, {
+			"text": "I <item>never</item> have and I <item>never</item> will.",
+			"answer": {
+				"right": "R"
+			}
+		}, {
+			"text": "<item>Never</item> I have and <item>never</item> I will.",
+			"answer": {
+				"right": "W"
+			}
+		}],
+		"feedback": [{
+			"desc": "<xref-group><a href='u725fd0dd48eeb434.631f8527.158e41641c3.1dd3'>200.1</a></xref-group>"
+		}]
+	}, {
+		"template": "multi_radio",
+		"rubric": "Do these sentences sound natural: yes (Y) or no (N)?",
+		"rwText": ["Y", "N"],
+		"question": [{
+			"text": "I <item>definitely</item> feel better today.",
+			"answer": {
+				"right": "Y"
+			}
+		}, {
+			"text": "<item>Definitely</item> I feel better today.",
+			"answer": {
+				"right": "N"
+			}
+		}, {
+			"text": "Her train is <item>perhaps</item> late.",
+			"answer": {
+				"right": "N"
+			}
+		}, {
+			"text": "<item>Perhaps</item> her train is late.",
+			"answer": {
+				"right": "Y"
+			}
+		}],
+		"feedback": [{
+			"desc": "<xref-group><a href='u725fd0dd48eeb434.631f8527.158e41641c3.1d21'>198.2</a></xref-group>"
+		}]
+	}, {
+		"template": "multi_radio",
+		"rubric": "Is this sentence right (R) or wrong (W)?",
+		"rwText": ["R", "W"],
+		"question": [{
+			"text": "<item>I will completely have finished</item> by this time tomorrow. ",
+			"answer": {
+				"right": "W"
+			}
+		}],
+		"feedback": [{
+			"desc": "<xref-group><a href='u725fd0dd48eeb434.631f8527.158e41641c3.1d42'>198.3</a></xref-group>"
+		}]
+	}]
+	}, 
+	"c2" :
+	{
+	"-unit": "14",
+	"-level": "c2",
+	"topic_name": "adjectives and adverbials",
+	"exercise": [{
+		"template": "multi_radio",
+		"rubric": "Are these expressions correct: yes (Y) or no (N)?",
+		"rwText": ["Y", "N"],
+		"question": [{
+			"text": "Secretary General",
+			"answer": {
+				"right": "Y"
+			}
+		}, {
+			"text": "President-Elect",
+			"answer": {
+				"right": "Y"
+			}
+		}, {
+			"text": "God Almighty",
+			"answer": {
+				"right": "Y"
+			}
+		}, {
+			"text": "Chairman Deputy",
+			"answer": {
+				"right": "N"
+			}
+		}, {
+			"text": "Poet Laureate",
+			"answer": {
+				"right": "Y"
+			}
+		}, {
+			"text": "court martial",
+			"answer": {
+				"right": "Y"
+			}
+		}, {
+			"text": "Professor Senior",
+			"answer": {
+				"right": "N"
+			}
+		}, {
+			"text": "Attorney General",
+			"answer": {
+				"right": "Y"
+			}
+		}],
+		"feedback": [{
+			"desc": "<xref-group><a href='u725fd0dd48eeb434.631f8527.158e41641c3.12ba'>186.1</a></xref-group>"
+		}]
+	}, {
+		"template": "dragdrop_notrans",
+		"alphaOrder": "false",
+		"clone": "true",
+		"rubric": "Two of these adjectives can be used before or after nouns, but with different meanings. Which?",
+		"option": ["present",
+			"proper",
+			"different",
+			"certain",
+			"precise"
+		],
+		"question": [{
+			"text": "#drop",
+			"answer": [
+				["present",
+					"proper"
+				]
+			]
+		}, {
+			"text": "#drop",
+			"answer": [
+				["proper",
+					"present"
+				]
+			]
+		}],
+		"feedback": [{
+			"desc": "<xref-group><a href='u725fd0dd48eeb434.631f8527.158e41641c3.12e7'>186.3</a></xref-group>"
+		}]
+	}, {
+		"template": "multi_radio",
+		"rubric": "In the following expressions, is <i>and</i> necessary (N), possible (P) or wrong (W)?",
+		"rwText": ["N", "P", "W"],
+		"question": [{
+			"text": "a <item>cruel and vicious</item> tyrant",
+			"answer": {
+				"right": "P"
+			}
+		}, {
+			"text": "a <item>yellow and black</item> sports car",
+			"answer": {
+				"right": "N"
+			}
+		}, {
+			"text": "a <item>nice and old</item> woman",
+			"answer": {
+				"right": "W"
+			}
+		}, {
+			"text": "a <item>social and political</item> problem",
+			"answer": {
+				"right": "N"
+			}
+		}],
+		"feedback": [{
+			"desc": "<xref-group><a href='u725fd0dd48eeb434.631f8527.158e41641c3.1249'>185.2</a></xref-group>"
+		}]
+	}, {
+		"template": "multi_radio",
+		"rubric": "Right (R) or wrong (W)?",
+		"rwText": ["R", "W"],
+		"question": [{
+			"text": "The body of <item>the deceased</item> was found in the river.",
+			"answer": {
+				"right": "R"
+			}
+		}, {
+			"text": "<item>The arrested</item> was held at the police station overnight.",
+			"answer": {
+				"right": "W"
+			}
+		}, {
+			"text": "<item>The accused</item> was charged with the crime today.",
+			"answer": {
+				"right": "R"
+			}
+		}, {
+			"text": "The verdicts on Evans and Riley were announced: <item>the former</item> was found guilty, <item>the latter</item> not guilty.",
+			"answer": {
+				"right": "R"
+			}
+		}],
+		"feedback": [{
+			"desc": "<xref-group><a href='u725fd0dd48eeb434.631f8527.158e41641c3.148a'>188.3</a></xref-group>"
+		}]
+	}, {
+		"template": "single_radio",
+		"question": [{
+			"text": "In which two sentences is the word <i>aged</i> pronounced in the same way?",
+			"input_text": "<item>A</item> He has a daughter <item>aged</item> ten.<br/><item>B</item> An <item>aged</item> man once told me an amazing story.<br/><item>C</item> He has <item>aged</item> so much since he took that job.",
+			"option": ["A and B", "A and C", "B and C"],
+			"answer": "A and C"
+		}],
+		"feedback": [{
+			"desc": "<item>A</item> and <item>C</item>.<br/><xref-group><a href='u725fd0dd48eeb434.631f8527.158e41641c3.1587'>191</a></xref-group>"
+		}]
+	}, {
+		"template": "freetext",
+		"rubric": "<i>Dead</i> can sometimes mean ‘extremely’ or ‘completely’ (e.g. <i>dead wrong</i>). Can you think of any other examples? ",
+		"question": [{
+			"text": ""
+		}],
+		"feedback": [{
+			"desc": "For other examples, <xref-group><br><a href='u725fd0dd48eeb434.631f8527.158e41641c3.18b3'>194.2</a></xref-group>."
+		}]
+	}, {
+		"template": "freetext",
+		"rubric": "<i>Clean</i> can sometimes mean ‘completely’ (e.g. <i>The robbers got clean away</i>.) Can you think of any other examples?",
+		"question": [{
+			"text": ""
+		}],
+		"feedback": [{
+			"desc": "For other examples, <xref-group><br><a href='u725fd0dd48eeb434.631f8527.158e41641c3.18b3'>194.2</a></xref-group>."
+		}]
+	}, {
+		"template": "multi_radio",
+		"rubric": "Right (R) or wrong (W)?",
+		"rwText": ["R", "W"],
+		"question": [{
+			"text": "She didn’t <item>play fair</item>.",
+			"answer": {
+				"right": "R"
+			}
+		}, {
+			"text": "They didn’t <item>fight fair</item>.",
+			"answer": {
+				"right": "R"
+			}
+		}, {
+			"text": "He didn’t <item>judge fair</item>.",
+			"answer": {
+				"right": "W"
+			}
+		}],
+		"feedback": [{
+			"desc": "<xref-group><a href='u725fd0dd48eeb434.631f8527.158e41641c3.18b3'>194.2</a></xref-group>"
+		}]
+	}, {
+		"template": "multi_radio",
+		"rubric": "Right (R) or wrong (W)?",
+		"rwText": ["R", "W"],
+		"question": [{
+			"text": "The baby’s <item>doing fine</item>.",
+			"answer": {
+				"right": "R"
+			}
+		}, {
+			"text": "The baby’s <item>doing finely</item>.",
+			"answer": {
+				"right": "W"
+			}
+		}],
+		"feedback": [{
+			"desc": "<xref-group><a href='u725fd0dd48eeb434.631f8527.158e41641c3.18b3'>194.2</a></xref-group>"
+		}]
+	}, {
+		"template": "dragdrop_notrans",
+		"alphaOrder": "false",
+		"hideRight": "true",
+		"clone": "true",
+		"rubric": "Which three of these words are adverb particles but not prepositions?",
+		"option": ["back",
+			"out",
+			"along",
+			"away",
+			"down",
+			"in",
+			"off",
+			"on"
+		],
+		"question": [{
+			"text": "#drop",
+			"answer": [
+				["away",
+					"back",
+					"out"
+				]
+			]
+		}, {
+			"text": "#drop",
+			"answer": [
+				["away",
+					"back",
+					"out"
+				]
+			]
+		}, {
+			"text": "#drop",
+			"answer": [
+				["away",
+					"back",
+					"out"
+				]
+			]
+		}],
+		"feedback": [{
+			"desc": "<xref-group><a href='u725fd0dd48eeb434.631f8527.158e41641c3.1b26'>195.1</a></xref-group>"
+		}]
+	}, {
+		"template": "dragdrop_notrans",
+		"alphaOrder": "false",
+		"hideRight": "true",
+		"clone": "true",
+		"rubric": "Which four of these words are prepositions but not adverb particles?",
+		"option": ["at",
+			"behind",
+			"during",
+			"from",
+			"into",
+			"over",
+			"round",
+			"under"
+		],
+		"question": [{
+			"text": "#drop",
+			"answer": [
+				["at",
+					"during",
+					"from",
+					"into"
+				]
+			]
+		}, {
+			"text": "#drop",
+			"answer": [
+				["at",
+					"during",
+					"from",
+					"into"
+				]
+			]
+		}, {
+			"text": "#drop",
+			"answer": [
+				["during",
+					"from",
+					"into",
+					"at"
+				]
+			]
+		}, {
+			"text": "#drop",
+			"answer": [
+				["into",
+					"during",
+					"from",
+					"at"
+				]
+			]
+		}],
+		"feedback": [{
+			"desc": "<xref-group><a href='u725fd0dd48eeb434.631f8527.158e41641c3.1b26'>195.1</a></xref-group>"
+		}]
+	}, {
+		"template": "multi_radio",
+		"rubric": "Normal (N), unusual (U) or wrong (W)?",
+		"rwText": ["N", "U", "W"],
+		"question": [{
+			"text": "I <item>probably will not</item> be there. ",
+			"answer": {
+				"right": "U"
+			}
+		}, {
+			"text": "I <item>will probably not</item> be there.",
+			"answer": {
+				"right": "N"
+			}
+		}, {
+			"text": "I <item>probably won’t</item> be there.",
+			"answer": {
+				"right": "N"
+			}
+		}, {
+			"text": "I <item>won’t probably</item> be there.",
+			"answer": {
+				"right": "W"
+			}
+		}, {
+			"text": "He <item>probably does not</item> know.",
+			"answer": {
+				"right": "N"
+			}
+		}, {
+			"text": "He <item>does probably not</item> know.",
+			"answer": {
+				"right": "W"
+			}
+		}, {
+			"text": "I <item>do not often</item> have headaches.",
+			"answer": {
+				"right": "N"
+			}
+		}, {
+			"text": "I <item>often do not</item> have headaches.",
+			"answer": {
+				"right": "W"
+			}
+		}],
+		"feedback": [{
+			"desc": "<xref-group><a href='u725fd0dd48eeb434.631f8527.158e41641c3.1e2d'>200.2</a></xref-group> <item>A</item> is unusual in British English."
+		}]
+	}, {
+		"template": "multi_radio",
+		"rubric": "In British English, is the word order normal (N) or used for emphasis (E)?",
+		"rwText": ["N", "E"],
+		"question": [{
+			"text": "She <item>has certainly made</item> him angry.",
+			"answer": {
+				"right": "N"
+			}
+		}, {
+			"text": "She <item>certainly has made</item> him angry.",
+			"answer": {
+				"right": "E"
+			}
+		}, {
+			"text": "He <item>has probably arrived</item> by now.",
+			"answer": {
+				"right": "N"
+			}
+		}, {
+			"text": "He <item>probably has arrived</item> by now.",
+			"answer": {
+				"right": "E"
+			}
+		}],
+		"feedback": [{
+			"desc": "<xref-group><a href='u725fd0dd48eeb434.631f8527.158e41641c3.1e57'>200.3</a></xref-group>"
+		}]
+	}]
+	}
+}

@@ -1,0 +1,1093 @@
+{
+	"b2" :
+	{
+	"-unit": "27",
+	"-level": "b2",
+	"topic_name": "words (1): similar words and expressions",
+	"exercise": [{
+		"template": "single_touch_button",
+		"rubric": "<i>First</i> or <i>at first</i>?",
+		"question": [{
+			"text": "#singletouch beat the eggs. Then pour in the milk.",
+			"option": [
+				["First", "At first"]
+			],
+			"answer": ["First"]
+		}, {
+			"text": "They were very happy #singletouch; then they started having problems.",
+			"option": [
+				["first", "at first"]
+			],
+			"answer": ["at first"]
+		}, {
+			"text": "We lived there when we were #singletouch married.",
+			"option": [
+				["first", "at first"]
+			],
+			"answer": ["first"]
+		}, {
+			"text": "#singletouch I was very lonely, but I soon made lots of friends.",
+			"option": [
+				["First", "At first"]
+			],
+			"answer": ["At first"]
+		}],
+		"feedback": [{
+			"desc": "<xref-group><a href='u725fd0dd48eeb434.631f8527.158e4170750.-2242'>388</a></xref-group>"
+		}]
+	}, {
+		"template": "single_touch_button",
+		"rubric": "<i>Beside</i>, <i>besides</i> or both?",
+		"question": [{
+			"text": "#singletouch chemistry, I also have to study biology and physics.",
+			"option": [
+				["Beside", "Besides", "[both]"]
+			],
+			"answer": ["Besides"]
+		}, {
+			"text": "Come and sit down #singletouch me.",
+			"option": [
+				["beside", "besides", "[both]"]
+			],
+			"answer": ["beside"]
+		}, {
+			"text": "It’s too late to go out now; #singletouch it’s starting to rain.",
+			"option": [
+				["beside", "besides", "[both]"]
+			],
+			"answer": ["besides"]
+		}],
+		"feedback": [{
+			"desc": "<xref-group><a href='u725fd0dd48eeb434.631f8527.158e4170750.-1b42'>400</a></xref-group>"
+		}]
+	}, {
+		"template": "multi_radio",
+		"rubric": "Are these sentences right: yes (Y) or no (N)?",
+		"rwText": ["Y", "N"],
+		"question": [{
+			"text": "Be careful when you’re crossing the road.",
+			"answer": {
+				"right": "Y"
+			}
+		}, {
+			"text": "Take care when you’re crossing the road.",
+			"answer": {
+				"right": "Y"
+			}
+		}, {
+			"text": "Take care of crossing the road.",
+			"answer": {
+				"right": "N"
+			}
+		}],
+		"feedback": [{
+			"desc": "<xref-group><a href='u725fd0dd48eeb434.631f8527.158e4170750.-14da'>419</a></xref-group>"
+		}]
+	}, {
+		"template": "single_radio",
+		"question": [{
+			"text": "Look at this sentence. Which is the right option: A, B, C or D?",
+			"input_text": "He doesn’t <gap/> other people’s opinions.",
+			"option": ["care", "care about", "care for", "take care of"],
+			"answer": "care about"
+		}],
+		"feedback": [{
+			"desc": "<xref-group><a href='u725fd0dd48eeb434.631f8527.158e4170750.-14da'>419</a></xref-group>"
+		}]
+	}, {
+		"template": "single_touch_button",
+		"rubric": "<i>Cloth</i>, <i>clothes</i> or <i>clothing</i>?",
+		"question": [{
+			"text": "This dress is the only piece of #singletouch that I bought in this year’s sale.",
+			"option": [
+				["cloth", "clothes", "clothing"]
+			],
+			"answer": ["clothing"]
+		}, {
+			"text": "It’s made from a very expensive #singletouch that you can only get in India.",
+			"option": [
+				["cloth", "clothes", "clothing"]
+			],
+			"answer": ["cloth"]
+		}],
+		"feedback": [{
+			"desc": "<xref-group><a href='u725fd0dd48eeb434.631f8527.158e4170750.-1397'>423</a></xref-group>"
+		}]
+	}, {
+		"template": "single_touch_button",
+		"rubric": "<i>Experience</i>, <i>experiences</i> or <i>experiments</i>?",
+		"question": [{
+			"text": "We did some interesting #singletouch in the science lesson.",
+			"option": [
+				["experience", "experiences", "experiments"]
+			],
+			"answer": ["experiments"]
+		}, {
+			"text": "I had a bad #singletouch in my first skiing lesson.",
+			"option": [
+				["experience", "experiment"]
+			],
+			"answer": ["experience"]
+		}, {
+			"text": "Since I moved abroad, I’ve had lots of different #singletouch.",
+			"option": [
+				["experience", "experiences", "experiments"]
+			],
+			"answer": ["experiences"]
+		}, {
+			"text": "If you want to get this promotion, you need lots more #singletouch.",
+			"option": [
+				["experience", "experiences", "experiments"]
+			],
+			"answer": ["experience"]
+		}],
+		"feedback": [{
+			"desc": "<xref-group><a href='u725fd0dd48eeb434.631f8527.158e4170750.-4cf'>458</a></xref-group>"
+		}]
+	}, {
+		"template": "multi_radio",
+		"rubric": "Right (R) or wrong (W)?",
+		"rwText": ["R", "W"],
+		"question": [{
+			"text": "London is <item>farther</item> from Edinburgh than it is from Paris.",
+			"answer": {
+				"right": "R"
+			}
+		}, {
+			"text": "London is <item>further</item> from Edinburgh than it is from Paris.",
+			"answer": {
+				"right": "R"
+			}
+		}, {
+			"text": "For <item>farther</item> information, please call or email me.",
+			"answer": {
+				"right": "W"
+			}
+		}, {
+			"text": "For <item>further</item> information, please call or email me.",
+			"answer": {
+				"right": "R"
+			}
+		}],
+		"feedback": [{
+			"desc": "<xref-group><a href='u725fd0dd48eeb434.631f8527.158e4170750.-304'>462</a></xref-group>"
+		}]
+	}, {
+		"template": "single_touch_button",
+		"rubric": "<i>Male</i> or <i>masculine</i>?",
+		"question": [{
+			"text": "A #singletouch sheep is called a ram.",
+			"option": [
+				["male", "masculine"]
+			],
+			"answer": ["male"]
+		}, {
+			"text": "I thought she was a man when she phoned me; she has a very #singletouch voice.",
+			"option": [
+				["male", "masculine"]
+			],
+			"answer": ["masculine"]
+		}, {
+			"text": "The word ‘courage’ is #singletouch gender in French: it’s ‘le courage’.",
+			"option": [
+				["male", "masculine"]
+			],
+			"answer": ["masculine"]
+		}, {
+			"text": "[in a form] Name: Jim Murphy; Age: 42; Sex:#singletouch; Nationality: Irish.",
+			"option": [
+				["male", "masculine"]
+			],
+			"answer": ["male"]
+		}],
+		"feedback": [{
+			"desc": "<xref-group><a href='u725fd0dd48eeb434.631f8527.158e4170750.-1fb'>464</a></xref-group>"
+		}]
+	}, {
+		"template": "single_touch_button",
+		"rubric": "<i>Fun</i>, <i>funny</i> or both?",
+		"question": [{
+			"text": "He was wearing #singletouch clothes; he looked like a clown.",
+			"option": [
+				["fun", "funny", "[both]"]
+			],
+			"answer": ["funny"]
+		}, {
+			"text": "The party was really #singletouch. Thanks for inviting me.",
+			"option": [
+				["fun", "funny", "[both]"]
+			],
+			"answer": ["fun"]
+		}, {
+			"text": "My fish tastes a bit #singletouch. Does yours?",
+			"option": [
+				["fun", "funny", "[both]"]
+			],
+			"answer": ["funny"]
+		}, {
+			"text": "That was such a #singletouch trip; let’s do it again next year.",
+			"option": [
+				["fun", "funny", "[both]"]
+			],
+			"answer": ["fun"]
+		}],
+		"feedback": [{
+			"desc": "<xref-group><a href='u725fd0dd48eeb434.631f8527.158e4170750.161'>471</a></xref-group>"
+		}]
+	}, {
+		"template": "single_touch_button",
+		"rubric": "<i>Older</i>, <i>elder</i> or both?",
+		"question": [{
+			"text": "My #singletouch brother has just got married.",
+			"option": [
+				["older", "elder", "[both]"]
+			],
+			"answer": ["[both]"]
+		}, {
+			"text": "My brother is three years #singletouch than me.",
+			"option": [
+				["older", "elder", "[both]"]
+			],
+			"answer": ["older"]
+		}],
+		"feedback": [{
+			"desc": "<xref-group><a href='u725fd0dd48eeb434.631f8527.158e4170750.-be2'>445</a></xref-group>"
+		}]
+	}, {
+		"template": "multi_radio_textEntry",
+		"hideRight": "true",
+		"ignorePunctuate": "False",
+		"rubric": "Right (R) or wrong (W)? When you have checked your answers, correct any wrong highlighted words.",
+		"rwText": ["R", "W"],
+		"question": [{
+			"text": "<item>Its</item> raining again. ",
+			"answer": [{
+				"right": "W"
+			}, {
+				"right": [
+					"It's",
+					"It's raining again.",
+					"It's raining again."
+				]
+			}]
+		}, {
+			"text": "Have you seen my camera? <item>It’s</item> disappeared.",
+			"answer": {
+				"right": "R"
+			}
+		}, {
+			"text": "The dog has lost <item>it’s</item> ball. Can you see it? ",
+			"answer": [{
+				"right": "W"
+			}, {
+				"right": [
+					"its",
+					"The dog has lost its ball. Can you see it?"
+				]
+			}]
+		}, {
+			"text": "Every country has <item>its’</item> traditions. ",
+			"answer": [{
+				"right": "W"
+			}, {
+				"right": [
+					"its",
+					"Every country has its traditions."
+				]
+			}]
+
+		}],
+		"feedback": [{
+			"desc": "<xref-group><a href='u725fd0dd48eeb434.631f8527.158e4170750.105d'>501</a></xref-group>"
+		}]
+	}, {
+		"template": "multi_radio_textEntry",
+		"hideRight": "true",
+		"rubric": "Is this sentence right (R) or wrong (W)? When you have checked your answer, correct any words that are wrong. ",
+		"rwText": ["R", "W"],
+		"question": [{
+			"text": "I must be <item>loosing</item> weight: my clothes feel very <item>loose</item>. ",
+			"answer": [{
+				"right": "W"
+			}, {
+				"right": [
+					"losing",
+					"I must be loging weight",
+					"I must be losing weight: my clothes feel very loose."
+				]
+			}]
+
+		}],
+		"feedback": [{
+			"desc": "<xref-group><a href='u725fd0dd48eeb434.631f8527.158e4170750.1c0c'>519</a></xref-group>"
+		}]
+	}, {
+		"template": "multi_radio",
+		"rubric": "Can the continuations end the sentence correctly: yes (Y) or no (N)?",
+		"rwText": ["Y", "N"],
+		"question": [{
+			"input_text": "All the students went on strike ... ",
+			"text": " ... but no teachers joined in.",
+			"answer": {
+				"right": "Y"
+			}
+		}, {
+			"text": " ... but not the teachers joined in.",
+			"answer": {
+				"right": "N"
+			}
+		}, {
+			"text": " ... but no the teachers.",
+			"answer": {
+				"right": "N"
+			}
+		}, {
+			"text": " ... but not the teachers.",
+			"answer": {
+				"right": "Y"
+			}
+		}],
+		"feedback": [{
+			"desc": "<xref-group><a href='u725fd0dd48eeb434.631f8527.158e4170750.23a1'>536</a></xref-group>"
+		}]
+	}, {
+		"template": "single_radio",
+		"question": [{
+			"text": "Which is/are correct: A, B or both?",
+			"option": ["I’ve got no Tuesdays free this term.", "I haven’t got any Tuesdays free this term.", "Both"],
+			"answer": "Both"
+		}],
+		"feedback": [{
+			"desc": "<xref-group><a href='u725fd0dd48eeb434.631f8527.158e4170750.23a1'>536</a></xref-group>"
+		}]
+	}, {
+		"template": "single_radio",
+		"question": [{
+			"text": "Which of questions A–C does this sentence answer?",
+			"input_text": "‘€2000 – it’s a great price!’",
+			"option": ["‘How much did you win in the lottery?’", "‘How much did you earn last month?’", "‘How much did you pay for your last car?’"],
+			"answer": "‘How much did you pay for your last car?’"
+		}],
+		"feedback": [{
+			"desc": "<xref-group><a href='u725fd0dd48eeb434.631f8527.158e4170750.2dd9'>562</a></xref-group>"
+		}]
+	}]
+	}, 
+	"c1" :
+	{
+	"-unit": "27",
+	"-level": "c1",
+	"topic_name": "words (1): similar words and expressions",
+	"exercise": [{
+		"template": "single_touch_button",
+		"rubric": "<i>Alternate</i>, <i>alternative</i>, <i>alternately</i> or <i>alternatively</i>?",
+		"question": [{
+			"text": "You could go by air or #singletouch you could drive there.",
+			"option": [
+				["alternately", "alternatively"]
+			],
+			"answer": ["alternatively"]
+		}, {
+			"text": "Meetings in our Brussels office take place #singletouch in Flemish and French.",
+			"option": [
+				["alternately", "alternatively"]
+			],
+			"answer": ["alternately"]
+		}, {
+			"text": "I’m busy on Tuesday: can we find an #singletouch date?",
+			"option": [
+				["alternate", "alternative"]
+			],
+			"answer": ["alternative"]
+		}, {
+			"text": "She’s working from home on #singletouch days: Mondays, Wednesdays and Fridays.",
+			"option": [
+				["alternate", "alternative"]
+			],
+			"answer": ["alternate"]
+		}],
+		"feedback": [{
+			"desc": "<xref-group><a href='u725fd0dd48eeb434.631f8527.158e4170750.-2b7c'>370</a></xref-group>"
+		}]
+	}, {
+		"template": "single_touch_button",
+		"rubric": "<i>Altogether</i> or <i>all together</i>?",
+		"question": [{
+			"text": "With the tip, the bill comes to a hundred dollars #singletouch.",
+			"option": [
+				["altogether", "all together"]
+			],
+			"answer": ["altogether"]
+		}, {
+			"text": "I’m afraid the decorating isn’t #singletouch finished.",
+			"option": [
+				["altogether", "all together"]
+			],
+			"answer": ["altogether"]
+		}, {
+			"text": "Let’s sing her Happy Birthday To You. #singletouch now!",
+			"option": [
+				["Altogether", "All together"]
+			],
+			"answer": ["All together"]
+		}],
+		"feedback": [{
+			"desc": "<xref-group><a href='u725fd0dd48eeb434.631f8527.158e4170750.-2abe'>372</a></xref-group>"
+		}]
+	}, {
+		"template": "single_touch_button",
+		"rubric": "<i>Born</i>, <i>borne</i> or <i>bore</i>?",
+		"question": [{
+			"text": "He was #singletouch in Germany in 1975 to Turkish parents.",
+			"option": [
+				["born", "borne", "bore"]
+			],
+			"answer": ["born"]
+		}, {
+			"text": "I #singletouch his insults patiently.",
+			"option": [
+				["born", "borne", "bore"]
+			],
+			"answer": ["bore"]
+		}, {
+			"text": "She #singletouch four children in six years.",
+			"option": [
+				["born", "borne", "bore"]
+			],
+			"answer": ["bore"]
+		}, {
+			"text": "The king’s body was #singletouch away to the cathedral.",
+			"option": [
+				["born", "borne", "bore"]
+			],
+			"answer": ["borne"]
+		}, {
+			"text": "Hundreds of children are #singletouch deaf each year.",
+			"option": [
+				["born", "borne", "bore"]
+			],
+			"answer": ["born"]
+		}],
+		"feedback": [{
+			"desc": "<xref-group><a href='u725fd0dd48eeb434.631f8527.158e4170750.-18e5'>407</a></xref-group>"
+		}]
+	}, {
+		"template": "single_radio",
+		"question": [{
+			"text": "Which is another way of saying <i>I don’t care at all</i>: A, B or C?",
+			"option": ["I couldn’t care.", "I couldn’t care at all.", "I couldn’t care less."],
+			"answer": "I couldn’t care less."
+		}],
+		"feedback": [{
+			"desc": "<xref-group><a href='u725fd0dd48eeb434.631f8527.158e4170750.-14ab'>419.2</a></xref-group>"
+		}]
+	}, {
+		"template": "single_radio",
+		"question": [{
+			"text": "Look at this sentence. Which of the sentences below it means the same: A, B or C?",
+			"input_text": "I don’t care for modern paintings. ",
+			"option": ["I’m not interested in modern paintings.", "I’m not responsible for looking after modern paintings.", "I don’t like modern paintings."],
+			"answer": "I don’t like modern paintings."
+		}],
+		"feedback": [{
+			"desc": "<xref-group><a href='u725fd0dd48eeb434.631f8527.158e4170750.-1482'>419.3</a></xref-group>"
+		}]
+	}, {
+		"template": "multi_radio",
+		"rubric": "Can these expressions mean the same as <i>Take care!</i>: yes (Y) or no (N)?",
+		"rwText": ["Y", "N"],
+		"question": [{
+			"text": "Be careful!",
+			"answer": {
+				"right": "Y"
+			}
+		}, {
+			"text": "Don’t forget!",
+			"answer": {
+				"right": "N"
+			}
+		}, {
+			"text": "Listen to me!",
+			"answer": {
+				"right": "N"
+			}
+		}, {
+			"text": "Goodbye!",
+			"answer": {
+				"right": "Y"
+			}
+		}],
+		"feedback": [{
+			"desc": "<xref-group><a href='u725fd0dd48eeb434.631f8527.158e4170750.-14ca'>419.1</a></xref-group>"
+		}]
+	}, {
+		"template": "single_touch_button",
+		"rubric": "<i>Continual</i>, <i>continuous</i>, <i>continually</i> or <i>continuously</i>? If both options are possible, choose ‘both’.",
+		"question": [{
+			"text": "The shop has been open #singletouch since seven this morning.",
+			"option": [
+				["continually", "continuously", "[both]"]
+			],
+			"answer": ["[both]"]
+		}, {
+			"text": "Must you #singletouch interrupt me?",
+			"option": [
+				["continually", "continuously", "[both]"]
+			],
+			"answer": ["continually"]
+		}, {
+			"text": "Shoplifting is a #singletouch problem for us.",
+			"option": [
+				["continual", "continuous", "[both]"]
+			],
+			"answer": ["continual"]
+		}],
+		"feedback": [{
+			"desc": "<xref-group><a href='u725fd0dd48eeb434.631f8527.158e4170750.-124c'>427</a></xref-group>"
+		}]
+	}, {
+		"template": "single_touch_button",
+		"rubric": "<i>Economic</i> or <i>economical</i>?",
+		"question": [{
+			"text": "I’ve changed to a small car. It’s much more #singletouch than my old one.",
+			"option": [
+				["economic", "economical"]
+			],
+			"answer": ["economical"]
+		}, {
+			"text": "The country is facing a number of serious #singletouch problems.",
+			"option": [
+				["economic", "economical"]
+			],
+			"answer": ["economic"]
+		}, {
+			"text": "‘Why did you buy that cheap aftershave?’ ‘I was trying to be #singletouch.’",
+			"option": [
+				["economic", "economical"]
+			],
+			"answer": ["economical"]
+		}],
+		"feedback": [{
+			"desc": "<xref-group><a href='u725fd0dd48eeb434.631f8527.158e4170750.-c56'>443</a></xref-group>"
+		}]
+	}, {
+		"template": "single_touch_button",
+		"rubric": "<i>Effective</i> or <i>efficient</i>?",
+		"question": [{
+			"text": "My phone company’s customer service is not very #singletouch; it often takes a whole day to get a response.",
+			"option": [
+				["effective", "efficient"]
+			],
+			"answer": ["efficient"]
+		}, {
+			"text": "My new car is very #singletouch. My petrol bills have almost halved.",
+			"option": [
+				["effective", "efficient"]
+			],
+			"answer": ["efficient"]
+		}, {
+			"text": "That cleaner you gave me was very #singletouch. It got rid of all those wine stains.",
+			"option": [
+				["effective", "efficient"]
+			],
+			"answer": ["effective"]
+		}],
+		"feedback": [{
+			"desc": "<xref-group><a href='u725fd0dd48eeb434.631f8527.158e4170750.-c0a'>444</a></xref-group>"
+		}]
+	}, {
+		"template": "single_touch_button",
+		"rubric": "<i>Lay</i>, <i>lie</i>, <i>laid</i> or <i>lied</i>?",
+		"question": [{
+			"text": "Carefully, I #singletouch the papers on the table and left the room.",
+			"option": [
+				["lay", "lie", "laid", "lied"]
+			],
+			"answer": ["laid"]
+		}, {
+			"text": "Do something useful – don’t #singletouch in bed all day!",
+			"option": [
+				["lay", "lie", "laid", "lied"]
+			],
+			"answer": ["lie"]
+		}, {
+			"text": "#singletouch down your gun and put your hands in the air!",
+			"option": [
+				["Lay", "Lie", "Laid", "Lied"]
+			],
+			"answer": ["Lay"]
+		}, {
+			"text": "I #singletouch down and closed my eyes. Soon I was asleep.",
+			"option": [
+				["lay", "lie", "laid", "lied"]
+			],
+			"answer": ["lay"]
+		}],
+		"feedback": [{
+			"desc": "<xref-group><a href='u725fd0dd48eeb434.631f8527.158e4170750.13eb'>507</a></xref-group>"
+		}]
+	}, {
+		"template": "multi_radio",
+		"rubric": "<i>Loud</i>, <i>loudly</i> or <i>aloud</i>? Can these words complete the sentences correctly: yes (Y) or no (N)?",
+		"rwText": ["Y", "N"],
+		"question": [{
+			"input_text": "He was talking so <gap/> that I had a headache.",
+			"text": "loud",
+			"answer": {
+				"right": "Y"
+			}
+		}, {
+			"text": "loudly",
+			"answer": {
+				"right": "Y"
+			}
+		}, {
+			"text": "aloud",
+			"answer": {
+				"right": "N"
+			}
+		}, {
+			"input_text": "When she reads <gap/>, her pronunciation is excellent.",
+			"text": "loud",
+			"answer": {
+				"right": "N"
+			}
+		}, {
+			"text": "loudly",
+			"answer": {
+				"right": "N"
+			}
+		}, {
+			"text": "aloud",
+			"answer": {
+				"right": "Y"
+			}
+		}, {
+			"input_text": "‘How <gap/> do you want us to play?’ asked the band.",
+			"text": "loud",
+			"answer": {
+				"right": "Y"
+			}
+		}, {
+			"text": "loudly",
+			"answer": {
+				"right": "Y"
+			}
+		}, {
+			"text": "aloud",
+			"answer": {
+				"right": "N"
+			}
+		}],
+		"feedback": [{
+			"desc": "For <item>A</item>, <xref-group><a href='u725fd0dd48eeb434.631f8527.158e41641c3.18b3'>194.2</a></xref-group>.<br/>For <item>B</item>, <xref-group><a href='u725fd0dd48eeb434.631f8527.158e4170750.1c40'>520</a></xref-group>.<br/>For <item>C</item>, <xref-group><a href='u725fd0dd48eeb434.631f8527.158e41641c3.18b3'>194.2</a></xref-group>."
+		}]
+	}, {
+		"template": "single_touch_button",
+		"rubric": "<i>Shade</i>, <i>shadow</i> or both?",
+		"question": [{
+			"text": "I’m really hot! Let’s find some #singletouch to sit in.",
+			"option": [
+				["shade", "shadow", "[both]"]
+			],
+			"answer": ["shade"]
+		}],
+		"feedback": [{
+			"desc": "<xref-group><a href='u725fd0dd48eeb434.631f8527.158e4170750.36bc'>578</a></xref-group>"
+		}]
+	}, {
+		"template": "multi_radio",
+		"rubric": "<i>Some</i><i>time</i>, <i>some</i><i>times</i>, <i>sometime</i>, or <i>sometimes</i>? Can these words complete the sentences correctly: yes (Y) or no (N)? (More than one might be possible.)",
+		"rwText": ["Y", "N"],
+		"question": [{
+			"input_text": "I’m afraid it’ll take <gap/> to repair your car.",
+			"text": "some time",
+			"answer": {
+				"right": "Y"
+			}
+		}, {
+			"text": "some times",
+			"answer": {
+				"right": "N"
+			}
+		}, {
+			"text": "sometime",
+			"answer": {
+				"right": "N"
+			}
+		}, {
+			"text": "sometimes",
+			"answer": {
+				"right": "N"
+			}
+		}, {
+			"input_text": "Let’s have dinner <gap/> next week.",
+			"text": "some time",
+			"answer": {
+				"right": "Y"
+			}
+		}, {
+			"text": "some times",
+			"answer": {
+				"right": "N"
+			}
+		}, {
+			"text": "sometime",
+			"answer": {
+				"right": "Y"
+			}
+		}, {
+			"text": "sometimes",
+			"answer": {
+				"right": "N"
+			}
+		}, {
+			"input_text": "<gap/> you can be very irritating.",
+			"text": "some time",
+			"answer": {
+				"right": "N"
+			}
+		}, {
+			"text": "some times",
+			"answer": {
+				"right": "N"
+			}
+		}, {
+			"text": "sometime",
+			"answer": {
+				"right": "N"
+			}
+		}, {
+			"text": "sometimes",
+			"answer": {
+				"right": "Y"
+			}
+		}, {
+			"input_text": "Let’s meet next week. I’ll email you <gap/> when I know I’ll be free.",
+			"text": "some time",
+			"answer": {
+				"right": "N"
+			}
+		}, {
+			"text": "some times",
+			"answer": {
+				"right": "Y"
+			}
+		}, {
+			"text": "sometime",
+			"answer": {
+				"right": "N"
+			}
+		}, {
+			"text": "sometimes",
+			"answer": {
+				"right": "N"
+			}
+		}],
+		"feedback": [{
+			"desc": "<xref-group><a href='u725fd0dd48eeb434.631f8527.158e4170750.3da3'>590</a></xref-group>"
+		}]
+	}, {
+		"template": "single_touch_button",
+		"rubric": "<i>Whose</i> or <i>who’s</i>?",
+		"question": [{
+			"text": "Do you know anyone #singletouch going to America in the next few days?",
+			"option": [
+				["whose", "who’s"]
+			],
+			"answer": ["who’s"]
+		}, {
+			"text": "#singletouch is the blue sports car in the managing director’s parking space?",
+			"option": [
+				["Whose", "Who’s"]
+			],
+			"answer": ["Whose"]
+		}, {
+			"text": "It’s a decision #singletouch consequences are still not clear.",
+			"option": [
+				["whose", "who’s"]
+			],
+			"answer": ["whose"]
+		}],
+		"feedback": [{
+			"desc": "<xref-group><a href='u725fd0dd48eeb434.631f8527.158e4170750.544d'>629</a></xref-group>"
+		}]
+	}]
+	}, 
+	"c2" :
+	{
+	"-unit": "27",
+	"-level": "c2",
+	"topic_name": "words (1): similar words and expressions",
+	"exercise": [{
+		"template": "single_radio",
+		"question": [{
+			"text": "Is <i>alright</i>:",
+			"option": ["all right?", "all wrong?", "common but not accepted by everybody?"],
+			"answer": "common but not accepted by everybody?"
+		}],
+		"feedback": [{
+			"desc": "<xref-group><a href='u725fd0dd48eeb434.631f8527.158e4170750.-2e48'>364</a></xref-group>"
+		}]
+	}, {
+		"template": "dragdrop_notrans",
+		"rubric": "Match the words with the definitions or comments.",
+		"option": ["alone",
+			"lonely",
+			"lonesome",
+			"lone"
+		],
+		"question": [{
+			"text": "suggests unhappiness (British and American English) #drop",
+			"answer": [
+				["lonely"]
+			]
+		}, {
+			"text": "not generally used before nouns #drop",
+			"answer": [
+				["alone"]
+			]
+		}, {
+			"text": "rather literary #drop",
+			"answer": [
+				["lone"]
+			]
+		}, {
+			"text": "suggests unhappiness (more common in American English) #drop",
+			"answer": [
+				["lonesome"]
+			]
+		}],
+		"feedback": [{
+			"desc": "<xref-group><a href='u725fd0dd48eeb434.631f8527.158e4170750.-2cfa'>367</a></xref-group>"
+		}]
+	}, {
+		"template": "single_touch_button",
+		"rubric": "<i>Classic</i> or <i>classical</i>? ",
+		"question": [{
+			"text": "Sophocles was the greatest #singletouch dramatist. ",
+			"option": [
+				["classic", "classical"]
+			],
+			"answer": ["classical"]
+		}, {
+			"text": "He’s a #singletouch example of an old-style hippy.",
+			"option": [
+				["classic", "classical"]
+			],
+			"answer": ["classic"]
+		}, {
+			"text": "Do you like #singletouch music?",
+			"option": [
+				["classic", "classical"]
+			],
+			"answer": ["classical"]
+		}, {
+			"text": "There’s a #singletouch car museum in Epsom.",
+			"option": [
+				["classic", "classical"]
+			],
+			"answer": ["classic"]
+		}],
+		"feedback": [{
+			"desc": "<xref-group><a href='u725fd0dd48eeb434.631f8527.158e4170750.-1430'>421</a></xref-group>"
+		}]
+	}, {
+		"template": "single_touch_button",
+		"rubric": "<i>South</i> or <i>southern</i>?",
+		"question": [{
+			"text": "She’s got a beautiful #singletouch accent.",
+			"option": [
+				["south", "southern"]
+			],
+			"answer": ["southern"]
+		}, {
+			"text": "My room’s on the #singletouch side of the house.",
+			"option": [
+				["south", "southern"]
+			],
+			"answer": ["south"]
+		}, {
+			"text": "What’s the capital of #singletouch Africa?",
+			"option": [
+				["South", "Southern"]
+			],
+			"answer": ["South"]
+		}, {
+			"text": "Most of this country’s population is concentrated in the #singletouch counties.",
+			"option": [
+				["south", "southern"]
+			],
+			"answer": ["southern"]
+		}, {
+			"text": "We spent our break on the #singletouch coast.",
+			"option": [
+				["south", "southern"]
+			],
+			"answer": ["south"]
+		}],
+		"feedback": [{
+			"desc": "<xref-group><a href='u725fd0dd48eeb434.631f8527.158e4170750.-cf6'>442</a></xref-group>"
+		}]
+	}, {
+		"template": "single_touch_button",
+		"rubric": "<i>Electric</i> or <i>electrical</i>?",
+		"question": [{
+			"text": "Anna’s studying #singletouch engineering.",
+			"option": [
+				["electric", "electrical"]
+			],
+			"answer": ["electrical"]
+		}, {
+			"text": "As the President rose to speak, the atmosphere was #singletouch.",
+			"option": [
+				["electric", "electrical"]
+			],
+			"answer": ["electric"]
+		}, {
+			"text": "I need a new #singletouch shaver.",
+			"option": [
+				["electric", "electrical"]
+			],
+			"answer": ["electric"]
+		}],
+		"feedback": [{
+			"desc": "<xref-group><a href='u725fd0dd48eeb434.631f8527.158e4170750.-ba8'>446</a></xref-group>"
+		}]
+	}, {
+		"template": "single_touch_button",
+		"rubric": "<i>Especially</i>, <i>specially</i> or both?",
+		"question": [{
+			"text": "It wasn’t #singletouch hot last summer.",
+			"option": [
+				["especially", "specially", "[both]"]
+			],
+			"answer": ["[both]"]
+		}, {
+			"text": "We all like music – my father #singletouch.",
+			"option": [
+				["especially", "specially", "[both]"]
+			],
+			"answer": ["especially"]
+		}, {
+			"text": "These shoes were #singletouch made for me.",
+			"option": [
+				["especially", "specially", "[both]"]
+			],
+			"answer": ["specially"]
+		}],
+		"feedback": [{
+			"desc": "<xref-group><a href='u725fd0dd48eeb434.631f8527.158e4170750.-932'>451</a></xref-group>"
+		}]
+	}, {
+		"template": "single_touch_button",
+		"rubric": "<i>Historic</i> or <i>historical</i>?",
+		"question": [{
+			"text": "Was King Arthur a #singletouch figure?",
+			"option": [
+				["historic", "historical"]
+			],
+			"answer": ["historical"]
+		}, {
+			"text": "The two countries have signed a #singletouch agreement.",
+			"option": [
+				["historic", "historical"]
+			],
+			"answer": ["historic"]
+		}, {
+			"text": "Scotland is full of #singletouch castles and houses.",
+			"option": [
+				["historic", "historical"]
+			],
+			"answer": ["historic"]
+		}, {
+			"text": "Do you ever read #singletouch novels?",
+			"option": [
+				["historic", "historical"]
+			],
+			"answer": ["historical"]
+		}],
+		"feedback": [{
+			"desc": "<xref-group><a href='u725fd0dd48eeb434.631f8527.158e4170750.8ec'>487</a></xref-group>"
+		}]
+	}, {
+		"template": "single_touch_button",
+		"rubric": "<i>Magic</i>, <i>magical</i> or both?",
+		"question": [{
+			"text": "If we had a #singletouch carpet we could get through this traffic.",
+			"option": [
+				["magic", "magical", "[both]"]
+			],
+			"answer": ["magic"]
+		}, {
+			"text": "‘Can I have an ice-cream?’ ‘What’s the #singletouch word?’ ‘Please.’",
+			"option": [
+				["magic", "magical", "[both]"]
+			],
+			"answer": ["magic"]
+		}, {
+			"text": "We spent a #singletouch evening together, just sitting by the river and talking.",
+			"option": [
+				["magic", "magical", "[both]"]
+			],
+			"answer": ["magical"]
+		}],
+		"feedback": [{
+			"desc": "<xref-group><a href='u725fd0dd48eeb434.631f8527.158e4170750.1c72'>521</a></xref-group>"
+		}]
+	}, {
+		"template": "single_touch_button",
+		"rubric": "<i>Policy</i> or <i>politics</i>?",
+		"question": [{
+			"text": "She’s studying British colonial #singletouch in the 18th century.",
+			"option": [
+				["policy", "politics"]
+			],
+			"answer": ["policy"]
+		}, {
+			"text": "You talk beautifully: you should be in #singletouch.",
+			"option": [
+				["policy", "politics"]
+			],
+			"answer": ["politics"]
+		}, {
+			"text": "It’s my #singletouch to disbelieve all politicians.",
+			"option": [
+				["policy", "politics"]
+			],
+			"answer": ["policy"]
+		}],
+		"feedback": [{
+			"desc": "<xref-group><a href='u725fd0dd48eeb434.631f8527.158e4170750.2cb0'>559</a></xref-group>"
+		}]
+	}, {
+		"template": "multi_radio",
+		"rubric": "Right (R) or wrong (W)?",
+		"rwText": ["R", "W"],
+		"question": [{
+			"text": "Wake! It’s time to go to work.",
+			"answer": {
+				"right": "W"
+			}
+		}, {
+			"text": "I woke up three times in the night.",
+			"answer": {
+				"right": "R"
+			}
+		}, {
+			"text": "I woke three times in the night.",
+			"answer": {
+				"right": "R"
+			}
+		}, {
+			"text": "The prince wakened her with a kiss.",
+			"answer": {
+				"right": "R"
+			}
+		}],
+		"feedback": [{
+			"desc": "<xref-group><a href='u725fd0dd48eeb434.631f8527.158e4170750.-21c9'>389</a></xref-group>"
+		}]
+	}]
+	}
+}

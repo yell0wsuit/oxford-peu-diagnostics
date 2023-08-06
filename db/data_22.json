@@ -1,0 +1,828 @@
+{
+	"b2" :
+	{
+	"-unit": "23",
+	"-level": "b2",
+	"topic_name": "information structure",
+	"exercise": [{
+		"template": "single_radio",
+		"question": [{
+			"text": "Which sounds more natural: A or B?",
+			"option": ["To book in advance is important.", "It is important to book in advance."],
+			"answer": "It is important to book in advance."
+		}],
+		"feedback": [{
+			"desc": "<xref-group><a href='u725fd0dd48eeb434.631f8527.158e41641c3.6746'>268.1</a></xref-group>"
+		}]
+	}, {
+		"template": "single_touch_button",
+		"rubric": "Choose the right option for each sentence.",
+		"question": [{
+			"text": "It’s worth #singletouch to Wales if you have the time.",
+			"option": [
+				["to go", "going"]
+			],
+			"answer": ["going"]
+		}, {
+			"text": "It’s no use #singletouch to explain – I’m not interested.",
+			"option": [
+				["to try", "trying"]
+			],
+			"answer": ["trying"]
+		}, {
+			"text": "It surprised me your not #singletouch my name.",
+			"option": [
+				["to remember", "remembering "]
+			],
+			"answer": ["remembering "]
+		}],
+		"feedback": [{
+			"desc": "<xref-group><a href='u725fd0dd48eeb434.631f8527.158e41641c3.679b'>268.3</a></xref-group>"
+		}]
+	}, {
+		"template": "multi_radio",
+		"rubric": "Are these exclamations correct: yes (Y) or no (N)?",
+		"rwText": ["Y", "N"],
+		"question": [{
+			"text": "Here comes Freddy!",
+			"answer": {
+				"right": "Y"
+			}
+		}, {
+			"text": "Here Freddy comes!",
+			"answer": {
+				"right": "N"
+			}
+		}, {
+			"text": "Here comes she!",
+			"answer": {
+				"right": "N"
+			}
+		}, {
+			"text": "Here she comes!",
+			"answer": {
+				"right": "Y"
+			}
+		}, {
+			"text": "Off go we!",
+			"answer": {
+				"right": "N"
+			}
+		}, {
+			"text": "Off we go!",
+			"answer": {
+				"right": "Y"
+			}
+		}],
+		"feedback": [{
+			"desc": "<xref-group><a href='u725fd0dd48eeb434.631f8527.158e41641c3.6a04'>271.1</a></xref-group>"
+		}]
+	}, {
+		"template": "multi_radio",
+		"rubric": "Are these sentences correct: yes (Y) or no (N)?",
+		"rwText": ["Y", "N"],
+		"question": [{
+			"text": "‘What do you mean?’ <item>asked Henry.</item>",
+			"answer": {
+				"right": "Y"
+			}
+		}, {
+			"text": "‘What do you mean?’ <item>Henry asked.</item>",
+			"answer": {
+				"right": "Y"
+			}
+		}, {
+			"text": "‘What do you mean?’ <item>he asked.</item>",
+			"answer": {
+				"right": "Y"
+			}
+		}, {
+			"text": "‘What do you mean?’ <item>asked he.</item>",
+			"answer": {
+				"right": "N"
+			}
+		}],
+		"feedback": [{
+			"desc": "<xref-group><a href='u725fd0dd48eeb434.631f8527.158e41641c3.6a4c'>271.2</a></xref-group>"
+		}]
+	}, {
+		"template": "single_radio",
+		"question": [{
+			"text": "Look at this sentence. Which of the questions below it does it answer?",
+			"input_text": "‘It was Daniel that my aunt took to London yesterday, not Lucy.’",
+			"option": ["‘Did your aunt take Lucy to London yesterday?’", "‘Did Lucy take your aunt to London yesterday?’"],
+			"answer": "‘Did your aunt take Lucy to London yesterday?’"
+		}],
+		"feedback": [{
+			"desc": "<xref-group><a href='u725fd0dd48eeb434.631f8527.158e41641c3.6b59'>273.1</a></xref-group>"
+		}]
+	}, {
+		"template": "multi_radio",
+		"rubric": "Right (R) or wrong (W)?",
+		"rwText": ["R", "W"],
+		"question": [{
+			"text": "<item>Who</item> influenced me most as a child was my grandfather.",
+			"answer": {
+				"right": "W"
+			}
+		}, {
+			"text": "<item>The person who</item> influenced me most as a child was my grandfather.",
+			"answer": {
+				"right": "R"
+			}
+		}],
+		"feedback": [{
+			"desc": "<xref-group><a href='u725fd0dd48eeb434.631f8527.158e41641c3.6bd2'>274.1</a></xref-group>"
+		}]
+	}, {
+		"template": "gapfill",
+		"rubric": "Fill in the two missing words in each sentence.",
+		"question": [{
+			"text": "The #gap we always met was the café in the park.",
+			"answer": [
+				["place where"]
+			]
+		}, {
+			"text": "The #gap we always met was Tuesday.",
+			"answer": [
+				["day when"]
+			]
+		}, {
+			"text": "The #gap we met was to play chess.",
+			"answer": [
+				["reason why",
+					"reason that"
+				]
+			]
+		}],
+		"feedback": [{
+			"desc": "<xref-group><a href='u725fd0dd48eeb434.631f8527.158e41641c3.6c10'>274.2</a></xref-group>"
+		}]
+	}, {
+		"template": "multi_radio",
+		"rubric": "Can options A–C begin the sentence: yes (Y) or no (N)?",
+		"rwText": ["Y", "N"],
+		"question": [{
+			"input_text": " ... I remember was a terrible pain in my head.",
+			"text": "All ... ",
+			"answer": {
+				"right": "Y"
+			}
+		}, {
+			"text": "The first thing ... ",
+			"answer": {
+				"right": "Y"
+			}
+		}, {
+			"text": "The only thing ... ",
+			"answer": {
+				"right": "Y"
+			}
+		}],
+		"feedback": [{
+			"desc": "<xref-group><a href='u725fd0dd48eeb434.631f8527.158e41641c3.6c69'>274.5</a></xref-group>"
+		}]
+	}, {
+		"template": "multi_radio",
+		"rubric": "Can expressions A–D end the sentence correctly: yes (Y) or no (N)?",
+		"rwText": ["Y", "N"],
+		"question": [{
+			"input_text": "My wife loves dancing ... ",
+			"text": " ... and I.",
+			"answer": {
+				"right": "N"
+			}
+		}, {
+			"text": " ... and so do I.",
+			"answer": {
+				"right": "Y"
+			}
+		}, {
+			"text": " ... and so do I love dancing.",
+			"answer": {
+				"right": "N"
+			}
+		}, {
+			"text": " ... and I do too.",
+			"answer": {
+				"right": "Y"
+			}
+		}],
+		"feedback": [{
+			"desc": "<xref-group><a href='u725fd0dd48eeb434.631f8527.158e4170750.-727f'>309</a></xref-group>"
+		}]
+	}]
+	}, 
+	"c1" :
+	{
+	"-unit": "23",
+	"-level": "c1",
+	"topic_name": "information structure",
+	"exercise": [{
+		"template": "single_radio",
+		"question": [{
+			"text": "Which sentence sounds more natural: A or B?",
+			"option": ["How many unhappy marriages there are is very surprising.", "It is very surprising how many unhappy marriages there are."],
+			"answer": "It is very surprising how many unhappy marriages there are."
+		}],
+		"feedback": [{
+			"desc": "<xref-group><a href='u725fd0dd48eeb434.631f8527.158e41641c3.6783'>268.2</a></xref-group>"
+		}]
+	}, {
+		"template": "multi_radio",
+		"rubric": "Right (R) or wrong (W)?",
+		"rwText": ["R", "W"],
+		"question": [{
+			"text": "It <item>looks if</item> we’re going to have trouble with Anna again.",
+			"answer": {
+				"right": "W"
+			}
+		}, {
+			"text": "<item>It looks as if</item> we’re going to have trouble with Anna again.",
+			"answer": {
+				"right": "R"
+			}
+		}, {
+			"text": "<item>It looks as though</item> we’re going to have trouble with Anna again.",
+			"answer": {
+				"right": "R"
+			}
+		}, {
+			"text": "<item>It will be a pity if</item> we have to ask her to leave.",
+			"answer": {
+				"right": "R"
+			}
+		}],
+		"feedback": [{
+			"desc": "<xref-group><a href='u725fd0dd48eeb434.631f8527.158e41641c3.67dc'>268.5</a></xref-group>"
+		}]
+	}, {
+		"template": "multi_radio",
+		"rubric": "Are these sentences possible in a formal written style: yes (Y) or no (N)?",
+		"rwText": ["Y", "N"],
+		"question": [{
+			"text": "She was very religious, <item>as were</item> most of her friends.",
+			"answer": {
+				"right": "Y"
+			}
+		}, {
+			"text": "I felt very nervous, <item>but were not worried</item> my friends.",
+			"answer": {
+				"right": "N"
+			}
+		}, {
+			"text": "So ridiculous <item>did she look</item> that everybody burst out laughing.",
+			"answer": {
+				"right": "Y"
+			}
+		}],
+		"feedback": [{
+			"desc": "<xref-group><a href='u725fd0dd48eeb434.631f8527.158e41641c3.6979'>270.5</a></xref-group>"
+		}]
+	}, {
+		"template": "multi_radio",
+		"rubric": "Are these sentences right: yes (Y) or no (N)?",
+		"rwText": ["Y", "N"],
+		"question": [{
+			"text": "We cannot park here under any circumstances.",
+			"answer": {
+				"right": "Y"
+			}
+		}, {
+			"text": "Under no circumstances we can park here.",
+			"answer": {
+				"right": "N"
+			}
+		}, {
+			"text": "Under no circumstances can we park here.",
+			"answer": {
+				"right": "Y"
+			}
+		}],
+		"feedback": [{
+			"desc": "<xref-group><a href='u725fd0dd48eeb434.631f8527.158e41641c3.69ae'>270.7</a></xref-group>"
+		}]
+	}, {
+		"template": "single_radio",
+		"question": [{
+			"text": "Which of these is more likely to be used in a children’s story?",
+			"option": ["A great castle stood in front of the children.", "In front of the children stood a great castle."],
+			"answer": "In front of the children stood a great castle."
+		}],
+		"feedback": [{
+			"desc": "<xref-group><a href='u725fd0dd48eeb434.631f8527.158e41641c3.6a04'>271.1</a></xref-group>"
+		}]
+	}, {
+		"template": "multi_radio",
+		"rubric": "Right (R) or wrong (W) when telling a story?",
+		"rwText": ["R", "W"],
+		"question": [{
+			"text": "I stopped the car and <item>up walked a police officer</item>.",
+			"answer": {
+				"right": "R"
+			}
+		}, {
+			"text": "The door opened and <item>out came Angela’s boyfriend</item>.",
+			"answer": {
+				"right": "R"
+			}
+		}],
+		"feedback": [{
+			"desc": "<xref-group><a href='u725fd0dd48eeb434.631f8527.158e41641c3.6a04'>271.1</a></xref-group>"
+		}]
+	}, {
+		"template": "multi_radio",
+		"rubric": "Look at this sentence. Are the sentences below it possible ways of emphasising the same idea: yes (Y) or no (N)?",
+		"rwText": ["Y", "N"],
+		"question": [{
+			"input_text": "Jake isn’t the chairman; he’s the secretary.",
+			"text": "The secretary is what Jake is.",
+			"answer": {
+				"right": "Y"
+			}
+		}, {
+			"text": "What Jake is is the secretary.",
+			"answer": {
+				"right": "Y"
+			}
+		}],
+		"feedback": [{
+			"desc": "<xref-group><a href='u725fd0dd48eeb434.631f8527.158e41641c3.6bd2'>274.1</a></xref-group>"
+		}]
+	}, {
+		"template": "single_radio",
+		"question": [{
+			"text": "Look at this sentence. Which is the most normal reply?",
+			"input_text": "‘I thought you’d decided not to come to the party!’",
+			"option": ["‘No. <item>What it was</item> was that the car broke down.’", "‘No. <item>What happened</item> was that the car broke down.’", "‘No. <item>It</item> was that the car broke down.’"],
+			"answer": "‘No. What happened was that the car broke down.’"
+		}],
+		"feedback": [{
+			"desc": "<xref-group><a href='u725fd0dd48eeb434.631f8527.158e41641c3.6c5c'>274.4</a></xref-group>"
+		}]
+	}, {
+		"template": "multi_radio",
+		"rubric": "Right (R) or wrong (W)?",
+		"rwText": ["R", "W"],
+		"question": [{
+			"text": "I have always paid my bills and I always <item>will pay them</item>.",
+			"answer": {
+				"right": "R"
+			}
+		}, {
+			"text": "I have always paid my bills and I always <item>will</item>.",
+			"answer": {
+				"right": "R"
+			}
+		}],
+		"feedback": [{
+			"desc": "<xref-group><a href='u725fd0dd48eeb434.631f8527.158e41641c3.6e7c'>276.1</a></xref-group>"
+		}]
+	}, {
+		"template": "correction",
+		"rubric": "Which words can you leave out in informal spoken English?",
+		"sample": {
+			"text": "<item>The</item> car’s running badly. <item>It</item> doesn’t like cold weather. ",
+			"answer": ["Car's running badly. Doesn’t like cold weather."]
+		},
+		"question": [{
+			"text": "There’s nobody at home – my wife’s in Scotland. ",
+			"answer": {
+				"right": [
+					"Nobody at home – wife's in Scotland.",
+					"Nobody at home - wife’s in Scotland.",
+					"Nobody home – wife's in Scotland.",
+					"Nobody home – wife’s in Scotland.",
+					"Nobody home - wife in Scotland.",
+					"Nobody at home – wife in Scotland."
+				]
+			}
+		}, {
+			"text": "You’re keeping well, I hope. Have you seen Joe? ",
+			"answer": {
+				"right": "Keeping well, I hope. Seen Joe?"
+			}
+		}, {
+			"text": "‘Did you enjoy the film?’ ‘I couldn’t understand a word of it.’ ",
+			"answer": {
+				"right": [
+					"'Enjoy the film?' 'Couldn't understand a word (of it).'",
+					"'Enjoy the film?' 'Couldn't understand a word of it.'",
+					"'Enjoy the film?' 'Couldn't understand a word.'",
+					"'Enjoy the film?' 'Couldn’t understand a word of it.'",
+					"'Enjoy the film?' 'Couldn’t understand a word.'",
+					"‘Enjoy the film?’ ‘Couldn't understand a word of it.’",
+					"‘Enjoy the film?’ ‘Couldn't understand a word.’",
+					"‘Enjoy the film?’ ‘Couldn’t understand a word of it.’",
+					"‘Enjoy the film?’ ‘Couldn’t understand a word.’",
+					"Enjoy the film? Couldn't understand a word of it.",
+					"Enjoy the film? Couldn't understand a word.",
+					"Enjoy the film? Couldn’t understand a word of it.",
+					"Enjoy the film? Couldn’t understand a word."
+				]
+			}
+		}, {
+			"text": "Be careful what you say – there are children listening. ",
+			"answer": {
+				"right": "Careful what you say – children listening."
+			}
+		}],
+		"feedback": [{
+			"desc": "<xref-group><a href='u725fd0dd48eeb434.631f8527.158e41641c3.6f21'>277.1</a></xref-group>"
+		}]
+	}, {
+		"template": "multi_radio",
+		"rubric": "Are these replies possible in informal spoken English: yes (Y) or no (N)?",
+		"rwText": ["Y", "N"],
+		"question": [{
+			"input_text": "‘When are you coming to see us?’",
+			"text": "‘<item>I’m coming</item> to see you tomorrow, I hope.’",
+			"answer": {
+				"right": "Y"
+			}
+		}, {
+			"text": "‘<item>Am coming</item> to see you tomorrow, I hope.’",
+			"answer": {
+				"right": "N"
+			}
+		}, {
+			"text": "‘<item>Coming</item> to see you tomorrow, I hope.’",
+			"answer": {
+				"right": "Y"
+			}
+		}],
+		"feedback": [{
+			"desc": "<xref-group><a href='u725fd0dd48eeb434.631f8527.158e41641c3.6f21'>277.1–2</a></xref-group>"
+		}]
+	}, {
+		"template": "multi_radio",
+		"rubric": "Right (R) or wrong (W)?",
+		"rwText": ["R", "W"],
+		"question": [{
+			"text": "‘Get up!’ ‘<item>I am</item>.’",
+			"answer": {
+				"right": "R"
+			}
+		}, {
+			"text": "<item>If you can</item>, send me a postcard when you arrive.",
+			"answer": {
+				"right": "R"
+			}
+		}],
+		"feedback": [{
+			"desc": "<xref-group><a href='u725fd0dd48eeb434.631f8527.158e41641c3.7066'>279.1</a></xref-group>"
+		}]
+	}]
+	}, 
+	"c2" :
+	{
+	"-unit": "23",
+	"-level": "c2",
+	"topic_name": "information structure",
+	"exercise": [{
+		"template": "multi_radio",
+		"rubric": "Right (R) or wrong (W)?",
+		"rwText": ["R", "W"],
+		"question": [{
+			"text": "She made <item>that she disagreed clear</item>.",
+			"answer": {
+				"right": "W"
+			}
+		}, {
+			"text": "She made <item>clear that she disagreed</item>.",
+			"answer": {
+				"right": "R"
+			}
+		}, {
+			"text": "She made <item>it clear that she disagreed</item>.",
+			"answer": {
+				"right": "R"
+			}
+		}],
+		"feedback": [{
+			"desc": "<xref-group><a href='u725fd0dd48eeb434.631f8527.158e41641c3.6857'>269.1</a></xref-group>"
+		}]
+	}, {
+		"template": "single_touch_button",
+		"rubric": "Put in <i>it</i> or nothing (-) to make correct sentences.",
+		"question": [{
+			"text": "We found #singletouch tiring to listen to him.",
+			"option": [
+				["it", "-"]
+			],
+			"answer": ["it"]
+		}, {
+			"text": "I cannot bear #singletouch to see people crying.",
+			"option": [
+				["it", "-"]
+			],
+			"answer": ["-"]
+		}, {
+			"text": "We love #singletouch when you sing.",
+			"option": [
+				["it", "-"]
+			],
+			"answer": ["it"]
+		}, {
+			"text": "I take #singletouch that you won’t be working tomorrow.",
+			"option": [
+				["it", "-"]
+			],
+			"answer": ["it"]
+		}, {
+			"text": "I found #singletouch strange being in her house.",
+			"option": [
+				["it", "-"]
+			],
+			"answer": ["it"]
+		}, {
+			"text": "We would appreciate #singletouch if you would keep us informed.",
+			"option": [
+				["it", "-"]
+			],
+			"answer": ["it"]
+		}, {
+			"text": "We owe #singletouch to society to help those who need help.",
+			"option": [
+				["it", "-"]
+			],
+			"answer": ["it"]
+		}, {
+			"text": "I’ll leave #singletouch to you to inform the other members.",
+			"option": [
+				["it", "-"]
+			],
+			"answer": ["it"]
+		}],
+		"feedback": [{
+			"desc": "<xref-group><a href='u725fd0dd48eeb434.631f8527.158e41641c3.684a'>269</a></xref-group>"
+		}]
+	}, {
+		"template": "multi_radio",
+		"rubric": "Right (R) or wrong (W)?",
+		"rwText": ["R", "W"],
+		"question": [{
+			"text": "I wondered <item>how reliable was the information</item> I had been given.",
+			"answer": {
+				"right": "R"
+			}
+		}],
+		"feedback": [{
+			"desc": "<xref-group><a href='u725fd0dd48eeb434.631f8527.158e41641c3.68e2'>270.1</a></xref-group>"
+		}]
+	}, {
+		"template": "multi_radio",
+		"rubric": "Right (R) or wrong (W)?",
+		"rwText": ["R", "W"],
+		"question": [{
+			"text": "Not far from here <item>can you see</item> foxes.",
+			"answer": {
+				"right": "W"
+			}
+		}, {
+			"text": "Not only <item>did we lose</item> our money, we also wasted our time.",
+			"answer": {
+				"right": "R"
+			}
+		}, {
+			"text": "Under no circumstances <item>will I agree</item> to your conditions.",
+			"answer": {
+				"right": "R"
+			}
+		}],
+		"feedback": [{
+			"desc": "<xref-group><a href='u725fd0dd48eeb434.631f8527.158e41641c3.69ae'>270.7</a></xref-group>"
+		}]
+	}, {
+		"template": "multi_radio",
+		"rubric": "Are these inversions correct (in formal literary writing): yes (Y) or no (N)?",
+		"rwText": ["Y", "N"],
+		"question": [{
+			"text": "Seldom <item>had I been</item> in such danger before.",
+			"answer": {
+				"right": "Y"
+			}
+		}, {
+			"text": "Sometimes <item>had I felt</item> frightened in the past.",
+			"answer": {
+				"right": "N"
+			}
+		}, {
+			"text": "Only then <item>did I understand</item> how bad the situation was.",
+			"answer": {
+				"right": "Y"
+			}
+		}, {
+			"text": "Little <item>did I know</item> that I would soon be saved.",
+			"answer": {
+				"right": "Y"
+			}
+		}, {
+			"text": "Never <item>have I been</item> so glad to see someone arrive.",
+			"answer": {
+				"right": "Y"
+			}
+		}, {
+			"text": "Not for a moment <item>did she realise</item> the danger she was in.",
+			"answer": {
+				"right": "Y"
+			}
+		}, {
+			"text": "Not until he received her email <item>did he fully understand</item> her feelings for him.",
+			"answer": {
+				"right": "Y"
+			}
+		}],
+		"feedback": [{
+			"desc": "<xref-group><a href='u725fd0dd48eeb434.631f8527.158e41641c3.69ae'>270.7</a></xref-group>"
+		}]
+	}, {
+		"template": "multi_radio",
+		"rubric": "Right (R) or wrong (W)?",
+		"rwText": ["R", "W"],
+		"question": [{
+			"text": "Much as I respect your judgement, I think you’re completely mistaken.",
+			"answer": {
+				"right": "R"
+			}
+		}],
+		"feedback": [{
+			"desc": "<xref-group><a href='u725fd0dd48eeb434.631f8527.158e41641c3.6aea'>272.4</a></xref-group>"
+		}]
+	}, {
+		"template": "gapfill",
+		"rubric": "Change the emphasis by reconstructing the sentence with different endings as shown.",
+		"question": [{
+			"input_text": "What Emily kept in the bath was a goldfish.",
+			"text": "#gap was Emily.",
+			"answer": [
+				["The person who kept a goldfish in the bath"]
+			]
+		}, {
+			"text": "#gap was the bath.",
+			"answer": [
+				["The place where Emily kept a goldfish",
+					"(The place) where Emily kept a goldfish",
+					"Where Emily kept a goldfish"
+				]
+			]
+		}, {
+			"text": "#gap was to keep a goldfish in the bath. ",
+			"answer": [
+				["What Emily did"]
+			]
+		}],
+		"feedback": [{
+			"desc": "<xref-group><a href='u725fd0dd48eeb434.631f8527.158e41641c3.6bd2'>274.1</a></xref-group>"
+		}]
+	}, {
+		"template": "multi_radio",
+		"rubric": "Right (R) or wrong (W)?",
+		"rwText": ["R", "W"],
+		"question": [{
+			"text": "<item>Why I’m here is</item> to talk about my plans.",
+			"answer": {
+				"right": "R"
+			}
+		}],
+		"feedback": [{
+			"desc": "<xref-group><a href='u725fd0dd48eeb434.631f8527.158e41641c3.6c10'>274.2</a></xref-group>"
+		}]
+	}, {
+		"template": "multi_radio",
+		"rubric": "Right (R) or wrong (W)?",
+		"rwText": ["R", "W"],
+		"question": [{
+			"text": "What he did was <item>scream</item>.",
+			"answer": {
+				"right": "R"
+			}
+		}, {
+			"text": "What he did was <item>to scream</item>.",
+			"answer": {
+				"right": "R"
+			}
+		}, {
+			"text": "What he did was, <item>he screamed</item>.",
+			"answer": {
+				"right": "R"
+			}
+		}],
+		"feedback": [{
+			"desc": "<xref-group><a href='u725fd0dd48eeb434.631f8527.158e41641c3.6c3d'>274.3</a></xref-group>"
+		}]
+	}, {
+		"template": "multi_radio",
+		"rubric": "Right (R) or wrong (W)?",
+		"rwText": ["R", "W"],
+		"question": [{
+			"text": "<item>This</item> is where you pay.",
+			"answer": {
+				"right": "R"
+			}
+		}, {
+			"text": "<item>Here</item> is where you pay.",
+			"answer": {
+				"right": "R"
+			}
+		}],
+		"feedback": [{
+			"desc": "<xref-group><a href='u725fd0dd48eeb434.631f8527.158e41641c3.6c69'>274.5</a></xref-group>"
+		}]
+	}, {
+		"template": "multi_radio",
+		"rubric": "Formal (F), normal (N) or informal (I)?",
+		"rwText": ["F", "N", "I"],
+		"question": [{
+			"text": "It is I who am responsible.",
+			"answer": {
+				"right": "F"
+			}
+		}, {
+			"text": "It’s me that’s responsible.",
+			"answer": {
+				"right": "I"
+			}
+		}],
+		"feedback": [{
+			"desc": "<xref-group><a href='u725fd0dd48eeb434.631f8527.158e41641c3.6b9e'>273.2</a></xref-group><br/><item>A</item> is very formal. <item>B</item> is very informal."
+		}]
+	}, {
+		"template": "multi_radio",
+		"rubric": "Are these replies right: yes (Y) or no (N)?",
+		"rwText": ["Y", "N"],
+		"question": [{
+			"input_text": "‘Could you have been dreaming?’",
+			"text": "‘I suppose I <item>could</item>.’",
+			"answer": {
+				"right": "Y"
+			}
+		}, {
+			"text": "‘I suppose I <item>could have</item>.’",
+			"answer": {
+				"right": "Y"
+			}
+		}, {
+			"text": "‘I suppose I <item>could have been</item>.’",
+			"answer": {
+				"right": "Y"
+			}
+		}],
+		"feedback": [{
+			"desc": "<xref-group><a href='u725fd0dd48eeb434.631f8527.158e41641c3.714c'>279.5</a></xref-group>"
+		}]
+	}, {
+		"template": "multi_radio",
+		"rubric": "Are these replies right: yes (Y) or no (N)?",
+		"rwText": ["Y", "N"],
+		"question": [{
+			"input_text": "‘Do you think he’ll phone?’",
+			"text": "‘He <item>might</item>.’",
+			"answer": {
+				"right": "Y"
+			}
+		}, {
+			"text": "‘He <item>might do</item>.’",
+			"answer": {
+				"right": "Y"
+			}
+		}],
+		"feedback": [{
+			"desc": "<xref-group><a href='u725fd0dd48eeb434.631f8527.158e41641c3.718d'>279.6</a></xref-group><br/><item>B</item> is not right in American English."
+		}]
+	}, {
+		"template": "multi_radio",
+		"rubric": "Right (R) or wrong (W)?",
+		"rwText": ["R", "W"],
+		"question": [{
+			"text": "‘Are you and Gillian getting married?’ ‘<item>We hope</item>.’",
+			"answer": {
+				"right": "W"
+			}
+		}, {
+			"text": "‘Are you and Gillian getting married?’ ‘<item>We hope to</item>.’",
+			"answer": {
+				"right": "R"
+			}
+		}, {
+			"text": "There’s more snow these days than there <item>used to</item>.",
+			"answer": {
+				"right": "W"
+			}
+		}, {
+			"text": "‘Do you want to go to University?’ ‘<item>I’d like</item>.’",
+			"answer": {
+				"right": "W"
+			}
+		}, {
+			"text": "Stay as long as <item>you like</item>.",
+			"answer": {
+				"right": "R"
+			}
+		}],
+		"feedback": [{
+			"desc": "<xref-group><a href='u725fd0dd48eeb434.631f8527.158e41641c3.71be'>280</a></xref-group>"
+		}]
+	}]
+	}
+}

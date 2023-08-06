@@ -1,0 +1,648 @@
+{
+	"b2" :
+	{
+	"-unit": "20",
+	"-level": "b2",
+	"topic_name": "if",
+	"exercise": [{
+		"template": "multi_radio",
+		"rubric": "Are these sentences right: yes (Y) or no (N)?",
+		"rwText": ["Y", "N"],
+		"question": [{
+			"text": "I’ll meet you on the tennis court at 10.00 if it isn’t raining.",
+			"answer": {
+				"right": "Y"
+			}
+		}, {
+			"text": "I’d be happier if I had more friends.",
+			"answer": {
+				"right": "Y"
+			}
+		}, {
+			"text": "It had been nice if she had said ‘Thank you’.",
+			"answer": {
+				"right": "N"
+			}
+		}, {
+			"text": "I visit my mother on Saturdays if I have time.",
+			"answer": {
+				"right": "Y"
+			}
+		}, {
+			"text": "If Emily didn’t phone this morning, she’s probably away.",
+			"answer": {
+				"right": "Y"
+			}
+		}],
+		"feedback": [{
+			"desc": "<xref-group><a href='u725fd0dd48eeb434.631f8527.158e41641c3.4eb0'>238–241</a></xref-group><br/>If you thought <item>D</item> or <item>E</item> was wrong, <xref-group><a href='u725fd0dd48eeb434.631f8527.158e41641c3.4ec4'>238.1</a></xref-group>."
+		}]
+	}, {
+		"template": "multi_radio",
+		"rubric": "Are these sentences right: yes (Y) or no (N)?",
+		"rwText": ["Y", "N"],
+		"question": [{
+			"text": "<item>If I see him</item>, I’ll tell him.",
+			"answer": {
+				"right": "Y"
+			}
+		}, {
+			"text": "<item>If I’ll see him</item>, I’ll tell him.",
+			"answer": {
+				"right": "N"
+			}
+		}, {
+			"text": "I’ll tell him <item>when I see him</item>.",
+			"answer": {
+				"right": "Y"
+			}
+		}, {
+			"text": "I’ll tell him <item>when I’ll see him</item>.",
+			"answer": {
+				"right": "N"
+			}
+		}],
+		"feedback": [{
+			"desc": "<xref-group><a href='u725fd0dd48eeb434.631f8527.158e41641c3.4ef5'>238.2</a></xref-group>"
+		}]
+	}, {
+		"template": "multi_radio",
+		"rubric": "Right (R) or wrong (W)?",
+		"rwText": ["R", "W"],
+		"question": [{
+			"text": "If I <item>know</item> her name, I’d tell you.",
+			"answer": {
+				"right": "W"
+			}
+		}, {
+			"text": "If I <item>knew</item> her name, I’d tell you.",
+			"answer": {
+				"right": "R"
+			}
+		}, {
+			"text": "If I<item>’d know</item> her name, I’d tell you.",
+			"answer": {
+				"right": "W"
+			}
+		}],
+		"feedback": [{
+			"desc": "<xref-group><a href='u725fd0dd48eeb434.631f8527.158e41641c3.4f63'>239.2</a></xref-group>"
+		}]
+	}, {
+		"template": "multi_radio",
+		"rubric": "Are these sentences right: yes (Y) or no (N)?",
+		"rwText": ["Y", "N"],
+		"question": [{
+			"text": "If you <item>asked</item> me, I would have told you.",
+			"answer": {
+				"right": "N"
+			}
+		}, {
+			"text": "If you <item>had asked</item> me, I would have told you.",
+			"answer": {
+				"right": "Y"
+			}
+		}, {
+			"text": "If you <item>would have asked </item>me, I would have told you.",
+			"answer": {
+				"right": "N"
+			}
+		}],
+		"feedback": [{
+			"desc": "<xref-group><a href='u725fd0dd48eeb434.631f8527.158e41641c3.5099'>241.1</a></xref-group>"
+		}]
+	}, {
+		"template": "multi_radio",
+		"rubric": "Right (R) or wrong (W)?",
+		"rwText": ["R", "W"],
+		"question": [{
+			"text": "I don’t know if <item>I’m</item> ready in time.",
+			"answer": {
+				"right": "W"
+			}
+		}, {
+			"text": "I don’t know if <item>I’ll be</item> ready in time.",
+			"answer": {
+				"right": "R"
+			}
+		}],
+		"feedback": [{
+			"desc": "<xref-group><a href='u725fd0dd48eeb434.631f8527.158e41641c3.519f'>243.3</a></xref-group>"
+		}]
+	}, {
+		"template": "multi_radio",
+		"rubric": "Is this sentence right (R) or wrong (W)? ",
+		"rwText": ["R", "W"],
+		"question": [{
+			"text": "If I <item>were</item> rich, I would travel more.",
+			"answer": {
+				"right": "R"
+			}
+		}],
+		"feedback": [{
+			"desc": "<xref-group><a href='u725fd0dd48eeb434.631f8527.158e41641c3.4fd1'>239.4</a></xref-group>"
+		}]
+	}, {
+		"template": "single_radio",
+		"question": [{
+			"text": "Who is probably the faster runner: Speaker A or Speaker B?",
+			"option": ["‘If I <item>win</item> this race ... ’", "‘If I <item>won</item> this race ... ’"],
+			"answer": "‘If I win this race ... ’"
+		}],
+		"feedback": [{
+			"desc": "<xref-group><a href='u725fd0dd48eeb434.631f8527.158e41641c3.4ff4'>239.5</a></xref-group>"
+		}]
+	}, {
+		"template": "multi_radio",
+		"rubric": "Do the continuations sound natural: yes (Y) or no (N)?",
+		"rwText": ["Y", "N"],
+		"question": [{
+			"input_text": "Are you free on Wednesday night? ... ",
+			"text": " ... <item>If you are free</item>, let’s meet at 7.",
+			"answer": {
+				"right": "N"
+			}
+		}, {
+			"text": " ... <item>If you are</item>, let’s meet at 7.",
+			"answer": {
+				"right": "Y"
+			}
+		}, {
+			"text": " ... <item>If yes</item>, let’s meet at 7.",
+			"answer": {
+				"right": "N"
+			}
+		}, {
+			"text": " ... <item>If so</item>, let’s meet at 7.",
+			"answer": {
+				"right": "Y"
+			}
+		}, {
+			"text": " ... <item>If you aren’t free</item>, let’s meet on Thursday.",
+			"answer": {
+				"right": "N"
+			}
+		}, {
+			"text": " ... <item>If not</item>, let’s meet on Thursday.",
+			"answer": {
+				"right": "Y"
+			}
+		}, {
+			"text": " ... <item>If no</item>, let’s meet on Thursday.",
+			"answer": {
+				"right": "N"
+			}
+		}],
+		"feedback": [{
+			"desc": "<xref-group><a href='u725fd0dd48eeb434.631f8527.158e41641c3.52af'>244.7</a></xref-group>"
+		}]
+	}, {
+		"template": "multi_radio",
+		"rubric": "Can words A–C complete the sentence correctly: yes (Y) or no (N)?",
+		"rwText": ["Y", "N"],
+		"question": [{
+			"input_text": "If she won’t come to us, <gap/> we’ll have to go and see her.",
+			"text": "then",
+			"answer": {
+				"right": "Y"
+			}
+		}, {
+			"text": "therefore",
+			"answer": {
+				"right": "N"
+			}
+		}, {
+			"text": "so",
+			"answer": {
+				"right": "N"
+			}
+		}],
+		"feedback": [{
+			"desc": "<xref-group><a href='u725fd0dd48eeb434.631f8527.158e41641c3.52d3'>244.9</a></xref-group>"
+		}]
+	}]
+	}, 
+	"c1" :
+	{
+	"-unit": "20",
+	"-level": "c1",
+	"topic_name": "if",
+	"exercise": [{
+		"template": "multi_radio",
+		"rubric": "Are these structures common in British English: yes (Y) or no (N)?",
+		"rwText": ["Y", "N"],
+		"question": [{
+			"text": "If I knew her name, I <item>would</item> tell you.",
+			"answer": {
+				"right": "Y"
+			}
+		}, {
+			"text": "If I knew her name, I <item>should</item> tell you.",
+			"answer": {
+				"right": "N"
+			}
+		}, {
+			"text": "If I knew her name, I<item>’d</item> tell you.",
+			"answer": {
+				"right": "Y"
+			}
+		}],
+		"feedback": [{
+			"desc": "<xref-group><a href='u725fd0dd48eeb434.631f8527.158e41641c3.4f94'>239.3</a></xref-group>"
+		}]
+	}, {
+		"template": "correction",
+		"hideRight": "true",
+		"rubric": "Rewrite this sentence, changing two words to make it more polite.",
+		"question": [{
+			"text": "Will it be all right if I bring a friend? ",
+			"answer": {
+				"right": "Would it be all right if I brought a friend?"
+			}
+		}],
+		"feedback": [{
+			"desc": "<xref-group><a href='u725fd0dd48eeb434.631f8527.158e41641c3.4f63'>239.2</a></xref-group>"
+		}]
+	}, {
+		"template": "single_touch_button",
+		"rubric": "Which sounds better: <i>could</i> or <i>might</i>?",
+		"question": [{
+			"text": "If you behave yourself, I #singletouch buy you an ice cream.",
+			"option": [
+				["could", "might"]
+			],
+			"answer": ["might"]
+		}, {
+			"text": "If I had a bigger car, I #singletouch take all four of you to the shops.",
+			"option": [
+				["could", "might"]
+			],
+			"answer": ["could"]
+		}, {
+			"text": "If you asked me nicely, I #singletouch do the washing-up.",
+			"option": [
+				["could", "might"]
+			],
+			"answer": ["might"]
+		}, {
+			"text": "She’s forgotten her phone. If I knew where she lived, I #singletouch take it to her.",
+			"option": [
+				["could", "might"]
+			],
+			"answer": ["could"]
+		}],
+		"feedback": [{
+			"desc": "<xref-group><a href='u725fd0dd48eeb434.631f8527.158e41641c3.5019'>239.6</a></xref-group><br/>In <item>A</item> and <item>C</item>, the meaning of <i>might</i> is ‘would perhaps’.<br/>In <item>B</item> and <item>D</item>, the meaning of <i>could</i> is ‘would be able to’. "
+		}]
+	}, {
+		"template": "multi_radio",
+		"rubric": "Are these possible: yes (Y) or no (N)?",
+		"rwText": ["Y", "N"],
+		"question": [{
+			"input_text": "<speaker>tour guide</speaker>: Now if you <gap/> me, we will now visit the Great Hall.",
+			"text": "all follow ",
+			"answer": {
+				"right": "Y"
+			}
+		}, {
+			"text": "will all follow ",
+			"answer": {
+				"right": "Y"
+			}
+		}, {
+			"text": "would all follow ",
+			"answer": {
+				"right": "Y"
+			}
+		}],
+		"feedback": [{
+			"desc": "<xref-group><a href='u725fd0dd48eeb434.631f8527.158e41641c3.51b9'>243.4</a></xref-group>"
+		}]
+	}, {
+		"template": "multi_radio",
+		"rubric": "Can expressions A–C complete the sentence correctly: yes (Y) or no (N)?",
+		"rwText": ["Y", "N"],
+		"question": [{
+			"input_text": "If you <gap/> in the area, please come and see me.",
+			"text": "should be",
+			"answer": {
+				"right": "Y"
+			}
+		}, {
+			"text": "would be",
+			"answer": {
+				"right": "N"
+			}
+		}, {
+			"text": "happen to be",
+			"answer": {
+				"right": "Y"
+			}
+		}],
+		"feedback": [{
+			"desc": "<xref-group><a href='u725fd0dd48eeb434.631f8527.158e41641c3.51f9'>244.1</a></xref-group>"
+		}]
+	}, {
+		"template": "multi_radio",
+		"rubric": "Right (R) or wrong (W)?",
+		"rwText": ["R", "W"],
+		"question": [{
+			"text": "I’ll work late tonight <item>if it’s necessary</item>.",
+			"answer": {
+				"right": "R"
+			}
+		}, {
+			"text": "I’ll work late tonight <item>if necessary</item>.",
+			"answer": {
+				"right": "R"
+			}
+		}, {
+			"text": "<item>If you are in doubt</item>, ask me for help.",
+			"answer": {
+				"right": "R"
+			}
+		}, {
+			"text": "<item>If in doubt</item>, ask me for help.",
+			"answer": {
+				"right": "R"
+			}
+		}],
+		"feedback": [{
+			"desc": "<xref-group><a href='u725fd0dd48eeb434.631f8527.158e41641c3.5288'>244.6</a></xref-group>"
+		}]
+	}, {
+		"template": "multi_radio",
+		"rubric": "Right (R) or wrong (W)?",
+		"rwText": ["R", "W"],
+		"question": [{
+			"text": "I’ll finish this report <item>if</item> it takes me all night.",
+			"answer": {
+				"right": "R"
+			}
+		}, {
+			"text": "I’ll finish this report <item>as if</item> it takes me all night.",
+			"answer": {
+				"right": "W"
+			}
+		}, {
+			"text": "I’ll finish this report <item>even if</item> it takes me all night.",
+			"answer": {
+				"right": "R"
+			}
+		}],
+		"feedback": [{
+			"desc": "<xref-group><a href='u725fd0dd48eeb434.631f8527.158e41641c3.52e0'>244.10</a></xref-group>"
+		}]
+	}, {
+		"template": "single_radio",
+		"question": [{
+			"text": "Which is closest in meaning to the sentence below: A or B?",
+			"input_text": "If I’m angry, it’s because you lied to me.",
+			"option": ["The only reason I’m angry is because you lied to me.", "I’m not sure whether I’m angry but, if I am, it’s because you lied to me."],
+			"answer": "The only reason I’m angry is because you lied to me."
+		}],
+		"feedback": [{
+			"desc": "<xref-group><a href='u725fd0dd48eeb434.631f8527.158e41641c3.52f5'>244.11</a></xref-group>"
+		}]
+	}, {
+		"template": "multi_radio",
+		"rubric": "Can expressions A–F replace <i>if</i> in the sentence below: yes (Y) or no (N)?",
+		"rwText": ["Y", "N"],
+		"question": [{
+			"input_text": "You can have Friday off <item>if</item> you work on Saturday.",
+			"text": "providing that",
+			"answer": {
+				"right": "Y"
+			}
+		}, {
+			"text": "provided that",
+			"answer": {
+				"right": "Y"
+			}
+		}, {
+			"text": "on condition that",
+			"answer": {
+				"right": "Y"
+			}
+		}, {
+			"text": "supposing that",
+			"answer": {
+				"right": "N"
+			}
+		}, {
+			"text": "as long as",
+			"answer": {
+				"right": "Y"
+			}
+		}, {
+			"text": "so long as",
+			"answer": {
+				"right": "Y"
+			}
+		}],
+		"feedback": [{
+			"desc": "<xref-group><a href='u725fd0dd48eeb434.631f8527.158e41641c3.53a9'>246</a></xref-group>"
+		}]
+	}, {
+		"template": "multi_radio",
+		"rubric": "Right (R) or wrong (W)?",
+		"rwText": ["R", "W"],
+		"question": [{
+			"text": "I’ll be surprised <item>unless</item> the car breaks down.",
+			"answer": {
+				"right": "W"
+			}
+		}],
+		"feedback": [{
+			"desc": "<xref-group><a href='u725fd0dd48eeb434.631f8527.158e41641c3.540c'>247.2</a></xref-group>"
+		}]
+	}]
+	}, 
+	"c2" :
+	{
+	"-unit": "20",
+	"-level": "c2",
+	"topic_name": "if",
+	"exercise": [{
+		"template": "multi_radio",
+		"rubric": "Right (R) or wrong (W)?",
+		"rwText": ["R", "W"],
+		"question": [{
+			"text": "I’ll give you £100 if <item>I will win</item> the lottery.",
+			"answer": {
+				"right": "W"
+			}
+		}, {
+			"text": "I’ll give you £100 if <item>it will help</item> you to buy a bike.",
+			"answer": {
+				"right": "R"
+			}
+		}],
+		"feedback": [{
+			"desc": "<xref-group><a href='u725fd0dd48eeb434.631f8527.158e41641c3.5177'>243.1</a></xref-group>"
+		}]
+	}, {
+		"template": "multi_radio",
+		"rubric": "Right (R) or wrong (W)?",
+		"rwText": ["R", "W"],
+		"question": [{
+			"text": "If <item>Daniel won’t be</item> there this evening, there’s no point in going to the meeting.",
+			"answer": {
+				"right": "R"
+			}
+		}, {
+			"text": "I’m not sure if Daniel’s coming this evening. If <item>he won’t be </item>there, I’ll give the papers to his wife.",
+			"answer": {
+				"right": "W"
+			}
+		}],
+		"feedback": [{
+			"desc": "<xref-group><a href='u725fd0dd48eeb434.631f8527.158e41641c3.5191'>243.2</a></xref-group>"
+		}]
+	}, {
+		"template": "single_radio",
+		"question": [{
+			"text": "What is the best description of this use of <i>will</i>? ",
+			"input_text": "If <item>you will eat</item> so much, it’s not surprising you feel ill.",
+			"option": ["futurity", "possibility", "irritating habit"],
+			"answer": "irritating habit"
+		}],
+		"feedback": [{
+			"desc": "<xref-group><a href='u725fd0dd48eeb434.631f8527.158e41641c3.51d5'>243.5</a></xref-group>"
+		}]
+	}, {
+		"template": "multi_radio",
+		"rubric": "Right (R) or wrong (W)?",
+		"rwText": ["R", "W"],
+		"question": [{
+			"text": "If I <item>gave</item> you my address, would you write to me soon?",
+			"answer": {
+				"right": "R"
+			}
+		}, {
+			"text": "If I <item>were to give</item> you my address, would you write to me soon?",
+			"answer": {
+				"right": "R"
+			}
+		}, {
+			"text": "If I <item>knew</item> your address, I’d send you a postcard.",
+			"answer": {
+				"right": "R"
+			}
+		}, {
+			"text": "If I <item>were to know</item> your address, I’d send you a postcard.",
+			"answer": {
+				"right": "W"
+			}
+		}],
+		"feedback": [{
+			"desc": "<xref-group><a href='u725fd0dd48eeb434.631f8527.158e41641c3.520f'>244.2</a></xref-group>"
+		}]
+	}, {
+		"template": "multi_radio",
+		"rubric": "Are these sentences right: yes (Y) or no (N)?",
+		"rwText": ["Y", "N"],
+		"question": [{
+			"text": "<item>If it hadn’t been for</item> Emma, I don’t know what I would have done.",
+			"answer": {
+				"right": "Y"
+			}
+		}, {
+			"text": "<item>If there hadn’t been</item> Emma, I don’t know what I would have done.",
+			"answer": {
+				"right": "N"
+			}
+		}, {
+			"text": "<item>If Emma hadn’t been</item>, I don’t know what I would have done.",
+			"answer": {
+				"right": "N"
+			}
+		}, {
+			"text": "<item>But for Emma</item>, I don’t know what I would have done.",
+			"answer": {
+				"right": "Y"
+			}
+		}],
+		"feedback": [{
+			"desc": "<xref-group><a href='u725fd0dd48eeb434.631f8527.158e41641c3.523b'>244.3</a></xref-group>"
+		}]
+	}, {
+		"template": "single_radio",
+		"question": [{
+			"text": "What do you think about this sentence? ",
+			"input_text": "You want to get in, you pay like everybody else.",
+			"option": ["Normal and correct", "Correct in an informal style", "Incorrect"],
+			"answer": "Correct in an informal style"
+		}],
+		"feedback": [{
+			"desc": "<xref-group><a href='u725fd0dd48eeb434.631f8527.158e41641c3.5252'>244.4</a></xref-group>"
+		}]
+	}, {
+		"template": "single_radio",
+		"question": [{
+			"text": "How can we best describe these structures?",
+			"input_text": "<item>Were she</item> my daughter, I would insist that she behave properly.<br/><item>Had I realised</item> the situation, I would have informed the police.<br/><item>Should you change</item> your mind, do not hesitate to contact me.",
+			"option": ["Normal and correct", "Correct in a very formal style", "Correct in an informal style", "Incorrect"],
+			"answer": "Correct in a very formal style"
+		}],
+		"feedback": [{
+			"desc": "<xref-group><a href='u725fd0dd48eeb434.631f8527.158e41641c3.525f'>244.5</a></xref-group>"
+		}]
+	}, {
+		"template": "single_radio",
+		"question": [{
+			"text": "What does this spoken sentence probably mean?",
+			"input_text": "I wouldn’t be surprised if she didn’t get married soon.",
+			"option": ["I’m not sure, but I think she may get married soon.", "I don’t think she’ll get married soon.", "I have no idea whether she’ll get married soon."],
+			"answer": "I’m not sure, but I think she may get married soon."
+		}],
+		"feedback": [{
+			"desc": "<xref-group><a href='u725fd0dd48eeb434.631f8527.158e41641c3.52c1'>244.8</a></xref-group>"
+		}]
+	}, {
+		"template": "single_radio",
+		"question": [{
+			"text": "What is the best paraphrase of this sentence?",
+			"input_text": "His style, if simple, is pleasant to read.",
+			"option": ["His style may or may not be simple. If it is, it’s pleasant to read.", "His style is only pleasant to read when it’s simple.", "His style is simple but it’s pleasant to read."],
+			"answer": "His style is simple but it’s pleasant to read."
+		}],
+		"feedback": [{
+			"desc": "<xref-group><a href='u725fd0dd48eeb434.631f8527.158e41641c3.530d'>244.13</a></xref-group>"
+		}]
+	}, {
+		"template": "multi_radio",
+		"rubric": "Are these sentences acceptable: yes (Y) or no (N)?",
+		"rwText": ["Y", "N"],
+		"question": [{
+			"text": "How would we feel if this would happen to our family?",
+			"answer": {
+				"right": "Y"
+			}
+		}, {
+			"text": "If I’d have known, I’d have told you.",
+			"answer": {
+				"right": "Y"
+			}
+		}, {
+			"text": "If I knew you were coming, I’d have baked a cake.",
+			"answer": {
+				"right": "Y"
+			}
+		}],
+		"feedback": [{
+			"desc": "The structures are all quite common and acceptable in informal speech, but they are very rare in writing, and considered incorrect in formal usage. <xref-group><br><a href='u725fd0dd48eeb434.631f8527.158e41641c3.5330'>245</a></xref-group>"
+		}]
+	}, {
+		"template": "single_radio",
+		"question": [{
+			"text": "Grammar books often divide structures with <i>if</i> into three types: the so-called ‘first, second and third conditionals’. Choose the best analysis of this approach.",
+			"option": ["All structures with <item>if</item> can be explained in terms of these three sentence types.", "Some, but not all, structures with <item>if</item> can be explained in terms of these three sentence types.", "Structures with <item>if</item> can never be explained in terms of these three sentence types."],
+			"answer": "Some, but not all, structures with if can be explained in terms of these three sentence types."
+		}],
+		"feedback": [{
+			"desc": "<xref-group><a href='u725fd0dd48eeb434.631f8527.158e41641c3.4d06'>Section 22</a></xref-group> Introduction"
+		}]
+	}]
+	}
+}

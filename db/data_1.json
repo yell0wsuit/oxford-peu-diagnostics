@@ -1,0 +1,583 @@
+{
+	"b2" :
+	{
+	"-unit": "02",
+	"-level": "b2",
+	"topic_name": "be, have and do",
+	"exercise": [{
+		"template": "correction",
+		"rubric": "Can you make this sentence more natural?",
+		"question": [{
+			"text": "A hole is in my sleeve. ",
+			"answer": {
+				"right": [
+					"There is a hole in my sleeve.",
+					"There's a hole in my sleeve.",
+					"There’s a hole in my sleeve."
+				]
+			}
+		}],
+		"feedback": [{
+			"desc": "<xref-group><a href='u725fd0dd48eeb434.631f8527.158e4161850.71a6'>20.1</a></xref-group>"
+		}]
+	}, {
+		"template": "multi_radio",
+		"rubric": "Right (R) or wrong (W)?",
+		"rwText": ["R", "W"],
+		"question": [{
+			"text": "It is a lot of noise outside.",
+			"answer": {
+				"right": "W"
+			}
+		}],
+		"feedback": [{
+			"desc": "<xref-group><a href='u725fd0dd48eeb434.631f8527.158e4161850.71a6'>20.1</a></xref-group>"
+		}]
+	}, {
+		"template": "multi_radio",
+		"rubric": "Is this normal (N), unusual (U) or wrong (W)?",
+		"rwText": ["N", "U", "W"],
+		"question": [{
+			"text": "I don’t remember how many people <item>there was</item> at the party. ",
+			"answer": {
+				"right": "W"
+			}
+		}],
+		"feedback": [{
+			"desc": "<xref-group><a href='u725fd0dd48eeb434.631f8527.158e4161850.71a6'>20.1</a></xref-group>"
+		}]
+	}, {
+		"template": "multi_radio",
+		"rubric": "Can these expressions complete the question correctly: yes (Y) or no (N)?",
+		"rwText": ["Y", "N"],
+		"question": [{
+			"input_text": "<gap/> the news?",
+			"text": "Heard you",
+			"answer": {
+				"right": "N"
+			}
+		}, {
+			"text": "Do you have heard",
+			"answer": {
+				"right": "N"
+			}
+		}, {
+			"text": "Have you heard",
+			"answer": {
+				"right": "Y"
+			}
+		}, {
+			"text": "Did you heard",
+			"answer": {
+				"right": "N"
+			}
+		}, {
+			"text": "Did you have heard",
+			"answer": {
+				"right": "N"
+			}
+		}],
+		"feedback": [{
+			"desc": "<xref-group><a href='u725fd0dd48eeb434.631f8527.158e4161850.73bd'>22.2</a></xref-group>"
+		}]
+	}, {
+		"template": "multi_radio",
+		"rubric": "Right (R) or wrong (W)?",
+		"rwText": ["R", "W"],
+		"question": [{
+			"text": "I haven’t seen her anywhere.",
+			"answer": {
+				"right": "R"
+			}
+		}, {
+			"text": "I’m not having seen her anywhere.",
+			"answer": {
+				"right": "W"
+			}
+		}],
+		"feedback": [{
+			"desc": "<xref-group><a href='u725fd0dd48eeb434.631f8527.158e4161850.73d5'>22.3</a></xref-group>"
+		}]
+	}, {
+		"template": "multi_radio",
+		"rubric": "Right (R) or wrong (W)?",
+		"rwText": ["R", "W"],
+		"question": [{
+			"input_text": "Are you having ... ",
+			"text": " ... a bad day?",
+			"answer": {
+				"right": "R"
+			}
+		}, {
+			"text": " ... a headache?",
+			"answer": {
+				"right": "W"
+			}
+		}, {
+			"text": " ... any brothers or sisters?",
+			"answer": {
+				"right": "W"
+			}
+		}],
+		"feedback": [{
+			"desc": "<xref-group><a href='u725fd0dd48eeb434.631f8527.158e4161850.746f'>23.2</a><br><a href='u725fd0dd48eeb434.631f8527.158e4161850.74bf'>24.2</a></xref-group>"
+		}]
+	}, {
+		"template": "gapfill",
+		"hideRight": "true",
+		"rubric": "Put in present-tense forms of <i>be</i> or <i>have</i>.",
+		"question": [{
+			"text": "I #gap thirsty.",
+			"answer": [
+				["am",
+					"'m",
+					"’m"
+				]
+			]
+		}, {
+			"text": "I #gap cold.",
+			"answer": [
+				["am",
+					"'m",
+					"’m"
+				]
+			]
+		}, {
+			"text": "How old #gap you?",
+			"answer": [
+				["are"]
+			]
+		}, {
+			"text": "I usually #gap lunch at 1 o’clock.",
+			"answer": [
+				["have"]
+			]
+		}, {
+			"text": "#gap you sleepy?",
+			"answer": [
+				["Are"]
+			]
+		}, {
+			"text": "I think you #gap wrong.",
+			"answer": [
+				["are",
+					"'re",
+					"’re"
+				]
+			]
+		}, {
+			"text": "What size #gap your shoes?",
+			"answer": [
+				["are"]
+			]
+		}, {
+			"text": "What colour #gap the baby’s eyes?",
+			"answer": [
+				["are"]
+			]
+		}],
+		"feedback": [{
+			"desc": "<xref-group><a href='u725fd0dd48eeb434.631f8527.158e4161850.740f'>23.1</a><br><a href='u725fd0dd48eeb434.631f8527.158e4161850.75d8'>25.1–2</a></xref-group>"
+		}]
+	}, {
+		"template": "multi_radio",
+		"rubric": "Are these right (R), unusual (U) or wrong (W)?",
+		"rwText": ["R", "U", "W"],
+		"question": [{
+			"text": "Had you a good trip?",
+			"answer": {
+				"right": "W"
+			}
+		}, {
+			"text": "Had you got a good trip?",
+			"answer": {
+				"right": "W"
+			}
+		}, {
+			"text": "Did you have a good trip?",
+			"answer": {
+				"right": "R"
+			}
+		}, {
+			"text": "Did you have got a good trip?",
+			"answer": {
+				"right": "W"
+			}
+		}],
+		"feedback": [{
+			"desc": "<xref-group><a href='u725fd0dd48eeb434.631f8527.158e4161850.746f'>23.2</a><br><a href='u725fd0dd48eeb434.631f8527.158e4161850.74a5'>24.1</a></xref-group>"
+		}]
+	}, {
+		"template": "multi_radio_textEntry",
+		"rubric": "Are these right (R) or wrong (W)? When you have checked your answers, correct any wrong sentences.",
+		"rwText": ["R", "W"],
+		"question": [{
+			"text": "Like you football? ",
+			"answer": [{
+				"right": "W"
+			}, {
+				"right": "Do you like football?"
+			}]
+		}, {
+			"text": "I like not football. ",
+			"answer": [{
+				"right": "W"
+			}, {
+				"right": [
+					"I don't like football.",
+					"I don’t like football.",
+					"I do not like football."
+				]
+			}]
+		}, {
+			"text": "Do you can play football? ",
+			"answer": [{
+				"right": "W"
+			}, {
+				"right": "Can you play football?"
+			}]
+
+		}],
+		"feedback": [{
+			"desc": "<xref-group><a href='u725fd0dd48eeb434.631f8527.158e4161850.76d8'>27.1</a></xref-group>"
+		}]
+	}]
+	}, 
+	"c1" :
+	{
+	"-unit": "02",
+	"-level": "c1",
+	"topic_name": "be, have and do",
+	"exercise": [{
+		"template": "order_sentence",
+		"rubric": "Put the words in order to make a correct sentence.",
+		"question": [{
+			"text": ["lake", "swimming", "girl", "was", "in", "there", "a", "the", "."],
+			"answer": "There was a girl swimming in the lake."
+		}],
+		"feedback": [{
+			"desc": "<xref-group><a href='u725fd0dd48eeb434.631f8527.158e4161850.722e'>20.4</a></xref-group>"
+		}]
+	}, {
+		"template": "multi_radio",
+		"rubric": "Can expressions A–F complete the sentence correctly: yes (Y) or no (N)?",
+		"rwText": ["Y", "N"],
+		"question": [{
+			"input_text": "<gap/> to be some problems.",
+			"text": "It seem",
+			"answer": {
+				"right": "N"
+			}
+		}, {
+			"text": "It seems",
+			"answer": {
+				"right": "N"
+			}
+		}, {
+			"text": "There seem",
+			"answer": {
+				"right": "Y"
+			}
+		}, {
+			"text": "There seems",
+			"answer": {
+				"right": "N"
+			}
+		}, {
+			"text": "It seemed",
+			"answer": {
+				"right": "N"
+			}
+		}, {
+			"text": "There seemed",
+			"answer": {
+				"right": "Y"
+			}
+		}],
+		"feedback": [{
+			"desc": "<xref-group><a href='u725fd0dd48eeb434.631f8527.158e4161850.724f'>20.5</a></xref-group>"
+		}]
+	}, {
+		"template": "multi_radio",
+		"rubric": " Are the replies possible: yes (Y) or no (N)?",
+		"rwText": ["Y", "N"],
+		"question": [{
+			"input_text": "‘Has your sister got a car?’",
+			"text": "‘No, she doesn’t have got.’",
+			"answer": {
+				"right": "N"
+			}
+		}, {
+			"text": "‘No, she hasn’t got.’",
+			"answer": {
+				"right": "N"
+			}
+		}, {
+			"text": "‘No, she hasn’t got one.’",
+			"answer": {
+				"right": "Y"
+			}
+		}],
+		"feedback": [{
+			"desc": "<xref-group><a href='u725fd0dd48eeb434.631f8527.158e4161850.751d'>24.6</a></xref-group>"
+		}]
+	}, {
+		"template": "single_touch_button",
+		"rubric": "Which expression(s) can complete the sentence correctly? If both are possible, select ‘both’.",
+		"question": [{
+			"text": "Have you got a credit card? It’s important #singletouch one if you’re travelling abroad.",
+			"option": [
+				["to have", "to have got", "[both]"]
+			],
+			"answer": ["to have"]
+		}],
+		"feedback": [{
+			"desc": "<xref-group><a href='u725fd0dd48eeb434.631f8527.158e4161850.751d'>24.6</a></xref-group>."
+		}]
+	}, {
+		"template": "multi_radio",
+		"rubric": "Right (R) or wrong (W)?",
+		"rwText": ["R", "W"],
+		"question": [{
+			"text": "Do you have a headache?",
+			"answer": {
+				"right": "R"
+			}
+		}, {
+			"text": "Do you have got a headache?",
+			"answer": {
+				"right": "W"
+			}
+		}, {
+			"text": "Have you got a headache?",
+			"answer": {
+				"right": "R"
+			}
+		}, {
+			"text": "Are you having a headache?",
+			"answer": {
+				"right": "W"
+			}
+		}],
+		"feedback": [{
+			"desc": "<xref-group><a href='u725fd0dd48eeb434.631f8527.158e4161850.74bf'>24.2</a><br><a href='u725fd0dd48eeb434.631f8527.158e4161850.7506'>24.5–6</a></xref-group>"
+		}]
+	}, {
+		"template": "multi_radio",
+		"rubric": "Is this sentence normal (N), unusual (U), informal (I) or wrong (W)?",
+		"rwText": ["N", "U", "I", "W"],
+		"question": [{
+			"text": "<item>I’ve</item> lunch at 12.30 most days.",
+			"answer": {
+				"right": "W"
+			}
+		}],
+		"feedback": [{
+			"desc": "<xref-group><a href='u725fd0dd48eeb434.631f8527.158e4161850.746f'>23.2</a></xref-group>"
+		}]
+	}, {
+		"template": "multi_radio",
+		"rubric": "Are these answers normal (N), unusual (U) or wrong (W)?",
+		"rwText": ["N", "U", "W"],
+		"question": [{
+			"text": "‘How are you?’ ‘OK, but I <item>had got</item> a cold last week.’",
+			"answer": {
+				"right": "W"
+			}
+		}, {
+			"text": "‘Have you got a pen?’ ‘Sorry, I <item>haven’t got</item>.’",
+			"answer": {
+				"right": "W"
+			}
+		}, {
+			"text": "‘Do you ever go skiing?’ ‘Sometimes, but I <item>don’t</item> often <item>have</item> time.’",
+			"answer": {
+				"right": "N"
+			}
+		}],
+		"feedback": [{
+			"desc": "<xref-group><a href='u725fd0dd48eeb434.631f8527.158e4161850.751d'>24.6–7</a></xref-group>"
+		}]
+	}, {
+		"template": "correction",
+		"rubric": "Can you make this sentence more natural?",
+		"question": [{
+			"text": "My suitcase is 37 kilos heavy. ",
+			"answer": {
+				"right": "My suitcase weighs 37 kilos."
+			}
+		}],
+		"feedback": [{
+			"desc": "<xref-group><a href='u725fd0dd48eeb434.631f8527.158e4161850.75f3'>25.2</a></xref-group>"
+		}]
+	}, {
+		"template": "correction",
+		"rubric": "Add one word to this sentence to make it sound more natural.",
+		"question": [{
+			"input_text": "She thinks I don’t love her, but I love her.",
+			"text": "",
+			"answer": {
+				"right": [
+					"She thinks I don't love her, but I do love her.",
+					"She thinks I don’t love her, but I do love her."
+				]
+			}
+		}],
+		"feedback": [{
+			"desc": "<xref-group><a href='u725fd0dd48eeb434.631f8527.158e4161850.7720'>27.3</a></xref-group>"
+		}]
+	}]
+	}, 
+	"c2" :
+	{
+	"-unit": "02",
+	"-level": "c2",
+	"topic_name": "be, have and do",
+	"exercise": [{
+		"template": "freetext",
+		"rubric": "What is wrong with this?",
+		"question": [{
+			"text": "There was the door open. "
+		}],
+		"answer": "We don’t normally use the <i>there is</i> structure to introduce definite subjects.",
+		"feedback": [{
+			"desc": "<xref-group><a href='u725fd0dd48eeb434.631f8527.158e4161850.7296'>20.7</a></xref-group>"
+		}]
+	}, {
+		"template": "multi_radio",
+		"rubric": "Right (R) or wrong (W)?",
+		"rwText": ["R", "W"],
+		"question": [{
+			"text": "You<item>’re being</item> stupid.",
+			"answer": {
+				"right": "R"
+			}
+		}, {
+			"text": "I <item>was being</item> depressed, so I went to see Maureen.",
+			"answer": {
+				"right": "W"
+			}
+		}, {
+			"text": "This job <item>is being</item> difficult.",
+			"answer": {
+				"right": "W"
+			}
+		}, {
+			"text": "Angela’s <item>being</item> difficult again.",
+			"answer": {
+				"right": "R"
+			}
+		}],
+		"feedback": [{
+			"desc": "<xref-group><a href='u725fd0dd48eeb434.631f8527.158e4161850.70fe'>18</a></xref-group>"
+		}]
+	}, {
+		"template": "multi_radio",
+		"rubric": "Right (R) or wrong (W)?",
+		"rwText": ["R", "W"],
+		"question": [{
+			"text": "<item>Do be</item> careful.",
+			"answer": {
+				"right": "R"
+			}
+		}, {
+			"text": "<item>Don’t be</item> shy.",
+			"answer": {
+				"right": "R"
+			}
+		}, {
+			"text": "Children – if you <item>don’t be</item> quiet, you’ll go straight to bed.",
+			"answer": {
+				"right": "R"
+			}
+		}],
+		"feedback": [{
+			"desc": "<xref-group><a href='u725fd0dd48eeb434.631f8527.158e4161850.714d'>19</a></xref-group><br/><item>C</item> is possible in an informal style. "
+		}]
+	}, {
+		"template": "single_touch_button",
+		"rubric": "Which expression(s) can complete the sentence correctly? If you think both are possible, select ‘both’.",
+		"question": [{
+			"text": "‘Emma looks happy.’ ‘Yes, she #singletouch a new boyfriend.",
+			"option": [
+				["must have", "must have got", "[both]"]
+			],
+			"answer": ["[both]"]
+		}],
+		"feedback": [{
+			"desc": "<xref-group><a href='u725fd0dd48eeb434.631f8527.158e4161850.751d'>24.6</a></xref-group>"
+		}]
+	}, {
+		"template": "single_radio",
+		"question": [{
+			"text": "One of these is wrong. Which?",
+			"option": ["<item>Do you ever have</item> time to go to London?", "<item>Have you ever got</item> time to go to London?", "<item>Do you have</item> time to go to London this weekend?", "<item>Have you got</item> time to go to London this weekend?"],
+			"answer": "Have you ever got time to go to London?"
+		}],
+		"feedback": [{
+			"desc": "<xref-group><a href='u725fd0dd48eeb434.631f8527.158e4161850.7580'>24.7</a></xref-group>"
+		}]
+	}, {
+		"template": "multi_radio",
+		"rubric": "Are these uses of <i>do so</i> natural: yes (Y) or no (N)?",
+		"rwText": ["Y", "N"],
+		"question": [{
+			"text": "I need to speak to Jack. I’ll try to <item>do so</item> tomorrow.",
+			"answer": {
+				"right": "Y"
+			}
+		}, {
+			"text": "Anna’s been to Patagonia, and I’d love to <item>do so</item>.",
+			"answer": {
+				"right": "N"
+			}
+		}, {
+			"text": "I think you’re wrong, and I’ve always <item>done so</item>.",
+			"answer": {
+				"right": "N"
+			}
+		}],
+		"feedback": [{
+			"desc": "<xref-group><a href='u725fd0dd48eeb434.631f8527.158e4161850.7821'>29.2–3</a></xref-group>"
+		}]
+	}, {
+		"template": "multi_radio",
+		"rubric": "Are the answers normal (N), normal only in British English (BrE), or unusual (U)?",
+		"rwText": ["N", "BrE", "U"],
+		"question": [{
+			"text": "‘Come and stay with us.’ ‘I may do, if I have the time.’",
+			"answer": {
+				"right": "BrE"
+			}
+		}, {
+			"text": "‘Come and stay with us.’ ‘I may, if I have the time.’",
+			"answer": {
+				"right": "N"
+			}
+		}, {
+			"text": "‘I asked him to clean the windows.’ ‘He has done.’",
+			"answer": {
+				"right": "BrE"
+			}
+		}, {
+			"text": "‘I asked him to clean the windows.’ ‘He has.’",
+			"answer": {
+				"right": "N"
+			}
+		}, {
+			"text": "‘That child should be getting dressed.’ ‘She is doing.’",
+			"answer": {
+				"right": "U"
+			}
+		}, {
+			"text": "‘That child should be getting dressed.’ ‘She is.’",
+			"answer": {
+				"right": "N"
+			}
+		}],
+		"feedback": [{
+			"desc": "<xref-group><a href='u725fd0dd48eeb434.631f8527.158e4161850.7789'>28</a></xref-group>"
+		}]
+	}]
+	}
+}

@@ -1,0 +1,1269 @@
+{
+	"b2" :
+	{
+	"-unit": "04",
+	"-level": "b2",
+	"topic_name": "past and perfect",
+	"exercise": [{
+		"template": "gapfill",
+		"hideRight": "true",
+		"rubric": "Write the past tenses of these verbs.",
+		"sample": {
+			"text": "ask #gap",
+			"answer": ["asked"]
+		},
+		"question": [{
+			"text": "start #gap",
+			"answer": [
+				["started"]
+			]
+		}, {
+			"text": "stop #gap",
+			"answer": [
+				["stopped"]
+			]
+		}, {
+			"text": "plan #gap",
+			"answer": [
+				["planned"]
+			]
+		}, {
+			"text": "develop #gap",
+			"answer": [
+				["developed"]
+			]
+		}, {
+			"text": "care #gap",
+			"answer": [
+				["cared"]
+			]
+		}, {
+			"text": "hurry #gap",
+			"answer": [
+				["hurried"]
+			]
+		}, {
+			"text": "offer #gap",
+			"answer": [
+				["offered"]
+			]
+		}, {
+			"text": "stun #gap",
+			"answer": [
+				["stunned"]
+			]
+		}, {
+			"text": "panic #gap",
+			"answer": [
+				["panicked"]
+			]
+		}, {
+			"text": "regret #gap",
+			"answer": [
+				["regretted"]
+			]
+		}],
+		"feedback": [{
+			"desc": "<xref-group><a href='u725fd0dd48eeb434.631f8527.158e41641c3.-7885'>44.3</a></xref-group>"
+		}]
+	}, {
+		"template": "multi_radio_textEntry",
+		"hideRight": "true",
+		"rubric": "Are these verb forms right (R) or wrong (W)? When you have checked your answers, correct any wrong verb forms.",
+		"rwText": ["R", "W"],
+		"question": [{
+			"text": "I <item>payed</item> him in cash. ",
+			"answer": [{
+				"right": "W"
+			}, {
+				"right": [
+					"paid",
+					"I paid him in cash."
+				]
+			}]
+		}, {
+			"text": "I’m afraid I’ve <item>hit</item> your car. ",
+			"answer": {
+				"right": "R"
+			}
+		}, {
+			"text": "She <item>learnt</item> it. ",
+			"answer": {
+				"right": "R"
+			}
+		}, {
+			"text": "The hot water pipes <item>burst</item> last night. ",
+			"answer": {
+				"right": "R"
+			}
+		}, {
+			"text": "I’ve never <item>rode</item> a horse before. ",
+			"answer": [{
+				"right": "W"
+			}, {
+				"right": [
+					"ridden",
+					"I've never ridden a horse before.",
+					"I’ve never ridden a horse before."
+				]
+			}]
+		}, {
+			"text": "She’s never <item>flown</item> in a helicopter before. ",
+			"answer": {
+				"right": "R"
+			}
+		}, {
+			"text": "The film <item>begun</item> ten minutes ago. ",
+			"answer": [{
+				"right": "W"
+			}, {
+				"right": [
+					"began",
+					"The film began ten minutes ago."
+				]
+			}]
+		}, {
+			"text": "Wait! I’ve <item>forgot</item> my keys. ",
+			"answer": [{
+				"right": "W"
+			}, {
+				"right": [
+					"forgotten",
+					"Wait! I've forgotten my keys.",
+					"Wait! I’ve forgotten my keys.",
+					"I've forgotten my keys.",
+					"I’ve forgotten my keys."
+				]
+			}]
+		}, {
+			"text": "She realised she had <item>went</item> the wrong way. ",
+			"answer": [{
+				"right": "W"
+			}, {
+				"right": [
+					"gone",
+					"She realised she had gone the wrong way."
+				]
+			}]
+		}, {
+			"text": "The horse has <item>fell</item> at the first fence. ",
+			"answer": [{
+				"right": "W"
+			}, {
+				"right": [
+					"fallen",
+					"The horse has fallen at the first fence."
+				]
+			}]
+		}, {
+			"text": "They <item>flew</item> to Argentina on Sunday. ",
+			"answer": {
+				"right": "R"
+			}
+		}, {
+			"text": "He <item>lied</item> in his bed all morning. ",
+			"answer": [{
+				"right": "W"
+			}, {
+				"right": [
+					"lay",
+					"He lay in his bed all morning."
+				]
+			}]
+
+		}],
+		"feedback": [{
+			"desc": "For <item>A</item>–<item>I</item>, <xref-group><a href='u725fd0dd48eeb434.631f8527.158e4161850.5f99'>1.1</a></xref-group>.<br/>For <item>J</item>–<item>L</item>, <xref-group><a href='u725fd0dd48eeb434.631f8527.158e4161850.6204'>1.2</a></xref-group>. "
+		}]
+	}, {
+		"template": "multi_radio_textEntry",
+		"hideRight": "true",
+		"rubric": "Are these spellings right (R) or wrong (W)? When you have checked your answers, correct any wrong spellings.",
+		"rwText": ["R", "W"],
+		"question": [{
+			"text": "He was <item>hopeing</item> to leave school next year. ",
+			"answer": [{
+				"right": "W"
+			}, {
+				"right": [
+					"hoping",
+					"He was hoping to leave school next year."
+				]
+			}]
+		}, {
+			"text": "They’ve been sailing and <item>canoeing</item>. ",
+			"answer": {
+				"right": "R"
+			}
+		}, {
+			"text": "She’s been <item>lying</item>. ",
+			"answer": {
+				"right": "R"
+			}
+		}, {
+			"text": "I think he’s been <item>dying</item> his hair. ",
+			"answer": [{
+				"right": "W"
+			}, {
+				"right": [
+					"dyeing",
+					"I think he's been dyeing his hair.",
+					"I think he’s been dyeing his hair."
+				]
+			}]
+		}, {
+			"text": "He was <item>offerring</item> to help with the gardening. ",
+			"answer": [{
+				"right": "W"
+			}, {
+				"right": [
+					"offering",
+					"He was offering to help with the gardening."
+				]
+			}]
+		}, {
+			"text": "The police were <item>preventing</item> people from entering the building. ",
+			"answer": {
+				"right": "R"
+			}
+		}, {
+			"text": "The horse was <item>gallopping</item> away from the field. ",
+			"answer": [{
+				"right": "W"
+			}, {
+				"right": [
+					"galloping",
+					"The horse was galloping away from the field."
+				]
+			}]
+
+		}],
+		"feedback": [{
+			"desc": "<xref-group><a href='u725fd0dd48eeb434.631f8527.158e4170750.-3cec'>346–347</a></xref-group>"
+		}]
+	}, {
+		"template": "single_touch_button",
+		"rubric": "The past ending <i>-ed</i> is pronounced in the same way in each word in the list except one. Find the one that is different.",
+		"question": [{
+			"text": "#singletouch #singletouch",
+			"option": [
+				["lived", "tried", "passed", "failed", "lied"]
+			],
+			"answer": ["passed"]
+		}, {
+			"text": "#singletouch #singletouch",
+			"option": [
+				["hoped", "missed", "laughed", "cried", "worked"]
+			],
+			"answer": ["cried"]
+		}, {
+			"text": "#singletouch #singletouch",
+			"option": [
+				["started", "finished", "ended", "heated", "landed"]
+			],
+			"answer": ["finished"]
+		}],
+		"feedback": [{
+			"desc": "<xref-group><a href='u725fd0dd48eeb434.631f8527.158e41641c3.-78ec'>44.2</a></xref-group><br/>In <item>A</item>, the others end in <eph>/d/</eph>.<br/>In <item>B</item>, the others end in <eph>/t/</eph>.<br/>In <item>C</item>, the others end in <eph>/ɪd/</eph>."
+		}]
+	}, {
+		"template": "multi_radio",
+		"rubric": "Are these sentence endings right: yes (Y) or no (N)?",
+		"rwText": ["Y", "N"],
+		"question": [{
+			"input_text": "When I got up this morning ... ",
+			"text": " ... the birds <item>were singing</item>.",
+			"answer": {
+				"right": "Y"
+			}
+		}, {
+			"text": " ... the birds <item>sang</item>.",
+			"answer": {
+				"right": "N"
+			}
+		}, {
+			"text": " ... I <item>was having</item> breakfast.",
+			"answer": {
+				"right": "N"
+			}
+		}, {
+			"text": " ... I <item>had</item> breakfast.",
+			"answer": {
+				"right": "Y"
+			}
+		}],
+		"feedback": [{
+			"desc": "<xref-group><a href='u725fd0dd48eeb434.631f8527.158e41641c3.-77a0'>45.2</a></xref-group>"
+		}]
+	}, {
+		"template": "multi_radio",
+		"rubric": "Right (R) or wrong (W)?",
+		"rwText": ["R", "W"],
+		"question": [{
+			"text": "I <item>rang</item> the bell six times.",
+			"answer": {
+				"right": "R"
+			}
+		}, {
+			"text": "I <item>rung</item> the bell six times.",
+			"answer": {
+				"right": "W"
+			}
+		}, {
+			"text": "I <item>was ringing</item> the bell six times.",
+			"answer": {
+				"right": "W"
+			}
+		}],
+		"feedback": [{
+			"desc": "<xref-group><a href='u725fd0dd48eeb434.631f8527.158e4161850.5f99'>1.1</a><br><a href='u725fd0dd48eeb434.631f8527.158e41641c3.-7768'>45.4</a></xref-group>"
+		}]
+	}, {
+		"template": "multi_radio",
+		"rubric": "Right (R) or wrong (W)?",
+		"rwText": ["R", "W"],
+		"question": [{
+			"text": "She realised I was joking.",
+			"answer": {
+				"right": "R"
+			}
+		}, {
+			"text": "She said she realised I was joking.",
+			"answer": {
+				"right": "R"
+			}
+		}, {
+			"text": "She said she was realising I was joking.",
+			"answer": {
+				"right": "W"
+			}
+		}],
+		"feedback": [{
+			"desc": "<xref-group><a href='u725fd0dd48eeb434.631f8527.158e41641c3.-774e'>45.5</a></xref-group>"
+		}]
+	}, {
+		"template": "multi_radio",
+		"rubric": "Is the reply right (R) or wrong (W)?",
+		"rwText": ["R", "W"],
+		"question": [{
+			"text": "‘Do you know Africa well?’ ‘Yes, I’ve travelled there a lot.’ ",
+			"answer": {
+				"right": "R"
+			}
+		}],
+		"feedback": [{
+			"desc": "<xref-group><a href='u725fd0dd48eeb434.631f8527.158e41641c3.-75b7'>47.3</a></xref-group>"
+		}]
+	}, {
+		"template": "single_radio",
+		"question": [{
+			"text": "Which continuation(s) is/are possible: A, B or both?",
+			"input_text": "Andy has won a big prize!",
+			"option": ["<item>He’s won</item> €50,000 in the Euro Lottery.", "<item>He won</item> €50,000 in the Euro Lottery.", "Both"],
+			"answer": "Both"
+		}],
+		"feedback": [{
+			"desc": "<xref-group><a href='u725fd0dd48eeb434.631f8527.158e41641c3.-7436'>48.4</a></xref-group>"
+		}]
+	}, {
+		"template": "single_radio",
+		"question": [{
+			"text": "Which of these is/are right: A, B or both?",
+			"option": ["My friends <item>helped</item> me a lot since I lost my job.", "My friends <item>have helped</item> me a lot since I lost my job.", "Both"],
+			"answer": "My friends have helped me a lot since I lost my job."
+		}],
+		"feedback": [{
+			"desc": "<xref-group><a href='u725fd0dd48eeb434.631f8527.158e41641c3.-7544'>47.5</a></xref-group>"
+		}]
+	}, {
+		"template": "multi_radio",
+		"rubric": "Right (R) or wrong (W)?",
+		"rwText": ["R", "W"],
+		"question": [{
+			"text": "How long <item>are you</item> studying English?",
+			"answer": {
+				"right": "W"
+			}
+		}, {
+			"text": "How long <item>have you been</item> studying English?",
+			"answer": {
+				"right": "R"
+			}
+		}],
+		"feedback": [{
+			"desc": "<xref-group><a href='u725fd0dd48eeb434.631f8527.158e41641c3.-71e8'>50.7</a></xref-group>"
+		}]
+	}, {
+		"template": "multi_radio",
+		"rubric": "Do the continuations make correct sentences: yes (Y) or no (N)?",
+		"rwText": ["Y", "N"],
+		"question": [{
+			"input_text": "She’s been working there ... ",
+			"text": " ... <item>for</item> a long time.",
+			"answer": {
+				"right": "Y"
+			}
+		}, {
+			"text": " ... <item>since</item> a long time.",
+			"answer": {
+				"right": "N"
+			}
+		}, {
+			"text": " ... <item>until</item> a long time.",
+			"answer": {
+				"right": "N"
+			}
+		}],
+		"feedback": [{
+			"desc": "<xref-group><a href='u725fd0dd48eeb434.631f8527.158e41641c3.-7226'>50.5</a><br><a href='u725fd0dd48eeb434.631f8527.158e4170750.9'>469</a></xref-group>"
+		}]
+	}, {
+		"template": "multi_radio",
+		"rubric": "Right (R) or wrong (W)?",
+		"rwText": ["R", "W"],
+		"question": [{
+			"text": "<item>Did Anna phone</item> today? I was expecting her to.",
+			"answer": {
+				"right": "R"
+			}
+		}, {
+			"text": "I haven’t heard from James since yesterday. <item>Has he phoned</item> today?",
+			"answer": {
+				"right": "R"
+			}
+		}],
+		"feedback": [{
+			"desc": "<xref-group><a href='u725fd0dd48eeb434.631f8527.158e41641c3.-738b'>49.3</a></xref-group>"
+		}]
+	}, {
+		"template": "multi_radio",
+		"rubric": "Right (R) or wrong (W)?",
+		"rwText": ["R", "W"],
+		"question": [{
+			"text": "<item>I’ve been playing</item> a lot of tennis recently.",
+			"answer": {
+				"right": "R"
+			}
+		}, {
+			"text": "<item>I’ve played</item> tennis three times this week.",
+			"answer": {
+				"right": "R"
+			}
+		}],
+		"feedback": [{
+			"desc": "<xref-group><a href='u725fd0dd48eeb434.631f8527.158e41641c3.-712a'>51.3</a></xref-group>"
+		}]
+	}, {
+		"template": "multi_radio",
+		"rubric": "Are these questions possible: yes (Y) or no (N)?",
+		"rwText": ["Y", "N"],
+		"question": [{
+			"text": "How long <item>were you knowing</item> her?",
+			"answer": {
+				"right": "N"
+			}
+		}, {
+			"text": "How long <item>have you known</item> her?",
+			"answer": {
+				"right": "Y"
+			}
+		}, {
+			"text": "How long <item>have you been knowing</item> her?",
+			"answer": {
+				"right": "N"
+			}
+		}],
+		"feedback": [{
+			"desc": "<xref-group><a href='u725fd0dd48eeb434.631f8527.158e41641c3.-717b'>51.1</a></xref-group>"
+		}]
+	}, {
+		"template": "multi_radio_textEntry",
+		"hideRight": "true",
+		"rubric": "Is this opening sentence of a children’s story right (R) or wrong (W)? When you have checked your answer, correct the sentence if it’s wrong.",
+		"rwText": ["R", "W"],
+		"question": [{
+			"text": "Once upon a time, a beautiful young girl <item>has lived</item> in a forest with her grandmother.",
+			"answer": [{
+				"right": "W"
+			}, {
+				"right": [
+					"Once upon a time, a beautiful young girl lived in a forest with her grandmother.",
+					"a beautiful young girl lived in a forest",
+					"a beautiful young girl lived",
+					"lived",
+					"a beautiful young girl lived in a forest with her grandmother.",
+					"Once upon a time, a beautiful young girl lived in a forest."
+				]
+			}]
+
+		}],
+		"feedback": [{
+			"desc": "<xref-group><a href='u725fd0dd48eeb434.631f8527.158e41641c3.-74f0'>48.1</a></xref-group>"
+		}]
+	}]
+	}, 
+	"c1" :
+	{
+	"-unit": "04",
+	"-level": "c1",
+	"topic_name": "past and perfect",
+	"exercise": [{
+		"template": "multi_radio",
+		"rubric": "Right (R) or wrong (W)?",
+		"rwText": ["R", "W"],
+		"question": [{
+			"text": "When I was a child, <item>we made</item> our own amusements.",
+			"answer": {
+				"right": "R"
+			}
+		}, {
+			"text": "When I was a child, <item>we played</item> outside every day.",
+			"answer": {
+				"right": "R"
+			}
+		}, {
+			"text": "At the time when it happened, <item>I was travelling</item> to New York a lot.",
+			"answer": {
+				"right": "R"
+			}
+		}],
+		"feedback": [{
+			"desc": "<xref-group><a href='u725fd0dd48eeb434.631f8527.158e41641c3.-7768'>45.4</a></xref-group>"
+		}]
+	}, {
+		"template": "multi_radio",
+		"rubric": "Are these sentences correct: yes (Y) or no (N)?",
+		"rwText": ["Y", "N"],
+		"question": [{
+			"text": "I <item>lived</item> in London for three years while I was a student.",
+			"answer": {
+				"right": "Y"
+			}
+		}, {
+			"text": "When I got home, water <item>was coming</item> through the ceiling.",
+			"answer": {
+				"right": "Y"
+			}
+		}, {
+			"text": "It happened while I <item>stayed</item> with my parents last weekend.",
+			"answer": {
+				"right": "N"
+			}
+		}],
+		"feedback": [{
+			"desc": "<xref-group><a href='u725fd0dd48eeb434.631f8527.158e41641c3.-7737'>45.6</a></xref-group>"
+		}]
+	}, {
+		"template": "multi_radio",
+		"rubric": "Are these questions correct in British English: yes (Y) or no (N)?",
+		"rwText": ["Y", "N"],
+		"question": [{
+			"text": "Are you finished yet?",
+			"answer": {
+				"right": "Y"
+			}
+		}, {
+			"text": "Have you finished yet?",
+			"answer": {
+				"right": "Y"
+			}
+		}, {
+			"text": "Did you finish yet?",
+			"answer": {
+				"right": "N"
+			}
+		}],
+		"feedback": [{
+			"desc": "For <item>A</item> (<i>to be finished</i>), <xref-group><a href='u725fd0dd48eeb434.631f8527.158e4170750.-11e'>466</a></xref-group>.<br/>For <item>B</item>, <xref-group><a href='u725fd0dd48eeb434.631f8527.158e41641c3.-7576'>47.4</a>, <a href='u725fd0dd48eeb434.631f8527.158e41641c3.-7326'>49.7</a></xref-group>."
+		}]
+	}, {
+		"template": "multi_radio",
+		"rubric": "If the answer is ‘since March’, are these questions right (R) or wrong (W)?",
+		"rwText": ["R", "W"],
+		"question": [{
+			"text": "‘How long <item>are</item> you here for?’",
+			"answer": {
+				"right": "W"
+			}
+		}, {
+			"text": "‘How long <item>were</item> you here for?’",
+			"answer": {
+				"right": "W"
+			}
+		}, {
+			"text": "‘How long <item>have you been</item> here for?’",
+			"answer": {
+				"right": "R"
+			}
+		}],
+		"feedback": [{
+			"desc": "<xref-group><a href='u725fd0dd48eeb434.631f8527.158e41641c3.-7530'>47.6</a></xref-group>"
+		}]
+	}, {
+		"template": "multi_radio",
+		
+		"rubric": "Are these structures normally correct: yes (Y) or no (N)?",
+		"rwText": ["Y", "N"],
+		"question": [{
+			"text": "I’ve met her before she started working here.",
+			"answer": {
+				"right": "N"
+			}
+		}, {
+			"text": "I’m sure we’ve met before.",
+			"answer": {
+				"right": "Y"
+			}
+		}, {
+			"text": "I haven’t been abroad recently.",
+			"answer": {
+				"right": "Y"
+			}
+		}, {
+			"text": "I’ve bought a new car recently.",
+			"answer": {
+				"right": "Y"
+			}
+		}, {
+			"text": "She’s never said ‘sorry’ in her life.",
+			"answer": {
+				"right": "Y"
+			}
+		}, {
+			"text": "I never said ‘sorry’ when I had the chance.",
+			"answer": {
+				"right": "Y"
+			}
+		}],
+		"feedback": [{
+			"desc": "<xref-group><a href='u725fd0dd48eeb434.631f8527.158e41641c3.-74bd'>48.2</a></xref-group>"
+		}]
+	}, {
+		"template": "multi_radio_textEntry",
+		"hideRight": "true",
+		"rubric": "Is this sentence right (R) or wrong (W)? When you have checked your answer, correct the sentence if it’s wrong.",
+		"rwText": ["R", "W"],
+		"question": [{
+			"text": "Last summer’s maths exam was very hard, but I think we’ve studied enough to pass it.",
+			"answer": [{
+				"right": "W"
+			}, {
+				"right": [
+					"Last summer’s maths exam was very hard, but I think we studied enough to pass it.",
+					"Last summer's maths exam was very hard, but I think we studied enough to pass it.",
+					"Last summer's maths exam was very hard, but I think we'd studied enough to pass it.",
+					"Last summer’s maths exam was very hard, but I think we’d studied enough to pass it.",
+					"Last summer's maths exam was very hard, but I think we’d studied enough to pass it.",
+					"Last summer’s maths exam was very hard, but I think we'd studied enough to pass it.",
+					"Last summer's maths exam was very hard, but I think we had studied enough to pass it.",
+					"Last summer’s maths exam was very hard, but I think we had studied enough to pass it."
+				]
+			}]
+
+		}],
+		"feedback": [{
+			"desc": "<xref-group><a href='u725fd0dd48eeb434.631f8527.158e41641c3.-74f0'>48.1</a></xref-group>"
+		}]
+	}, {
+		"template": "multi_radio",
+		"rubric": "Right (R) or wrong (W)?",
+		"rwText": ["R", "W"],
+		"question": [{
+			"text": "It <item>was raining</item> all day. I’m tired of it!",
+			"answer": {
+				"right": "W"
+			}
+		}, {
+			"text": "It<item>’s rained</item> all day. I’m tired of it!",
+			"answer": {
+				"right": "W"
+			}
+		}, {
+			"text": "It<item>’s been raining</item> all day. I’m tired of it!",
+			"answer": {
+				"right": "R"
+			}
+		}],
+		"feedback": [{
+			"desc": "<xref-group><a href='u725fd0dd48eeb434.631f8527.158e41641c3.-7266'>50.2</a></xref-group>"
+		}]
+	}, {
+		"template": "multi_radio",
+		"rubric": "Are the replies correct: yes (Y) or no (N)?",
+		"rwText": ["Y", "N"],
+		"question": [{
+			"input_text": "‘You look hot.’",
+			"text": "‘Yes, I ran here.’",
+			"answer": {
+				"right": "Y"
+			}
+		}, {
+			"text": "‘Yes, I’ve run.’",
+			"answer": {
+				"right": "N"
+			}
+		}, {
+			"text": "‘Yes, I’ve been running.’",
+			"answer": {
+				"right": "Y"
+			}
+		}],
+		"feedback": [{
+			"desc": "<xref-group><a href='u725fd0dd48eeb434.631f8527.158e41641c3.-7247'>50.3</a></xref-group>"
+		}]
+	}, {
+		"template": "multi_radio",
+		"rubric": "Are the replies correct: yes (Y) or no (N)?",
+		"rwText": ["Y", "N"],
+		"question": [{
+			"input_text": "‘You look tired.’",
+			"text": "‘I woke up all night.’",
+			"answer": {
+				"right": "N"
+			}
+		}, {
+			"text": "‘I’ve woken up all night.’",
+			"answer": {
+				"right": "N"
+			}
+		}, {
+			"text": "‘I’ve been waking up all night.’",
+			"answer": {
+				"right": "Y"
+			}
+		}],
+		"feedback": [{
+			"desc": "<xref-group><a href='u725fd0dd48eeb434.631f8527.158e41641c3.-7231'>50.4</a></xref-group>"
+		}]
+	}, {
+		"template": "multi_radio",
+		"rubric": "Do the continuations make correct sentences: yes (Y) or no (N)?",
+		"rwText": ["Y", "N"],
+		"question": [{
+			"input_text": "I need to change my TV.",
+			"text": "It <item>didn’t work</item> very well recently.",
+			"answer": {
+				"right": "N"
+			}
+		}, {
+			"text": "It <item>hasn’t worked</item> very well recently.",
+			"answer": {
+				"right": "N"
+			}
+		}, {
+			"text": "It <item>hasn’t been working</item> very well recently.",
+			"answer": {
+				"right": "Y"
+			}
+		}],
+		"feedback": [{
+			"desc": "<xref-group><a href='u725fd0dd48eeb434.631f8527.158e41641c3.-7151'>51.2</a></xref-group>"
+		}]
+	}, {
+		"template": "multi_radio",
+		"rubric": "Right (R) or wrong (W)?",
+		"rwText": ["R", "W"],
+		"question": [{
+			"text": "That man <item>has been standing</item> at the bus stop all day.",
+			"answer": {
+				"right": "R"
+			}
+		}, {
+			"text": "For 900 years the castle <item>has stood</item> on the hill above the village.",
+			"answer": {
+				"right": "R"
+			}
+		}],
+		"feedback": [{
+			"desc": "<xref-group><a href='u725fd0dd48eeb434.631f8527.158e41641c3.-71c7'>50.8</a><br><a href='u725fd0dd48eeb434.631f8527.158e41641c3.-7151'>51.2</a></xref-group>"
+		}]
+	}, {
+		"template": "multi_radio",
+		"rubric": "Do the continuations make correct sentences: yes (Y) or no (N)?",
+		"rwText": ["Y", "N"],
+		"question": [{
+			"input_text": "I’ve been planting rose bushes all morning.",
+			"text": "Look at all the bushes <item>I was planting</item>!",
+			"answer": {
+				"right": "N"
+			}
+		}, {
+			"text": "Look at all the bushes <item>I’ve planted</item>!",
+			"answer": {
+				"right": "Y"
+			}
+		}, {
+			"text": "Look at all the bushes <item>I’ve been planting</item>!",
+			"answer": {
+				"right": "N"
+			}
+		}],
+		"feedback": [{
+			"desc": "<xref-group><a href='u725fd0dd48eeb434.631f8527.158e41641c3.-712a'>51.3</a></xref-group>"
+		}]
+	}, {
+		"template": "multi_radio",
+		"rubric": "Do the continuations make correct sentences: yes (Y) or no (N)?",
+		"rwText": ["Y", "N"],
+		"question": [{
+			"input_text": "It’s the fifth time ... ",
+			"text": " ... <item>you ask</item> the same question.",
+			"answer": {
+				"right": "N"
+			}
+		}, {
+			"text": " ... <item>you are asking</item> the same question.",
+			"answer": {
+				"right": "N"
+			}
+		}, {
+			"text": " ... <item>you asked</item> the same question.",
+			"answer": {
+				"right": "N"
+			}
+		}, {
+			"text": " ... <item>you’ve asked</item> the same question.",
+			"answer": {
+				"right": "Y"
+			}
+		}],
+		"feedback": [{
+			"desc": "<xref-group><a href='u725fd0dd48eeb434.631f8527.158e41641c3.-7078'>52.2</a></xref-group>"
+		}]
+	}, {
+		"template": "multi_radio",
+		"rubric": "Are the continuations correct: yes (Y) or no (N)?",
+		"rwText": ["Y", "N"],
+		"question": [{
+			"input_text": "It’s been raining ... ",
+			"text": " ... for the last few days.",
+			"answer": {
+				"right": "Y"
+			}
+		}, {
+			"text": " ... since last week.",
+			"answer": {
+				"right": "Y"
+			}
+		}, {
+			"text": " ... in September.",
+			"answer": {
+				"right": "N"
+			}
+		}, {
+			"text": " ... from seven in the morning till lunchtime.",
+			"answer": {
+				"right": "N"
+			}
+		}, {
+			"text": " ... recently.",
+			"answer": {
+				"right": "Y"
+			}
+		}, {
+			"text": " ... this week.",
+			"answer": {
+				"right": "Y"
+			}
+		}, {
+			"text": " ... last week.",
+			"answer": {
+				"right": "N"
+			}
+		}],
+		"feedback": [{
+			"desc": "<xref-group><a href='u725fd0dd48eeb434.631f8527.158e41641c3.-71e8'>50.7</a><br><a href='u725fd0dd48eeb434.631f8527.158e41641c3.-70eb'>52.1</a></xref-group>"
+		}]
+	}, {
+		"template": "multi_radio",
+		"rubric": "Right (R) or wrong (W)?",
+		"rwText": ["R", "W"],
+		"question": [{
+			"text": "During our conversation, I realised we <item>have met before</item>.",
+			"answer": {
+				"right": "W"
+			}
+		}, {
+			"text": "When I arrived at the party, Lucy <item>already went home</item>.",
+			"answer": {
+				"right": "W"
+			}
+		}],
+		"feedback": [{
+			"desc": "<xref-group><a href='u725fd0dd48eeb434.631f8527.158e41641c3.-7019'>53.2</a></xref-group>"
+		}]
+	}, {
+		"template": "multi_radio",
+		"rubric": "Right (R) or wrong (W)?",
+		"rwText": ["R", "W"],
+		"question": [{
+			"text": "My legs were stiff because I <item>had been standing</item> still for a long time.",
+			"answer": {
+				"right": "R"
+			}
+		}, {
+			"text": "The tree that blew down <item>had stood</item> there for 300 years.",
+			"answer": {
+				"right": "R"
+			}
+		}],
+		"feedback": [{
+			"desc": "<xref-group><a href='u725fd0dd48eeb434.631f8527.158e41641c3.-6e88'>55.4</a></xref-group>"
+		}]
+	}]
+	}, 
+	"c2" :
+	{
+	"-unit": "04",
+	"-level": "c2",
+	"topic_name": "past and perfect",
+	"exercise": [{
+		"template": "multi_radio",
+		"rubric": "Are these right: yes (Y) or no (N)?",
+		"rwText": ["Y", "N"],
+		"question": [{
+			"text": "I <item>played</item> a lot of tennis when I lived in Bath.",
+			"answer": {
+				"right": "Y"
+			}
+		}, {
+			"text": "I <item>was playing</item> a lot of tennis when I got to know Daniel, so I was pretty fit.",
+			"answer": {
+				"right": "Y"
+			}
+		}, {
+			"text": "I <item>was having</item> lunch with the President the other day, and he said ...",
+			"answer": {
+				"right": "Y"
+			}
+		}, {
+			"text": "Jack <item>was saying</item> that he still can’t find a job.",
+			"answer": {
+				"right": "Y"
+			}
+		}],
+		"feedback": [{
+			"desc": "<xref-group><a href='u725fd0dd48eeb434.631f8527.158e41641c3.-7768'>45.4</a><br><a href='u725fd0dd48eeb434.631f8527.158e41641c3.-771c'>45.7</a></xref-group>"
+		}]
+	}, {
+		"template": "single_radio",
+		"question": [{
+			"text": "Which is the best continuation: A, B or C?",
+			"input_text": "I’m busy today, so ...",
+			"option": ["... I’d rather you will come tomorrow.", "... I’d rather you come tomorrow.", "... I’d rather you came tomorrow."],
+			"answer": "... I’d rather you came tomorrow."
+		}],
+		"feedback": [{
+			"desc": "<xref-group><a href='u725fd0dd48eeb434.631f8527.158e41641c3.-76d6'>46.1</a><br><a href='u725fd0dd48eeb434.631f8527.158e4170750.3002'>566.3</a></xref-group>"
+		}]
+	}, {
+		"template": "multi_radio",
+		"rubric": "Are these continuations right (R) or wrong (W)?",
+		"rwText": ["R", "W"],
+		"question": [{
+			"input_text": "It’s time you ...",
+			"text": "... go home.",
+			"answer": {
+				"right": "W"
+			}
+		}, {
+			"text": "... went home.",
+			"answer": {
+				"right": "R"
+			}
+		}, {
+			"text": "... should go home.",
+			"answer": {
+				"right": "W"
+			}
+		}],
+		"feedback": [{
+			"desc": "<xref-group><a href='u725fd0dd48eeb434.631f8527.158e41641c3.-76d6'>46.1</a><br><a href='u725fd0dd48eeb434.631f8527.158e4170750.10d1'>502.2</a></xref-group>"
+		}]
+	}, {
+		"template": "multi_radio",
+		"rubric": "Are these continuations right (R) or wrong (W)?",
+		"rwText": ["R", "W"],
+		"question": [{
+			"input_text": "I wish I ...",
+			"text": "... <item>know</item> how to fix my computer.",
+			"answer": {
+				"right": "W"
+			}
+		}, {
+			"text": "... <item>knew</item> how to fix my computer.",
+			"answer": {
+				"right": "R"
+			}
+		}, {
+			"text": "... <item>would know</item> how to fix my computer.",
+			"answer": {
+				"right": "W"
+			}
+		}],
+		"feedback": [{
+			"desc": "<xref-group><a href='u725fd0dd48eeb434.631f8527.158e41641c3.-76d6'>46.1</a><br><a href='u725fd0dd48eeb434.631f8527.158e4170750.5632'>632.4</a></xref-group>"
+		}]
+	}, {
+		"template": "freetext",
+		"rubric": "Here are three invitations. In what way are they different?",
+		"question": [{
+			"text": "I <item>wonder</item> if you’d like to have dinner with me. "
+		}, {
+			"text": "I <item>wondered</item> if you’d like to have dinner with me. "
+		}, {
+			"text": "I <item>was wondering</item> if you’d like to have dinner with me. "
+		}],
+		"answer": "It’s a matter of politeness, not time. ‘Distancing’ by using past and progressive forms makes the invitations less direct and so more polite.",
+		"feedback": [{
+			"desc": "<xref-group><a href='u725fd0dd48eeb434.631f8527.158e41641c3.-7695'>46.2</a><br><a href='u725fd0dd48eeb434.631f8527.158e4170750.-70c3'>311.1–2</a></xref-group>"
+		}]
+	}, {
+		"template": "single_radio",
+		"question": [{
+			"text": "Look at the sentence below. Is the speaker still a good driver?",
+			"input_text": "‘I got that job last year because I was a good driver.’",
+			"option": ["Probably.", "Probably not.", "No."],
+			"answer": "Probably."
+		}],
+		"feedback": [{
+			"desc": "<xref-group><a href='u725fd0dd48eeb434.631f8527.158e41641c3.-763f'>46.4</a></xref-group>"
+		}]
+	}, {
+		"template": "multi_radio",
+		"rubric": "Are these continuations right (R) or wrong (W)?",
+		"rwText": ["R", "W"],
+		"question": [{
+			"input_text": "In an ideal society you would always be free to say ...",
+			"text": "... what you would think.",
+			"answer": {
+				"right": "W"
+			}
+		}, {
+			"text": "... what you would be thinking.",
+			"answer": {
+				"right": "W"
+			}
+		}, {
+			"text": "... what you thought.",
+			"answer": {
+				"right": "R"
+			}
+		}],
+		"feedback": [{
+			"desc": "<xref-group><a href='u725fd0dd48eeb434.631f8527.158e41641c3.-76d6'>46.1</a></xref-group>"
+		}]
+	}, {
+		"template": "multi_radio",
+		"rubric": "Are the tenses right (R) or wrong (W) in the following sentences? ",
+		"rwText": ["R", "W"],
+		"question": [{
+			"text": "Look what Jack’s <item>given</item> me!",
+			"answer": {
+				"right": "R"
+			}
+		}, {
+			"text": "Who <item>gave</item> you that?",
+			"answer": {
+				"right": "R"
+			}
+		}],
+		"feedback": [{
+			"desc": "For <item>B</item>, <xref-group><a href='u725fd0dd48eeb434.631f8527.158e41641c3.-73fb'>49.1</a></xref-group>."
+		}]
+	}, {
+		"template": "single_radio",
+		"question": [{
+			"text": "Which is more natural?",
+			"option": ["<item>Barbara’s phoned</item> today. She wants to borrow your bike.", "<item>Barbara phoned</item> today. She wants to borrow your bike."],
+			"answer": "Barbara phoned today. She wants to borrow your bike."
+		}],
+		"feedback": [{
+			"desc": "<xref-group><a href='u725fd0dd48eeb434.631f8527.158e41641c3.-738b'>49.3</a></xref-group>"
+		}]
+	}, {
+		"template": "single_radio",
+		"question": [{
+			"text": "What do you think of this way of using the present perfect?",
+			"input_text": "Police <item>have arrested</item> 45 suspected terrorists in countrywide raids <item>last weekend</item>.",
+			"option": ["It’s normal.", "It’s unusual.", "It’s completely incorrect."],
+			"answer": "It’s unusual."
+		}],
+		"feedback": [{
+			"desc": "<xref-group><a href='u725fd0dd48eeb434.631f8527.158e41641c3.-7353'>49.5</a></xref-group>"
+		}]
+	}, {
+		"template": "multi_radio",
+		"rubric": "Are the following adverbs used with a simple past tense more often in American English than in British English: yes (Y) or no (N)?",
+		"rwText": ["Y", "N"],
+		"question": [{
+			"text": "afterwards",
+			"answer": {
+				"right": "N"
+			}
+		}, {
+			"text": "already",
+			"answer": {
+				"right": "Y"
+			}
+		}, {
+			"text": "before",
+			"answer": {
+				"right": "Y"
+			}
+		}, {
+			"text": "ever",
+			"answer": {
+				"right": "Y"
+			}
+		}, {
+			"text": "just",
+			"answer": {
+				"right": "Y"
+			}
+		}, {
+			"text": "really",
+			"answer": {
+				"right": "N"
+			}
+		}, {
+			"text": "then",
+			"answer": {
+				"right": "N"
+			}
+		}, {
+			"text": "today",
+			"answer": {
+				"right": "N"
+			}
+		}, {
+			"text": "yesterday",
+			"answer": {
+				"right": "N"
+			}
+		}, {
+			"text": "yet",
+			"answer": {
+				"right": "Y"
+			}
+		}],
+		"feedback": [{
+			"desc": "<xref-group><a href='u725fd0dd48eeb434.631f8527.158e41641c3.-7326'>49.7</a></xref-group>"
+		}]
+	}, {
+		"template": "multi_radio",
+		"rubric": "Are these sentences right: yes (Y) or no (N)?",
+		"rwText": ["Y", "N"],
+		"question": [{
+			"text": "<item>You’re looking</item> much better since your operation.",
+			"answer": {
+				"right": "Y"
+			}
+		}, {
+			"text": "<item>You’ve been looking</item> much better since your operation.",
+			"answer": {
+				"right": "Y"
+			}
+		}, {
+			"text": "We visit my parents every week since <item>we bought</item> the car.",
+			"answer": {
+				"right": "Y"
+			}
+		}, {
+			"text": "We visit my parents every week since <item>we’ve bought</item> the car.",
+			"answer": {
+				"right": "N"
+			}
+		}, {
+			"text": "We visit my parents every week since <item>we’ve had</item> the car.",
+			"answer": {
+				"right": "Y"
+			}
+		}],
+		"feedback": [{
+			"desc": "<xref-group><a href='u725fd0dd48eeb434.631f8527.158e4170750.3726'>579</a></xref-group>"
+		}]
+	}, {
+		"template": "multi_radio",
+		"rubric": "Look at these rules. Are they good: yes (Y) or no (N)?",
+		"rwText": ["Y", "N"],
+		"question": [{
+			"text": "Use the present perfect for recent actions, and the simple past for actions that took place longer ago.",
+			"answer": {
+				"right": "N"
+			}
+		}, {
+			"text": "Use the present perfect for finished actions that have some present importance, and the simple past for other finished actions.",
+			"answer": {
+				"right": "Y"
+			}
+		}, {
+			"text": "Use the present perfect for unfinished actions and the simple past for finished actions.",
+			"answer": {
+				"right": "N"
+			}
+		}, {
+			"text": "Use the simple past, not the present perfect, when you talk about a definite time.",
+			"answer": {
+				"right": "N"
+			}
+		}, {
+			"text": "Use the simple past, not the present perfect, when you talk about a finished time.",
+			"answer": {
+				"right": "Y"
+			}
+		}],
+		"feedback": [{
+			"desc": "<xref-group><a href='u725fd0dd48eeb434.631f8527.158e41641c3.-7611'>47</a><br><a href='u725fd0dd48eeb434.631f8527.158e41641c3.-72b5'>49.10</a><br><a href='u725fd0dd48eeb434.631f8527.158e41641c3.-72d5'>49.8–9</a></xref-group>"
+		}]
+	}, {
+		"template": "freetext",
+		"rubric": "Look at the sentence below. Why not ... <i>than I have thought</i>?",
+		"question": [{
+			"input_text": "You’re older than I thought!",
+			"text": ""
+		}],
+		"answer": "We use a past tense to refer to a belief that has just been shown to be true or false.",
+		"feedback": [{
+			"desc": "<xref-group><a href='u725fd0dd48eeb434.631f8527.158e41641c3.-73b3'>49.2</a></xref-group>"
+		}]
+	}, {
+		"template": "freetext",
+		"rubric": "Why is a present perfect progressive used in A and not in B?",
+		"question": [{
+			"text": "The universe <item>has been expanding</item> steadily since its origin. "
+		}, {
+			"text": "The castle <item>has looked</item> down on the city of Newlyn for the last 900 years. "
+		}],
+		"answer": "The simple present perfect is normally used for longer or permanent situations, but the progressive is used to talk about continuous change, even if this is permanent.",
+		"feedback": [{
+			"desc": "<xref-group><a href='u725fd0dd48eeb434.631f8527.158e41641c3.-7151'>51.2</a></xref-group>"
+		}]
+	}, {
+		"template": "single_touch_button",
+		"rubric": "Choose the correct verb form.",
+		"question": [{
+			"text": "I #singletouch some clothes to be cleaned. Are they ready?",
+			"option": [
+				["left", "was leaving", "had left"]
+			],
+			"answer": ["left"]
+		}],
+		"feedback": [{
+			"desc": "<xref-group><a href='u725fd0dd48eeb434.631f8527.158e41641c3.-6fe6'>53.3</a></xref-group>"
+		}]
+	}, {
+		"template": "freetext",
+		"rubric": "Why is a past perfect used in A and not in B?",
+		"question": [{
+			"text": " When I <item>had written</item> my letters I did some gardening. "
+		}, {
+			"text": " When I <item>opened</item> the door the children ran in. "
+		}],
+		"answer": "To indicate a separation between the two actions.",
+		"feedback": [{
+			"desc": "<xref-group><a href='u725fd0dd48eeb434.631f8527.158e41641c3.-6f59'>54.1</a></xref-group>"
+		}]
+	}]
+	}
+}

@@ -1,0 +1,1130 @@
+{
+	"b2" :
+	{
+	"-unit": "16",
+	"-level": "b2",
+	"topic_name": "prepositions",
+	"exercise": [{
+		"template": "order_sentence",
+		"hideRight": "true",
+		"rubric": "Put the words in the right order to make informal spoken questions.",
+		"question": [{
+			"text": ["looking", "at", "what", "you", "are", "?"],
+			"answer": "What are you looking at?"
+		}, {
+			"text": ["general", "which", "on", "is", "flight", "the", "travelling", "?"],
+			"answer": "Which flight is the general travelling on?"
+		}, {
+			"text": ["films", "in", "kind", "interested", "what", "of", "you", "are", "?"],
+			"answer": "What kind of films are you interested in?"
+		}],
+		"feedback": [{
+			"desc": "<xref-group><a href='u725fd0dd48eeb434.631f8527.158e41641c3.29b0'>209.2</a></xref-group>"
+		}]
+	}, {
+		"template": "multi_radio",
+		"rubric": "Right (R) or wrong (W)?",
+		"rwText": ["R", "W"],
+		"question": [{
+			"text": "She went home <item>without to say</item> goodbye.",
+			"answer": {
+				"right": "W"
+			}
+		}, {
+			"text": "She went home <item>without saying</item> goodbye.",
+			"answer": {
+				"right": "R"
+			}
+		}, {
+			"text": "He <item>asked for</item> a loan.",
+			"answer": {
+				"right": "R"
+			}
+		}, {
+			"text": "He <item>asked to borrow</item> some money.",
+			"answer": {
+				"right": "R"
+			}
+		}, {
+			"text": "He <item>asked for to borrow</item> some money.",
+			"answer": {
+				"right": "W"
+			}
+		}],
+		"feedback": [{
+			"desc": "<xref-group><a href='u725fd0dd48eeb434.631f8527.158e41641c3.2bc5'>211</a></xref-group>"
+		}]
+	}, {
+		"template": "single_touch_button",
+		"rubric": "Choose the right preposition for each sentence. ",
+		"question": [{
+			"text": "Please fill in the form #singletouch black or blue ink.",
+			"option": [
+				["by", "in", "with"]
+			],
+			"answer": ["in"]
+		}, {
+			"text": "She looks much younger #singletouch her wedding photos.",
+			"option": [
+				["from", "in", "on"]
+			],
+			"answer": ["in"]
+		}, {
+			"text": "There’s a mistake #singletouch page 120.",
+			"option": [
+				["at", "in", "on"]
+			],
+			"answer": ["on"]
+		}],
+		"feedback": [{
+			"desc": "<xref-group><a href='u725fd0dd48eeb434.631f8527.158e41641c3.2c20'>212</a></xref-group>"
+		}]
+	}, {
+		"template": "single_touch_button",
+		"rubric": "Choose the right preposition for each gap in the sentence.",
+		"question": [{
+			"input_text": "The meeting started at 2.00. Sophie arrived at 1.50 and Jim arrived at exactly 2 o’clock.",
+			"text": "Sophie arrived #singletouch time and Jim arrived #singletouch time.",
+			"option": [
+				["at", "in", "on"],
+				["at", "in", "on"]
+			],
+			"answer": ["in", "on"]
+		}],
+		"feedback": [{
+			"desc": "<xref-group><a href='u725fd0dd48eeb434.631f8527.158e41641c3.2c20'>212</a></xref-group>"
+		}]
+	}, {
+		"template": "single_touch_button",
+		"rubric": "Choose the right preposition or ‘no preposition’.",
+		"question": [{
+			"text": "Are you any good #singletouch tennis?",
+			"option": [
+				["at", "in", "with"]
+			],
+			"answer": ["at"]
+		}, {
+			"text": "Congratulations #singletouch your new job!",
+			"option": [
+				["at", "for", "on"]
+			],
+			"answer": ["on"]
+		}, {
+			"text": "Who’s the woman dressed #singletouch green?",
+			"option": [
+				["in", "of", "with"]
+			],
+			"answer": ["in"]
+		}, {
+			"text": "Excuse me, sir. You haven’t paid #singletouch your drink.",
+			"option": [
+				["[no preposition]", "for", "of"]
+			],
+			"answer": ["for"]
+		}],
+		"feedback": [{
+			"desc": "<xref-group><a href='u725fd0dd48eeb434.631f8527.158e41641c3.2cf7'>213</a></xref-group>"
+		}]
+	}, {
+		"template": "single_touch_button",
+		"rubric": "<i>To</i>, <i>with</i> or both?",
+		"question": [{
+			"text": "Be polite#singletouch your parents.",
+			"option": [
+				["to", "with", "[both]"]
+			],
+			"answer": ["to"]
+		}, {
+			"text": "Be nice#singletouch your sister.",
+			"option": [
+				["to", "with", "[both]"]
+			],
+			"answer": ["to"]
+		}, {
+			"text": "Be kind#singletouch your children. ",
+			"option": [
+				["to", "with", "[both]"]
+			],
+			"answer": ["to"]
+		}],
+		"feedback": [{
+			"desc": "<xref-group><a href='u725fd0dd48eeb434.631f8527.158e41641c3.2cf7'>213</a></xref-group>"
+		}]
+	}, {
+		"template": "multi_radio",
+		"rubric": "Right (R) or wrong (W)?",
+		"rwText": ["R", "W"],
+		"question": [{
+			"text": "I got <item>into</item> the car.",
+			"answer": {
+				"right": "R"
+			}
+		}, {
+			"text": "I got <item>onto</item> the bus.",
+			"answer": {
+				"right": "R"
+			}
+		}, {
+			"text": "I got <item>off</item> the car.",
+			"answer": {
+				"right": "W"
+			}
+		}, {
+			"text": "I got <item>off</item> the bus.",
+			"answer": {
+				"right": "R"
+			}
+		}],
+		"feedback": [{
+			"desc": "<xref-group><a href='u725fd0dd48eeb434.631f8527.158e41641c3.2cf7'>213</a></xref-group>"
+		}]
+	}, {
+		"template": "single_touch_button",
+		"rubric": "Choose the right preposition for each sentence. ",
+		"question": [{
+			"text": "Brie is an example #singletouch a French soft cheese.",
+			"option": [
+				["for", "from", "of"]
+			],
+			"answer": ["of"]
+		}, {
+			"text": "Brie is typical #singletouch French soft cheeses.",
+			"option": [
+				["for", "from", "of"]
+			],
+			"answer": ["of"]
+		}],
+		"feedback": [{
+			"desc": "<xref-group><a href='u725fd0dd48eeb434.631f8527.158e41641c3.2cf7'>213</a></xref-group>"
+		}]
+	}, {
+		"template": "single_touch_button",
+		"rubric": "<i>To</i>, <i>with</i> or ‘no preposition’?",
+		"question": [{
+			"text": "Her marriage #singletouch Philip didn’t last long.",
+			"option": [
+				["to", "with", "[no preposition]"]
+			],
+			"answer": ["to"]
+		}, {
+			"text": "How long have you been married #singletouch him?",
+			"option": [
+				["to", "with", "[no preposition]"]
+			],
+			"answer": ["to"]
+		}, {
+			"text": "She married #singletouch her first boyfriend. ",
+			"option": [
+				["to", "with", "[no preposition]"]
+			],
+			"answer": ["[no preposition]"]
+		}],
+		"feedback": [{
+			"desc": "<xref-group><a href='u725fd0dd48eeb434.631f8527.158e41641c3.2cf7'>213</a></xref-group>"
+		}]
+	}, {
+		"template": "multi_radio",
+		"rubric": "Are these sentences right (R) or wrong (W) in informal English? ",
+		"rwText": ["R", "W"],
+		"question": [{
+			"text": "See you next Monday.",
+			"answer": {
+				"right": "R"
+			}
+		}, {
+			"text": "Come any day you like.",
+			"answer": {
+				"right": "R"
+			}
+		}, {
+			"text": "The party lasted all night.",
+			"answer": {
+				"right": "R"
+			}
+		}],
+		"feedback": [{
+			"desc": "<xref-group><a href='u725fd0dd48eeb434.631f8527.158e41641c3.31d4'>214.2</a></xref-group>"
+		}]
+	}, {
+		"template": "multi_radio",
+		"rubric": "Right (R) or wrong (W)?",
+		"rwText": ["R", "W"],
+		"question": [{
+			"text": "Take these pills <item>three times a day</item>.",
+			"answer": {
+				"right": "R"
+			}
+		}, {
+			"text": "Take these pills <item>three times in a day</item>.",
+			"answer": {
+				"right": "W"
+			}
+		}],
+		"feedback": [{
+			"desc": "<xref-group><a href='u725fd0dd48eeb434.631f8527.158e41641c3.3206'>214.4</a></xref-group>"
+		}]
+	}, {
+		"template": "multi_radio",
+		"rubric": "Are these sentences correct in informal speech: yes (Y) or no (N)?",
+		"rwText": ["Y", "N"],
+		"question": [{
+			"text": "<item>What time</item> does Granny’s train arrive?",
+			"answer": {
+				"right": "Y"
+			}
+		}, {
+			"text": "<item>What day</item> is your hair appointment?",
+			"answer": {
+				"right": "Y"
+			}
+		}],
+		"feedback": [{
+			"desc": "<xref-group><a href='u725fd0dd48eeb434.631f8527.158e41641c3.321e'>214.5</a></xref-group>"
+		}]
+	}, {
+		"template": "single_touch_button",
+		"rubric": "<i>At</i>, <i>in</i> or <i>on</i>?",
+		"question": [{
+			"text": "She works #singletouch a big insurance company.",
+			"option": [
+				["at", "in", "on"]
+			],
+			"answer": ["in"]
+		}, {
+			"text": "I don’t think he’s #singletouch his office.",
+			"option": [
+				["at", "in", "on"]
+			],
+			"answer": ["in"]
+		}, {
+			"text": "There’s a big spider #singletouch the ceiling.",
+			"option": [
+				["at", "in", "on"]
+			],
+			"answer": ["on"]
+		}, {
+			"text": "There’s no room #singletouch the bus.",
+			"option": [
+				["at", "in", "on"]
+			],
+			"answer": ["on"]
+		}, {
+			"text": "What time do we arrive #singletouch New York?",
+			"option": [
+				["at", "in", "on"]
+			],
+			"answer": ["in"]
+		}],
+		"feedback": [{
+			"desc": "<xref-group><a href='u725fd0dd48eeb434.631f8527.158e4170750.-25be'>384</a></xref-group>"
+		}]
+	}, {
+		"template": "gapfill",
+		"hideRight": "true",
+		"rubric": "Add the correct time prepositions.",
+		"question": [{
+			"text": "I’ll meet you at the match #gap Saturday afternoon #gap 2.30.",
+			"answer": [
+				["on"],
+				["at"]
+			]
+		}, {
+			"text": "I work best #gap the morning and I never work #gap night.",
+			"answer": [
+				["in"],
+				["at"]
+			]
+		}, {
+			"text": "Come and see us #gap Christmas.",
+			"answer": [
+				["at"]
+			]
+		}, {
+			"text": "Come and see us #gap Christmas Day.",
+			"answer": [
+				["on"]
+			]
+		}],
+		"feedback": [{
+			"desc": "<xref-group><a href='u725fd0dd48eeb434.631f8527.158e4170750.-23b3'>386</a></xref-group>"
+		}]
+	}, {
+		"template": "single_touch_button",
+		"rubric": "Choose the right options.",
+		"question": [{
+			"text": "I killed the spider by #singletouch it #singletouch a shoe.",
+			"option": [
+				["hit", "hitting"],
+				["by", "with"]
+			],
+			"answer": ["hitting", "with"]
+		}],
+		"feedback": [{
+			"desc": "<xref-group><a href='u725fd0dd48eeb434.631f8527.158e4170750.-15aa'>416</a></xref-group>"
+		}]
+	}, {
+		"template": "single_touch_button",
+		"rubric": "<i>For</i>, <i>during</i> or both?",
+		"question": [{
+			"text": "My father was in hospital #singletouch six weeks.",
+			"option": [
+				["for", "during", "[both]"]
+			],
+			"answer": ["for"]
+		}, {
+			"text": "I used to visit him #singletouch an hour or two #singletouch the afternoon.",
+			"option": [
+				["for", "during", "[both]"],
+				["for", "during", "[both]"]
+			],
+			"answer": ["for", "during"]
+		}],
+		"feedback": [{
+			"desc": "<xref-group><a href='u725fd0dd48eeb434.631f8527.158e4170750.-d9b'>440</a></xref-group>"
+		}]
+	}, {
+		"template": "single_touch_button",
+		"rubric": "<i>During</i>, <i>in</i> or both?",
+		"question": [{
+			"text": "We’ll be away #singletouch August this year.",
+			"option": [
+				["during", "in", "[both]"]
+			],
+			"answer": ["[both]"]
+		}, {
+			"text": "We’ll be away #singletouch the whole of August this year.",
+			"option": [
+				["during", "in", "[both]"]
+			],
+			"answer": ["during"]
+		}, {
+			"text": "I’ll try to phone you #singletouch the meeting.",
+			"option": [
+				["during", "in", "[both]"]
+			],
+			"answer": ["during"]
+		}],
+		"feedback": [{
+			"desc": "<xref-group><a href='u725fd0dd48eeb434.631f8527.158e4170750.-d5b'>441</a></xref-group>"
+		}]
+	}, {
+		"template": "multi_radio",
+		"rubric": "Right (R) or wrong (W)?",
+		"rwText": ["R", "W"],
+		"question": [{
+			"text": "I’ll have tea <item>instead of</item> coffee, please.",
+			"answer": {
+				"right": "R"
+			}
+		}, {
+			"text": "No, I won’t have coffee; I’ll have tea <item>instead of</item>.",
+			"answer": {
+				"right": "W"
+			}
+		}],
+		"feedback": [{
+			"desc": "<xref-group><a href='u725fd0dd48eeb434.631f8527.158e4170750.fe1'>500</a></xref-group>"
+		}]
+	}, {
+		"template": "single_touch_button",
+		"rubric": "<i>Like</i>, <i>as</i> or both?",
+		"question": [{
+			"text": "She’s good at scientific subjects #singletouch physics.",
+			"option": [
+				["like", "as", "[both]"]
+			],
+			"answer": ["like"]
+		}, {
+			"text": "He’s very #singletouch his father.",
+			"option": [
+				["like", "as", "[both]"]
+			],
+			"answer": ["like"]
+		}, {
+			"text": "He looks so handsome, #singletouch his father.",
+			"option": [
+				["like", "as", "[both]"]
+			],
+			"answer": ["like"]
+		}, {
+			"text": "He worked #singletouch a waiter for two years.",
+			"option": [
+				["like", "as", "[both]"]
+			],
+			"answer": ["as"]
+		}, {
+			"text": "Nobody knows her #singletouch I do.",
+			"option": [
+				["like", "as", "[both]"]
+			],
+			"answer": ["[both]"]
+		}],
+		"feedback": [{
+			"desc": "<xref-group><a href='u725fd0dd48eeb434.631f8527.158e4170750.17d6'>515</a></xref-group>"
+		}]
+	}, {
+		"template": "single_touch_button",
+		"rubric": "Choose the right option for each sentence.",
+		"question": [{
+			"text": "There’s a fire station #singletouch my house.",
+			"option": [
+				["in front of", "opposite"]
+			],
+			"answer": ["opposite"]
+		}, {
+			"text": "The woman #singletouch me in the queue for tickets was singing quietly.",
+			"option": [
+				["in front of", "facing"]
+			],
+			"answer": ["in front of"]
+		}, {
+			"text": "The bosses sat on one side of the table #singletouch the union leaders on the other side.",
+			"option": [
+				["in front of", "facing"]
+			],
+			"answer": ["facing"]
+		}],
+		"feedback": [{
+			"desc": "<xref-group><a href='u725fd0dd48eeb434.631f8527.158e4170750.279f'>549</a></xref-group>"
+		}]
+	}]
+	}, 
+	"c1" :
+	{
+	"-unit": "16",
+	"-level": "c1",
+	"topic_name": "prepositions",
+	"exercise": [{
+		"template": "multi_radio",
+		"rubric": "Right (R) or wrong (W)?",
+		"rwText": ["R", "W"],
+		"question": [{
+			"text": "Tell me about what you’re worried.",
+			"answer": {
+				"right": "W"
+			}
+		}, {
+			"text": "What a lot of trouble I’m in!",
+			"answer": {
+				"right": "R"
+			}
+		}],
+		"feedback": [{
+			"desc": "<xref-group><a href='u725fd0dd48eeb434.631f8527.158e41641c3.29b0'>209.2</a></xref-group>"
+		}]
+	}, {
+		"template": "order_sentence",
+		"rubric": "Rearrange the words to form a complete sentence. ",
+		"question": [{
+			"text": ["who", "she’s", "been", "I’ve", "only", "the", "with", "love", "woman", "ever", "in", "."],
+			"answer": [
+				"She’s the only woman who I’ve ever been in love with.",
+				"She’s the only woman who I’ve ever been in love with."
+			]
+		}],
+		"feedback": [{
+			"desc": "<xref-group><a href='u725fd0dd48eeb434.631f8527.158e41641c3.29e7'>209.3</a></xref-group>"
+		}]
+	}, {
+		"template": "multi_radio",
+		"rubric": "Formal (F), normal (N) or wrong (W)?",
+		"rwText": ["F", "N", "W"],
+		"question": [{
+			"text": "Joe’s the person <item>who I am angry with</item>.",
+			"answer": {
+				"right": "N"
+			}
+		}, {
+			"text": "Joe’s the person <item>with whom I’m angry</item>.",
+			"answer": {
+				"right": "F"
+			}
+		}, {
+			"text": "This is the house <item>about that I told you</item>.",
+			"answer": {
+				"right": "W"
+			}
+		}, {
+			"text": "This is the house <item>that I told you about</item>.",
+			"answer": {
+				"right": "N"
+			}
+		}],
+		"feedback": [{
+			"desc": "<xref-group><a href='u725fd0dd48eeb434.631f8527.158e41641c3.29e7'>209.3</a></xref-group>"
+		}]
+	}, {
+		"template": "single_touch_button",
+		"rubric": "<i>At the end</i> or <i>in the end</i>?",
+		"question": [{
+			"text": "I thought the film was very sad #singletouch.",
+			"option": [
+				["at the end", "in the end"]
+			],
+			"answer": ["at the end"]
+		}, {
+			"text": "It took me a long time but #singletouch I passed all my exams.",
+			"option": [
+				["at the end", "in the end"]
+			],
+			"answer": ["in the end"]
+		}],
+		"feedback": [{
+			"desc": "<xref-group><a href='u725fd0dd48eeb434.631f8527.158e41641c3.2c20'>212</a></xref-group>"
+		}]
+	}, {
+		"template": "single_touch_button",
+		"rubric": "Choose the right option for each sentence.",
+		"question": [{
+			"text": "Nobody knows the reason#singletouch the accident.",
+			"option": [
+				["for", "from", "of"]
+			],
+			"answer": ["for"]
+		}, {
+			"text": "I don’t want to take part#singletouch any more conferences.",
+			"option": [
+				["[no preposition]", "at", "in", "of"]
+			],
+			"answer": ["in"]
+		}, {
+			"text": "Can you translate this from English #singletouch Greek, please?",
+			"option": [
+				["at", "in", "into"]
+			],
+			"answer": ["into"]
+		}],
+		"feedback": [{
+			"desc": "<xref-group><a href='u725fd0dd48eeb434.631f8527.158e41641c3.2cf7'>213</a></xref-group>"
+		}]
+	}, {
+		"template": "multi_radio",
+		"rubric": "Can prepositions A–C complete the sentence correctly: yes (Y) or no (N)?",
+		"rwText": ["Y", "N"],
+		"question": [{
+			"input_text": "I feel angry <gap/> the terrible things my brother said to me.",
+			"text": "about",
+			"answer": {
+				"right": "Y"
+			}
+		}, {
+			"text": "at",
+			"answer": {
+				"right": "Y"
+			}
+		}, {
+			"text": "with",
+			"answer": {
+				"right": "N"
+			}
+		}],
+		"feedback": [{
+			"desc": "<xref-group><a href='u725fd0dd48eeb434.631f8527.158e41641c3.2cf7'>213</a></xref-group>"
+		}]
+	}, {
+		"template": "multi_radio",
+		"rubric": "Can the prepositions complete the two parts of the sentence correctly: yes (Y) or no (N)?",
+		"rwText": ["Y", "N"],
+		"question": [{
+			"input_text": "I feel angry <gap/> my brother …",
+			"text": "about",
+			"answer": {
+				"right": "N"
+			}
+		}, {
+			"text": "at",
+			"answer": {
+				"right": "Y"
+			}
+		}, {
+			"text": "with",
+			"answer": {
+				"right": "Y"
+			}
+		}, {
+			"input_text": "… <gap/> saying such terrible things.",
+			"text": "at",
+			"answer": {
+				"right": "N"
+			}
+		}, {
+			"text": "for",
+			"answer": {
+				"right": "Y"
+			}
+		}, {
+			"text": "with",
+			"answer": {
+				"right": "N"
+			}
+		}],
+		"feedback": [{
+			"desc": "<xref-group><a href='u725fd0dd48eeb434.631f8527.158e41641c3.2cf7'>213</a></xref-group>"
+		}]
+	}, {
+		"template": "single_touch_button",
+		"rubric": "Choose the right option for each sentence.",
+		"question": [{
+			"text": "When I entered #singletouchthe room, he stood up.",
+			"option": [
+				["[no preposition]", "to", "into"]
+			],
+			"answer": ["[no preposition]"]
+		}, {
+			"text": "We have entered #singletouchan agreement with a Korean company.",
+			"option": [
+				["[no preposition]", "to", "into"]
+			],
+			"answer": ["into"]
+		}, {
+			"text": "He’s very clever, but he lacks#singletouch experience.",
+			"option": [
+				["[no preposition]", "in", "to"]
+			],
+			"answer": ["[no preposition]"]
+		}, {
+			"text": "He’s very clever, but he’s lacking#singletouch experience.",
+			"option": [
+				["[no preposition]", "in", "to"]
+			],
+			"answer": ["in"]
+		}],
+		"feedback": [{
+			"desc": "<xref-group><a href='u725fd0dd48eeb434.631f8527.158e41641c3.2cf7'>213</a></xref-group>"
+		}]
+	}, {
+		"template": "multi_radio",
+		"rubric": "Can the highlighted prepositions be left out in informal speech: yes (Y) or no (N)?",
+		"rwText": ["Y", "N"],
+		"question": [{
+			"text": "I’ll see you <item>at</item> about three o’clock.",
+			"answer": {
+				"right": "Y"
+			}
+		}, {
+			"text": "I’ve been here <item>for</item> three weeks now.",
+			"answer": {
+				"right": "Y"
+			}
+		}, {
+			"text": "How long are you staying <item>for</item>?",
+			"answer": {
+				"right": "Y"
+			}
+		}],
+		"feedback": [{
+			"desc": "<xref-group><a href='u725fd0dd48eeb434.631f8527.158e41641c3.3235'>214.6–7</a></xref-group>"
+		}]
+	}, {
+		"template": "multi_radio",
+		"rubric": "British English (BrE), American English (AmE) or wrong (W)?",
+		"rwText": ["BrE", "AmE", "W"],
+		"question": [{
+			"text": "What are you doing <item>at</item> the weekend?",
+			"answer": {
+				"right": "BrE"
+			}
+		}, {
+			"text": "What are you doing <item>in</item> the weekend?",
+			"answer": {
+				"right": "W"
+			}
+		}, {
+			"text": "What are you doing <item>on</item> the weekend?",
+			"answer": {
+				"right": "AmE"
+			}
+		}],
+		"feedback": [{
+			"desc": "<xref-group><a href='u725fd0dd48eeb434.631f8527.158e4170750.-233e'>386.4</a></xref-group>"
+		}]
+	}, {
+		"template": "multi_radio",
+		"rubric": "Are these uses of <i>along</i> correct: yes (Y) or no (N)?",
+		"rwText": ["Y", "N"],
+		"question": [{
+			"text": "Her office is just <item>along</item> the corridor, on your left.",
+			"answer": {
+				"right": "Y"
+			}
+		}, {
+			"text": "The children were complaining all <item>along</item> the journey home.",
+			"answer": {
+				"right": "N"
+			}
+		}, {
+			"text": "I was walking <item>along</item>, minding my own business, when they approached me.",
+			"answer": {
+				"right": "Y"
+			}
+		}, {
+			"text": "Come <item>along</item>, children. It’s time to go home.",
+			"answer": {
+				"right": "Y"
+			}
+		}],
+		"feedback": [{
+			"desc": "<xref-group><a href='u725fd0dd48eeb434.631f8527.158e4170750.-2cbe'>368</a></xref-group>"
+		}]
+	}, {
+		"template": "multi_radio_textEntry",
+		"hideRight": "true",
+		"rubric": "Right (R) or wrong (W)? When you have checked your answers, correct any sentences that are wrong.",
+		"rwText": ["R", "W"],
+		"question": [{
+			"text": "I smoke <item>at home</item> but never <item>in work</item>. ",
+			"answer": [{
+				"right": "W"
+			}, {
+				"right": "I smoke at home but never at work."
+			}]
+		}, {
+			"text": "My daughter’s <item>at college at London</item> this year. ",
+			"answer": [{
+				"right": "W"
+			}, {
+				"right": [
+					"My daugher's at college in London this year.",
+					"My daughter’s at college in London this year."
+				]
+			}]
+		}, {
+			"text": "I hate camping holidays, especially sitting <item>in a tent in the rain</item>. ",
+			"answer": {
+				"right": "R"
+			}
+		}, {
+			"text": "Open your books <item>on page</item> 32 and do exercise 5 <item>on the top</item> of the page. ",
+			"answer": [{
+				"right": "W"
+			}, {
+				"right": "Open your books at page 32 and do exercise 5 at the top of the page."
+			}]
+
+		}],
+		"feedback": [{
+			"desc": "<xref-group><a href='u725fd0dd48eeb434.631f8527.158e4170750.-25be'>384</a></xref-group>"
+		}]
+	}, {
+		"template": "multi_radio",
+		"rubric": "Right (R) or wrong (W)?",
+		"rwText": ["R", "W"],
+		"question": [{
+			"text": "I’ll be home <item>by</item> five o’clock.",
+			"answer": {
+				"right": "R"
+			}
+		}, {
+			"text": "I’ll be home <item>by the time</item> you get home.",
+			"answer": {
+				"right": "R"
+			}
+		}],
+		"feedback": [{
+			"desc": "<xref-group><a href='u725fd0dd48eeb434.631f8527.158e4170750.-1625'>414.1</a></xref-group>"
+		}]
+	}, {
+		"template": "multi_radio",
+		"rubric": "Right (R) or wrong (W)?",
+		"rwText": ["R", "W"],
+		"question": [{
+			"text": "He worked <item>by the day</item> and slept <item>by the night</item>.",
+			"answer": {
+				"right": "W"
+			}
+		}, {
+			"text": "You can hire a bicycle <item>by the day</item> or <item>by the week</item>.",
+			"answer": {
+				"right": "R"
+			}
+		}],
+		"feedback": [{
+			"desc": "<xref-group><a href='u725fd0dd48eeb434.631f8527.158e4170750.-15f7'>414.2</a></xref-group>"
+		}]
+	}, {
+		"template": "single_radio",
+		"question": [{
+			"text": "What does this sentence probably mean?",
+			"input_text": "He was killed <item>with</item> a heavy stone.",
+			"option": ["A heavy stone fell and killed him.", "Somebody used a heavy stone to kill him."],
+			"answer": "Somebody used a heavy stone to kill him."
+		}],
+		"feedback": [{
+			"desc": "<xref-group><a href='u725fd0dd48eeb434.631f8527.158e4170750.-15aa'>416</a></xref-group>"
+		}]
+	}, {
+		"template": "single_radio",
+		"question": [{
+			"text": "What does this sentence mean?",
+			"input_text": "<item>As your brother</item>, I must warn you to be very careful.",
+			"option": ["I’m telling you to be careful because I’m your brother.", "I’m not your brother, but I think the same as him."],
+			"answer": "I’m telling you to be careful because I’m your brother."
+		}],
+		"feedback": [{
+			"desc": "<xref-group><a href='u725fd0dd48eeb434.631f8527.158e4170750.18a5'>515.7</a></xref-group>"
+		}]
+	}, {
+		"template": "single_touch_button",
+		"rubric": "<i>In front of</i>, <i>in the front of</i> or <i>both</i>?",
+		"question": [{
+			"text": "Small children shouldn’t sit #singletouch the car. It’s not safe.",
+			"option": [
+				["in front of", "in the front of", "[both]"]
+			],
+			"answer": ["in the front of"]
+		}],
+		"feedback": [{
+			"desc": "<xref-group><a href='u725fd0dd48eeb434.631f8527.158e4170750.27e4'>549.3</a></xref-group>"
+		}]
+	}]
+	}, 
+	"c2" :
+	{
+	"-unit": "16",
+	"-level": "c2",
+	"topic_name": "prepositions",
+	"exercise": [{
+		"template": "single_touch_button",
+		"rubric": "<i>Above</i>, <i>over</i> or both?",
+		"question": [{
+			"text": "We’ve got a little house #singletouch the lake.",
+			"option": [
+				["above", "over", "[both]"]
+			],
+			"answer": ["above"]
+		}, {
+			"text": "It’s three degrees #singletouch zero today.",
+			"option": [
+				["above", "over", "[both]"]
+			],
+			"answer": ["above"]
+		}],
+		"feedback": [{
+			"desc": "<xref-group><a href='u725fd0dd48eeb434.631f8527.158e4170750.-3251'>354</a></xref-group>"
+		}]
+	}, {
+		"template": "single_radio",
+		"question": [{
+			"text": "Both of these would be normal in British English; one would be unusual in American English. Which?",
+			"option": ["We walked <item>around</item> the old city wall.", "We walked <item>round</item> the old city wall."],
+			"answer": "We walked round the old city wall."
+		}],
+		"feedback": [{
+			"desc": "<xref-group><a href='u725fd0dd48eeb434.631f8527.158e4170750.-2911'>376</a></xref-group>"
+		}]
+	}, {
+		"template": "single_touch_button",
+		"rubric": "<i>Between</i> or <i>among</i>?",
+		"question": [{
+			"text": "I sat #singletouch the manager and his secretary.",
+			"option": [
+				["between", "among"]
+			],
+			"answer": ["between"]
+		}, {
+			"text": "Our house is #singletouch the woods, the river and the village.",
+			"option": [
+				["between", "among"]
+			],
+			"answer": ["between"]
+		}, {
+			"text": "She looked down and saw a strange-looking box #singletouch the wheels of the car.",
+			"option": [
+				["between", "among"]
+			],
+			"answer": ["between"]
+		}, {
+			"text": "Her passport was hidden #singletouch all the papers on her desk.",
+			"option": [
+				["between", "among"]
+			],
+			"answer": ["among"]
+		}],
+		"feedback": [{
+			"desc": "<xref-group><a href='u725fd0dd48eeb434.631f8527.158e4170750.-1a7d'>403</a></xref-group>"
+		}]
+	}, {
+		"template": "gapfill",
+		"hideRight": "true",
+		"rubric": "Put in the correct preposition or <i>X</i> (= no preposition).",
+		"question": [{
+			"text": "I’m not very clever #gap mending things.",
+			"answer": [
+				["at"]
+			]
+		}, {
+			"text": "She crashed #gap a tree, but she wasn’t badly hurt.",
+			"answer": [
+				["into"]
+			]
+		}, {
+			"text": "I don’t want to depend #gap my parents.",
+			"answer": [
+				["on"]
+			]
+		}, {
+			"text": "Let’s discuss #gap your plans.",
+			"answer": [
+				["X"]
+			]
+		}, {
+			"text": "The book is divided #gap three sections.",
+			"answer": [
+				["into"]
+			]
+		}, {
+			"text": "She’s seriously lacking #gap tact.",
+			"answer": [
+				["in"]
+			]
+		}, {
+			"text": "The photo was conclusive proof #gap his innocence.",
+			"answer": [
+				["of"]
+			]
+		}, {
+			"text": "Geoffrey shouted #gap us to come in for dinner.",
+			"answer": [
+				["to"]
+			]
+		}, {
+			"text": "Who’s the man #gap the black hat?",
+			"answer": [
+				["in"]
+			]
+		}, {
+			"text": "When she talks #gap that voice I know I’m in trouble.",
+			"answer": [
+				["in"]
+			]
+		}],
+		"feedback": [{
+			"desc": "<xref-group><a href='u725fd0dd48eeb434.631f8527.158e41641c3.2c20'>212</a></xref-group>"
+		}]
+	}, {
+		"template": "multi_radio",
+		"rubric": "Formal (F), informal (I) or wrong (W)?",
+		"rwText": ["F", "I", "W"],
+		"question": [{
+			"text": "Come round for a drink <item>Monday evening</item>.",
+			"answer": {
+				"right": "I"
+			}
+		}, {
+			"text": "Let’s <item>go some place</item> quiet.",
+			"answer": {
+				"right": "I"
+			}
+		}, {
+			"text": "They’re looking for <item>a place to live</item>.",
+			"answer": {
+				"right": "I"
+			}
+		}],
+		"feedback": [{
+			"desc": " For <item>A</item>, <xref-group><a href='u725fd0dd48eeb434.631f8527.158e41641c3.31fc'>214.3</a></xref-group>.<br/>For <item>B</item>, <xref-group><a href='u725fd0dd48eeb434.631f8527.158e41641c3.3298'>214.11</a></xref-group>.<br/>For <item>C</item>, <xref-group><a href='u725fd0dd48eeb434.631f8527.158e41641c3.32a7'>214.12</a></xref-group>."
+		}]
+	}, {
+		"template": "multi_radio",
+		"rubric": "Right (R) or wrong (W)?",
+		"rwText": ["R", "W"],
+		"question": [{
+			"text": "She likes <item>to be looked at</item>.",
+			"answer": {
+				"right": "R"
+			}
+		}, {
+			"text": "This is a pleasant place <item>to live in</item>. ",
+			"answer": {
+				"right": "R"
+			}
+		}, {
+			"text": "Which period did it <item>happen during</item>?",
+			"answer": {
+				"right": "W"
+			}
+		}],
+		"feedback": [{
+			"desc": " For <item>A</item>, <xref-group><a href='u725fd0dd48eeb434.631f8527.158e41641c3.2a13'>209.4</a></xref-group>.<br/>For <item>B</item>, <xref-group><a href='u725fd0dd48eeb434.631f8527.158e41641c3.2a28'>209.5</a></xref-group>.<br/>For <item>C</item>, <xref-group><a href='u725fd0dd48eeb434.631f8527.158e41641c3.2a41'>209.6</a></xref-group>."
+		}]
+	}, {
+		"template": "multi_radio",
+		"rubric": "Right (R) or wrong (W)?",
+		"rwText": ["R", "W"],
+		"question": [{
+			"text": "<item>For whom</item> is it?",
+			"answer": {
+				"right": "W"
+			}
+		}, {
+			"text": "<item>To where</item> shall I send it?",
+			"answer": {
+				"right": "W"
+			}
+		}, {
+			"text": "<item>About money was never spoken</item> in our family.",
+			"answer": {
+				"right": "W"
+			}
+		}],
+		"feedback": [{
+			"desc": "<xref-group><a href='u725fd0dd48eeb434.631f8527.158e41641c3.2a59'>209.7</a></xref-group>"
+		}]
+	}, {
+		"template": "correction",
+		"hideRight": "true",
+		"rubric": "Can you correct the highlighted part of this sentence?",
+		"question": [{
+			"text": "The judge paid a lot of attention <item>to that the child was unhappy</item> at home. ",
+			"answer": {
+				"right": [
+					"to the fact that the child was unhappy",
+					"to the fact that the child was unhappy at home",
+					"The judge paid a lot of attention to the fact that the child was unhappy at home."
+				]
+			}
+		}],
+		"feedback": [{
+			"desc": "<xref-group><a href='u725fd0dd48eeb434.631f8527.158e41641c3.2b20'>210.3</a></xref-group>"
+		}]
+	}, {
+		"template": "multi_radio",
+		"rubric": "Right (R) or wrong (W)?",
+		"rwText": ["R", "W"],
+		"question": [{
+			"text": "Tell me <item>where</item> you went.",
+			"answer": {
+				"right": "R"
+			}
+		}, {
+			"text": "Tell me <item>about where</item> you went.",
+			"answer": {
+				"right": "R"
+			}
+		}, {
+			"text": "It depends <item>how</item> much traffic there is.",
+			"answer": {
+				"right": "R"
+			}
+		}, {
+			"text": "It depends <item>on how</item> much traffic there is.",
+			"answer": {
+				"right": "R"
+			}
+		}, {
+			"text": "I’m worried <item>where</item> she is.",
+			"answer": {
+				"right": "W"
+			}
+		}, {
+			"text": "I’m worried <item>about where</item> she is.",
+			"answer": {
+				"right": "R"
+			}
+		}],
+		"feedback": [{
+			"desc": "<xref-group><a href='u725fd0dd48eeb434.631f8527.158e41641c3.2b43'>210.4</a></xref-group>"
+		}]
+	}]
+	}
+}

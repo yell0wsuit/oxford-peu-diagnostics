@@ -1,0 +1,521 @@
+{
+    "topic": {
+        "-unit": "WF",
+        "-level": "b2",
+        "topic_name": "My Learning Record",
+        "exercise": [
+            {
+                "template": "dragdrop_notrans",
+                "rubric": "Add the correct time prepositions.",
+                "option": ["present progressive", "future perfect", "(simple) future", "simple progressive", "future progressive", "future perfect progressive"],
+                "question": [
+                    {
+                        "text": "is singing",
+                        "answer": {
+                            "right": "present progressive"
+                        }
+                    },
+                    {
+                        "text": "will have explained",
+                        "answer": {
+                            "right": "future perfect"
+                        }
+                    },
+                    {
+                        "text": "will arive",
+                        "answer": {
+                            "right": "(simple) future"
+                        }
+                    },
+                    {
+                        "text": "works",
+                        "answer": {
+                            "right": "simple progressive"
+                        }
+                    },
+                    {
+                        "text": "will be playing",
+                        "answer": {
+                            "right": "future progressive"
+                        }
+                    },
+                    {
+                        "text": "will have been studying",
+                        "answer": {
+                            "right": "future perfect progressive"
+                        }
+                    }
+                ],
+                "feedback": {
+                    "xrefGroup": {
+                        "xref": [
+                            {
+                                "-href": "Se663",
+                                "-resource": "peu",
+                                "text": "Section 6"
+                            },
+                            {
+                                "-href": "Se021se01",
+                                "-resource": "peu",
+                                "text": "2.9"
+                            }
+                        ]
+                    }
+                }
+            },
+            {
+                "template": "multi_radio",
+                "rubric": "Right or wrong?",
+                "rwText": ["R", "W"],
+                "input_text": "Second piece of input text may go here.",
+                "question": [
+                    {
+                        "text": "<item>I gave John</item> the keys.",
+                        "answer": {
+                            "right": "Right"
+                        }
+                    },
+                    {
+                        "item": "<item>I explained Laura</item> the problem.",
+                        "answer": {
+                            "right": "Wrong",
+                            "feedback": {
+                                "should_be": "I explained the problem to Laura."
+                            }
+                        }
+                    },
+                    {
+                        "text": "<item>Make me</item> a cup of coffee, please.",
+                        "answer": {
+                            "right": "Right"
+                        }
+                    },
+                    {
+                        "text": "Can you <item>teach me</item> the guitar next year?",
+                        "answer": {
+                            "right": "Right"
+                        }
+                    },
+                    {
+                        "text": "Can you <item>describe me</item> the man who attacked you?",
+                        "answer": {
+                            "right": "Wrong",
+                            "feedback": {
+                                "should_be": "Can you describe the man who attacked you to me?"
+                            }
+                        }
+                    }
+                ],
+                "feedback": {
+                    "xrefGroup": {
+                        "xref": [
+                            {
+                                "-href": "Se663",
+                                "-resource": "peu",
+                                "text": "Section 6"
+                            },
+                            {
+                                "-href": "Se664",
+                                "-resource": "peu",
+                                "text": "Sections 6–8"
+                            },
+                            {
+                                "-href": "Se021se01",
+                                "-resource": "peu",
+                                "text": "2.9"
+                            },
+                            {
+                                "-href": "Se021se02",
+                                "-resource": "peu",
+                                "text": "3.2"
+                            },
+                            {
+                                "-href": "Se021se03",
+                                "-resource": "peu",
+                                "text": "2.9–2.11"
+                            }
+                        ]
+                    }
+                }
+            },
+            {
+                "template": "multi_radio",
+                "rubric": "Can you improve these sentences by taking out the highlighted words: yes or no?",
+                "rwText": ["Y", "N"],
+                "question": [
+                    {
+                        "text": "Let's go somewhere <item>that is</item> quiet.",
+                        "answer": {
+                            "right": "Yes"
+                        }
+                    },
+                    {
+                        "text": "The most important <item>thing </item>is to be happy.",
+                        "answer": {
+                            "right": "No"
+                        }
+                    }
+                ],
+                "feedback": {
+                    "xrefGroup": {
+                        "xref": [
+                            {
+                                "-href": "Se021se01",
+                                "-resource": "peu",
+                                "text": "2.9"
+                            },
+                            {
+                                "-href": "Se663",
+                                "-resource": "peu",
+                                "text": "Section 6"
+                            }
+                        ]
+                    }
+                }
+            },
+            {
+                "template": "multi_radio",
+                "rubric": "Formal, normal or wrong?",
+                "rwText": ["F", "N", "W"],
+                "question": [
+                    {
+                        "text": "It's important that Mary <item>be</item> told at once.",
+                        "answer": {
+                            "right": "Formal",
+                            "feedback1": {
+                                "xrefGroup": {
+                                    "xref": {
+                                        "-href": "Se021se03",
+                                        "-resource": "peu",
+                                        "text": "2.9–2.11"
+                                    }
+                                }
+                            }
+                        }
+                    },
+                    {
+                        "text": "It's important that Mary <item>should be</item> told at once.",
+                        "answer": {
+                            "right": "Normal",
+                            "feedback1": {
+                                "xrefGroup": {
+                                    "xref": {
+                                        "-href": "Se021se01",
+                                        "-resource": "peu",
+                                        "text": "2.9"
+                                    }
+                                }
+                            }
+                        }
+                    },
+                    {
+                        "item": "It's important that Mary <item>is</item> told at once.",
+                        "answer": {
+                            "right": "Normal"
+                        }
+                    }
+                ],
+                "feedback": {
+                    "text": "The correct answers are A. Formal B. Normal. C. Normal ",
+                    "xrefGroup": {
+                        "xref": [
+                            {
+                                "-href": "Se021se01",
+                                "-resource": "peu",
+                                "text": "2.9"
+                            },
+                            {
+                                "-href": "Se663",
+                                "-resource": "peu",
+                                "text": "Section 6"
+                            }
+                        ]
+                    }
+                }
+            },
+            {
+                "template": "multi_radio",
+                "rubric": "Formal, informal, unusual or wrong?",
+                "rwText": ["F", "I", "U", "W"],
+                "question": [
+                    {
+                        "text": "Joe is the person I am most angry with.",
+                        "answer": {
+                            "right": "Informal"
+                        }
+                    },
+                    {
+                        "text": "Joe is the person whom I am most angry with.",
+                        "answer": {
+                            "right": "Unusual"
+                        }
+                    },
+                    {
+                        "text": "Joe is the person who I am most angry with.",
+                        "answer": {
+                            "right": "Informal"
+                        }
+                    },
+                    {
+                        "text": "Joe is the person with whom I am most angry.",
+                        "answer": {
+                            "right": "Formal"
+                        }
+                    }
+                ],
+                "feedback1": {
+                    "text": [
+                        "feedback can contain ",
+                        ", ",
+                        ", ",
+                        ", ",
+                        ", ",
+                        " and ",
+                        " overrides."
+                    ],
+                    "eb": "bold",
+                    "ei": "italic",
+                    "ebi": "bold italic",
+                    "eph": "/f??net?k/",
+                    "esc": "small caps",
+                    "est": "strikethrough"
+                }
+            },
+            {
+                "template": "multi_radio_textEntry",
+                "rwText": ["R", "W"],
+                "rubric": "Are these spellings right or wrong?",
+                "input_text": "Check your answers. Then correct the ones that are wrong.",
+                "question": [
+                    {
+                        "text": "I'm <item>siting</item> at the back of the train.",
+                        "answer": [
+                            {
+                                "subexercise": "a",
+                                "right": "Wrong"
+                            },
+                            {
+                                "subexercise": "b",
+                                "right": "sitting"
+                            }
+                        ]
+                    },
+                    {
+                        "text": "He's <item>travelling</item> this week.",
+                        "answer": [{
+                                "subexercise": "a",
+                                "right": "Right"
+                            }]
+                    },
+                    {
+                        "text": "Is this train <item>stoping</item> in Birmingham?",
+                        "answer": [
+                            {
+                                "subexercise": "a",
+                                "right": "Wrong"
+                            },
+                            {
+                                "subexercise": "b",
+                                "right": "stopping"
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "template": "single_radio",
+                "question": {
+                    "text": "What is another name for <i>progressive</i>?",
+                    "option": [
+                        "conditional",
+                        "perfect",
+                        "continuous",
+                        "infinitive"
+
+                    ],
+                    "answer": [
+                        "continuous"
+
+                    ]
+
+                }
+
+            },
+            {
+                "template": "multi_radio",
+                "rwText": ["C", "N"],
+                "rubric": "Should these normally have a capital letter (Earth) or no capital (earth)?",
+                "question": [
+                    {
+                        "item": "the <item>e</item>arth",
+                        "answer": {
+                            "right": "Capital"
+                        }
+                    },
+                    {
+                        "text": "the <item>s</item>un",
+                        "answer": {
+                            "right": "No capital"
+                        }
+                    },
+                    {
+                        "text": "the <item>m</item>oon",
+                        "answer": {
+                            "right": "Capital"
+                        }
+                    },
+                    {
+                        "text": "<item>m</item>ars",
+                        "answer": {
+                            "right": "No capital"
+                        }
+                    }
+                ],
+                "feedback": {
+                    "xrefGroup": {
+                        "xref": [{
+                                "-href": "Se021se01",
+                                "-resource": "peu",
+                                "text": "2.9"
+                            }]
+                    }
+                }
+            },
+            {
+                "template": "multi_touch_button",
+                "rubric": "Choose the best word to fit on these sentences.",
+                "question": [
+                    {
+                        "text": ["The team really ", "to win the cup this season."],
+                        "option": [["wants", "want"]],
+                        "answer": [["want", "wants"]]
+                    },
+                    {
+                        "text": ["She looks much younger ", "her wedding photos."],
+                        "option": [["from", "in", "on"]],
+                        "answer": [["on"]]
+
+                    },
+                    {
+                        "text": [
+                            "Sally arrived ",
+                            "time and Jim arrived ",
+                            " time."
+                        ],
+                        "option": [["at", "in", "on"], ["at", "in", "on"]],
+                        "answer": [["in"], ["on"]]
+                    }
+                ],
+                "feedback": {
+                    "xrefGroup": {
+                        "xref": [
+                            {
+                                "-href": "Se663",
+                                "-resource": "peu",
+                                "text": "Section 6"
+                            },
+                            {
+                                "-href": "Se021se01",
+                                "-resource": "peu",
+                                "text": "2.9"
+                            }
+                        ]
+                    }
+                }
+            },
+            {
+                "template": "gapfill",
+                "rubric": "Add the correct time prepositions.",
+                "question": [
+                    {
+                        "text": "I'll meet you at the match  #gap Saturday afternoon  #gap 2:30.",
+                        "answer": ["on", "at"]
+                    },
+                    {
+                        "text": "I work best  #gap the morning at I never work  #gap night.",
+                        "answer": ["in", "on"]
+                    },
+                    {
+                        "text": "Come and see us  #gap Christmas.",
+                        "answer": ["at"]
+
+                    },
+                    {
+                        "text": "Come and see us #gap Christmas Day.",
+                        "answer": ["on"]
+                    }
+                ]
+            },
+            {
+                "template": "freetext",
+                "rubric": "All these sentences are wrong. Why?",
+                "question": [
+                    {
+                        "text": "<item>One</item> speaks English in this shop."
+                    },
+                    {
+                        "text": "<item>One</item> is knocking at the door."
+
+                    },
+                    {
+                        "text": "In the 16th century <item>one</item> believed in witches."
+                    }
+                ],
+                "feedback": {
+                    "ei": "One",
+                    "text": "<item>One</item> is only used for generalizations that could include the speaker/hearer."
+                }
+            },
+            {
+                "template": "order_sentence",
+                "rubric": "Rearrange these words to make a question.",
+                "question": [{
+                        "text": [
+                            "have",
+                            "you",
+                            "found",
+                            "the",
+                            "book",
+                            "you",
+                            "were",
+                            "looking",
+                            "for"
+                        ],
+                        "answer": "Have you found the book you were looking for"
+
+                    }]
+            },
+            {
+                "template": "correction",
+                "rubric": "Change the sentences into passive sentences with the same meaning.",
+                "sample": {
+                    "text": "She gave her sister the car.",
+                    "answer": ["Her sister was given the car."]
+
+                },
+                "question": [
+                    {
+                        "text": "The bank sent me a new chequebook.",
+                        "answer": [
+                            "I was sent a new chequebook by the bank.",
+                            "I was sent a new chequebook."
+                        ]
+
+                    },
+                    {
+                        "text": "We pay them a lot of money for doing very little.",
+                        "answer": ["They are paid a lot of money for doing very little.", "They are paid a lot of money by us for doing very little."
+                        ]
+                    },
+                    {
+                        "text": "They will never tell us the real truth.",
+                        "answer": ["We will never be told the real truth.", "We will never be told the real truth by them."
+                        ]
+                    }
+                ]
+            }
+        ]
+    }
+
+
+}

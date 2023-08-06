@@ -1,0 +1,782 @@
+{
+	"b2" :
+	{
+	"-unit": "07",
+	"-level": "b2",
+	"topic_name": "modals (2): obligation, permission, ability, etc",
+	"exercise": [{
+		"template": "freetext",
+		"rubric": "What is the difference between these two requests?",
+		"question": [{
+			"input_text": "<item>A</item> <item>Can</item> I have some more tea, please?<br/><item>B</item> <item>Could</item> I have some more tea, please?",
+			"text": ""
+		}],
+		"answer": "<item>B</item> is more polite.",
+		"feedback": [{
+			"desc": "<xref-group><a href='u725fd0dd48eeb434.631f8527.158e41641c3.-5b25'>81.1</a></xref-group>"
+		}]
+	}, {
+		"template": "multi_radio",
+		"rubric": "Are these company notices right (R) or wrong (W)? ",
+		"rwText": ["R", "W"],
+		"question": [{
+			"text": "ALL EMPLOYEES <item>WILL</item> COMPLETE WEEKLY TIMESHEETS.",
+			"answer": {
+				"right": "R"
+			}
+		}, {
+			"text": "ALL EMPLOYEES <item>MUST</item> COMPLETE WEEKLY TIMESHEETS.",
+			"answer": {
+				"right": "R"
+			}
+		}],
+		"feedback": [{
+			"desc": "<xref-group><a href='u725fd0dd48eeb434.631f8527.158e41641c3.-5fea'>73.1</a><br><a href='u725fd0dd48eeb434.631f8527.158e41641c3.-5f69'>73.6</a></xref-group>"
+		}]
+	}, {
+		"template": "single_touch_button",
+		"rubric": "<i>Can</i>, <i>could</i> or both?",
+		"question": [{
+			"text": "station porter: #singletouch I help you?",
+			"option": [
+				["Can", "Could", "[both]"]
+			],
+			"answer": ["Can"]
+		}, {
+			"text": "passenger: Yes. #singletouch you tell me where Platform 14 is, please?",
+			"option": [
+				["Can", "Could", "[both]"]
+			],
+			"answer": ["[both]"]
+		}],
+		"feedback": [{
+			"desc": "<xref-group><a href='u725fd0dd48eeb434.631f8527.158e41641c3.-5a22'>82.2</a><br><a href='u725fd0dd48eeb434.631f8527.158e41641c3.-59b7'>82.5</a></xref-group>"
+		}]
+	}, {
+		"template": "multi_radio_textEntry",
+		"rubric": "Is this sentence right (R) or wrong (W)? When you have checked your answer, correct the sentence if it’s wrong.",
+		"rwText": ["R", "W"],
+		"question": [{
+			"text": "He <item>could borrow</item> my car if he’d asked. ",
+			"answer": [{
+				"right": "W"
+			}, {
+				"right": [
+					"He could have borrowed my car if he'd asked.",
+					"He could have borrowed my car if he’d asked.",
+					"He could have borrowed my car if he had asked.",
+					"He could borrow my car if he asked."
+				]
+			}]
+
+		}],
+		"feedback": [{
+			"desc": "<xref-group><a href='u725fd0dd48eeb434.631f8527.158e41641c3.-5989'>82.6</a></xref-group>"
+		}]
+	}, {
+		"template": "multi_radio",
+		"rubric": "Can these replies be used: yes (Y) or no (N)?",
+		"rwText": ["Y", "N"],
+		"question": [{
+			"input_text": "‘Has anyone seen Susan?’",
+			"text": "‘Yes, <item>I see</item> her coming now.’",
+			"answer": {
+				"right": "Y"
+			}
+		}, {
+			"text": "‘Yes, <item>I’m seeing</item> her coming now.’",
+			"answer": {
+				"right": "N"
+			}
+		}, {
+			"text": "‘Yes, <item>I can see</item> her coming now.’",
+			"answer": {
+				"right": "Y"
+			}
+		}],
+		"feedback": [{
+			"desc": "<xref-group><a href='u725fd0dd48eeb434.631f8527.158e41641c3.-585e'>84.1</a></xref-group><br/><item>C</item> is more common in British English. "
+		}]
+	}, {
+		"template": "single_touch_button",
+		"rubric": "<i>Could</i>, <i>might</i> or both?",
+		"question": [{
+			"text": "When I was young, people #singletouch smoke in the office.",
+			"option": [
+				["could", "might", "[both]"]
+			],
+			"answer": ["could"]
+		}],
+		"feedback": [{
+			"desc": "<xref-group><a href='u725fd0dd48eeb434.631f8527.158e41641c3.-5ab0'>81.3</a></xref-group>"
+		}]
+	}, {
+		"template": "single_radio",
+		"question": [{
+			"text": "Which verb means the same as <i>don’t have to</i> here?",
+			"input_text": "You <item>don’t have to</item> work tomorrow if you don’t want to.",
+			"option": ["mustn’t", "needn’t", "shouldn’t"],
+			"answer": "needn’t"
+		}],
+		"feedback": [{
+			"desc": "<xref-group><a href='u725fd0dd48eeb434.631f8527.158e41641c3.-5fb9'>73.4</a></xref-group>"
+		}]
+	}, {
+		"template": "multi_radio",
+		"rubric": "Right (R) or wrong (W)?",
+		"rwText": ["R", "W"],
+		"question": [{
+			"text": "Fred, you <item>should</item> go home now: it has started to snow.",
+			"answer": {
+				"right": "R"
+			}
+		}, {
+			"text": "Fred <item>should</item> be home soon; he left the office at six.",
+			"answer": {
+				"right": "R"
+			}
+		}],
+		"feedback": [{
+			"desc": "<xref-group><a href='u725fd0dd48eeb434.631f8527.158e41641c3.-6265'>70.1</a><br><a href='u725fd0dd48eeb434.631f8527.158e41641c3.-5dde'>76.1</a></xref-group>"
+		}]
+	}, {
+		"template": "multi_radio_textEntry",
+		"hideRight": "true",
+		"rubric": "Right (R) or wrong (W)? When you have checked your answers, write the correct forms if the sentences are wrong.",
+		"rwText": ["R", "W"],
+		"question": [{
+			"text": "He oughts to understand. ",
+			"answer": [{
+				"right": "W"
+			}, {
+				"right": "He ought to understand."
+			}]
+		}, {
+			"text": "Do we ought to go now? ",
+			"answer": [{
+				"right": "W"
+			}, {
+				"right": "Ought we to go now?"
+			}]
+		}, {
+			"text": "She ought see a dentist. ",
+			"answer": [{
+				"right": "W"
+			}, {
+				"right": "She ought to see a dentist."
+			}]
+
+		}],
+		"feedback": [{
+			"desc": "<xref-group><a href='u725fd0dd48eeb434.631f8527.158e41641c3.-6482'>68.1</a></xref-group>"
+		}]
+	}, {
+		"template": "multi_radio",
+		"rubric": "Right (R) or wrong (W)?",
+		"rwText": ["R", "W"],
+		"question": [{
+			"text": "I <item>ought to</item> call you yesterday, but I’m afraid I forgot.",
+			"answer": {
+				"right": "W"
+			}
+		}],
+		"feedback": [{
+			"desc": "<xref-group><a href='u725fd0dd48eeb434.631f8527.158e41641c3.-6240'>70.2</a></xref-group>"
+		}]
+	}, {
+		"template": "multi_radio",
+		"rubric": "Do the continuations make correct sentences: yes (Y) or no (N)?",
+		"rwText": ["Y", "N"],
+		"question": [{
+			"input_text": "There isn’t much time; ... ",
+			"text": " ... you <item>have better listen</item> to me.",
+			"answer": {
+				"right": "N"
+			}
+		}, {
+			"text": " ... you <item>had better listen </item>to me.",
+			"answer": {
+				"right": "Y"
+			}
+		}, {
+			"text": "... you <item>had better listening</item> to me.",
+			"answer": {
+				"right": "N"
+			}
+		}, {
+			"text": "... you <item>had better to listen</item> to me.",
+			"answer": {
+				"right": "N"
+			}
+		}],
+		"feedback": [{
+			"desc": "<xref-group><a href='u725fd0dd48eeb434.631f8527.158e41641c3.-5d17'>77.2</a></xref-group>"
+		}]
+	}, {
+		"template": "single_radio",
+		"question": [{
+			"text": "Which is more usual: A or B?",
+			"option": ["You <item>hadn’t better</item> get home late from the party tonight.", "You<item>’d better not</item> get home late from the party tonight."],
+			"answer": "You’d better not get home late from the party tonight."
+		}],
+		"feedback": [{
+			"desc": "<xref-group><a href='u725fd0dd48eeb434.631f8527.158e41641c3.-5d17'>77.2</a></xref-group>"
+		}]
+	}, {
+		"template": "multi_radio",
+		"rubric": "Right (R) or wrong (W)?",
+		"rwText": ["R", "W"],
+		"question": [{
+			"text": "I <item>use to</item> smoke 20 cigarettes a day but I really want to give up soon.",
+			"answer": {
+				"right": "W"
+			}
+		}, {
+			"text": "I <item>used to</item> smoke 20 cigarettes a day but I gave up three years ago.",
+			"answer": {
+				"right": "R"
+			}
+		}],
+		"feedback": [{
+			"desc": "<xref-group><a href='u725fd0dd48eeb434.631f8527.158e41641c3.-56e3'>87.2</a></xref-group>"
+		}]
+	}]
+	}, 
+	"c1" :
+	{
+	"-unit": "07",
+	"-level": "c1",
+	"topic_name": "modals (2): obligation, permission, ability, etc",
+	"exercise": [{
+		"template": "multi_radio",
+		"rubric": "Right (R) or wrong (W)?",
+		"rwText": ["R", "W"],
+		"question": [{
+			"text": "‘Can I ask you something?’ ‘Yes, of course <item>you can</item>.’",
+			"answer": {
+				"right": "R"
+			}
+		}, {
+			"text": "‘Could I ask you something?’ ‘Yes, of course <item>you could</item>.’",
+			"answer": {
+				"right": "W"
+			}
+		}],
+		"feedback": [{
+			"desc": "<xref-group><a href='u725fd0dd48eeb434.631f8527.158e41641c3.-5b25'>81.1</a></xref-group>"
+		}]
+	}, {
+		"template": "multi_radio",
+		"rubric": "Right (R) or wrong (W)?",
+		"rwText": ["R", "W"],
+		"question": [{
+			"text": "When I was younger, I <item>could</item> run 10 km in 40 minutes. ",
+			"answer": {
+				"right": "R"
+			}
+		}, {
+			"text": "I <item>could</item> run 10 km yesterday in under an hour. ",
+			"answer": {
+				"right": "W"
+			}
+		}, {
+			"text": "I managed to find the street, but I <item>wasn’t able to</item> find her house. ",
+			"answer": {
+				"right": "R"
+			}
+		}, {
+			"text": "I managed to find the street, but I <item>couldn’t</item> find her house. ",
+			"answer": {
+				"right": "R"
+			}
+		}],
+		"feedback": [{
+			"desc": "<xref-group><a href='u725fd0dd48eeb434.631f8527.158e41641c3.-59ec'>82.4</a></xref-group>"
+		}]
+	}, {
+		"template": "multi_radio",
+		"rubric": "Right (R) or wrong (W)?",
+		"rwText": ["R", "W"],
+		"question": [{
+			"text": "When I was a child, I <item>could</item> watch TV whenever I wanted to. ",
+			"answer": {
+				"right": "R"
+			}
+		}, {
+			"text": "Yesterday evening, Daniel <item>could</item> watch TV for an hour. ",
+			"answer": {
+				"right": "W"
+			}
+		}, {
+			"text": "Daniel <item>couldn’t</item> watch TV yesterday because he was naughty. ",
+			"answer": {
+				"right": "R"
+			}
+		}],
+		"feedback": [{
+			"desc": "<xref-group><a href='u725fd0dd48eeb434.631f8527.158e41641c3.-5ab0'>81.3</a></xref-group>"
+		}]
+	}, {
+		"template": "multi_radio",
+		"rubric": "Are these modal verb forms used correctly: yes (Y) or no (N)?",
+		"rwText": ["Y", "N"],
+		"question": [{
+			"text": "<item>Could</item> I have another cup of tea, please?",
+			"answer": {
+				"right": "Y"
+			}
+		}, {
+			"text": "<item>May</item> I have another cup of tea, please?",
+			"answer": {
+				"right": "Y"
+			}
+		}, {
+			"text": "<item>Might</item> I have another cup of tea, please?",
+			"answer": {
+				"right": "Y"
+			}
+		}, {
+			"text": "<item>I wonder if I might</item> have another cup of tea, please.",
+			"answer": {
+				"right": "Y"
+			}
+		}],
+		"feedback": [{
+			"desc": "<xref-group><a href='u725fd0dd48eeb434.631f8527.158e41641c3.-5b25'>81.1</a></xref-group><br/><item>C</item> and <item>D</item> are very formal. "
+		}]
+	}, {
+		"template": "single_touch_button",
+		"rubric": "<i>Could know</i> or <i>could tell</i>? ",
+		"question": [{
+			"text": "I #singletouch what she wanted.",
+			"option": [
+				["could know", "could tell"]
+			],
+			"answer": ["could tell"]
+		}, {
+			"text": "You #singletouch he was Irish from his accent.",
+			"option": [
+				["could know", "could tell"]
+			],
+			"answer": ["could tell"]
+		}],
+		"feedback": [{
+			"desc": "<xref-group><a href='u725fd0dd48eeb434.631f8527.158e41641c3.-583c'>84.2</a></xref-group>"
+		}]
+	}, {
+		"template": "multi_radio",
+		"rubric": "Right (R) or wrong (W)?",
+		"rwText": ["R", "W"],
+		"question": [{
+			"text": "<item>Will you</item> come this way, please?",
+			"answer": {
+				"right": "R"
+			}
+		}, {
+			"text": "<item>Would you</item> come this way, please?",
+			"answer": {
+				"right": "R"
+			}
+		}, {
+			"text": "Come this way, <item>would you</item>?",
+			"answer": {
+				"right": "R"
+			}
+		}],
+		"feedback": [{
+			"desc": "<xref-group><a href='u725fd0dd48eeb434.631f8527.158e41641c3.-5bae'>80.1</a></xref-group>"
+		}]
+	}, {
+		"template": "multi_radio",
+		"rubric": "Do the continuations make correct sentences: yes (Y) or no (N)?",
+		"rwText": ["Y", "N"],
+		"question": [{
+			"input_text": "My doctor said that I ... ",
+			"text": " ... <item>had to</item> stop smoking.",
+			"answer": {
+				"right": "Y"
+			}
+		}, {
+			"text": " ... <item>must</item> stop smoking.",
+			"answer": {
+				"right": "Y"
+			}
+		}, {
+			"text": "... <item>would have to</item> stop smoking.",
+			"answer": {
+				"right": "Y"
+			}
+		}],
+		"feedback": [{
+			"desc": "<xref-group><a href='u725fd0dd48eeb434.631f8527.158e41641c3.-5f54'>73.7</a></xref-group>"
+		}]
+	}, {
+		"template": "multi_radio",
+		"rubric": "Do these pairs of sentences mean the same: yes (Y) or no (N)?",
+		"rwText": ["Y", "N"],
+		"question": [{
+			"input_text": "<item>A</item> You <item>must be</item> more careful.<br/><item>B</item> You <item>ought to be</item> more careful.<br/><item>C</item> You <item>should be</item> more careful.",
+			"text": "A and B",
+			"answer": {
+				"right": "N"
+			}
+		}, {
+			"text": "A and C",
+			"answer": {
+				"right": "N"
+			}
+		}, {
+			"text": "B and C",
+			"answer": {
+				"right": "Y"
+			}
+		}],
+		"feedback": [{
+			"desc": "<xref-group><a href='u725fd0dd48eeb434.631f8527.158e41641c3.-5dde'>76.1</a></xref-group>"
+		}]
+	}, {
+		"template": "single_radio",
+		"question": [{
+			"text": "Which is the strongest advice: A, B or C?",
+			"option": ["You <item>should</item> lose weight.", "You<item>’d better</item> lose weight.", "You <item>ought</item> to lose weight."],
+			"answer": "You’d better lose weight."
+		}],
+		"feedback": [{
+			"desc": "<xref-group><a href='u725fd0dd48eeb434.631f8527.158e41641c3.-5d3c'>77.1</a></xref-group>"
+		}]
+	}, {
+		"template": "single_radio",
+		"question": [{
+			"text": "Look at this exchange. Which passenger is probably angrier: A or B? ",
+			"input_text": "<speaker>passenger a</speaker>: The train has been cancelled. What <item>should</item> we do now?<br/><speaker>passenger b</speaker>: The train has been cancelled. What <item>are we supposed to</item> do now?",
+			"option": ["Passenger A", "Passenger B"],
+			"answer": "Passenger B"
+		}],
+		"feedback": [{
+			"desc": "<xref-group><a href='u725fd0dd48eeb434.631f8527.158e41641c3.-5cc5'>78</a></xref-group>"
+		}]
+	}, {
+		"template": "multi_radio",
+		"rubric": "People are talking about the famous footballer, Derek Beckenham. Is their use of <i>supposed</i> right (R) or wrong (W)?",
+		"rwText": ["R", "W"],
+		"question": [{
+			"text": "He’s <item>supposed to be</item> completely fit throughout the season. Otherwise, he won’t play at his best.",
+			"answer": {
+				"right": "R"
+			}
+		}, {
+			"text": "He’s <item>supposed to be</item> extremely rich. People say he won’t need to work at all once he retires.",
+			"answer": {
+				"right": "R"
+			}
+		}],
+		"feedback": [{
+			"desc": "<xref-group><a href='u725fd0dd48eeb434.631f8527.158e41641c3.-5cc5'>78</a></xref-group>"
+		}]
+	}, {
+		"template": "single_radio",
+		"question": [{
+			"text": "What does this sentence mean?",
+			"input_text": "Oh, it’s you. I suppose <item>you’d better</item> come in.",
+			"option": ["I think it’s better for you to come in than to stand outside.", "You can come in, but you aren’t especially welcome."],
+			"answer": "You can come in, but you aren’t especially welcome."
+		}],
+		"feedback": [{
+			"desc": "<xref-group><a href='u725fd0dd48eeb434.631f8527.158e41641c3.-5d3c'>77.1</a></xref-group>"
+		}]
+	}, {
+		"template": "multi_radio",
+		"rubric": "Right (R) or wrong (W)?",
+		"rwText": ["R", "W"],
+		"question": [{
+			"text": "I <item>always used</item> to be afraid of dogs.",
+			"answer": {
+				"right": "R"
+			}
+		}, {
+			"text": "I <item>used always</item> to be afraid of dogs.",
+			"answer": {
+				"right": "R"
+			}
+		}],
+		"feedback": [{
+			"desc": "<xref-group><a href='u725fd0dd48eeb434.631f8527.158e41641c3.-567a'>87.5</a></xref-group><br/><item>A</item> is less formal and more commonly used. "
+		}]
+	}]
+	}, 
+	"c2" :
+	{
+	"-unit": "07",
+	"-level": "c2",
+	"topic_name": "modals (2): obligation, permission, ability, etc",
+	"exercise": [{
+		"template": "multi_radio",
+		"rubric": "Can the modal verbs complete the sentence correctly: yes (Y) or no (N)?",
+		"rwText": ["Y", "N"],
+		"question": [{
+			"input_text": "He says that we <gap/> use the car park.",
+			"text": "can",
+			"answer": {
+				"right": "Y"
+			}
+		}, {
+			"text": "may",
+			"answer": {
+				"right": "Y"
+			}
+		}, {
+			"text": "might",
+			"answer": {
+				"right": "N"
+			}
+		}],
+		"feedback": [{
+			"desc": "<xref-group><a href='u725fd0dd48eeb434.631f8527.158e41641c3.-5a88'>81.4</a></xref-group>"
+		}]
+	}, {
+		"template": "multi_radio",
+		"rubric": "Are these uses of <i>can</i> right (R) or wrong (W)?",
+		"rwText": ["R", "W"],
+		"question": [{
+			"text": "She <item>can win</item> the race next month if she really tries.",
+			"answer": {
+				"right": "R"
+			}
+		}, {
+			"text": "I <item>can speak</item> Urdu well in another three months.",
+			"answer": {
+				"right": "W"
+			}
+		}],
+		"feedback": [{
+			"desc": "<xref-group><a href='u725fd0dd48eeb434.631f8527.158e41641c3.-5903'>83.1</a></xref-group>"
+		}]
+	}, {
+		"template": "multi_radio",
+		"rubric": "Are these uses of <i>could</i> right (R) or wrong (W)?",
+		"rwText": ["R", "W"],
+		"question": [{
+			"text": "I <item>could find</item> a really nice dress in the sale yesterday.",
+			"answer": {
+				"right": "W"
+			}
+		}, {
+			"text": "I <item>could play</item> the piano quite well when I was younger.",
+			"answer": {
+				"right": "R"
+			}
+		}, {
+			"text": "When I went into the kitchen <item>I could</item> smell something burning.",
+			"answer": {
+				"right": "R"
+			}
+		}],
+		"feedback": [{
+			"desc": "<xref-group><a href='u725fd0dd48eeb434.631f8527.158e41641c3.-59ec'>82.4</a><br><a href='u725fd0dd48eeb434.631f8527.158e41641c3.-58e0'>83.2</a></xref-group>"
+		}]
+	}, {
+		"template": "single_radio",
+		"question": [{
+			"text": "What do you think about these two sentences?",
+			"input_text": "She <item>speaks</item> Greek very well.<br/>She <item>can speak</item> Greek very well.",
+			"option": ["They mean the same.", "They have different meanings.", "One of them is incorrect."],
+			"answer": "They mean the same."
+		}],
+		"feedback": [{
+			"desc": "<xref-group><a href='u725fd0dd48eeb434.631f8527.158e41641c3.-58a4'>83.3</a></xref-group>"
+		}]
+	}, {
+		"template": "single_radio",
+		"question": [{
+			"text": "What does Jack’s reply mean?",
+			"input_text": "<speaker>anna:</speaker> I don’t know what to give Alex for his birthday.<br/><speaker>jack:</speaker> You <item>can always</item> give him a gift token.",
+			"option": ["You can give him a gift token every year.", "You give him a gift token every year.", "You can give him a gift token if you can’t think of anything better."],
+			"answer": "You can give him a gift token if you can’t think of anything better."
+		}],
+		"feedback": [{
+			"desc": "<xref-group><a href='u725fd0dd48eeb434.631f8527.158e41641c3.-5895'>83.4</a></xref-group>"
+		}]
+	}, {
+		"template": "multi_radio",
+		"rubric": "Right (R) or wrong (W)?",
+		"rwText": ["R", "W"],
+		"question": [{
+			"text": "<item>May I</item> park here?",
+			"answer": {
+				"right": "R"
+			}
+		}, {
+			"text": "<item>May everybody</item> park here?",
+			"answer": {
+				"right": "W"
+			}
+		}, {
+			"text": "<item>Can I</item> park here?",
+			"answer": {
+				"right": "R"
+			}
+		}, {
+			"text": "<item>Can everybody</item> park here?",
+			"answer": {
+				"right": "R"
+			}
+		}],
+		"feedback": [{
+			"desc": "<xref-group><a href='u725fd0dd48eeb434.631f8527.158e41641c3.-5b25'>81.1–2</a></xref-group>"
+		}]
+	}, {
+		"template": "multi_radio",
+		"rubric": "Right (R) or wrong (W)?",
+		"rwText": ["R", "W"],
+		"question": [{
+			"text": "A female crocodile <item>may</item> lay 30–40 eggs.",
+			"answer": {
+				"right": "R"
+			}
+		}, {
+			"text": "A female crocodile <item>can</item> lay 30–40 eggs.",
+			"answer": {
+				"right": "R"
+			}
+		}, {
+			"text": "In those days a man <item>might</item> be hanged for stealing a sheep.",
+			"answer": {
+				"right": "R"
+			}
+		}, {
+			"text": "In those days a man <item>could</item> be hanged for stealing a sheep.",
+			"answer": {
+				"right": "R"
+			}
+		}],
+		"feedback": [{
+			"desc": "<xref-group><a href='u725fd0dd48eeb434.631f8527.158e41641c3.-575b'>86.1</a></xref-group>"
+		}]
+	}, {
+		"template": "single_radio",
+		"question": [{
+			"text": "One of these sentences is less natural than the others. Which?",
+			"option": ["I <item>must</item> do some more work. I want to pass my exam.", "I <item>have to</item> do some more work. I want to pass my exam.", "In my job I <item>must</item> work from 9 to 5.", "In my job I <item>have to</item> work from 9 to 5."],
+			"answer": "In my job I must work from 9 to 5."
+		}],
+		"feedback": [{
+			"desc": "<xref-group><a href='u725fd0dd48eeb434.631f8527.158e41641c3.-5e9b'>75.1</a></xref-group>"
+		}]
+	}, {
+		"template": "multi_radio",
+		"rubric": "Right (R) or wrong (W)?",
+		"rwText": ["R", "W"],
+		"question": [{
+			"text": "When you leave school <item>you’ll have to</item> find a job.",
+			"answer": {
+				"right": "R"
+			}
+		}, {
+			"text": "<item>I’ve got to</item> go for a job interview tomorrow.",
+			"answer": {
+				"right": "R"
+			}
+		}],
+		"feedback": [{
+			"desc": "<xref-group><a href='u725fd0dd48eeb434.631f8527.158e41641c3.-5e47'>75.2</a></xref-group>"
+		}]
+	}, {
+		"template": "single_radio",
+		"question": [{
+			"text": "What do you think about these two sentences?",
+			"input_text": "Ellie isn’t in her office. She <item>had to go</item> home early.<br/>Ellie isn’t in her office. She <item>must have gone</item> home early.",
+			"option": ["They have different meanings.", "They mean the same.", "One of them is incorrect."],
+			"answer": "They have different meanings."
+		}],
+		"feedback": [{
+			"desc": "<xref-group><a href='u725fd0dd48eeb434.631f8527.158e41641c3.-5f8c'>73.5</a></xref-group>"
+		}]
+	}, {
+		"template": "single_radio",
+		"question": [{
+			"text": "What is the best explanation of this use of <i>will</i>?",
+			"input_text": "She <item>will sit</item> talking to herself for hours.",
+			"option": ["It refers to habitual behaviour.", "It predicts future behaviour.", "It describes a wish."],
+			"answer": "It refers to habitual behaviour."
+		}],
+		"feedback": [{
+			"desc": "<xref-group><a href='u725fd0dd48eeb434.631f8527.158e41641c3.-5740'>86.2</a></xref-group>"
+		}]
+	}, {
+		"template": "single_radio",
+		"question": [{
+			"text": "What do you think about this stressed use of <i>will</i>?",
+			"input_text": "She <item>WILL</item> fall in love with the wrong people.",
+			"option": ["It refers critically to habitual behaviour.", "It refers neutrally to habitual behaviour.", "It makes a critical prediction of future behaviour."],
+			"answer": "It refers critically to habitual behaviour."
+		}],
+		"feedback": [{
+			"desc": "<xref-group><a href='u725fd0dd48eeb434.631f8527.158e41641c3.-5727'>86.3</a></xref-group>"
+		}]
+	}, {
+		"template": "single_radio",
+		"question": [{
+			"text": "What is the best paraphrase of this sentence?",
+			"input_text": "You <item>WOULD</item> tell Emily about the party – I didn’t want to invite her.",
+			"option": ["You wanted to tell Emily about the party ... ", "You were going to tell Emily about the party but you didn’t ... ", "It was typical of you to tell Emily about the party ... "],
+			"answer": "It was typical of you to tell Emily about the party ... "
+		}],
+		"feedback": [{
+			"desc": "<xref-group><a href='u725fd0dd48eeb434.631f8527.158e41641c3.-5727'>86.3</a></xref-group>"
+		}]
+	}, {
+		"template": "single_touch_button",
+		"rubric": "<i>Would</i>, <i>used to</i> or both?",
+		"question": [{
+			"text": "When we were kids we #singletouch go swimming every weekend.",
+			"option": [
+				["would", "used to", "[both]"]
+			],
+			"answer": ["[both]"]
+		}, {
+			"text": "I #singletouch have an old Volkswagen that kept breaking down.",
+			"option": [
+				["would", "used to", "[both]"]
+			],
+			"answer": ["used to"]
+		}, {
+			"text": "Robert #singletouch play a lot of football when he was at school.",
+			"option": [
+				["would", "used to", "[both]"]
+			],
+			"answer": ["used to"]
+		}],
+		"feedback": [{
+			"desc": "<xref-group><a href='u725fd0dd48eeb434.631f8527.158e41641c3.-563c'>87.8</a></xref-group>"
+		}]
+	}, {
+		"template": "multi_radio",
+		"rubric": "Right (R) or wrong (W)?",
+		"rwText": ["R", "W"],
+		"question": [{
+			"text": "What <item>did people use</item> to do in the evenings before TV?",
+			"answer": {
+				"right": "R"
+			}
+		}, {
+			"text": "I <item>didn’t used</item> to like opera. ",
+			"answer": {
+				"right": "R"
+			}
+		}, {
+			"text": "<item>Used you</item> to play football?",
+			"answer": {
+				"right": "R"
+			}
+		}, {
+			"text": "You used not to like him, <item>used you</item>?",
+			"answer": {
+				"right": "W"
+			}
+		}],
+		"feedback": [{
+			"desc": "<xref-group><a href='u725fd0dd48eeb434.631f8527.158e41641c3.-56ca'>87.3</a></xref-group><br/><item>B</item> is common but often considered incorrect.<br/><item>C</item> is very unusual."
+		}]
+	}]
+	}
+}

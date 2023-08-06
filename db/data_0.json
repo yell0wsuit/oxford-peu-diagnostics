@@ -1,0 +1,1052 @@
+{
+	"b2" :
+	{
+	"-unit": "01",
+	"-level": "b2",
+	"topic_name": "verbs",
+	"exercise": [{
+		"template": "gapfill",
+		"hideRight": "true",
+		"rubric": "Put in the simple past forms and past participles.",
+		"sample": {
+			"text": "eat #gap #gap",
+			"answer": ["ate", "eaten"]
+		},
+		"question": [{
+			"text": "become #gap #gap",
+			"answer": [
+				["became"],
+				["become"]
+			]
+		}, {
+			"text": "begin #gap #gap",
+			"answer": [
+				["began"],
+				["begun"]
+			]
+		}, {
+			"text": "bite #gap #gap",
+			"answer": [
+				["bit"],
+				["bitten"]
+			]
+		}, {
+			"text": "cost #gap #gap",
+			"answer": [
+				["cost"],
+				["cost"]
+			]
+		}, {
+			"text": "draw #gap #gap",
+			"answer": [
+				["drew"],
+				["drawn"]
+			]
+		}, {
+			"text": "fall #gap #gap",
+			"answer": [
+				["fell"],
+				["fallen"]
+			]
+		}, {
+			"text": "find #gap #gap",
+			"answer": [
+				["found"],
+				["found"]
+			]
+		}, {
+			"text": "forget #gap #gap",
+			"answer": [
+				["forgot"],
+				["forgotten"]
+			]
+		}, {
+			"text": "grow #gap #gap",
+			"answer": [
+				["grew"],
+				["grown"]
+			]
+		}, {
+			"text": "hit #gap #gap",
+			"answer": [
+				["hit"],
+				["hit"]
+			]
+		}, {
+			"text": "keep #gap #gap",
+			"answer": [
+				["kept"],
+				["kept"]
+			]
+		}, {
+			"text": "leave #gap #gap",
+			"answer": [
+				["left"],
+				["left"]
+			]
+		}, {
+			"text": "mean #gap #gap",
+			"answer": [
+				["meant"],
+				["meant"]
+			]
+		}, {
+			"text": "ring #gap #gap",
+			"answer": [
+				["rang"],
+				["rung"]
+			]
+		}, {
+			"text": "sell #gap #gap",
+			"answer": [
+				["sold"],
+				["sold"]
+			]
+		}, {
+			"text": "shut #gap #gap",
+			"answer": [
+				["shut"],
+				["shut"]
+			]
+		}],
+		"feedback": [{
+			"desc": "<xref-group><a href='u725fd0dd48eeb434.631f8527.158e4161850.5f8e'>1</a></xref-group>"
+		}]
+	}, {
+		"template": "single_touch_button",
+		"rubric": "Choose the correct form to complete the sentence.",
+		"question": [{
+			"text": "I #singletouch down and went to sleep.",
+			"option": [
+				["laid", "lay", "layed", "lied"]
+			],
+			"answer": ["lay"]
+		}],
+		"feedback": [{
+			"desc": "<xref-group><a href='u725fd0dd48eeb434.631f8527.158e4161850.6204'>1.2</a></xref-group>"
+		}]
+	}, {
+		"template": "single_radio",
+		"question": [{
+			"text": "What is another name for <i>progressive</i>?",
+			"option": ["conditional", "perfect", "continuous", "infinitive"],
+			"answer": "continuous"
+		}],
+		"feedback": [{
+			"desc": "<xref-group><a href='u725fd0dd48eeb434.631f8527.158e4161850.62f7'>2.1</a></xref-group>"
+		}]
+	}, {
+		"template": "multi_radio",
+		"rubric": "Are these the names of English verb forms: yes (Y) or no (N)?",
+		"rwText": ["Y", "N"],
+		"question": [{
+			"text": "simple past",
+			"answer": {
+				"right": "Y"
+			}
+		}, {
+			"text": "present progressive",
+			"answer": {
+				"right": "Y"
+			}
+		}, {
+			"text": "future perfect",
+			"answer": {
+				"right": "Y"
+			}
+		}, {
+			"text": "perfect present",
+			"answer": {
+				"right": "N"
+			}
+		}, {
+			"text": "simple progressive",
+			"answer": {
+				"right": "N"
+			}
+		}, {
+			"text": "past perfect",
+			"answer": {
+				"right": "Y"
+			}
+		}, {
+			"text": "future past",
+			"answer": {
+				"right": "N"
+			}
+		}],
+		"feedback": [{
+			"desc": "<xref-group><a href='u725fd0dd48eeb434.631f8527.158e4161850.633a'>2.3</a></xref-group>"
+		}]
+	}, {
+		"template": "dragdrop_notrans",
+		"rubric": "Choose the correct name from the box for each verb form. (You won’t need to use all of them.)",
+		"option": ["(simple) future",
+			"future progressive",
+			"future perfect",
+			"future perfect progressive",
+			"present perfect",
+			"present progressive",
+			"simple present"
+		],
+		"question": [{
+			"text": "is singing #drop",
+			"answer": [
+				["present progressive"]
+			]
+		}, {
+			"text": "will have explained #drop",
+			"answer": [
+				["future perfect"]
+			]
+		}, {
+			"text": "will arrive #drop",
+			"answer": [
+				["(simple) future"]
+			]
+		}, {
+			"text": "works #drop",
+			"answer": [
+				["simple present"]
+			]
+		}, {
+			"text": "will be playing #drop",
+			"answer": [
+				["future progressive"]
+			]
+		}, {
+			"text": "will have been studying #drop",
+			"answer": [
+				["future perfect progressive"]
+			]
+		}],
+		"feedback": [{
+			"desc": "<xref-group><a href='u725fd0dd48eeb434.631f8527.158e4161850.633a'>2.3</a></xref-group>"
+		}]
+	}, {
+		"template": "dragdrop_notrans",
+		"rubric": "Choose the correct name from the box for each verb form. (You won’t need to use all of them.)",
+		"option": ["past perfect",
+			"past perfect progressive",
+			"past progressive",
+			"present perfect",
+			"present perfect progressive",
+			"simple past",
+			"simple present"
+		],
+		"question": [{
+			"text": "was talking #drop",
+			"answer": [
+				["past progressive"]
+			]
+		}, {
+			"text": "had phoned #drop",
+			"answer": [
+				["past perfect"]
+			]
+		}, {
+			"text": "stopped #drop",
+			"answer": [
+				["simple past"]
+			]
+		}, {
+			"text": "has seen #drop",
+			"answer": [
+				["present perfect"]
+			]
+		}, {
+			"text": "had been waiting #drop",
+			"answer": [
+				["past perfect progressive"]
+			]
+		}, {
+			"text": "has been waiting #drop",
+			"answer": [
+				["present perfect progressive"]
+			]
+		}],
+		"feedback": [{
+			"desc": "<xref-group><a href='u725fd0dd48eeb434.631f8527.158e4161850.633a'>2.3</a></xref-group>"
+		}]
+	}, {
+		"template": "multi_radio",
+		"rubric": "Right (R) or wrong (W)?",
+		"rwText": ["R", "W"],
+		"question": [{
+			"text": "What <item>are you thinking</item> about?",
+			"answer": {
+				"right": "R"
+			}
+		}, {
+			"text": "What <item>are you thinking</item> of the government?",
+			"answer": {
+				"right": "W"
+			}
+		}, {
+			"text": "<item>I feel</item> fine.",
+			"answer": {
+				"right": "R"
+			}
+		}, {
+			"text": "<item>I’m feeling</item> fine.",
+			"answer": {
+				"right": "R"
+			}
+		}, {
+			"text": "<item>I’m liking</item> this chocolate.",
+			"answer": {
+				"right": "W"
+			}
+		}, {
+			"text": "<item>I’m seeing</item> the doctor tomorrow.",
+			"answer": {
+				"right": "R"
+			}
+		}, {
+			"text": "<item>I’m seeing</item> what you mean.",
+			"answer": {
+				"right": "W"
+			}
+		}],
+		"feedback": [{
+			"desc": "<xref-group><a href='u725fd0dd48eeb434.631f8527.158e4161850.6534'>4.1</a><br><a href='u725fd0dd48eeb434.631f8527.158e4161850.660d'>4.3</a></xref-group>"
+		}]
+	}, {
+		"template": "multi_radio",
+		"rubric": "Right (R) or wrong (W)?",
+		"rwText": ["R", "W"],
+		"question": [{
+			"text": "Is raining again.",
+			"answer": {
+				"right": "W"
+			}
+		}],
+		"feedback": [{
+			"desc": "<xref-group><a href='u725fd0dd48eeb434.631f8527.158e4161850.6755'>7.1</a></xref-group>"
+		}]
+	}, {
+		"template": "multi_radio",
+		"rubric": "Right (R) or wrong (W)?",
+		"rwText": ["R", "W"],
+		"question": [{
+			"text": "She sent some flowers to the nurse.",
+			"answer": {
+				"right": "R"
+			}
+		}, {
+			"text": "She sent to the nurse some flowers.",
+			"answer": {
+				"right": "W"
+			}
+		}, {
+			"text": "She sent the nurse some flowers.",
+			"answer": {
+				"right": "R"
+			}
+		}],
+		"feedback": [{
+			"desc": "<xref-group><a href='u725fd0dd48eeb434.631f8527.158e4161850.684a'>8.1–2</a></xref-group>"
+		}]
+	}, {
+		"template": "single_radio",
+		"question": [{
+			"text": "Which of these is more common?",
+			"option": ["Can you lend your bike to my brother?", "Can you lend my brother your bike?"],
+			"answer": "Can you lend my brother your bike?"
+		}],
+		"feedback": [{
+			"desc": "<xref-group><a href='u725fd0dd48eeb434.631f8527.158e4161850.684a'>8.1</a></xref-group>"
+		}]
+	}, {
+		"template": "multi_radio",
+		"rubric": "Are these questions possible: yes (Y) or no (N)? ",
+		"rwText": ["Y", "N"],
+		"question": [{
+			"text": "Who was it <item>sent</item>?",
+			"answer": {
+				"right": "N"
+			}
+		}, {
+			"text": "Who was it <item>sent to</item>?",
+			"answer": {
+				"right": "Y"
+			}
+		}, {
+			"text": "Who did you <item>give it</item>?",
+			"answer": {
+				"right": "N"
+			}
+		}, {
+			"text": "Who did you <item>give it to</item>?",
+			"answer": {
+				"right": "Y"
+			}
+		}],
+		"feedback": [{
+			"desc": "<xref-group><a href='u725fd0dd48eeb434.631f8527.158e4161850.68eb'>8.4</a></xref-group>"
+		}]
+	}, {
+		"template": "single_touch_button",
+		"rubric": "Adjectives or adverbs? Choose the right word to complete these sentences.",
+		"question": [{
+			"text": "This cheese tastes #singletouch.",
+			"option": [
+				["good", "well"]
+			],
+			"answer": ["good"]
+		}, {
+			"text": "This cheese goes #singletouch with wine.",
+			"option": [
+				["good", "well"]
+			],
+			"answer": ["well"]
+		}, {
+			"text": "Bungee jumping looks #singletouch to me.",
+			"option": [
+				["dangerous", "dangerously"]
+			],
+			"answer": ["dangerous"]
+		}, {
+			"text": "She always looks #singletouch at fruit before she buys it.",
+			"option": [
+				["careful", "carefully"]
+			],
+			"answer": ["carefully"]
+		}],
+		"feedback": [{
+			"desc": "<xref-group><a href='u725fd0dd48eeb434.631f8527.158e4161850.6b4b'>11.2–3</a></xref-group>"
+		}]
+	}, {
+		"template": "multi_radio",
+		"rubric": "Right (R) or wrong (W)? ",
+		"rwText": ["R", "W"],
+		"question": [{
+			"text": "She switched <item>off the light</item>.",
+			"answer": {
+				"right": "R"
+			}
+		}, {
+			"text": "She switched <item>the light off</item>.",
+			"answer": {
+				"right": "R"
+			}
+		}, {
+			"text": "She switched <item>it off</item>.",
+			"answer": {
+				"right": "R"
+			}
+		}, {
+			"text": "She switched <item>off it</item>.",
+			"answer": {
+				"right": "W"
+			}
+		}],
+		"feedback": [{
+			"desc": "<xref-group><a href='u725fd0dd48eeb434.631f8527.158e4161850.6c8e'>12.4</a></xref-group>"
+		}]
+	}, {
+		"template": "multi_radio",
+		"rubric": "Right (R) or wrong (W)?",
+		"rwText": ["R", "W"],
+		"question": [{
+			"text": "Listen!",
+			"answer": {
+				"right": "R"
+			}
+		}, {
+			"text": "Listen to!",
+			"answer": {
+				"right": "W"
+			}
+		}, {
+			"text": "Listen me!",
+			"answer": {
+				"right": "W"
+			}
+		}, {
+			"text": "Listen to me!",
+			"answer": {
+				"right": "R"
+			}
+		}, {
+			"text": "You never listen me.",
+			"answer": {
+				"right": "W"
+			}
+		}, {
+			"text": "You never listen to me.",
+			"answer": {
+				"right": "R"
+			}
+		}],
+		"feedback": [{
+			"desc": "<xref-group><a href='u725fd0dd48eeb434.631f8527.158e4161850.6cd8'>13.1</a></xref-group>"
+		}]
+	}]
+	}, 
+	"c1" :
+	{
+	"-unit": "01",
+	"-level": "c1",
+	"topic_name": "verbs",
+	"exercise": [{
+		"template": "single_touch_button",
+		"rubric": "Choose the correct form to complete the sentence.",
+		"question": [{
+			"text": "70 million years ago, the River Amazon #singletouch #singletouch into the Pacific.",
+			"option": [
+				["flew", "flow", "flowed", "fled", "flied"]
+			],
+			"answer": ["flowed"]
+		}],
+		"feedback": [{
+			"desc": "<xref-group><a href='u725fd0dd48eeb434.631f8527.158e4161850.6204'>1.2</a></xref-group>"
+		}]
+	}, {
+		"template": "gapfill",
+		"alphaOrder": "false",
+		"hideRight": "true",
+		"rubric": "In the text, find two auxiliary verbs, one past participle and one prepositional verb.",
+		"question": [{
+			"input_text": "Where have you put that book that I was looking at when you arrived?",
+			"text": "auxiliary verbs #gap #gap",
+			"answer":["have","was"]
+			
+		}, {
+			"text": "past participle #gap",
+			"answer": 
+				["put"]
+			
+		}, {
+			"text": "prepositional verb #gap",
+			"answer": 
+				["looking at"]
+			
+		}],
+		"feedback": [{
+			"desc": "<xref-group><a href='u7fcee40f68b1c46d.-bc2efee.153f5a50c54.404a'>language-terminology</a></xref-group>"
+		}]
+	}, {
+		"template": "multi_radio",
+		"rubric": "Right (R) or wrong (W)?",
+		"rwText": ["R", "W"],
+		"question": [{
+			"text": "<item>I’m feeling</item> we shouldn’t do this.",
+			"answer": {
+				"right": "W"
+			}
+		}, {
+			"text": "<item>I’m feeling</item> very tired.",
+			"answer": {
+				"right": "R"
+			}
+		}, {
+			"text": "Why <item>are you smelling</item> the meat?",
+			"answer": {
+				"right": "R"
+			}
+		}, {
+			"text": "<item>I’m weighing</item> 56 kilos.",
+			"answer": {
+				"right": "W"
+			}
+		}, {
+			"text": "As I get older, <item>I’m remembering</item> less and less.",
+			"answer": {
+				"right": "R"
+			}
+		}, {
+			"text": "I called her because <item>I was needing</item> to talk.",
+			"answer": {
+				"right": "W"
+			}
+		}],
+		"feedback": [{
+			"desc": "<xref-group><a href='u725fd0dd48eeb434.631f8527.158e4161850.6534'>4.1</a><br><a href='u725fd0dd48eeb434.631f8527.158e4161850.660d'>4.3</a></xref-group>"
+		}]
+	}, {
+		"template": "multi_radio",
+		"rubric": "Right (R) or wrong (W)?",
+		"rwText": ["R", "W"],
+		"question": [{
+			"text": "When I was a child, <item>we always went swimming</item> on Saturdays in the summer.",
+			"answer": {
+				"right": "R"
+			}
+		}, {
+			"text": "Her mother <item>was always arranging</item> little surprise picnics and outings.",
+			"answer": {
+				"right": "R"
+			}
+		}],
+		"feedback": [{
+			"desc": "<xref-group><a href='u725fd0dd48eeb434.631f8527.158e4161850.66ca'>5</a></xref-group>"
+		}]
+	}, {
+		"template": "gapfill",
+		"hideRight": "true",
+		"rubric": "In the sentence below, what is ... ",
+		"question": [{
+			"input_text": "Jenny bought her husband a new tie.",
+			"text": " ... the subject? #gap",
+			"answer": [
+				["Jenny"]
+			]
+		}, {
+			"text": " ... the direct object? #gap",
+			"answer": [
+				["a new tie"]
+			]
+		}, {
+			"text": " ... the indirect object? #gap",
+			"answer": [
+				["her husband"]
+			]
+		}],
+		"feedback": [{
+			"desc": "<xref-group><a href='u725fd0dd48eeb434.631f8527.158e4161850.6755'>7.1–2</a><br><a href='u725fd0dd48eeb434.631f8527.158e4161850.684a'>8.1</a></xref-group>"
+		}]
+	}, {
+		"template": "multi_radio",
+		"rubric": "Right (R) or wrong (W)?",
+		"rwText": ["R", "W"],
+		"question": [{
+			"text": "<item>We’ve been given</item> a lovely present by our manager.",
+			"answer": {
+				"right": "R"
+			}
+		}, {
+			"text": "<item>The new mobile phone was given</item> to the most successful salesperson.",
+			"answer": {
+				"right": "R"
+			}
+		}],
+		"feedback": [{
+			"desc": "<xref-group><a href='u725fd0dd48eeb434.631f8527.158e4161850.6903'>8.5</a></xref-group>"
+		}]
+	}, {
+		"template": "multi_radio",
+		"rubric": "Right (R) or wrong (W)?",
+		"rwText": ["R", "W"],
+		"question": [{
+			"text": "I <item>offered Jack</item> the plate of sandwiches.",
+			"answer": {
+				"right": "R"
+			}
+		}, {
+			"text": "I <item>pushed Jack</item> the plate of sandwiches.",
+			"answer": {
+				"right": "W"
+			}
+		}, {
+			"text": "She <item>read me</item> an extract from her latest book.",
+			"answer": {
+				"right": "R"
+			}
+		}, {
+			"text": "Can you <item>teach her</item> the guitar next year?",
+			"answer": {
+				"right": "R"
+			}
+		}, {
+			"text": "He <item>carried us</item> the cases to the taxi.",
+			"answer": {
+				"right": "W"
+			}
+		}],
+		"feedback": [{
+			"desc": "<xref-group><a href='u725fd0dd48eeb434.631f8527.158e4161850.6924'>8.6</a></xref-group>"
+		}]
+	}, {
+		"template": "multi_radio",
+		"rubric": "Right (R) or wrong (W)?",
+		"rwText": ["R", "W"],
+		"question": [{
+			"text": "I’d like him to <item>explain us</item> his decision.",
+			"answer": {
+				"right": "W"
+			}
+		}, {
+			"text": "Can you <item>suggest me</item> a good dentist?",
+			"answer": {
+				"right": "W"
+			}
+		}],
+		"feedback": [{
+			"desc": "<xref-group><a href='u725fd0dd48eeb434.631f8527.158e4161850.6924'>8.6</a></xref-group>"
+		}]
+	}, {
+		"template": "multi_radio",
+		"rubric": "Right (R) or wrong (W)?",
+		"rwText": ["R", "W"],
+		"question": [{
+			"text": "She painted red the wall.",
+			"answer": {
+				"right": "W"
+			}
+		}, {
+			"text": "She painted the wall red.",
+			"answer": {
+				"right": "R"
+			}
+		}],
+		"feedback": [{
+			"desc": "<xref-group><a href='u725fd0dd48eeb434.631f8527.158e4161850.6a29'>10.1</a></xref-group>"
+		}]
+	}, {
+		"template": "multi_radio",
+		"rubric": "Right (R) or wrong (W)?",
+		"rwText": ["R", "W"],
+		"question": [{
+			"text": "She <item>sat still</item>, hoping that the wasp would fly away.",
+			"answer": {
+				"right": "R"
+			}
+		}, {
+			"text": "She <item>spoke quiet</item>, hoping that the teacher wouldn’t hear her.",
+			"answer": {
+				"right": "W"
+			}
+		}, {
+			"text": "He <item>fell awkwardly</item> and twisted his shoulder.",
+			"answer": {
+				"right": "R"
+			}
+		}, {
+			"text": "He <item>fell flatly</item> on the floor.",
+			"answer": {
+				"right": "W"
+			}
+		}, {
+			"text": "As the plane approached the runway, he <item>pulled</item> his seatbelt <item>tight</item>.",
+			"answer": {
+				"right": "R"
+			}
+		}],
+		"feedback": [{
+			"desc": "<xref-group><a href='u725fd0dd48eeb434.631f8527.158e4161850.6bba'>11.5</a></xref-group>"
+		}]
+	}, {
+		"template": "dragdrop_notrans",
+		"rubric": "Choose the correct words to complete the two sentences.",
+		"option": ["impossible",
+			"impossibly",
+			"sudden",
+			"suddenly"
+		],
+		"question": [{
+			"text": "The problem appears #drop.",
+			"answer": [
+				["impossible"]
+			]
+		}, {
+			"text": "Isabel #drop appeared in the doorway.",
+			"answer": [
+				["suddenly"]
+			]
+		}],
+		"feedback": [{
+			"desc": "<xref-group><a href='u725fd0dd48eeb434.631f8527.158e4161850.6b5c'>11.3</a></xref-group>"
+		}]
+	}, {
+		"template": "correction",
+		"rubric": "Correct the mistake in this advertisement. ",
+		"question": [{
+			"input_text": "<item>SUPER SUDZ – WASHES YOUR DIRTIEST CLOTHES CLEANLY: EVERY TIME!</item>",
+			"text": "",
+			"answer": {
+				"right": [
+					"Super Sudz – washes your dirtiest clothes clean: every time!",
+					"Super Sudz – washes your dirtiest clothes clean",
+					"washes your dirtiest clothes clean: every time!",
+					"washes your dirtiest clothes clean",
+					"clean"
+				]
+			}
+		}],
+		"feedback": [{
+			"desc": "<xref-group><a href='u725fd0dd48eeb434.631f8527.158e4161850.6bba'>11.5</a></xref-group>"
+		}]
+	}, {
+		"template": "multi_radio",
+		"rubric": "Right (R) or wrong (W)?",
+		"rwText": ["R", "W"],
+		"question": [{
+			"text": "<item>Give me back</item> my watch!",
+			"answer": {
+				"right": "R"
+			}
+		}, {
+			"text": "<item>Give back me</item> my watch!",
+			"answer": {
+				"right": "W"
+			}
+		}, {
+			"text": "<item>Give me</item> my watch <item>back</item>!",
+			"answer": {
+				"right": "R"
+			}
+		}],
+		"feedback": [{
+			"desc": "<xref-group><a href='u725fd0dd48eeb434.631f8527.158e4161850.6c8e'>12.4</a></xref-group>"
+		}]
+	}]
+	}, 
+	"c2" :
+	{
+	"-unit": "01",
+	"-level": "c2",
+	"topic_name": "verbs",
+	"exercise": [{
+		"template": "multi_radio",
+		"rubric": "Right (R) or wrong (W)?",
+		"rwText": ["R", "W"],
+		"question": [{
+			"text": "Lend them to her.",
+			"answer": {
+				"right": "R"
+			}
+		}, {
+			"text": "Lend them her.",
+			"answer": {
+				"right": "W"
+			}
+		}, {
+			"text": "Lend them them.",
+			"answer": {
+				"right": "W"
+			}
+		}, {
+			"text": "Give it me. ",
+			"answer": {
+				"right": "R"
+			}
+		}, {
+			"text": "She sent them it.",
+			"answer": {
+				"right": "W"
+			}
+		}],
+		"feedback": [{
+			"desc": "<item>D</item> is right in British English.<br/><xref-group><a href='u725fd0dd48eeb434.631f8527.158e4161850.68d0'>8.3</a></xref-group>"
+		}]
+	}, {
+		"template": "dragdrop_notrans",
+		"alphaOrder": "false",
+		"clone": "true",
+		"rubric": "After some verbs (e.g. <i>give</i>, <i>send</i>) we can put an indirect object before a direct object. For example: <i>They gave <emphasis>Mrs Andrews</emphasis> a medal</i>; <i>I sent <emphasis>Emily</emphasis> some flowers</i>. With which two of the verbs below is this structure possible?",
+		"option": ["throw",
+		
+			"bring",
+			"carry",
+			"describe",
+			"donate",
+			"explain",
+			"push",
+			"suggest"
+		],
+		"question": [{
+			"text": "#drop",
+			"answer": [
+				["bring",
+					"throw"
+				]
+			]
+		}, {
+			"text": "#drop",
+			"answer": [
+				["bring",
+					"throw"
+				]
+			]
+		}],
+		"feedback": [{
+			"desc": "<xref-group><a href='u725fd0dd48eeb434.631f8527.158e4161850.6924'>8.6</a></xref-group>"
+		}]
+	}, {
+		"template": "multi_radio",
+		"rubric": "Phrasal verb (PhV) or prepositional verb (PrV)?",
+		"rwText": ["PhV", "PrV"],
+		"question": [{
+			"text": "I <item>looked up</item> the street to see if Andy was coming.",
+			"answer": {
+				"right": "PrV"
+			}
+		}, {
+			"text": "I’ll <item>think over</item> your suggestion.",
+			"answer": {
+				"right": "PhV"
+			}
+		}, {
+			"text": "She <item>turned up</item> the next card: it was the King of Diamonds.",
+			"answer": {
+				"right": "PhV"
+			}
+		}, {
+			"text": "Can you <item>look after</item> the kids for a few minutes?",
+			"answer": {
+				"right": "PrV"
+			}
+		}, {
+			"text": "Nobody understood why she <item>broke off</item> their engagement.",
+			"answer": {
+				"right": "PhV"
+			}
+		}, {
+			"text": "We <item>drove around</item> the town looking for a hotel.",
+			"answer": {
+				"right": "PrV"
+			}
+		}, {
+			"text": "She <item>changes around</item> all her furniture every few months.",
+			"answer": {
+				"right": "PhV"
+			}
+		}],
+		"feedback": [{
+			"desc": "<xref-group><a href='u725fd0dd48eeb434.631f8527.158e4161850.6c1c'>12–13</a></xref-group>"
+		}]
+	}, {
+		"template": "multi_radio",
+		"rubric": "Right (R) or wrong (W)?",
+		"rwText": ["R", "W"],
+		"question": [{
+			"text": "I painted white the wall.",
+			"answer": {
+				"right": "W"
+			}
+		}, {
+			"text": "I painted white all the kitchen walls as well as the doors and the ceiling.",
+			"answer": {
+				"right": "R"
+			}
+		}],
+		"feedback": [{
+			"desc": "<xref-group><a href='u725fd0dd48eeb434.631f8527.158e4161850.6a29'>10.1</a></xref-group>"
+		}]
+	}, {
+		"template": "single_radio",
+		"question": [{
+			"text": "What is the difference between these two sentences?",
+			"input_text": "<item>A</item> I thought <item>him to be</item> an excellent choice.<br/><item>B</item> I thought <item>that he was</item> an excellent choice.",
+			"option": ["Both are correct but A is more formal.", "Both are correct but there is a difference of meaning.", "Only A is correct.", "Only B is correct."],
+			"answer": "Both are correct but A is more formal."
+		}],
+		"feedback": [{
+			"desc": "<xref-group><a href='u725fd0dd48eeb434.631f8527.158e4161850.6a6c'>10.3</a></xref-group>"
+		}]
+	}, {
+		"template": "single_radio",
+		"question": [{
+			"text": "Which is the most natural continuation?",
+			"input_text": "Everybody found her ...",
+			"option": ["… very pleasant.", "... to be very pleasant."],
+			"answer": "… very pleasant."
+		}],
+		"feedback": [{
+			"desc": "<xref-group><a href='u725fd0dd48eeb434.631f8527.158e4161850.6ab7'>10.4</a></xref-group>"
+		}]
+	}, {
+		"template": "single_radio",
+		"question": [{
+			"text": "Which is most natural?",
+			"option": ["She ran into the room.", "She came into the room running.", "She entered the room running."],
+			"answer": "She ran into the room."
+		}],
+		"feedback": [{
+			"desc": "<xref-group><a href='u725fd0dd48eeb434.631f8527.158e4161850.6d5b'>14</a></xref-group>"
+		}]
+	}, {
+		"template": "multi_radio",
+		"rubric": "Right (R) or wrong (W)?",
+		"rwText": ["R", "W"],
+		"question": [{
+			"text": "The book <item>reads well</item>.",
+			"answer": {
+				"right": "R"
+			}
+		}, {
+			"text": "My handmade jewellery <item>is selling well</item>.",
+			"answer": {
+				"right": "R"
+			}
+		}, {
+			"text": "Be careful – the table <item>scratches</item> easily.",
+			"answer": {
+				"right": "R"
+			}
+		}, {
+			"text": "These knives <item>don’t polish</item> well.",
+			"answer": {
+				"right": "R"
+			}
+		}, {
+			"text": "This light bulb <item>won’t unscrew</item>.",
+			"answer": {
+				"right": "R"
+			}
+		}],
+		"feedback": [{
+			"desc": "<xref-group><a href='u725fd0dd48eeb434.631f8527.158e4161850.69ad'>9</a></xref-group>"
+		}]
+	}, {
+		"template": "dragdrop_notrans",
+		"rubric": "Choose the correct words to complete the two sentences.",
+		"option": ["unconscious",
+			"unconsciously",
+			"tight",
+			"tightly"
+		],
+		"question": [{
+			"text": "He fell #drop on the floor.",
+			"answer": [
+				["unconscious"]
+			]
+		}, {
+			"text": "He pulled his belt #drop and started walking.",
+			"answer": [
+				["tight"]
+			]
+		}],
+		"feedback": [{
+			"desc": "<xref-group><a href='u725fd0dd48eeb434.631f8527.158e4161850.6bba'>11.5</a></xref-group>"
+		}]
+	}, {
+		"template": "multi_radio",
+		"rubric": "Are the highlighted words in the replies right (R) or wrong (W)?",
+		"rwText": ["R", "W"],
+		"question": [{
+			"text": "‘Pay him the money.’ ‘I can’t <item>pay him</item>. I’ve got no money.’",
+			"answer": {
+				"right": "R"
+			}
+		}, {
+			"text": "‘Sing her a song.’ ‘I can’t <item>sing her</item>. I’ve got a terrible voice.’",
+			"answer": {
+				"right": "W"
+			}
+		}, {
+			"text": "‘Play us the album you bought.’ ‘I can’t <item>play you</item>. My speakers aren’t working.’",
+			"answer": {
+				"right": "W"
+			}
+		}],
+		"feedback": [{
+			"desc": "<xref-group><a href='u725fd0dd48eeb434.631f8527.158e4161850.696d'>8.7</a></xref-group>"
+		}]
+	}, {
+		"template": "multi_radio",
+		"rubric": "Right (R) or wrong (W)?",
+		"rwText": ["R", "W"],
+		"question": [{
+			"text": "Is that the light off which you switched?",
+			"answer": {
+				"right": "W"
+			}
+		}],
+		"feedback": [{
+			"desc": "<xref-group><a href='u725fd0dd48eeb434.631f8527.158e4161850.6c8e'>12.4</a></xref-group>"
+		}]
+	}]
+	}
+}

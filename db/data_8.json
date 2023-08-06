@@ -1,0 +1,1296 @@
+{
+	"b2" :
+	{
+	"-unit": "09",
+	"-level": "b2",
+	"topic_name": "infinitives, -ing forms and past participles (2)",
+	"exercise": [{
+		"template": "multi_radio",
+		"rubric": "Can these verbs be followed by an infinitive: yes (Y) or no (N)?",
+		"rwText": ["Y", "N"],
+		"question": [{
+			"text": "agree",
+			"answer": {
+				"right": "Y"
+			}
+		}, {
+			"text": "expect",
+			"answer": {
+				"right": "Y"
+			}
+		}, {
+			"text": "enjoy",
+			"answer": {
+				"right": "N"
+			}
+		}, {
+			"text": "like",
+			"answer": {
+				"right": "Y"
+			}
+		}, {
+			"text": "start",
+			"answer": {
+				"right": "Y"
+			}
+		}, {
+			"text": "finish",
+			"answer": {
+				"right": "N"
+			}
+		}, {
+			"text": "think",
+			"answer": {
+				"right": "N"
+			}
+		}, {
+			"text": "suggest",
+			"answer": {
+				"right": "N"
+			}
+		}, {
+			"text": "manage",
+			"answer": {
+				"right": "Y"
+			}
+		}, {
+			"text": "regret",
+			"answer": {
+				"right": "Y"
+			}
+		}, {
+			"text": "give up",
+			"answer": {
+				"right": "N"
+			}
+		}, {
+			"text": "remember",
+			"answer": {
+				"right": "Y"
+			}
+		}],
+		"feedback": [{
+			"desc": "<xref-group><a href='u725fd0dd48eeb434.631f8527.158e41641c3.-4bca'>97</a><br><a href='u725fd0dd48eeb434.631f8527.158e41641c3.-48bf'>100.1</a></xref-group>"
+		}]
+	}, {
+		"template": "multi_radio",
+		"rubric": "Can the expressions complete the sentence correctly: yes (Y) or no (N)?",
+		"rwText": ["Y", "N"],
+		"question": [{
+			"input_text": "She wanted <gap/> to her.",
+			"text": "that I write",
+			"answer": {
+				"right": "N"
+			}
+		}, {
+			"text": "I write",
+			"answer": {
+				"right": "N"
+			}
+		}, {
+			"text": "me to write",
+			"answer": {
+				"right": "Y"
+			}
+		}],
+		"feedback": [{
+			"desc": "<xref-group><a href='u725fd0dd48eeb434.631f8527.158e41641c3.-4a96'>98</a></xref-group>"
+		}]
+	}, {
+		"template": "multi_radio",
+		"rubric": "Can these verbs be followed by an -<i>ing</i> form: yes (Y) or no (N)?",
+		"rwText": ["Y", "N"],
+		"question": [{
+			"text": "avoid",
+			"answer": {
+				"right": "Y"
+			}
+		}, {
+			"text": "hope",
+			"answer": {
+				"right": "N"
+			}
+		}, {
+			"text": "suggest",
+			"answer": {
+				"right": "Y"
+			}
+		}, {
+			"text": "give up",
+			"answer": {
+				"right": "Y"
+			}
+		}, {
+			"text": "want",
+			"answer": {
+				"right": "N"
+			}
+		}, {
+			"text": "decide",
+			"answer": {
+				"right": "N"
+			}
+		}, {
+			"text": "expect",
+			"answer": {
+				"right": "N"
+			}
+		}, {
+			"text": "delay",
+			"answer": {
+				"right": "Y"
+			}
+		}, {
+			"text": "put off",
+			"answer": {
+				"right": "Y"
+			}
+		}, {
+			"text": "agree",
+			"answer": {
+				"right": "N"
+			}
+		}],
+		"feedback": [{
+			"desc": "<xref-group><a href='u725fd0dd48eeb434.631f8527.158e41641c3.-48bf'>100.1</a></xref-group>"
+		}]
+	}, {
+		"template": "single_touch_button",
+		"rubric": "<i>Meeting</i>, <i>to meet</i> or both?",
+		"question": [{
+			"text": "It was so nice #singletouch you.",
+			"option": [
+				["meeting", "to meet", "[both]"]
+			],
+			"answer": ["[both]"]
+		}],
+		"feedback": [{
+			"desc": "<xref-group><a href='u725fd0dd48eeb434.631f8527.158e41641c3.-471e'>101.1</a></xref-group>"
+		}]
+	}, {
+		"template": "multi_radio",
+		"rubric": "Right (R) or wrong (W)?",
+		"rwText": ["R", "W"],
+		"question": [{
+			"text": "He’s the oldest athlete <item>who has ever won</item> an Olympic gold medal.",
+			"answer": {
+				"right": "R"
+			}
+		}, {
+			"text": "He’s the oldest athlete <item>ever to win</item> an Olympic gold medal.",
+			"answer": {
+				"right": "R"
+			}
+		}],
+		"feedback": [{
+			"desc": "<xref-group><a href='u725fd0dd48eeb434.631f8527.158e41641c3.-469d'>101.3</a></xref-group>"
+		}]
+	}, {
+		"template": "multi_radio",
+		"rubric": "Right (R) or wrong (W)?",
+		"rwText": ["R", "W"],
+		"question": [{
+			"text": "I’d like something <item>that will stop</item> my toothache.",
+			"answer": {
+				"right": "R"
+			}
+		}, {
+			"text": "I’d like something <item>to stop</item> my toothache.",
+			"answer": {
+				"right": "R"
+			}
+		}, {
+			"text": "Did you tell her which pills <item>she should take</item>?",
+			"answer": {
+				"right": "R"
+			}
+		}, {
+			"text": "Did you tell her which pills <item>to take</item>?",
+			"answer": {
+				"right": "R"
+			}
+		}],
+		"feedback": [{
+			"desc": "If you thought <item>B</item> or <item>D</item> was wrong, <xref-group><a href='u725fd0dd48eeb434.631f8527.158e41641c3.-458a'>102.3</a></xref-group>. "
+		}]
+	}, {
+		"template": "single_touch_button",
+		"rubric": "Choose the right verb form(s) to complete the sentences: -<i>ing</i> form, infinitive or both.",
+		"question": [{
+			"text": "I’ve finished#singletouch the book you recommended.",
+			"option": [
+				["reading", "to read", "[both]"]
+			],
+			"answer": ["reading"]
+		}, {
+			"text": "I’ve given up#singletouch.",
+			"option": [
+				["smoking", "to smoke", "[both]"]
+			],
+			"answer": ["smoking"]
+		}, {
+			"text": "I enjoy#singletouch foreign languages.",
+			"option": [
+				["learning", "to learn", "[both]"]
+			],
+			"answer": ["learning"]
+		}, {
+			"text": "I like#singletouch foreign languages.",
+			"option": [
+				["speaking", " to speak", "[both]"]
+			],
+			"answer": ["[both]"]
+		}, {
+			"text": "I hope#singletouch you again soon.",
+			"option": [
+				["seeing", "to see", "[both]"]
+			],
+			"answer": ["to see"]
+		}],
+		"feedback": [{
+			"desc": "<xref-group><a href='u725fd0dd48eeb434.631f8527.158e41641c3.-4bca'>97</a><br><a href='u725fd0dd48eeb434.631f8527.158e41641c3.-472c'>101</a><br><a href='u725fd0dd48eeb434.631f8527.158e41641c3.-4431'>104</a></xref-group>"
+		}]
+	}, {
+		"template": "multi_radio",
+		"rubric": "Can the verb forms complete the sentence correctly: yes (Y) or no (N)?",
+		"rwText": ["Y", "N"],
+		"question": [{
+			"input_text": "I like the idea <gap/> to the seaside.",
+			"text": "moving",
+			"answer": {
+				"right": "N"
+			}
+		}, {
+			"text": "of moving",
+			"answer": {
+				"right": "Y"
+			}
+		}, {
+			"text": "to move",
+			"answer": {
+				"right": "N"
+			}
+		}],
+		"feedback": [{
+			"desc": "<xref-group><a href='u725fd0dd48eeb434.631f8527.158e41641c3.-44b9'>103.1</a></xref-group>"
+		}]
+	}, {
+		"template": "single_touch_button",
+		"rubric": "Choose the right verb form(s) to complete the sentences: -<i>ing</i> form, infinitive or both.",
+		"question": [{
+			"text": "Before #singletouch your car, always check the mirrors.",
+			"option": [
+				["starting", "to start", "[both]"]
+			],
+			"answer": ["starting"]
+		}, {
+			"text": "He’s talking about #singletouch another job.",
+			"option": [
+				["finding", "to find", "[both]"]
+			],
+			"answer": ["finding"]
+		}, {
+			"text": "You mustn’t drive your car without #singletouch it first.",
+			"option": [
+				["insuring", "to insure", "[both]"]
+			],
+			"answer": ["insuring"]
+		}],
+		"feedback": [{
+			"desc": "<xref-group><a href='u725fd0dd48eeb434.631f8527.158e41641c3.-4422'>104.1</a></xref-group>"
+		}]
+	}, {
+		"template": "single_touch_button",
+		"rubric": "Choose the right verb form(s) to end the replies: -<i>ing</i> form, infinitive or both.",
+		"question": [{
+			"text": "‘Can I give you a lift?’ ‘No, I’d prefer#singletouch.’",
+			"option": [
+				["walking", "to walk", "[both]"]
+			],
+			"answer": ["to walk"]
+		}, {
+			"text": "‘Did you drive to work?’ ‘No, I prefer#singletouch.’",
+			"option": [
+				["walking", "to walk", "[both]"]
+			],
+			"answer": ["[both]"]
+		}],
+		"feedback": [{
+			"desc": "<xref-group><a href='u725fd0dd48eeb434.631f8527.158e41641c3.-423d'>105.9</a></xref-group>"
+		}]
+	}, {
+		"template": "single_touch_button",
+		"rubric": "<i>To smoke</i>, <i>smoking</i> or both?",
+		"question": [{
+			"text": "At last I’ve managed to stop #singletouch.",
+			"option": [
+				["to smoke", "smoking", "[both]"]
+			],
+			"answer": ["smoking"]
+		}],
+		"feedback": [{
+			"desc": "<xref-group><a href='u725fd0dd48eeb434.631f8527.158e41641c3.-4189'>105.12</a></xref-group>"
+		}]
+	}, {
+		"template": "multi_radio",
+		"rubric": "Are these right: yes (Y) or no (N)?",
+		"rwText": ["Y", "N"],
+		"question": [{
+			"text": "I can’t <item>make</item> the washing machine <item>work</item>.",
+			"answer": {
+				"right": "Y"
+			}
+		}, {
+			"text": "I can’t <item>make work</item> the washing machine.",
+			"answer": {
+				"right": "N"
+			}
+		}, {
+			"text": "I can’t <item>make to work</item> the washing machine.",
+			"answer": {
+				"right": "N"
+			}
+		}, {
+			"text": "I can’t <item>make working</item> the washing machine.",
+			"answer": {
+				"right": "N"
+			}
+		}, {
+			"text": "The rain <item>made wet</item> the grass.",
+			"answer": {
+				"right": "N"
+			}
+		}, {
+			"text": "The rain <item>made</item> the grass <item>wet</item>.",
+			"answer": {
+				"right": "Y"
+			}
+		}, {
+			"text": "The rain <item>made</item> the grass <item>be wet</item>.",
+			"answer": {
+				"right": "N"
+			}
+		}],
+		"feedback": [{
+			"desc": "<xref-group><a href='u725fd0dd48eeb434.631f8527.158e41641c3.-4010'>107</a></xref-group>"
+		}]
+	}, {
+		"template": "multi_radio",
+		"rubric": "Can the verbs complete the sentence correctly: yes (Y) or no (N)?",
+		"rwText": ["Y", "N"],
+		"question": [{
+			"input_text": "I’m going to <gap/> my hair cut this afternoon.",
+			"text": "get",
+			"answer": {
+				"right": "Y"
+			}
+		}, {
+			"text": "have",
+			"answer": {
+				"right": "Y"
+			}
+		}, {
+			"text": "make",
+			"answer": {
+				"right": "N"
+			}
+		}],
+		"feedback": [{
+			"desc": "<xref-group><a href='u725fd0dd48eeb434.631f8527.158e41641c3.-3f50'>108.3</a><br><a href='u725fd0dd48eeb434.631f8527.158e41641c3.-3ed4'>109.2</a></xref-group>"
+		}]
+	}, {
+		"template": "multi_radio_textEntry",
+		"rubric": "Are these sentences right (R) or wrong (W)? When you have checked your answers, correct any wrong sentences.",
+		"rwText": ["R", "W"],
+		"question": [{
+			"text": "I can’t <item>get</item> the children <item>going</item> to bed. ",
+			"answer": [{
+				"right": "W"
+			}, {
+				"right": [
+					"I can't get the children to go to bed.",
+					"I can’t get the children to go to bed."
+				]
+			}]
+		}, {
+			"text": "Once we <item>got</item> the heater <item>going</item>, the car started to warm up. ",
+			"answer": {
+				"right": "R"
+			}
+		}],
+		"feedback": [{
+			"desc": "<xref-group><a href='u725fd0dd48eeb434.631f8527.158e41641c3.-3f7b'>108.1–2</a></xref-group>"
+		}]
+	}, {
+		"template": "multi_radio",
+		"rubric": "Right (R) or wrong (W)?",
+		"rwText": ["R", "W"],
+		"question": [{
+			"text": "I <item>got</item> my shoes <item>cleaned</item>.",
+			"answer": {
+				"right": "R"
+			}
+		}, {
+			"text": "I <item>got</item> my shoes <item>stolen</item>.",
+			"answer": {
+				"right": "R"
+			}
+		}],
+		"feedback": [{
+			"desc": "<xref-group><a href='u725fd0dd48eeb434.631f8527.158e41641c3.-3f50'>108.3</a></xref-group><br/>Though <item>B</item> is right, <i>had</i> is used more often with this meaning."
+		}]
+	}]
+	}, 
+	"c1" :
+	{
+	"-unit": "09",
+	"-level": "c1",
+	"topic_name": "infinitives, -ing forms and past participles (2)",
+	"exercise": [{
+		"template": "single_touch_button",
+		"rubric": "<i>Asking</i>, <i>to ask</i> or both?",
+		"question": [{
+			"text": "I didn’t think it worth #singletouch him his opinion.",
+			"option": [
+				["asking", "to ask", "[both]"]
+			],
+			"answer": ["asking"]
+		}],
+		"feedback": [{
+			"desc": "<xref-group><a href='u725fd0dd48eeb434.631f8527.158e41641c3.-5048'>94.5</a></xref-group>"
+		}]
+	}, {
+		"template": "multi_radio",
+		"rubric": "Right (R) or wrong (W)?",
+		"rwText": ["R", "W"],
+		"question": [{
+			"text": "I tried to <item>prevent him making</item> a big mistake.",
+			"answer": {
+				"right": "R"
+			}
+		}, {
+			"text": "I tried to <item>prevent him from making</item> a big mistake.",
+			"answer": {
+				"right": "R"
+			}
+		}],
+		"feedback": [{
+			"desc": "<xref-group><a href='u725fd0dd48eeb434.631f8527.158e41641c3.-47f5'>100.2</a></xref-group>"
+		}]
+	}, {
+		"template": "multi_radio",
+		"rubric": "Can the verb forms complete the sentence in British English: yes (Y) or no (N)?",
+		"rwText": ["Y", "N"],
+		"question": [{
+			"input_text": "I think your car ... ",
+			"text": " ... needs servicing.",
+			"answer": {
+				"right": "Y"
+			}
+		}, {
+			"text": "... needs to be serviced.",
+			"answer": {
+				"right": "Y"
+			}
+		}, {
+			"text": "... wants servicing.",
+			"answer": {
+				"right": "Y"
+			}
+		}],
+		"feedback": [{
+			"desc": "<xref-group><a href='u725fd0dd48eeb434.631f8527.158e41641c3.-47c7'>100.3</a></xref-group>"
+		}]
+	}, {
+		"template": "multi_radio",
+		"rubric": "Right (R) or wrong (W)?",
+		"rwText": ["R", "W"],
+		"question": [{
+			"text": "She is the first woman <item>to win</item> a presidential election.",
+			"answer": {
+				"right": "R"
+			}
+		}, {
+			"text": "Is this the first time for you <item>to visit</item> this country?",
+			"answer": {
+				"right": "W"
+			}
+		}],
+		"feedback": [{
+			"desc": "<xref-group><a href='u725fd0dd48eeb434.631f8527.158e41641c3.-469d'>101.3</a></xref-group>"
+		}]
+	}, {
+		"template": "multi_radio",
+		"rubric": "Are these infinitive verb forms used correctly: yes (Y) or no (N)?",
+		"rwText": ["Y", "N"],
+		"question": [{
+			"text": "I have no wish <item>to cause</item> you problems.",
+			"answer": {
+				"right": "Y"
+			}
+		}, {
+			"text": "I hate the thought <item>to upset</item> you.",
+			"answer": {
+				"right": "N"
+			}
+		}, {
+			"text": "I told her about my decision <item>to resign</item> immediately.",
+			"answer": {
+				"right": "Y"
+			}
+		}],
+		"feedback": [{
+			"desc": "<xref-group><a href='u725fd0dd48eeb434.631f8527.158e41641c3.-45d0'>102.1</a><br><a href='u725fd0dd48eeb434.631f8527.158e41641c3.-44b9'>103.1</a></xref-group>"
+		}]
+	}, {
+		"template": "single_touch_button",
+		"rubric": "<i>To repair</i>, <i>to repair it</i> or both?",
+		"question": [{
+			"text": "I gave the man my watch #singletouch.",
+			"option": [
+				["to repair", "to repair it", "[both]"]
+			],
+			"answer": ["to repair"]
+		}, {
+			"text": "He told me that he didn’t have time #singletouch straight away.",
+			"option": [
+				["to repair", "to repair it", "[both]"]
+			],
+			"answer": ["to repair it"]
+		}],
+		"feedback": [{
+			"desc": "<xref-group><a href='u725fd0dd48eeb434.631f8527.158e41641c3.-458a'>102.3</a></xref-group>"
+		}]
+	}, {
+		"template": "single_radio",
+		"question": [{
+			"text": "What does this sentence mean?",
+			"input_text": "I didn’t know that Emily was Jack’s <item>wife to be</item>.",
+			"option": ["I didn’t know that Emily was really Jack’s wife.", "I didn’t know that Jack was going to marry Emily."],
+			"answer": "I didn’t know that Jack was going to marry Emily."
+		}],
+		"feedback": [{
+			"desc": "<xref-group><a href='u725fd0dd48eeb434.631f8527.158e41641c3.-4519'>102.6</a></xref-group>"
+		}]
+	}, {
+		"template": "single_radio",
+		"question": [{
+			"text": "Which statement about these two sentences is true?",
+			"input_text": "I’m proud <item>of having passed</item> my exams.<br/>I’m proud <item>to have passed</item> my exams.",
+			"option": ["They are both right and both mean the same.", "They are both right but have different meanings.", "One is right and the other one is wrong."],
+			"answer": "They are both right and both mean the same."
+		}],
+		"feedback": [{
+			"desc": "<xref-group><a href='u725fd0dd48eeb434.631f8527.158e41641c3.-445c'>103.3</a></xref-group>"
+		}]
+	}, {
+		"template": "multi_radio",
+		"rubric": "Can the options complete the sentences correctly: yes (Y) or no (N)?",
+		"rwText": ["Y", "N"],
+		"question": [{
+			"input_text": "I object <gap/> such a high price for fuel.",
+			"text": "paying",
+			"answer": {
+				"right": "N"
+			}
+		}, {
+			"text": "to paying",
+			"answer": {
+				"right": "Y"
+			}
+		}, {
+			"text": "pay",
+			"answer": {
+				"right": "N"
+			}
+		}, {
+			"text": "to pay",
+			"answer": {
+				"right": "N"
+			}
+		}, {
+			"input_text": "I look forward <gap/> her again soon.",
+			"text": "seeing",
+			"answer": {
+				"right": "N"
+			}
+		}, {
+			"text": "to seeing",
+			"answer": {
+				"right": "Y"
+			}
+		}, {
+			"text": "see",
+			"answer": {
+				"right": "N"
+			}
+		}, {
+			"text": "to see",
+			"answer": {
+				"right": "N"
+			}
+		}],
+		"feedback": [{
+			"desc": "<xref-group><a href='u725fd0dd48eeb434.631f8527.158e41641c3.-43fd'>104.2</a></xref-group>"
+		}]
+	}, {
+		"template": "multi_radio",
+		"rubric": "Can expressions A–C complete the sentence correctly: yes (Y) or no (N)?",
+		"rwText": ["Y", "N"],
+		"question": [{
+			"input_text": "I’m still waiting for …",
+			"text": " … him to explain.",
+			"answer": {
+				"right": "Y"
+			}
+		}, {
+			"text": " … his explanation.",
+			"answer": {
+				"right": "Y"
+			}
+		}, {
+			"text": " … his explaining.",
+			"answer": {
+				"right": "N"
+			}
+		}],
+		"feedback": [{
+			"desc": "<xref-group><a href='u725fd0dd48eeb434.631f8527.158e41641c3.-5018'>94.6</a><br><a href='u725fd0dd48eeb434.631f8527.158e41641c3.-439b'>104.3</a></xref-group>"
+		}]
+	}, {
+		"template": "multi_radio",
+		"rubric": "Can verb forms A–C complete the sentence correctly: yes (Y) or no (N)?",
+		"rwText": ["Y", "N"],
+		"question": [{
+			"input_text": "I remember <gap/> my keys this morning, but I can’t find them.",
+			"text": "to have taken",
+			"answer": {
+				"right": "N"
+			}
+		}, {
+			"text": "to take",
+			"answer": {
+				"right": "N"
+			}
+		}, {
+			"text": "taking",
+			"answer": {
+				"right": "Y"
+			}
+		}],
+		"feedback": [{
+			"desc": "<xref-group><a href='u725fd0dd48eeb434.631f8527.158e41641c3.-432f'>105.1</a></xref-group>"
+		}]
+	}, {
+		"template": "multi_radio_textEntry",
+		"rubric": "Is the highlighted part of this sentence right (R) or wrong (W)? When you have checked your answer, correct the highlighted part if it’s wrong.",
+		"rwText": ["R", "W"],
+		"question": [{
+			"text": "The President began the ceremony with a speech, and then <item>went on giving medals to the soldiers</item>. ",
+			"answer": [{
+				"right": "W"
+			}, {
+				"right": [
+					"After she had finished her speech, the President went on to give medals to the soldiers.",
+					"the President went on to give medals to the soldiers",
+					"went on to give medals to the soldiers",
+					"The President began the ceremony with a speech, and then went on to give medals to the soldiers."
+				]
+			}]
+
+		}],
+		"feedback": [{
+			"desc": "<xref-group><a href='u725fd0dd48eeb434.631f8527.158e41641c3.-4311'>105.2</a></xref-group>"
+		}]
+	}, {
+		"template": "multi_radio_textEntry",
+		"rubric": "Is the highlighted part of this sentence right (R) or wrong (W)? When you have checked your answer, correct the highlighted part if it’s wrong.",
+		"rwText": ["R", "W"],
+		"question": [{
+			"text": "<item>We regret informing passengers</item> that the 11.30 train is running an hour late. ",
+			"answer": [{
+				"right": "W"
+			}, {
+				"right": [
+					"We regret to inform passengers that the 11.30 train is running an hour late.",
+					"We regret to inform passengers"
+				]
+			}]
+
+		}],
+		"feedback": [{
+			"desc": "<xref-group><a href='u725fd0dd48eeb434.631f8527.158e41641c3.-42fe'>105.3</a></xref-group>"
+		}]
+	}, {
+		"template": "multi_radio",
+		"rubric": "Right (R) or wrong (W)?",
+		"rwText": ["R", "W"],
+		"question": [{
+			"text": "We don’t permit <item>parking</item> in front of the building.",
+			"answer": {
+				"right": "R"
+			}
+		}, {
+			"text": "We don’t permit <item>people parking</item> in front of the building.",
+			"answer": {
+				"right": "W"
+			}
+		}, {
+			"text": "We don’t permit <item>people to park</item> in front of the building.",
+			"answer": {
+				"right": "R"
+			}
+		}, {
+			"text": "<item>People are not permitted parking</item> in front of the building.",
+			"answer": {
+				"right": "W"
+			}
+		}, {
+			"text": "<item>People are not permitted to park</item> in front of the building.",
+			"answer": {
+				"right": "R"
+			}
+		}],
+		"feedback": [{
+			"desc": "<xref-group><a href='u725fd0dd48eeb434.631f8527.158e41641c3.-42e9'>105.4</a></xref-group>"
+		}]
+	}, {
+		"template": "single_touch_button",
+		"rubric": "<i>Passing</i>, <i>to pass</i> or both?",
+		"question": [{
+			"text": "If you want to get the job, it’ll mean #singletouch all your exams.",
+			"option": [
+				["passing", "to pass", "[both]"]
+			],
+			"answer": ["passing"]
+		}, {
+			"text": "He means #singletouch all his exams first time round.",
+			"option": [
+				["passing", "to pass", "[both]"]
+			],
+			"answer": ["to pass"]
+		}],
+		"feedback": [{
+			"desc": "<xref-group><a href='u725fd0dd48eeb434.631f8527.158e41641c3.-426b'>105.7</a></xref-group>"
+		}]
+	}, {
+		"template": "single_radio",
+		"question": [{
+			"text": "Look at this sentence. Which is the best way to say the same thing?",
+			"input_text": "I prefer to work through my lunch break so that I can leave the office earlier.",
+			"option": ["I like <item>working</item> through my lunch break.", "I like <item>to work</item> through my lunch break."],
+			"answer": "I like to work through my lunch break."
+		}],
+		"feedback": [{
+			"desc": "<xref-group><a href='u725fd0dd48eeb434.631f8527.158e41641c3.-423d'>105.9</a></xref-group>"
+		}]
+	}, {
+		"template": "single_touch_button",
+		"rubric": "Which form(s) of the verb <i>learn</i> can complete the sentences? If both are possible, select ‘both’.",
+		"question": [{
+			"text": "I’m interested #singletouch more about my family history.",
+			"option": [
+				["to learn", "in learning", "[both]"]
+			],
+			"answer": ["[both]"]
+		}, {
+			"text": "I was interested #singletouch that my grandfather originally came from Russia.",
+			"option": [
+				["to learn", "in learning", "[both]"]
+			],
+			"answer": ["to learn"]
+		}],
+		"feedback": [{
+			"desc": "<xref-group><a href='u725fd0dd48eeb434.631f8527.158e41641c3.-4100'>105.16</a></xref-group>"
+		}]
+	}, {
+		"template": "single_touch_button",
+		"rubric": "<i>To do</i>, <i>to be done</i> or both?",
+		"question": [{
+			"text": "There’s a lot of work #singletouch before we can take a break.",
+			"option": [
+				["to do", "to be done", "[both]"]
+			],
+			"answer": ["[both]"]
+		}],
+		"feedback": [{
+			"desc": "<xref-group><a href='u725fd0dd48eeb434.631f8527.158e41641c3.-40c0'>106.1</a></xref-group>"
+		}]
+	}, {
+		"template": "single_radio",
+		"question": [{
+			"text": "Look at this sentence. Which of the sentences below can follow it?",
+			"input_text": "I’m ready to see Mr Smith now.",
+			"option": ["Have him come in, please.", "Have him coming in, please.", "Have him to come in, please.", "Make him come in, please."],
+			"answer": "Have him come in, please."
+		}],
+		"feedback": [{
+			"desc": "<xref-group><a href='u725fd0dd48eeb434.631f8527.158e41641c3.-3ef3'>109.1</a></xref-group>"
+		}]
+	}, {
+		"template": "multi_radio",
+		"rubric": "Can these expressions complete the sentence correctly: yes (Y) or no (N)?",
+		"rwText": ["Y", "N"],
+		"question": [{
+			"input_text": "He <gap/> all through the meeting.",
+			"text": "made us laugh",
+			"answer": {
+				"right": "Y"
+			}
+		}, {
+			"text": "made us laughing",
+			"answer": {
+				"right": "N"
+			}
+		}, {
+			"text": "had us laugh",
+			"answer": {
+				"right": "N"
+			}
+		}, {
+			"text": "had us laughing",
+			"answer": {
+				"right": "Y"
+			}
+		}],
+		"feedback": [{
+			"desc": "<xref-group><a href='u725fd0dd48eeb434.631f8527.158e41641c3.-4003'>107.1</a><br><a href='u725fd0dd48eeb434.631f8527.158e41641c3.-3ef3'>109.1</a></xref-group>"
+		}]
+	}, {
+		"template": "multi_radio",
+		"rubric": "Is this sentence right (R) or wrong (W)?",
+		"rwText": ["R", "W"],
+		"question": [{
+			"text": "I had a very strange thing happen to me when I was fourteen.",
+			"answer": {
+				"right": "R"
+			}
+		}],
+		"feedback": [{
+			"desc": "<xref-group><a href='u725fd0dd48eeb434.631f8527.158e41641c3.-3e9b'>109.4</a></xref-group>"
+		}]
+	}, {
+		"template": "multi_radio",
+		"rubric": "Can verb forms A–C complete the sentence correctly: yes (Y) or no (N)?",
+		"rwText": ["Y", "N"],
+		"question": [{
+			"input_text": "When he arrives <gap/> very tired.",
+			"text": "he’ll probably be",
+			"answer": {
+				"right": "Y"
+			}
+		}, {
+			"text": "it’s probable that he’ll be",
+			"answer": {
+				"right": "Y"
+			}
+		}, {
+			"text": "it’s probable for him to be",
+			"answer": {
+				"right": "N"
+			}
+		}],
+		"feedback": [{
+			"desc": "<xref-group><a href='u725fd0dd48eeb434.631f8527.158e41641c3.-3bc7'>113.4</a></xref-group>"
+		}]
+	}]
+	}, 
+	"c2" :
+	{
+	"-unit": "09",
+	"-level": "c2",
+	"topic_name": "infinitives, -ing forms and past participles (2)",
+	"exercise": [{
+		"template": "multi_radio",
+		"rubric": "Right (R) or wrong (W)?",
+		"rwText": ["R", "W"],
+		"question": [{
+			"text": "He’s <item>difficult to please</item>.",
+			"answer": {
+				"right": "R"
+			}
+		}, {
+			"text": "Her pronunciation is <item>impossible to understand</item>.",
+			"answer": {
+				"right": "R"
+			}
+		}, {
+			"text": "My brother is <item>hard to learn</item> languages.",
+			"answer": {
+				"right": "W"
+			}
+		}, {
+			"text": "Iron is <item>easy to rust</item>.",
+			"answer": {
+				"right": "W"
+			}
+		}, {
+			"text": "This material is <item>impossible to catch fire</item>.",
+			"answer": {
+				"right": "W"
+			}
+		}],
+		"feedback": [{
+			"desc": "<xref-group><a href='u725fd0dd48eeb434.631f8527.158e41641c3.-4672'>101.4</a></xref-group>"
+		}]
+	}, {
+		"template": "multi_radio",
+		"rubric": "Are these sentences right: yes (Y) or no (N)?",
+		"rwText": ["Y", "N"],
+		"question": [{
+			"text": "Pat is <item>nice to talk</item>.",
+			"answer": {
+				"right": "N"
+			}
+		}, {
+			"text": "Pat is <item>nice to talk to</item>.",
+			"answer": {
+				"right": "Y"
+			}
+		}, {
+			"text": "Pat is <item>nice to talk to her</item>.",
+			"answer": {
+				"right": "N"
+			}
+		}, {
+			"text": "Her family are <item>easy to get on</item>.",
+			"answer": {
+				"right": "N"
+			}
+		}, {
+			"text": "Her family are <item>easy to get on with</item>.",
+			"answer": {
+				"right": "Y"
+			}
+		}, {
+			"text": "Her family are <item>easy to get on with them</item>.",
+			"answer": {
+				"right": "N"
+			}
+		}],
+		"feedback": [{
+			"desc": "<xref-group><a href='u725fd0dd48eeb434.631f8527.158e41641c3.-4672'>101.4</a></xref-group>"
+		}]
+	}, {
+		"template": "multi_radio",
+		"rubric": "Are these continuations right (R) or wrong (W)?",
+		"rwText": ["R", "W"],
+		"question": [{
+			"input_text": "I don’t think this hotel is ...",
+			"text": "... a good place to stay.",
+			"answer": {
+				"right": "R"
+			}
+		}, {
+			"text": "... a good to stay place. ",
+			"answer": {
+				"right": "W"
+			}
+		}],
+		"feedback": [{
+			"desc": "<xref-group><a href='u725fd0dd48eeb434.631f8527.158e41641c3.-4672'>101.4</a></xref-group>"
+		}]
+	}, {
+		"template": "multi_radio",
+		"rubric": "Are these sentences right: yes (Y) or no (N)?",
+		"rwText": ["Y", "N"],
+		"question": [{
+			"text": "These apples are <item>ripe enough to pick</item>.",
+			"answer": {
+				"right": "Y"
+			}
+		}, {
+			"text": "These apples are <item>ripe enough to pick them</item>.",
+			"answer": {
+				"right": "N"
+			}
+		}, {
+			"text": "This box is <item>too heavy to lift</item>.",
+			"answer": {
+				"right": "Y"
+			}
+		}, {
+			"text": "This box is <item>too heavy to lift it</item>.",
+			"answer": {
+				"right": "N"
+			}
+		}],
+		"feedback": [{
+			"desc": "<xref-group><a href='u725fd0dd48eeb434.631f8527.158e4170750.-9aa'>450.4</a><br><a href='u725fd0dd48eeb434.631f8527.158e4170750.498f'>610.5</a></xref-group>"
+		}]
+	}, {
+		"template": "multi_radio",
+		"rubric": "Right (R) or wrong (W)?",
+		"rwText": ["R", "W"],
+		"question": [{
+			"text": "Emily needs a friend <item>to play with</item>.",
+			"answer": {
+				"right": "R"
+			}
+		}, {
+			"text": "Emily needs a friend <item>with whom to play</item>.",
+			"answer": {
+				"right": "R"
+			}
+		}, {
+			"text": "I’m looking for a field to <item>keep my horse in it</item>.",
+			"answer": {
+				"right": "W"
+			}
+		}, {
+			"text": "Have you got a good thriller <item>which to read</item>?",
+			"answer": {
+				"right": "W"
+			}
+		}],
+		"feedback": [{
+			"desc": "<xref-group><a href='u725fd0dd48eeb434.631f8527.158e41641c3.-4534'>102.5</a></xref-group>"
+		}]
+	}, {
+		"template": "multi_radio",
+		"rubric": "Right (R) or wrong (W)?",
+		"rwText": ["R", "W"],
+		"question": [{
+			"text": "Do you object <item>to working</item> on Sundays?",
+			"answer": {
+				"right": "R"
+			}
+		}, {
+			"text": "I agreed <item>to organising</item> the meeting.",
+			"answer": {
+				"right": "W"
+			}
+		}, {
+			"text": "I prefer cycling <item>to walking</item>.",
+			"answer": {
+				"right": "R"
+			}
+		}, {
+			"text": "I must get round <item>to doing</item> the filing.",
+			"answer": {
+				"right": "R"
+			}
+		}],
+		"feedback": [{
+			"desc": "<xref-group><a href='u725fd0dd48eeb434.631f8527.158e41641c3.-43fd'>104.2</a></xref-group>"
+		}]
+	}, {
+		"template": "single_touch_button",
+		"rubric": "Which verb forms can complete the sentences? If both are possible, select ‘both’.",
+		"question": [{
+			"text": "I glanced out of the window and saw Daniel #singletouch towards the house.",
+			"option": [
+				["come", "coming", "[both]"]
+			],
+			"answer": ["coming"]
+		}, {
+			"text": "I once heard Menuhin #singletouch all of Bach’s unaccompanied violin sonatas.",
+			"option": [
+				["play", "playing", "[both]"]
+			],
+			"answer": ["play"]
+		}],
+		"feedback": [{
+			"desc": "<xref-group><a href='u725fd0dd48eeb434.631f8527.158e41641c3.-42ae'>105.5</a></xref-group>"
+		}]
+	}, {
+		"template": "single_radio",
+		"question": [{
+			"text": "Which replies are possible: A, B or both?",
+			"input_text": "‘My girlfriend won’t speak to me.’",
+			"option": ["‘<item>Try to send</item> her flowers.’", "‘<item>Try sending</item> her flowers.’", "Both"],
+			"answer": "‘Try sending her flowers.’"
+		}],
+		"feedback": [{
+			"desc": "<xref-group><a href='u725fd0dd48eeb434.631f8527.158e41641c3.-4288'>105.6</a></xref-group>"
+		}]
+	}, {
+		"template": "multi_radio",
+		"rubric": "Right (R) or wrong (W)?",
+		"rwText": ["R", "W"],
+		"question": [{
+			"text": "I don’t intend <item>working</item> for the rest of my life.",
+			"answer": {
+				"right": "R"
+			}
+		}, {
+			"text": "I don’t intend <item>to work</item> for the rest of my life.",
+			"answer": {
+				"right": "R"
+			}
+		}, {
+			"text": "She continued <item>screaming</item> until they all went away.",
+			"answer": {
+				"right": "R"
+			}
+		}, {
+			"text": "She continued <item>to scream</item> until they all went away.",
+			"answer": {
+				"right": "R"
+			}
+		}, {
+			"text": "We are committed <item>to help</item> the local children.",
+			"answer": {
+				"right": "R"
+			}
+		}, {
+			"text": "We are committed <item>to helping</item> the local children.",
+			"answer": {
+				"right": "R"
+			}
+		}],
+		"feedback": [{
+			"desc": "<xref-group><a href='u725fd0dd48eeb434.631f8527.158e41641c3.-41aa'>105.11</a></xref-group>"
+		}]
+	}, {
+		"template": "single_radio",
+		"question": [{
+			"text": "Which is the most natural continuation?",
+			"input_text": "I don’t like to drive fast because ...",
+			"option": ["... I’m afraid <item>to crash</item>.", "... I’m afraid <item>of crashing</item>."],
+			"answer": "... I’m afraid of crashing."
+		}],
+		"feedback": [{
+			"desc": "<xref-group><a href='u725fd0dd48eeb434.631f8527.158e41641c3.-416c'>105.13</a></xref-group>"
+		}]
+	}, {
+		"template": "multi_radio",
+		"rubric": "Right (R) or wrong (W)?",
+		"rwText": ["R", "W"],
+		"question": [{
+			"text": "Before the game she felt very sure <item>to win</item>.",
+			"answer": {
+				"right": "W"
+			}
+		}, {
+			"text": "Before the game she felt very sure <item>of winning</item>.",
+			"answer": {
+				"right": "R"
+			}
+		}, {
+			"text": "The repairs are certain <item>to cost</item> more than you think.",
+			"answer": {
+				"right": "R"
+			}
+		}, {
+			"text": "The repairs are certain <item>of costing</item> more than you think.",
+			"answer": {
+				"right": "W"
+			}
+		}],
+		"feedback": [{
+			"desc": "<xref-group><a href='u725fd0dd48eeb434.631f8527.158e41641c3.-4121'>105.15</a></xref-group>"
+		}]
+	}, {
+		"template": "single_touch_button",
+		"rubric": "Which verb forms can complete the sentences correctly?",
+		"question": [{
+			"text": "I was interested #singletouch in the paper that they had found gold in Oxfordshire.",
+			"option": [
+				["to read", "in reading", "[both]"]
+			],
+			"answer": ["to read"]
+		}, {
+			"text": "I’m interested #singletouch in America this summer.",
+			"option": [
+				["to work", "in working", "[both]"]
+			],
+			"answer": ["in working"]
+		}],
+		"feedback": [{
+			"desc": "<xref-group><a href='u725fd0dd48eeb434.631f8527.158e41641c3.-4100'>105.16</a></xref-group>"
+		}]
+	}, {
+		"template": "multi_radio",
+		"rubric": "Right (R) or wrong (W)?",
+		"rwText": ["R", "W"],
+		"question": [{
+			"text": "Are there any letters <item>to post</item>?",
+			"answer": {
+				"right": "R"
+			}
+		}, {
+			"text": "Are there any letters <item>to be posted</item>?",
+			"answer": {
+				"right": "R"
+			}
+		}, {
+			"text": "Jack’s got a lot of people <item>to contact</item>.",
+			"answer": {
+				"right": "R"
+			}
+		}, {
+			"text": "Jack’s got a lot of people <item>to be contacted</item>.",
+			"answer": {
+				"right": "W"
+			}
+		}, {
+			"text": "Those clothes are <item>to wash</item>.",
+			"answer": {
+				"right": "W"
+			}
+		}, {
+			"text": "Those clothes are <item>to be washed</item>.",
+			"answer": {
+				"right": "R"
+			}
+		}],
+		"feedback": [{
+			"desc": "<xref-group><a href='u725fd0dd48eeb434.631f8527.158e41641c3.-40c0'>106.1</a></xref-group>"
+		}]
+	}, {
+		"template": "multi_radio",
+		"rubric": "Right (R) or wrong (W)?",
+		"rwText": ["R", "W"],
+		"question": [{
+			"text": "The children were nowhere <item>to see</item>.",
+			"answer": {
+				"right": "W"
+			}
+		}, {
+			"text": "You are <item>to congratulate</item> on your exam results.",
+			"answer": {
+				"right": "W"
+			}
+		}, {
+			"text": "Nobody was <item>to blame</item> for the accident.",
+			"answer": {
+				"right": "R"
+			}
+		}],
+		"feedback": [{
+			"desc": "<xref-group><a href='u725fd0dd48eeb434.631f8527.158e41641c3.-407c'>106.2</a></xref-group>"
+		}]
+	}, {
+		"template": "multi_radio",
+		"rubric": "Are these continuations possible: yes (Y) or no (N)?",
+		"rwText": ["Y", "N"],
+		"question": [{
+			"input_text": "The car was a complete wreck. ...",
+			"text": "... There was <item>nothing to do</item>.",
+			"answer": {
+				"right": "N"
+			}
+		}, {
+			"text": "... There was <item>nothing to be done</item>.",
+			"answer": {
+				"right": "Y"
+			}
+		}],
+		"feedback": [{
+			"desc": "<xref-group><a href='u725fd0dd48eeb434.631f8527.158e41641c3.-404b'>106.3</a></xref-group>"
+		}]
+	}, {
+		"template": "single_radio",
+		"question": [{
+			"text": "What is the best explanation for the choice of structure in this sentence?",
+			"input_text": "Charlotte <item>had her roof blown off</item> in the storm.",
+			"option": ["Charlotte is the main centre of interest, rather than the roof or the storm.", "Charlotte had some responsibility herself for the damage.", "The damage took place before the main event that is about to be described.", "It would not be correct to begin with ‘The storm ...’ in this sentence."],
+			"answer": "Charlotte is the main centre of interest, rather than the roof or the storm."
+		}],
+		"feedback": [{
+			"desc": "<xref-group><a href='u725fd0dd48eeb434.631f8527.158e41641c3.-3e9b'>109.4</a></xref-group>"
+		}]
+	}]
+	}
+}

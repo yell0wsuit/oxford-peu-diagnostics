@@ -1,0 +1,1855 @@
+{
+	"b2" :
+	{
+	"-unit": "10",
+	"-level": "b2",
+	"topic_name": "nouns",
+	"exercise": [{
+		"template": "multi_radio_textEntry",
+		"hideRight": "true",
+		"rubric": "Are the plural forms right (R) or wrong (W)? When you have checked your answers, correct any wrong plural forms.",
+		"rwText": ["R", "W"],
+		"question": [{
+			"text": "The children rode <item>donkeys</item> on the beach. ",
+			"answer": {
+				"right": "R"
+			}
+		}, {
+			"text": "I love going to <item>parties</item> and hate staying at home. ",
+			"answer": {
+				"right": "R"
+			}
+		}, {
+			"text": "A cat is said to have nine <item>lifes</item>. ",
+			"answer": [{
+				"right": "W"
+			}, {
+				"right": [
+					"lives",
+					"A cat is said to have nine lives."
+				]
+			}]
+		}, {
+			"text": "Are we having <item>sandwichs</item> for lunch? ",
+			"answer": [{
+				"right": "W"
+			}, {
+				"right": [
+					"sandwiches",
+					"Are we having sandwiches for lunch?"
+				]
+			}]
+		}, {
+			"text": "The <item>rooves</item> of the buildings were covered in snow. ",
+			"answer": [{
+				"right": "W"
+			}, {
+				"right": [
+					"roofs",
+					"The roofs of the buildings were covered in snow."
+				]
+			}]
+		}, {
+			"text": "They all wore football <item>scarfs</item> with their team colours. ",
+			"answer": [{
+				"right": "W"
+			}, {
+				"right": [
+					"scarves",
+					"They all wore football scarves with their team colours."
+				]
+			}]
+
+		}],
+		"feedback": [{
+			"desc": "<xref-group><a href='u725fd0dd48eeb434.631f8527.158e41641c3.-3702'>116.1–2</a><br><a href='u725fd0dd48eeb434.631f8527.158e41641c3.-357b'>117.1</a></xref-group>"
+		}]
+	}, {
+		"template": "gapfill",
+		"hideRight": "true",
+		"rubric": "Write the singular forms for these plural nouns.",
+		"question": [{
+			"text": "#gap series",
+			"answer": [
+				["series"]
+			]
+		}, {
+			"text": "#gap crossroads",
+			"answer": [
+				["crossroads"]
+			]
+		}, {
+			"text": "#gap headquarters",
+			"answer": [
+				["headquarters"]
+			]
+		}, {
+			"text": "#gap species",
+			"answer": [
+				["species"]
+			]
+		}],
+		"feedback": [{
+			"desc": "<xref-group><a href='u725fd0dd48eeb434.631f8527.158e41641c3.-34a6'>117.3</a></xref-group>"
+		}]
+	}, {
+		"template": "multi_radio",
+		"rubric": "Can words A–C begin the sentence correctly: yes (Y) or no (N)?",
+		"rwText": ["Y", "N"],
+		"question": [{
+			"input_text": "<gap/> wishing to travel must have a valid ticket and passport.",
+			"text": "People",
+			"answer": {
+				"right": "Y"
+			}
+		}, {
+			"text": "Peoples",
+			"answer": {
+				"right": "N"
+			}
+		}, {
+			"text": "Persons",
+			"answer": {
+				"right": "Y"
+			}
+		}],
+		"feedback": [{
+			"desc": "<xref-group><a href='u725fd0dd48eeb434.631f8527.158e41641c3.-34ff'>117.2</a></xref-group>"
+		}]
+	}, {
+		"template": "multi_radio",
+		"rubric": "Do these words have one (1) or two syllables (2)?",
+		"rwText": ["1", "2"],
+		"question": [{
+			"text": "clothes",
+			"answer": {
+				"right": "1"
+			}
+		}, {
+			"text": "crashes",
+			"answer": {
+				"right": "2"
+			}
+		}, {
+			"text": "knives",
+			"answer": {
+				"right": "1"
+			}
+		}, {
+			"text": "houses",
+			"answer": {
+				"right": "2"
+			}
+		}],
+		"feedback": [{
+			"desc": "<xref-group><a href='u725fd0dd48eeb434.631f8527.158e41641c3.-324b'>118</a></xref-group>"
+		}]
+	}, {
+		"template": "multi_radio",
+		"rubric": "How is the plural ending pronounced: <phon>/s/</phon> (as in <i><emphasis>s</emphasis>ay</i>), <phon>/z/</phon> (as in <i><emphasis>z</emphasis>oo</i>) or <phon>/ɪz/</phon> (as in <i>qu<emphasis><phon>iz</phon></emphasis></i>)?",
+		"rwText": ["<phon>/s/</phon>", "<phon>/z/</phon>", "<phon>/ɪz/</phon>"],
+		"question": [{
+			"text": "plate<item>s</item>",
+			"answer": {
+				"right": "/s/"
+			}
+		}, {
+			"text": "knive<item>s</item>",
+			"answer": {
+				"right": "/z/"
+			}
+		}, {
+			"text": "garage<item>s</item>",
+			"answer": {
+				"right": "/ɪz/"
+			}
+		}, {
+			"text": "house<item>s</item>",
+			"answer": {
+				"right": "/ɪz/"
+			}
+		}, {
+			"text": "dream<item>s</item>",
+			"answer": {
+				"right": "/z/"
+			}
+		}, {
+			"text": "cloth<item>s</item>",
+			"answer": {
+				"right": "/s/"
+			}
+		}, {
+			"text": "cloth<item>es</item>",
+			"answer": {
+				"right": "/z/"
+			}
+		}, {
+			"text": "bridge<item>s</item>",
+			"answer": {
+				"right": "/ɪz/"
+			}
+		}],
+		"feedback": [{
+			"desc": "<xref-group><a href='u725fd0dd48eeb434.631f8527.158e41641c3.-324b'>118</a></xref-group>"
+		}]
+	}, {
+		"template": "multi_radio",
+		"rubric": "Right (R) or wrong (W)?",
+		"rwText": ["R", "W"],
+		"question": [{
+			"text": "A lot of social problems <item>is</item> caused by unemployment.",
+			"answer": {
+				"right": "W"
+			}
+		}, {
+			"text": "Half of his students <item>don’t</item> understand a word he says.",
+			"answer": {
+				"right": "R"
+			}
+		}, {
+			"text": "Some of these people are members of the club and the rest <item>are</item> guests.",
+			"answer": {
+				"right": "R"
+			}
+		}],
+		"feedback": [{
+			"desc": "<xref-group><a href='u725fd0dd48eeb434.631f8527.158e41641c3.-26b5'>128.2</a></xref-group>"
+		}]
+	}, {
+		"template": "single_touch_button",
+		"rubric": "Choose which words can complete the sentences.",
+		"question": [{
+			"text": "I have some important #singletouch for you.",
+			"option": [
+				["information", "informations"]
+			],
+			"answer": ["information"]
+		}, {
+			"text": "They are buying #singletouch for their new flat.",
+			"option": [
+				["furniture", "furnitures"]
+			],
+			"answer": ["furniture"]
+		}, {
+			"text": "‘Buck’ is #singletouch for ‘dollar’.",
+			"option": [
+				["a slang", "slang"]
+			],
+			"answer": ["slang"]
+		}, {
+			"text": "Did you bring all your gardening #singletouch with you? ",
+			"option": [
+				["tool", "tools"]
+			],
+			"answer": ["tools"]
+		}, {
+			"text": "We’ve made some important #singletouch with the building work.",
+			"option": [
+				["progress", "progresses"]
+			],
+			"answer": ["progress"]
+		}, {
+			"text": "You need breathing #singletouch if you’re going diving.",
+			"option": [
+				["equipment", "equipments"]
+			],
+			"answer": ["equipment"]
+		}, {
+			"text": "Jack, who is the main suspect, has black #singletouch.",
+			"option": [
+				["hair", "hairs"]
+			],
+			"answer": ["hair"]
+		}, {
+			"text": "If you’re going to the shops, please buy some #singletouch. ",
+			"option": [
+				["spaghetti", "spaghettis"]
+			],
+			"answer": ["spaghetti"]
+		}],
+		"feedback": [{
+			"desc": "<xref-group><a href='u725fd0dd48eeb434.631f8527.158e41641c3.-307a'>119.3</a></xref-group>"
+		}]
+	}, {
+		"template": "multi_radio",
+		"rubric": "Can the phrases below complete the sentence correctly: yes (Y) or no (N)?",
+		"rwText": ["Y", "N"],
+		"question": [{
+			"input_text": "My <gap/> been lost.",
+			"text": "baggage has",
+			"answer": {
+				"right": "Y"
+			}
+		}, {
+			"text": "baggages have",
+			"answer": {
+				"right": "N"
+			}
+		}, {
+			"text": "suitcase has",
+			"answer": {
+				"right": "Y"
+			}
+		}, {
+			"text": "suitcases have",
+			"answer": {
+				"right": "Y"
+			}
+		}],
+		"feedback": [{
+			"desc": "<xref-group><a href='u725fd0dd48eeb434.631f8527.158e41641c3.-307a'>119.3</a></xref-group>"
+		}]
+	}, {
+		"template": "multi_radio",
+		"rubric": "Are these possible: yes (Y) or no (N)?",
+		"rwText": ["Y", "N"],
+		"question": [{
+			"input_text": "A pair of ... ",
+			"text": " ... shoes",
+			"answer": {
+				"right": "Y"
+			}
+		}, {
+			"text": " ... trousers",
+			"answer": {
+				"right": "Y"
+			}
+		}, {
+			"text": " ... earrings",
+			"answer": {
+				"right": "Y"
+			}
+		}, {
+			"text": " ... glasses",
+			"answer": {
+				"right": "Y"
+			}
+		}, {
+			"text": " ... scissors",
+			"answer": {
+				"right": "Y"
+			}
+		}],
+		"feedback": [{
+			"desc": "<xref-group><a href='u725fd0dd48eeb434.631f8527.158e41641c3.-2d9f'>121.3</a></xref-group>"
+		}]
+	}, {
+		"template": "single_radio",
+		"question": [{
+			"text": "Which option sounds most natural?",
+			"option": ["Time for a break. <item>Let’s swim</item>.", "Time for a break. <item>Let’s have a swim</item>."],
+			"answer": "Time for a break. Let’s have a swim."
+		}],
+		"feedback": [{
+			"desc": "<xref-group><a href='u725fd0dd48eeb434.631f8527.158e41641c3.-2399'>132.2</a></xref-group>"
+		}]
+	}, {
+		"template": "multi_radio",
+		"rubric": "Is the use of apostrophes (’) right (R) or wrong (W)?",
+		"rwText": ["R", "W"],
+		"question": [{
+			"text": "my parents<item>’</item> house",
+			"answer": {
+				"right": "R"
+			}
+		}, {
+			"text": "mens<item>’</item> clothes",
+			"answer": {
+				"right": "W"
+			}
+		}, {
+			"text": "the children<item>’</item>s room",
+			"answer": {
+				"right": "R"
+			}
+		}, {
+			"text": "Mr Harris<item>’</item>s car",
+			"answer": {
+				"right": "R"
+			}
+		}, {
+			"text": "the people next doors<item>’</item> dog",
+			"answer": {
+				"right": "W"
+			}
+		}, {
+			"text": "the Smiths<item>’</item> new house",
+			"answer": {
+				"right": "R"
+			}
+		}],
+		"feedback": [{
+			"desc": "<xref-group><a href='u725fd0dd48eeb434.631f8527.158e41641c3.-2c85'>123.1</a></xref-group>"
+		}]
+	}, {
+		"template": "multi_radio",
+		"rubric": "Are these sentences right: yes (Y) or no (N)?",
+		"rwText": ["Y", "N"],
+		"question": [{
+			"text": "She’s a cousin of Jack’s.",
+			"answer": {
+				"right": "Y"
+			}
+		}, {
+			"text": "She’s a Jack’s cousin.",
+			"answer": {
+				"right": "N"
+			}
+		}, {
+			"text": "She’s one of Jack’s cousins.",
+			"answer": {
+				"right": "Y"
+			}
+		}, {
+			"text": "Is this the boss’s car?",
+			"answer": {
+				"right": "Y"
+			}
+		}, {
+			"text": "Is this the Jack’s car?",
+			"answer": {
+				"right": "N"
+			}
+		}],
+		"feedback": [{
+			"desc": "<xref-group><a href='u725fd0dd48eeb434.631f8527.158e41641c3.-2c20'>124.1</a></xref-group>"
+		}]
+	}, {
+		"template": "single_radio",
+		"question": [{
+			"text": "What is <i>milk chocolate</i>?",
+			"option": ["A kind of milk.", "A kind of chocolate."],
+			"answer": "A kind of chocolate."
+		}],
+		"feedback": [{
+			"desc": "<xref-group><a href='u725fd0dd48eeb434.631f8527.158e41641c3.-2a96'>125.1</a></xref-group>"
+		}]
+	}, {
+		"template": "multi_radio",
+		"rubric": "Are these sentences possible: yes (Y) or no (N)?",
+		"rwText": ["Y", "N"],
+		"question": [{
+			"text": "Is there <item>a shoes shop</item> near here?",
+			"answer": {
+				"right": "N"
+			}
+		}, {
+			"text": "Are there any <item>shoe shops</item> near here?",
+			"answer": {
+				"right": "Y"
+			}
+		}, {
+			"text": "Are there any <item>shoes shops</item> near here?",
+			"answer": {
+				"right": "N"
+			}
+		}, {
+			"text": "Is there <item>a ticket office</item> near here?",
+			"answer": {
+				"right": "Y"
+			}
+		}, {
+			"text": "Is there <item>a tickets office</item> near here?",
+			"answer": {
+				"right": "N"
+			}
+		}, {
+			"text": "Are there any <item>tickets offices</item> near here?",
+			"answer": {
+				"right": "N"
+			}
+		}, {
+			"text": "The town holds a <item>horses race</item> every month.",
+			"answer": {
+				"right": "N"
+			}
+		}, {
+			"text": "The town holds <item>horse races</item> every month.",
+			"answer": {
+				"right": "Y"
+			}
+		}, {
+			"text": "The town holds <item>horses races</item> every month.",
+			"answer": {
+				"right": "N"
+			}
+		}],
+		"feedback": [{
+			"desc": "<xref-group><a href='u725fd0dd48eeb434.631f8527.158e41641c3.-2a69'>125.2</a></xref-group>"
+		}]
+	}, {
+		"template": "single_radio",
+		"question": [{
+			"text": "Do <i>a coffee cup</i> and <i>a cup of coffee</i> sometimes mean the same?",
+			"option": ["No", "Yes"],
+			"answer": "No"
+		}],
+		"feedback": [{
+			"desc": "<xref-group><a href='u725fd0dd48eeb434.631f8527.158e41641c3.-28a0'>126.2</a></xref-group>"
+		}]
+	}, {
+		"template": "multi_radio",
+		"rubric": "Are these possible: yes (Y) or no (N)?",
+		"rwText": ["Y", "N"],
+		"question": [{
+			"text": "a flower bunch",
+			"answer": {
+				"right": "N"
+			}
+		}, {
+			"text": "a paper piece",
+			"answer": {
+				"right": "N"
+			}
+		}, {
+			"text": "a wine glass",
+			"answer": {
+				"right": "Y"
+			}
+		}, {
+			"text": "a cards pack",
+			"answer": {
+				"right": "N"
+			}
+		}, {
+			"text": "a steak knife",
+			"answer": {
+				"right": "Y"
+			}
+		}, {
+			"text": "a butter dish",
+			"answer": {
+				"right": "Y"
+			}
+		}],
+		"feedback": [{
+			"desc": "<xref-group><a href='u725fd0dd48eeb434.631f8527.158e41641c3.-28a0'>126.2–3</a></xref-group>"
+		}]
+	}]
+	}, 
+	"c1" :
+	{
+	"-unit": "10",
+	"-level": "c1",
+	"topic_name": "nouns",
+	"exercise": [{
+		"template": "multi_radio",
+		"rubric": "Are these sentences right: yes (Y) or no (N)?",
+		"rwText": ["Y", "N"],
+		"question": [{
+			"text": "The news today <item>is</item> very bad.",
+			"answer": {
+				"right": "Y"
+			}
+		}, {
+			"text": "The aircraft <item>are</item> being refuelled.",
+			"answer": {
+				"right": "Y"
+			}
+		}, {
+			"text": "<item>This</item> new data <item>is</item> very worrying.",
+			"answer": {
+				"right": "Y"
+			}
+		}, {
+			"text": "I think the media <item>is</item> responsible for the problem.",
+			"answer": {
+				"right": "Y"
+			}
+		}, {
+			"text": "He picked up the dice and threw <item>it</item> again.",
+			"answer": {
+				"right": "Y"
+			}
+		}],
+		"feedback": [{
+			"desc": "<xref-group><a href='u725fd0dd48eeb434.631f8527.158e41641c3.-34a6'>117.3</a></xref-group>"
+		}]
+	}, {
+		"template": "single_touch_button",
+		"rubric": "Which word would be more natural or correct in British English?",
+		"question": [{
+			"text": "The team really #singletouch to win the cup this season.",
+			"option": [
+				["want", "wants"]
+			],
+			"answer": ["want"]
+		}, {
+			"text": "The team #singletouch of eleven players, including the captain.",
+			"option": [
+				["consist", "consists"]
+			],
+			"answer": ["consists"]
+		}, {
+			"text": "My family #singletouch that we can all go to Spain this summer.",
+			"option": [
+				["hope", "hopes"]
+			],
+			"answer": ["hope"]
+		}],
+		"feedback": [{
+			"desc": "<xref-group><a href='u725fd0dd48eeb434.631f8527.158e41641c3.-274a'>128.1</a></xref-group>"
+		}]
+	}, {
+		"template": "single_touch_button",
+		"rubric": "<i>Have</i> or <i>has</i>?",
+		"question": [{
+			"text": "A number of people #singletouch tried to find the treasure, without success.",
+			"option": [
+				["have", "has"]
+			],
+			"answer": ["have"]
+		}],
+		"feedback": [{
+			"desc": "<xref-group><a href='u725fd0dd48eeb434.631f8527.158e41641c3.-26b5'>128.2</a></xref-group>"
+		}]
+	}, {
+		"template": "multi_radio",
+		"rubric": "Can the expressions make these uncountable nouns countable: yes (Y) or no (N)? ",
+		"rwText": ["Y", "N"],
+		"question": [{
+			"input_text": "<gap/> of luck",
+			"text": "a piece",
+			"answer": {
+				"right": "Y"
+			}
+		}, {
+			"text": "a hit",
+			"answer": {
+				"right": "N"
+			}
+		}, {
+			"text": "a bit",
+			"answer": {
+				"right": "Y"
+			}
+		}, {
+			"text": "a strike",
+			"answer": {
+				"right": "N"
+			}
+		}, {
+			"text": "a stroke",
+			"answer": {
+				"right": "Y"
+			}
+		}, {
+			"input_text": "<gap/> of luggage",
+			"text": "a piece",
+			"answer": {
+				"right": "Y"
+			}
+		}, {
+			"text": "an item",
+			"answer": {
+				"right": "Y"
+			}
+		}, {
+			"text": "a unit",
+			"answer": {
+				"right": "N"
+			}
+		}, {
+			"text": "a bag",
+			"answer": {
+				"right": "N"
+			}
+		}, {
+			"input_text": "<gap/> of bread",
+			"text": "a piece",
+			"answer": {
+				"right": "Y"
+			}
+		}, {
+			"text": "a loaf",
+			"answer": {
+				"right": "Y"
+			}
+		}, {
+			"text": "a ball",
+			"answer": {
+				"right": "N"
+			}
+		}, {
+			"text": "a slice",
+			"answer": {
+				"right": "Y"
+			}
+		}, {
+			"text": "a roll",
+			"answer": {
+				"right": "N"
+			}
+		}],
+		"feedback": [{
+			"desc": "<xref-group><a href='u725fd0dd48eeb434.631f8527.158e41641c3.-307a'>119.3</a></xref-group>"
+		}]
+	}, {
+		"template": "dragdrop_notrans",
+		"hideRight": "true",
+		"rubric": "Complete phrases A–F using the words in the box. (You won’t need to use all of them.)",
+		"option": ["grain",
+			"sheet",
+			"bar",
+			"tin",
+			"slice",
+			"drop",
+			"scoop",
+			"block"
+		],
+		"question": [{
+			"text": "a #drop of chocolate",
+			"answer": [
+				["bar"]
+			]
+		}, {
+			"text": "a #drop of rice",
+			"answer": [
+				["grain"]
+			]
+		}, {
+			"text": "a #drop of paper",
+			"answer": [
+				["sheet"]
+			]
+		}, {
+			"text": "a #drop of water",
+			"answer": [
+				["drop"]
+			]
+		}, {
+			"text": "a #drop of cake",
+			"answer": [
+				["slice"]
+			]
+		}],
+		"feedback": [{
+			"desc": "<xref-group><a href='u725fd0dd48eeb434.631f8527.158e41641c3.-2de3'>121.1</a></xref-group>"
+		}]
+	}, {
+		"template": "multi_radio",
+		"rubric": "Can the expressions complete the sentences correctly: yes (Y) or no (N)?",
+		"rwText": ["Y", "N"],
+		"question": [{
+			"input_text": "She doesn’t have <gap/> for the job.",
+			"text": "a big enough experience",
+			"answer": {
+				"right": "N"
+			}
+		}, {
+			"text": "enough experience",
+			"answer": {
+				"right": "Y"
+			}
+		}, {
+			"text": "enough experiences",
+			"answer": {
+				"right": "N"
+			}
+		}, {
+			"input_text": "I had <gap/> when you didn’t come back home last night.",
+			"text": "frightening thought",
+			"answer": {
+				"right": "N"
+			}
+		}, {
+			"text": "a frightening thought",
+			"answer": {
+				"right": "Y"
+			}
+		}, {
+			"text": "some frightening thoughts",
+			"answer": {
+				"right": "Y"
+			}
+		}],
+		"feedback": [{
+			"desc": "<xref-group><a href='u725fd0dd48eeb434.631f8527.158e41641c3.-2f5e'>119.6</a></xref-group>"
+		}]
+	}, {
+		"template": "single_touch_button",
+		"rubric": "<i>It</i>, <i>them</i> or both?",
+		"question": [{
+			"text": "‘Have you had measles before?’ ‘Yes. I had #singletouch when I was eight.’",
+			"option": [
+				["it", "them", "[both]"]
+			],
+			"answer": ["it"]
+		}],
+		"feedback": [{
+			"desc": "<xref-group><a href='u725fd0dd48eeb434.631f8527.158e41641c3.-2f15'>119.7</a></xref-group>"
+		}]
+	}, {
+		"template": "dragdrop_notrans",
+		"hideRight": "true",
+		"rubric": "Complete expressions A–E using the words in the box. (You won’t need to use all of them.)",
+		"option": ["flowers",
+			"people",
+			"doctors",
+			"birds",
+			"bees",
+			"cards",
+			"tyres"
+		],
+		"question": [{
+			"text": "a flock of #drop",
+			"answer": [
+				["birds"]
+			]
+		}, {
+			"text": "a set of #drop",
+			"answer": [
+				["tyres"]
+			]
+		}, {
+			"text": "a bunch of #drop",
+			"answer": [
+				["flowers"]
+			]
+		}, {
+			"text": "a crowd of #drop",
+			"answer": [
+				["people"]
+			]
+		}, {
+			"text": "a pack of #drop",
+			"answer": [
+				["cards"]
+			]
+		}],
+		"feedback": [{
+			"desc": "<xref-group><a href='u725fd0dd48eeb434.631f8527.158e41641c3.-2d84'>121.4</a></xref-group>"
+		}]
+	}, {
+		"template": "multi_radio",
+		"rubric": "Can the words complete the sentences correctly: yes (Y) or no (N)?",
+		"rwText": ["Y", "N"],
+		"question": [{
+			"input_text": "I don’t know the answer, but I’m going to <gap/> a guess.",
+			"text": "do ",
+			"answer": {
+				"right": "N"
+			}
+		}, {
+			"text": "make",
+			"answer": {
+				"right": "Y"
+			}
+		}, {
+			"text": "have",
+			"answer": {
+				"right": "Y"
+			}
+		}, {
+			"input_text": "I’ll try to <gap/> a run every day.",
+			"text": "do ",
+			"answer": {
+				"right": "N"
+			}
+		}, {
+			"text": "have",
+			"answer": {
+				"right": "N"
+			}
+		}, {
+			"text": "go for",
+			"answer": {
+				"right": "Y"
+			}
+		}, {
+			"input_text": "I’ll <gap/> a think and then I’ll let you know.",
+			"text": "do ",
+			"answer": {
+				"right": "N"
+			}
+		}, {
+			"text": "have",
+			"answer": {
+				"right": "Y"
+			}
+		}, {
+			"text": "take",
+			"answer": {
+				"right": "N"
+			}
+		}, {
+			"input_text": "She <gap/> a bit of singing, but she doesn’t like having a big audience.",
+			"text": "makes",
+			"answer": {
+				"right": "N"
+			}
+		}, {
+			"text": "does",
+			"answer": {
+				"right": "Y"
+			}
+		}, {
+			"text": "gives",
+			"answer": {
+				"right": "N"
+			}
+		}],
+		"feedback": [{
+			"desc": "<xref-group><a href='u725fd0dd48eeb434.631f8527.158e41641c3.-2399'>132.2</a></xref-group>"
+		}]
+	}, {
+		"template": "single_radio",
+		"question": [{
+			"text": "If both Joe and Anna are the children’s parents, which sentence is right: A or B?",
+			"option": ["Joe<item>’s</item> and Anna<item>’s</item> children get on really well.", "Joe and Anna<item>’s</item> children get on really well."],
+			"answer": "Joe and Anna’s children get on really well."
+		}],
+		"feedback": [{
+			"desc": "<xref-group><a href='u725fd0dd48eeb434.631f8527.158e41641c3.-2c85'>123.1</a></xref-group>"
+		}]
+	}, {
+		"template": "multi_radio",
+		"rubric": "Can expressions A–C finish the question correctly: yes (Y) or no (N)?",
+		"rwText": ["Y", "N"],
+		"question": [{
+			"input_text": "What do you think of ... ",
+			"text": " ... the company management?",
+			"answer": {
+				"right": "N"
+			}
+		}, {
+			"text": " ... the company’s management?",
+			"answer": {
+				"right": "Y"
+			}
+		}, {
+			"text": " ... the management of the company?",
+			"answer": {
+				"right": "Y"
+			}
+		}],
+		"feedback": [{
+			"desc": "<xref-group><a href='u725fd0dd48eeb434.631f8527.158e41641c3.-2bcc'>124.2</a></xref-group>"
+		}]
+	}, {
+		"template": "single_radio",
+		"question": [{
+			"text": "Which is more usual?",
+			"option": ["He’s the husband of the woman who you met at the conference last year.", "He’s the woman who you met at the conference last year’s husband. "],
+			"answer": "He’s the husband of the woman who you met at the conference last year."
+		}],
+		"feedback": [{
+			"desc": "<xref-group><a href='u725fd0dd48eeb434.631f8527.158e41641c3.-2bcc'>124.2</a></xref-group>"
+		}]
+	}, {
+		"template": "single_radio",
+		"question": [{
+			"text": "Look at this question. What does it probably mean?",
+			"input_text": "Have you read Jack’s novel?",
+			"option": ["Jack wrote the novel.", "The novel belongs to Jack."],
+			"answer": "Jack wrote the novel."
+		}],
+		"feedback": [{
+			"desc": "<xref-group><a href='u725fd0dd48eeb434.631f8527.158e41641c3.-2b39'>124.4</a></xref-group>"
+		}]
+	}, {
+		"template": "single_radio",
+		"question": [{
+			"text": "Look at this sentence. What does it probably mean?",
+			"input_text": "The soldier’s punishment was severe.",
+			"option": ["The soldier punished someone severely.", "The soldier was severely punished."],
+			"answer": "The soldier was severely punished."
+		}],
+		"feedback": [{
+			"desc": "<xref-group><a href='u725fd0dd48eeb434.631f8527.158e41641c3.-2b39'>124.4</a></xref-group>"
+		}]
+	}, {
+		"template": "multi_radio",
+		"rubric": "Are these possessive forms possible: yes (Y) or no (N)?",
+		"rwText": ["Y", "N"],
+		"question": [{
+			"text": "I didn’t believe <item>the girl’s story</item>.",
+			"answer": {
+				"right": "Y"
+			}
+		}, {
+			"text": "I can’t remember <item>the street’s name</item>.",
+			"answer": {
+				"right": "N"
+			}
+		}, {
+			"text": "I’m afraid <item>the house’s roof</item> is leaking.",
+			"answer": {
+				"right": "N"
+			}
+		}, {
+			"text": "It looks like <item>the dog’s leg</item> is broken.",
+			"answer": {
+				"right": "Y"
+			}
+		}, {
+			"text": "I could only get seats at <item>the theatre’s back</item>.",
+			"answer": {
+				"right": "N"
+			}
+		}, {
+			"text": "<item>The plan’s importance</item> is clear to everyone.",
+			"answer": {
+				"right": "Y"
+			}
+		}, {
+			"text": "<item>The train’s arrival</item> was delayed by an hour.",
+			"answer": {
+				"right": "Y"
+			}
+		}],
+		"feedback": [{
+			"desc": "<xref-group><a href='u725fd0dd48eeb434.631f8527.158e41641c3.-2bcc'>124.2–3</a></xref-group>"
+		}]
+	}, {
+		"template": "multi_radio",
+		"rubric": "Can expressions A–D end the sentence correctly: yes (Y) or no (N)?",
+		"rwText": ["Y", "N"],
+		"question": [{
+			"input_text": "We’re expecting ... ",
+			"text": " ... a delay of twenty minutes.",
+			"answer": {
+				"right": "Y"
+			}
+		}, {
+			"text": " ... a twenty-minute delay.",
+			"answer": {
+				"right": "Y"
+			}
+		}, {
+			"text": " ... twenty minute’s delay.",
+			"answer": {
+				"right": "N"
+			}
+		}, {
+			"text": " ... twenty minutes’ delay.",
+			"answer": {
+				"right": "Y"
+			}
+		}],
+		"feedback": [{
+			"desc": "<xref-group><a href='u725fd0dd48eeb434.631f8527.158e41641c3.-2b16'>124.5</a></xref-group>"
+		}]
+	}, {
+		"template": "multi_radio",
+		"rubric": "Right (R) or wrong (W)?",
+		"rwText": ["R", "W"],
+		"question": [{
+			"text": "a five-litre can",
+			"answer": {
+				"right": "R"
+			}
+		}, {
+			"text": "a five-litres can",
+			"answer": {
+				"right": "W"
+			}
+		}, {
+			"text": "a one-litre bottle",
+			"answer": {
+				"right": "R"
+			}
+		}, {
+			"text": "a litre bottle",
+			"answer": {
+				"right": "R"
+			}
+		}, {
+			"text": "a two-thirds share",
+			"answer": {
+				"right": "R"
+			}
+		}, {
+			"text": "a three-quarter length coat",
+			"answer": {
+				"right": "R"
+			}
+		}],
+		"feedback": [{
+			"desc": "<xref-group><a href='u725fd0dd48eeb434.631f8527.158e41641c3.-2a49'>125.3</a></xref-group>"
+		}]
+	}, {
+		"template": "single_radio",
+		"question": [{
+			"text": "Which sounds more natural: A or B?",
+			"option": ["We bought <item>three dollars’ worth</item> of popcorn.", "We bought popcorn <item>worth three dollars</item>."],
+			"answer": "We bought three dollars’ worth of popcorn."
+		}],
+		"feedback": [{
+			"desc": "<xref-group><a href='u725fd0dd48eeb434.631f8527.158e41641c3.-2aea'>124.7</a></xref-group>"
+		}]
+	}, {
+		"template": "multi_radio",
+		"rubric": "Right (R) or wrong (W)?",
+		"rwText": ["R", "W"],
+		"question": [{
+			"text": "yesterday’s news",
+			"answer": {
+				"right": "R"
+			}
+		}, {
+			"text": "last Sunday’s match",
+			"answer": {
+				"right": "R"
+			}
+		}, {
+			"text": "2016’s events",
+			"answer": {
+				"right": "W"
+			}
+		}],
+		"feedback": [{
+			"desc": "<xref-group><a href='u725fd0dd48eeb434.631f8527.158e41641c3.-2af9'>124.6</a></xref-group>"
+		}]
+	}, {
+		"template": "multi_radio",
+		"rubric": "Right (R) or wrong (W)?",
+		"rwText": ["R", "W"],
+		"question": [{
+			"text": "Prisoners always look forward to receiving <item>home letters</item>.",
+			"answer": {
+				"right": "W"
+			}
+		}, {
+			"text": "I’ve kept all the <item>love letters</item> my girlfriend sent me.",
+			"answer": {
+				"right": "R"
+			}
+		}, {
+			"text": "He had a <item>disappointment feeling</item> at not getting the job.",
+			"answer": {
+				"right": "W"
+			}
+		}, {
+			"text": "I can’t drink <item>cow milk</item>.",
+			"answer": {
+				"right": "W"
+			}
+		}, {
+			"text": "I ate <item>kangaroo meat</item> for the first time last month.",
+			"answer": {
+				"right": "R"
+			}
+		}],
+		"feedback": [{
+			"desc": "<xref-group><a href='u725fd0dd48eeb434.631f8527.158e41641c3.-291d'>125.9</a><br><a href='u725fd0dd48eeb434.631f8527.158e41641c3.-27df'>127.2</a></xref-group>"
+		}]
+	}, {
+		"template": "single_touch_button",
+		"rubric": "Which option is best in each sentence?",
+		"question": [{
+			"text": "He bought his wife #singletouch for their wedding anniversary.",
+			"option": [
+				["a gold ring", "a golden ring", "a ring of gold"]
+			],
+			"answer": ["a gold ring"]
+		}, {
+			"text": "The inscription said: ‘Fifty years of #singletouch memories’.",
+			"option": [
+				["gold", "golden"]
+			],
+			"answer": ["golden"]
+		}, {
+			"text": "The flowers were like #singletouch.",
+			"option": [
+				["a gold carpet", "a carpet of gold"]
+			],
+			"answer": ["a carpet of gold"]
+		}],
+		"feedback": [{
+			"desc": "<xref-group><a href='u725fd0dd48eeb434.631f8527.158e41641c3.-286c'>126.4</a></xref-group>"
+		}]
+	}, {
+		"template": "single_touch_button",
+		"rubric": "<i>Is</i>, <i>are</i> or both?",
+		"question": [{
+			"text": "What we want #singletouch some respect.",
+			"option": [
+				["is", "are", "[both]"]
+			],
+			"answer": ["is"]
+		}, {
+			"text": "What we want #singletouch some of those cakes.",
+			"option": [
+				["is", "are", "[both]"]
+			],
+			"answer": ["[both]"]
+		}, {
+			"text": "It is the students who #singletouch angry.",
+			"option": [
+				["is", "are", "[both]"]
+			],
+			"answer": ["are"]
+		}],
+		"feedback": [{
+			"desc": "For <item>A</item> and <item>B</item>, <xref-group><a href='u725fd0dd48eeb434.631f8527.158e41641c3.6bd2'>274.1</a></xref-group>.<br/>For <item>C</item>, <xref-group><a href='u725fd0dd48eeb434.631f8527.158e41641c3.6b59'>273.1</a></xref-group>. "
+		}]
+	}]
+	}, 
+	"c2" :
+	{
+	"-unit": "10",
+	"-level": "c2",
+	"topic_name": "nouns",
+	"exercise": [{
+		"template": "single_touch_button",
+		"rubric": "Can the plural forms of these nouns end in <i>-s</i>, <i>-es</i> or both?",
+		"question": [{
+			"text": "hero #singletouch",
+			"option": [
+				["heros", "heroes", "[both]"]
+			],
+			"answer": ["heroes"]
+		}, {
+			"text": "tornado #singletouch",
+			"option": [
+				["tornados", "tornadoes", "[both]"]
+			],
+			"answer": ["[both]"]
+		}, {
+			"text": "piano #singletouch",
+			"option": [
+				["pianos", "pianoes", "[both]"]
+			],
+			"answer": ["pianos"]
+		}, {
+			"text": "kilo #singletouch",
+			"option": [
+				["kilos", "kiloes", "[both]"]
+			],
+			"answer": ["kilos"]
+		}, {
+			"text": "volcano #singletouch",
+			"option": [
+				["volcanos", "volcanoes", "[both]"]
+			],
+			"answer": ["[both]"]
+		}, {
+			"text": "echo #singletouch",
+			"option": [
+				["echos", "echoes", "[both]"]
+			],
+			"answer": ["echoes"]
+		}],
+		"feedback": [{
+			"desc": "<xref-group><a href='u725fd0dd48eeb434.631f8527.158e41641c3.-3658'>116.3</a></xref-group>"
+		}]
+	}, {
+		"template": "multi_radio",
+		"rubric": "Right (R) or wrong (W)?",
+		"rwText": ["R", "W"],
+		"question": [{
+			"text": "<item>Politics is</item> the art of the possible.",
+			"answer": {
+				"right": "R"
+			}
+		}, {
+			"text": "What <item>are</item> your <item>politics</item>?",
+			"answer": {
+				"right": "R"
+			}
+		}, {
+			"text": "<item>Mathematics is</item> a basic school subject.",
+			"answer": {
+				"right": "R"
+			}
+		}, {
+			"text": "<item>Mathematics make</item> me nervous.",
+			"answer": {
+				"right": "W"
+			}
+		}, {
+			"text": "<item>Statistics is</item> useful in language testing.",
+			"answer": {
+				"right": "R"
+			}
+		}, {
+			"text": "The unemployment <item>statistics are</item> disturbing.",
+			"answer": {
+				"right": "R"
+			}
+		}],
+		"feedback": [{
+			"desc": "<xref-group><a href='u725fd0dd48eeb434.631f8527.158e41641c3.-34a6'>117.3</a></xref-group>"
+		}]
+	}, {
+		"template": "single_touch_button",
+		"rubric": "Choose the correct plural form.",
+		"question": [{
+			"text": "#singletouch",
+			"option": [
+				["bacteriums", "bacteria", "bacterias"]
+			],
+			"answer": ["bacteria"]
+		}, {
+			"text": "#singletouch",
+			"option": [
+				["crisis", "crisises", "crises"]
+			],
+			"answer": ["crises"]
+		}, {
+			"text": "#singletouch",
+			"option": [
+				["criteriums", "criterions", "criteria", "criterias"]
+			],
+			"answer": ["criteria"]
+		}, {
+			"text": "#singletouch",
+			"option": [
+				["phenomenon", "phenomenons", "phenomena", "phenomenas"]
+			],
+			"answer": ["phenomena"]
+		}, {
+			"text": "#singletouch",
+			"option": [
+				["stimulus", "stimuluses", "stimula", "stimuli"]
+			],
+			"answer": ["stimuli"]
+		}],
+		"feedback": [{
+			"desc": "<xref-group><a href='u725fd0dd48eeb434.631f8527.158e41641c3.-3412'>117.4</a></xref-group>"
+		}]
+	}, {
+		"template": "multi_radio",
+		"rubric": "Are these plurals right (R) or wrong (W)?",
+		"rwText": ["R", "W"],
+		"question": [{
+			"text": "She spelt ‘necessary’ with two <item>c’s</item>. ",
+			"answer": {
+				"right": "R"
+			}
+		}, {
+			"text": "Do you remember the <item>1980’s</item>, Granddad?",
+			"answer": {
+				"right": "R"
+			}
+		}, {
+			"text": "He takes <item>taxi’s</item> everywhere he goes. ",
+			"answer": {
+				"right": "W"
+			}
+		}, {
+			"text": "<item>PC’s</item> are getting cheaper.",
+			"answer": {
+				"right": "R"
+			}
+		}, {
+			"text": "I need a new pair of <item>jean’s</item>.",
+			"answer": {
+				"right": "W"
+			}
+		}],
+		"feedback": [{
+			"desc": "<xref-group><a href='u725fd0dd48eeb434.631f8527.158e41641c3.-3370'>117.5</a></xref-group>"
+		}]
+	}, {
+		"template": "single_touch_button",
+		"rubric": "Which plural form(s) is/are right: the first, the second or both?",
+		"question": [{
+			"text": "#singletouch",
+			"option": [
+				["passer-bys", "passers-by", "[both]"]
+			],
+			"answer": ["passers-by"]
+		}, {
+			"text": "#singletouch",
+			"option": [
+				["mother-in-laws", "mothers-in-law", "[both]"]
+			],
+			"answer": ["[both]"]
+		}, {
+			"text": "#singletouch",
+			"option": [
+				["runner-ups", "runners-up", "[both]"]
+			],
+			"answer": ["runners-up"]
+		}, {
+			"text": "#singletouch",
+			"option": [
+				["court martials", "courts martial", "[both]"]
+			],
+			"answer": ["[both]"]
+		}],
+		"feedback": [{
+			"desc": "<xref-group><a href='u725fd0dd48eeb434.631f8527.158e41641c3.-3356'>117.6</a></xref-group>"
+		}]
+	}, {
+		"template": "multi_radio",
+		"rubric": "Right (R) or wrong (W)?",
+		"rwText": ["R", "W"],
+		"question": [{
+			"text": "Can you give me back <item>that twenty euros</item> I lent you?",
+			"answer": {
+				"right": "R"
+			}
+		}, {
+			"text": "Three friends of mine <item>is coming</item> to see me this evening.",
+			"answer": {
+				"right": "W"
+			}
+		}, {
+			"text": "Thirty kilometres <item>is</item> a long way to walk.",
+			"answer": {
+				"right": "R"
+			}
+		}],
+		"feedback": [{
+			"desc": "<xref-group><a href='u725fd0dd48eeb434.631f8527.158e41641c3.-264d'>129.1</a></xref-group>"
+		}]
+	}, {
+		"template": "single_radio",
+		"question": [{
+			"text": "Which is/are right: A, B or both?",
+			"option": ["Two and two <item>is</item> four.", "Two and two <item>are</item> four.", "Both"],
+			"answer": "Both"
+		}],
+		"feedback": [{
+			"desc": "<xref-group><a href='u725fd0dd48eeb434.631f8527.158e41641c3.-262d'>129.2</a></xref-group>"
+		}]
+	}, {
+		"template": "multi_radio",
+		"rubric": "Are these forms normal: yes (Y) or no (N)?",
+		"rwText": ["Y", "N"],
+		"question": [{
+			"text": "More than one person <item>is</item> going to have to find a new job.",
+			"answer": {
+				"right": "Y"
+			}
+		}, {
+			"text": "More than one person <item>are</item> going to have to find a new job.",
+			"answer": {
+				"right": "N"
+			}
+		}, {
+			"text": "One of my friends <item>is</item> getting married.",
+			"answer": {
+				"right": "Y"
+			}
+		}, {
+			"text": "One of my friends <item>are</item> getting married.",
+			"answer": {
+				"right": "N"
+			}
+		}],
+		"feedback": [{
+			"desc": "<xref-group><a href='u725fd0dd48eeb434.631f8527.158e41641c3.-2612'>129.3</a></xref-group>"
+		}]
+	}, {
+		"template": "single_radio",
+		"question": [{
+			"text": "Which is/are right: A, B or both?",
+			"option": ["Your toast and marmalade <item>is</item> on the table.", "Your toast and marmalade <item>are</item> on the table.", "Both"],
+			"answer": "Both"
+		}],
+		"feedback": [{
+			"desc": "<item>A</item> is right if the marmalade is on the toast.<br/><item>B</item> is right if they are separate.<br/><xref-group><a href='u725fd0dd48eeb434.631f8527.158e41641c3.-25eb'>129.5</a></xref-group>"
+		}]
+	}, {
+		"template": "single_radio",
+		"question": [{
+			"text": "Which is/are possible: A, B or both?",
+			"option": ["She’s one of the few women who <item>has</item> climbed Everest.", "She’s one of the few women who <item>have</item> climbed Everest.", "Both"],
+			"answer": "Both"
+		}],
+		"feedback": [{
+			"desc": "<xref-group><a href='u725fd0dd48eeb434.631f8527.158e41641c3.-25ac'>130.1</a></xref-group>"
+		}]
+	}, {
+		"template": "multi_radio",
+		"rubric": "Right (R) or wrong (W)?",
+		"rwText": ["R", "W"],
+		"question": [{
+			"text": "The biggest time-waster in our office <item>is</item> meetings.",
+			"answer": {
+				"right": "R"
+			}
+		}, {
+			"text": "The biggest time-waster in our office <item>are</item> meetings.",
+			"answer": {
+				"right": "W"
+			}
+		}, {
+			"text": "What we need <item>is</item> a few bright young engineers.",
+			"answer": {
+				"right": "R"
+			}
+		}, {
+			"text": "What we need <item>are</item> a few bright young engineers.",
+			"answer": {
+				"right": "R"
+			}
+		}, {
+			"text": "A good knowledge of three languages <item>is</item> necessary for this job.",
+			"answer": {
+				"right": "R"
+			}
+		}, {
+			"text": "A good knowledge of three languages <item>are</item> necessary for this job.",
+			"answer": {
+				"right": "W"
+			}
+		}],
+		"feedback": [{
+			"desc": "<xref-group><a href='u725fd0dd48eeb434.631f8527.158e41641c3.-2585'>130.2–3</a></xref-group>"
+		}]
+	}, {
+		"template": "single_radio",
+		"question": [{
+			"text": "Which form is natural: A, B or both?",
+			"option": ["Six people lost <item>their life</item> in the crash.", "Six people lost <item>their lives</item> in the crash.", "Both"],
+			"answer": "Six people lost their lives in the crash."
+		}],
+		"feedback": [{
+			"desc": "<xref-group><a href='u725fd0dd48eeb434.631f8527.158e41641c3.-2430'>131.1</a></xref-group>"
+		}]
+	}, {
+		"template": "multi_radio",
+		"rubric": "Right (R) or wrong (W)?",
+		"rwText": ["R", "W"],
+		"question": [{
+			"text": "All documents must be accompanied by <item>a translation</item> of the <item>original</item>.",
+			"answer": {
+				"right": "R"
+			}
+		}, {
+			"text": "All documents must be accompanied by <item>translations</item> of the <item>originals</item>.",
+			"answer": {
+				"right": "R"
+			}
+		}, {
+			"text": "We usually go and see my mother <item>on Saturday</item>.",
+			"answer": {
+				"right": "R"
+			}
+		}, {
+			"text": "We usually go and see my mother <item>on Saturdays</item>.",
+			"answer": {
+				"right": "R"
+			}
+		}, {
+			"text": "<item>Children</item> may resemble both their <item>father</item> and their <item>mother</item> in different ways.",
+			"answer": {
+				"right": "R"
+			}
+		}],
+		"feedback": [{
+			"desc": "<xref-group><a href='u725fd0dd48eeb434.631f8527.158e41641c3.-240f'>131.2–3</a></xref-group>"
+		}]
+	}, {
+		"template": "multi_radio",
+		"rubric": "Are these expressions right: yes (Y) or no (N)?",
+		"rwText": ["Y", "N"],
+		"question": [{
+			"text": "the <item>accounts</item> department",
+			"answer": {
+				"right": "Y"
+			}
+		}, {
+			"text": "an <item>antiques</item> dealer",
+			"answer": {
+				"right": "Y"
+			}
+		}, {
+			"text": "a <item>shoes</item> shop",
+			"answer": {
+				"right": "N"
+			}
+		}, {
+			"text": "a <item>sports</item> car",
+			"answer": {
+				"right": "Y"
+			}
+		}, {
+			"text": "a <item>tickets</item> office",
+			"answer": {
+				"right": "N"
+			}
+		}, {
+			"text": "<item>woman</item>-haters",
+			"answer": {
+				"right": "Y"
+			}
+		}, {
+			"text": "<item>women</item> drivers",
+			"answer": {
+				"right": "Y"
+			}
+		}],
+		"feedback": [{
+			"desc": "<xref-group><a href='u725fd0dd48eeb434.631f8527.158e41641c3.-2a69'>125.2</a><br><a href='u725fd0dd48eeb434.631f8527.158e41641c3.-2a0f'>125.4</a></xref-group>"
+		}]
+	}, {
+		"template": "multi_radio",
+		"rubric": "Right (R) or wrong (W)?",
+		"rwText": ["R", "W"],
+		"question": [{
+			"text": "‘Who <item>is</item> working tomorrow?’ ‘Jake and Dan are.’",
+			"answer": {
+				"right": "R"
+			}
+		}, {
+			"text": "‘What <item>lives</item> in those little holes?’ ‘Rabbits do.’",
+			"answer": {
+				"right": "R"
+			}
+		}],
+		"feedback": [{
+			"desc": "<xref-group><a href='u725fd0dd48eeb434.631f8527.158e41641c3.-2512'>130.5</a></xref-group>"
+		}]
+	}, {
+		"template": "multi_radio",
+		"rubric": "Right (R) or wrong (W)?",
+		"rwText": ["R", "W"],
+		"question": [{
+			"text": "<item>Here’s</item> your keys. ",
+			"answer": {
+				"right": "R"
+			}
+		}, {
+			"text": "<item>There’s</item> some children at the door.",
+			"answer": {
+				"right": "R"
+			}
+		}, {
+			"text": "<item>What’s</item> those women talking about?",
+			"answer": {
+				"right": "W"
+			}
+		}, {
+			"text": "<item>Where’s</item> those books I lent you?",
+			"answer": {
+				"right": "R"
+			}
+		}],
+		"feedback": [{
+			"desc": "<xref-group><a href='u725fd0dd48eeb434.631f8527.158e41641c3.-24bd'>130.6</a></xref-group>"
+		}]
+	}, {
+		"template": "multi_radio",
+		"rubric": "Right (R) or wrong (W)?",
+		"rwText": ["R", "W"],
+		"question": [{
+			"text": "I want to stay for <item>another three weeks</item>.",
+			"answer": {
+				"right": "R"
+			}
+		}, {
+			"text": "We’ll need <item>an extra ten pounds</item>.",
+			"answer": {
+				"right": "R"
+			}
+		}, {
+			"text": "She spent <item>a happy ten minutes</item> looking through the photos. ",
+			"answer": {
+				"right": "R"
+			}
+		}, {
+			"text": "I’ve had <item>a very busy three days</item>.",
+			"answer": {
+				"right": "R"
+			}
+		}],
+		"feedback": [{
+			"desc": "<xref-group><a href='u725fd0dd48eeb434.631f8527.158e41641c3.-24a7'>130.7</a></xref-group>"
+		}]
+	}, {
+		"template": "multi_radio",
+		"rubric": "Right (R) or wrong (W)?",
+		"rwText": ["R", "W"],
+		"question": [{
+			"text": "I’ve got <item>too much nose</item> and <item>not enough chin</item>.",
+			"answer": {
+				"right": "R"
+			}
+		}, {
+			"text": "I haven’t got <item>much idea</item> of her plans.",
+			"answer": {
+				"right": "R"
+			}
+		}, {
+			"text": "Have we got <item>enough chair</item> for everybody?",
+			"answer": {
+				"right": "W"
+			}
+		}, {
+			"text": "Do you think we have <item>much chance</item> of catching the train?",
+			"answer": {
+				"right": "R"
+			}
+		}],
+		"feedback": [{
+			"desc": "<xref-group><a href='u725fd0dd48eeb434.631f8527.158e41641c3.-2ec9'>120.1</a></xref-group>"
+		}]
+	}, {
+		"template": "dragdrop_notrans",
+		"alphaOrder": "false",
+		"hideRight": "true",
+		"clone": "true",
+		"rubric": "Which two of these nouns can be used in the plural?",
+		"option": ["weather",
+			"furniture",
+			"information",
+			"knowledge",
+			"spaghetti",
+			"travel"
+		],
+		"question": [{
+			"text": "#drop",
+			"answer": [
+				["travel",
+					"weather"
+				]
+			]
+		}, {
+			"text": "#drop",
+			"answer": [
+				["travel",
+					"weather"
+				]
+			]
+		}],
+		"feedback": [{
+			"desc": "<xref-group><a href='u725fd0dd48eeb434.631f8527.158e41641c3.-2e89'>120.3</a></xref-group>"
+		}]
+	}, {
+		"template": "dragdrop_notrans",
+		"alphaOrder": "false",
+		"hideRight": "true",
+		"clone": "true",
+		"rubric": "Which three of these nouns can be used with the article <i>a</i>/<i>an</i>?",
+		"option": ["experience",
+			"knowledge",
+			"education",
+			"English",
+			"health",
+			"weather"
+		],
+		"question": [{
+			"text": "#drop",
+			"answer": [
+				["education",
+					"experience",
+					"knowledge"
+				]
+			]
+		}, {
+			"text": "#drop",
+			"answer": [
+				["education",
+					"experience",
+					"knowledge"
+				]
+			]
+		}, {
+			"text": "#drop",
+			"answer": [
+				["education",
+					"experience",
+					"knowledge"
+				]
+			]
+		}],
+		"feedback": [{
+			"desc": "<xref-group><a href='u725fd0dd48eeb434.631f8527.158e41641c3.-2e79'>120.4</a></xref-group>"
+		}]
+	}, {
+		"template": "single_touch_button",
+		"rubric": "Which alternatives are right: the first, the second or both?",
+		"question": [{
+			"text": "#singletouch",
+			"option": [
+				["the Queen’s arrival", "the arrival of the Queen", "[both]"]
+			],
+			"answer": ["[both]"]
+		}, {
+			"text": "#singletouch",
+			"option": [
+				["the room’s back", "the back of the room", "[both]"]
+			],
+			"answer": ["the back of the room"]
+		}, {
+			"text": "#singletouch",
+			"option": [
+				["the page’s top", "the top of the page", "[both]"]
+			],
+			"answer": ["the top of the page"]
+		}, {
+			"text": "#singletouch",
+			"option": [
+				["Jack’s email", "the email of Jack", "[both]"]
+			],
+			"answer": ["Jack’s email"]
+		}, {
+			"text": "#singletouch",
+			"option": [
+				["the earth’s gravity", "the gravity of the earth", "[both]"]
+			],
+			"answer": ["[both]"]
+		}],
+		"feedback": [{
+			"desc": "<xref-group><a href='u725fd0dd48eeb434.631f8527.158e41641c3.-2bcc'>124.2–3</a></xref-group>"
+		}]
+	}, {
+		"template": "multi_radio",
+		"rubric": "Right (R) or wrong (W)?",
+		"rwText": ["R", "W"],
+		"question": [{
+			"text": "mountain’s plants",
+			"answer": {
+				"right": "W"
+			}
+		}, {
+			"text": "a book of history",
+			"answer": {
+				"right": "W"
+			}
+		}, {
+			"text": "tiredness signs",
+			"answer": {
+				"right": "W"
+			}
+		}],
+		"feedback": [{
+			"desc": "<xref-group><a href='u725fd0dd48eeb434.631f8527.158e41641c3.-28de'>126.1</a></xref-group>"
+		}]
+	}, {
+		"template": "multi_radio",
+		"rubric": "Right (R) or wrong (W)?",
+		"rwText": ["R", "W"],
+		"question": [{
+			"text": "a table’s leg",
+			"answer": {
+				"right": "W"
+			}
+		}, {
+			"text": "baby clothes",
+			"answer": {
+				"right": "R"
+			}
+		}, {
+			"text": "a birdcage",
+			"answer": {
+				"right": "R"
+			}
+		}, {
+			"text": "a bird’s egg",
+			"answer": {
+				"right": "R"
+			}
+		}, {
+			"text": "chicken’s soup",
+			"answer": {
+				"right": "W"
+			}
+		}, {
+			"text": "sheep’s wool",
+			"answer": {
+				"right": "R"
+			}
+		}],
+		"feedback": [{
+			"desc": "<xref-group><a href='u725fd0dd48eeb434.631f8527.158e41641c3.-2821'>127.1–3</a></xref-group>"
+		}]
+	}]
+	}
+}

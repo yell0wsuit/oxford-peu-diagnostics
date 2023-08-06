@@ -1,0 +1,865 @@
+{
+	"b2" :
+	{
+	"-unit": "03",
+	"-level": "b2",
+	"topic_name": "present and future",
+	"exercise": [{
+		"template": "gapfill",
+		"hideRight": "true",
+		"rubric": "Write the third person singular forms of these verbs.",
+		"sample": {
+			"text": "work #gap",
+			"answer": ["works"]
+		},
+		"question": [{
+			"text": "stay #gap",
+			"answer": [
+				["stays"]
+			]
+		}, {
+			"text": "reply #gap",
+			"answer": [
+				["replies"]
+			]
+		}, {
+			"text": "push #gap",
+			"answer": [
+				["pushes"]
+			]
+		}, {
+			"text": "complete #gap",
+			"answer": [
+				["completes"]
+			]
+		}, {
+			"text": "hurry #gap",
+			"answer": [
+				["hurries"]
+			]
+		}, {
+			"text": "pull #gap",
+			"answer": [
+				["pulls"]
+			]
+		}, {
+			"text": "catch #gap",
+			"answer": [
+				["catches"]
+			]
+		}, {
+			"text": "enjoy #gap",
+			"answer": [
+				["enjoys"]
+			]
+		}, {
+			"text": "examine #gap",
+			"answer": [
+				["examines"]
+			]
+		}],
+		"feedback": [{
+			"desc": "<xref-group><a href='u725fd0dd48eeb434.631f8527.158e4161850.7a38'>30.2</a></xref-group>"
+		}]
+	}, {
+		"template": "multi_radio_textEntry",
+		"hideRight": "true",
+		"rubric": "Are these spellings right (R) or wrong (W)? When you have checked your answers, correct any wrong spellings.",
+		"rwText": ["R", "W"],
+		"question": [{
+			"text": "I’m <item>siting</item> at the back of the train. ",
+			"answer": [{
+				"right": "W"
+			}, {
+				"right": "sitting"
+			}]
+		}, {
+			"text": "He’s <item>travelling</item> this week. ",
+			"answer": {
+				"right": "R"
+			}
+		}, {
+			"text": "Is this train <item>stoping</item> in Birmingham? ",
+			"answer": [{
+				"right": "W"
+			}, {
+				"right": "stopping"
+			}]
+		}, {
+			"text": "She’s <item>showing</item> the new design to her manager. ",
+			"answer": {
+				"right": "R"
+			}
+		}, {
+			"text": "I’m <item>hopping</item> she’ll arrive on time. ",
+			"answer": [{
+				"right": "W"
+			}, {
+				"right": "hoping"
+			}]
+		}, {
+			"text": "My sister is always <item>beatting</item> me at tennis. ",
+			"answer": [{
+				"right": "W"
+			}, {
+				"right": "beating"
+			}]
+		}, {
+			"text": "It’s <item>beginning</item> to rain. ",
+			"answer": {
+				"right": "R"
+			}
+		}, {
+			"text": "We’re <item>developping</item> a new product. ",
+			"answer": [{
+				"right": "W"
+			}, {
+				"right": "developing"
+			}]
+
+		}],
+		"feedback": [{
+			"desc": "<xref-group><a href='u725fd0dd48eeb434.631f8527.158e4170750.-3c5d'>347.1–6</a></xref-group> For <item>B</item>, in American English <i>traveling</i> is the normal spelling. "
+		}]
+	}, {
+		"template": "single_touch_button",
+		"rubric": "Say the words aloud. One word in each list has a different vowel sound. Which word?",
+		"question": [{
+			"text": "#singletouch",
+			"option": [
+				["stays", "pays", "says", "rains"]
+			],
+			"answer": ["says"]
+		}, {
+			"text": "#singletouch",
+			"option": [
+				["does", "goes", "knows", "throws"]
+			],
+			"answer": ["does"]
+		}],
+		"feedback": [{
+			"desc": "<xref-group><a href='u725fd0dd48eeb434.631f8527.158e4161850.7a97'>30.3</a></xref-group>"
+		}]
+	}, {
+		"template": "multi_radio",
+		"rubric": "Are these present tense forms used correctly: yes (Y) or no (N)? ",
+		"rwText": ["Y", "N"],
+		"question": [{
+			"text": "What <item>are</item> frogs usually <item>eating</item>?",
+			"answer": {
+				"right": "N"
+			}
+		}, {
+			"text": "‘The kettle <item>boils</item>.’ ‘Please take it off the stove.’",
+			"answer": {
+				"right": "N"
+			}
+		}, {
+			"text": "Water <item>boils</item> at 100° Celsius.",
+			"answer": {
+				"right": "Y"
+			}
+		}, {
+			"text": "I<item>’m playing</item> tennis every Wednesday.",
+			"answer": {
+				"right": "N"
+			}
+		}, {
+			"text": "Alice <item>works</item> for an insurance company.",
+			"answer": {
+				"right": "Y"
+			}
+		}, {
+			"text": "Look – it <item>snows</item>!",
+			"answer": {
+				"right": "N"
+			}
+		}],
+		"feedback": [{
+			"desc": "<xref-group><a href='u725fd0dd48eeb434.631f8527.158e4161850.7ac9'>31.1–2</a></xref-group>"
+		}]
+	}, {
+		"template": "multi_radio",
+		"rubric": "Are these sentences possible: yes (Y) or no (N)?",
+		"rwText": ["Y", "N"],
+		"question": [{
+			"text": "Fred <item>works</item> as a waiter.",
+			"answer": {
+				"right": "Y"
+			}
+		}, {
+			"text": "Fred <item>is working</item> as a waiter.",
+			"answer": {
+				"right": "Y"
+			}
+		}],
+		"feedback": [{
+			"desc": "<xref-group><a href='u725fd0dd48eeb434.631f8527.158e4161850.7ac9'>31.1–2</a></xref-group>"
+		}]
+	}, {
+		"template": "single_radio",
+		"question": [{
+			"text": "Choose the best reply: A or B.",
+			"input_text": "‘Why do you work so hard?’",
+			"option": ["‘Because I’m only happy when I’m busy.’", "‘Because I have to finish my report by the end of this week.’"],
+			"answer": "‘Because I’m only happy when I’m busy.’"
+		}],
+		"feedback": [{
+			"desc": "<xref-group><a href='u725fd0dd48eeb434.631f8527.158e4161850.7ae3'>31.2</a></xref-group>"
+		}]
+	}, {
+		"template": "multi_radio",
+		"rubric": "Are these sentences possible: yes (Y) or no (N)?",
+		"rwText": ["Y", "N"],
+		"question": [{
+			"text": "My dishwasher doesn’t work.",
+			"answer": {
+				"right": "Y"
+			}
+		}, {
+			"text": "My dishwasher isn’t working.",
+			"answer": {
+				"right": "Y"
+			}
+		}],
+		"feedback": [{
+			"desc": "<xref-group><a href='u725fd0dd48eeb434.631f8527.158e4161850.7ac9'>31.1–2</a></xref-group>"
+		}]
+	}, {
+		"template": "multi_radio",
+		"rubric": "Right (R) or wrong (W)?",
+		"rwText": ["R", "W"],
+		"question": [{
+			"text": "<item>I’m liking</item> this wine very much.",
+			"answer": {
+				"right": "W"
+			}
+		}, {
+			"text": "Of course <item>I’m believing</item> you!",
+			"answer": {
+				"right": "W"
+			}
+		}, {
+			"text": "<item>I’m knowing</item> her very well.",
+			"answer": {
+				"right": "W"
+			}
+		}],
+		"feedback": [{
+			"desc": "<xref-group><a href='u725fd0dd48eeb434.631f8527.158e4161850.7ca0'>32.7</a></xref-group>"
+		}]
+	}, {
+		"template": "single_radio",
+		"question": [{
+			"text": "Which of the answers is/are possible: A, B or both?",
+			"input_text": "‘Excuse me. How do I get to the station?’",
+			"option": ["‘<item>You go</item> straight on to the traffic lights, then <item>you turn</item> left.’", "‘<item>You’re going</item> straight on to the traffic lights, then <item>you’re turning</item> left.’", "Both"],
+			"answer": "‘You go straight on to the traffic lights, then you turn left.’"
+		}],
+		"feedback": [{
+			"desc": "<xref-group><a href='u725fd0dd48eeb434.631f8527.158e4161850.7d1f'>33.3</a></xref-group>"
+		}]
+	}, {
+		"template": "single_radio",
+		"question": [{
+			"text": "A TV chef is describing a recipe as she’s cooking it. Which sentence(s) is/are possible: A, B or both?",
+			"option": ["First <item>I take</item> a bowl and <item>break</item> two eggs into it.", "First <item>I’m taking</item> a bowl and <item>am breaking</item> two eggs into it.", "Both"],
+			"answer": "First I take a bowl and break two eggs into it."
+		}],
+		"feedback": [{
+			"desc": "<xref-group><a href='u725fd0dd48eeb434.631f8527.158e4161850.7d1f'>33.3</a></xref-group>"
+		}]
+	}, {
+		"template": "multi_radio_textEntry",
+		"rubric": "Is this exchange right (R) or wrong (W)? When you have checked your answer, correct the exchange if it is wrong.",
+		"rwText": ["R", "W"],
+		"question": [{
+			"text": "‘How long do you know her?’ ‘I know her since 2014.’ ",
+			"answer": [{
+				"right": "W"
+			}, {
+				"right": [
+					"‘How long have you known her?’ ‘I’ve known her since 2014.’",
+					"‘How long have you known her?’ ‘I've known her since 2014.’",
+					"'How long have you known her?' 'I’ve known her since 2014.'",
+					"'How long have you known her?' 'I've known her since 2014.'",
+					"How long have you known her? I’ve known her since 2014.",
+					"How long have you known her? I've known her since 2014.",
+					"‘How long have you known her?’ ‘I have known her since 2014.’",
+					"‘How long have you known her?’ ‘I have known her since 2014.’",
+					"'How long have you known her?' 'I have known her since 2014.'",
+					"'How long have you known her?' 'I have known her since 2014.'",
+					"How long have you known her? I have known her since 2014.",
+					"How long have you known her? I have known her since 2014."
+				]
+			}]
+
+		}],
+		"feedback": [{
+			"desc": "<xref-group><a href='u725fd0dd48eeb434.631f8527.158e4161850.7bc5'>31.6</a></xref-group>"
+		}]
+	}, {
+		"template": "single_radio",
+		"question": [{
+			"text": "Which of the replies is/are correct: A, B or both?",
+			"input_text": "‘Remember to phone me when you arrive.’",
+			"option": ["‘Yes, I do.’", "‘Yes, I will.’", "Both"],
+			"answer": "‘Yes, I will.’"
+		}],
+		"feedback": [{
+			"desc": "<xref-group><a href='u725fd0dd48eeb434.631f8527.158e4161850.7b34'>31.4</a></xref-group>"
+		}]
+	}, {
+		"template": "single_radio",
+		"question": [{
+			"text": "Which is the best reply: A or B?",
+			"input_text": "‘Do you see those clouds?’",
+			"option": ["‘Yes. It’ll rain.’", "‘Yes. It’s going to rain.’"],
+			"answer": "‘Yes. It’s going to rain.’"
+		}],
+		"feedback": [{
+			"desc": "<xref-group><a href='u725fd0dd48eeb434.631f8527.158e4161850.7fe4'>35.3</a></xref-group>"
+		}]
+	}, {
+		"template": "multi_radio",
+		"rubric": "Are these sentences right: yes (Y) or no (N)?",
+		"rwText": ["Y", "N"],
+		"question": [{
+			"text": "His train <item>will arrive</item> at 11.30.",
+			"answer": {
+				"right": "Y"
+			}
+		}, {
+			"text": "His train <item>arrives</item> at 11.30.",
+			"answer": {
+				"right": "Y"
+			}
+		}, {
+			"text": "The summer term <item>starts</item> on April 10th.",
+			"answer": {
+				"right": "Y"
+			}
+		}, {
+			"text": "The summer term <item>will start</item> on April 10th.",
+			"answer": {
+				"right": "Y"
+			}
+		}],
+		"feedback": [{
+			"desc": "<xref-group><a href='u725fd0dd48eeb434.631f8527.158e41641c3.-7f07'>37.1</a></xref-group>"
+		}]
+	}, {
+		"template": "single_radio",
+		"question": [{
+			"text": "Which question(s) is/are correct: A, B or both?",
+			"option": ["What do you do this evening?", "What are you doing this evening?", "Both"],
+			"answer": "What are you doing this evening?"
+		}],
+		"feedback": [{
+			"desc": "<xref-group><a href='u725fd0dd48eeb434.631f8527.158e41641c3.-7fb7'>36.1</a></xref-group>"
+		}]
+	}, {
+		"template": "multi_radio",
+		"rubric": "Are these sentences possible: yes (Y) or no (N)?",
+		"rwText": ["Y", "N"],
+		"question": [{
+			"text": "It’s going to snow before long.",
+			"answer": {
+				"right": "Y"
+			}
+		}, {
+			"text": "It’s snowing before long.",
+			"answer": {
+				"right": "N"
+			}
+		}, {
+			"text": "It snows before long.",
+			"answer": {
+				"right": "N"
+			}
+		}],
+		"feedback": [{
+			"desc": "<xref-group><a href='u725fd0dd48eeb434.631f8527.158e41641c3.-7f79'>36.2</a></xref-group>"
+		}]
+	}, {
+		"template": "multi_radio",
+		"rubric": "Are the replies correct: yes (Y) or no (N)?",
+		"rwText": ["Y", "N"],
+		"question": [{
+			"input_text": "‘When will you pay us back?’",
+			"text": "‘When I’ll get a job.’",
+			"answer": {
+				"right": "N"
+			}
+		}, {
+			"text": "‘When I’m getting a job.’",
+			"answer": {
+				"right": "N"
+			}
+		}, {
+			"text": "‘When I get a job.’",
+			"answer": {
+				"right": "Y"
+			}
+		}],
+		"feedback": [{
+			"desc": "<xref-group><a href='u725fd0dd48eeb434.631f8527.158e41641c3.-7ef1'>37.2</a></xref-group>"
+		}]
+	}, {
+		"template": "single_radio",
+		"question": [{
+			"text": "Which of the replies is/are correct?",
+			"input_text": "‘There’s the doorbell.’",
+			"option": ["‘I’ll go.’", "‘I go.’", "Both"],
+			"answer": "‘I’ll go.’"
+		}],
+		"feedback": [{
+			"desc": "<xref-group><a href='u725fd0dd48eeb434.631f8527.158e41641c3.-7eaf'>37.4</a></xref-group>"
+		}]
+	}]
+	}, 
+	"c1" :
+	{
+	"-unit": "03",
+	"-level": "c1",
+	"topic_name": "present and future",
+	"exercise": [{
+		"template": "multi_radio",
+		"rubric": "Do the continuations make correct sentences: yes (Y) or no (N)?",
+		"rwText": ["Y", "N"],
+		"question": [{
+			"input_text": "House prices go up ... ",
+			"text": " ... every year.",
+			"answer": {
+				"right": "Y"
+			}
+		}, {
+			"text": " ... again.",
+			"answer": {
+				"right": "N"
+			}
+		}, {
+			"text": " ... by 2% this year.",
+			"answer": {
+				"right": "N"
+			}
+		}, {
+			"text": " ... when there are not enough new houses.",
+			"answer": {
+				"right": "Y"
+			}
+		}],
+		"feedback": [{
+			"desc": "<xref-group><a href='u725fd0dd48eeb434.631f8527.158e4161850.7ac9'>31.1–2</a><br><a href='u725fd0dd48eeb434.631f8527.158e4161850.7c50'>32.4</a></xref-group>"
+		}]
+	}, {
+		"template": "multi_radio",
+		"rubric": "Right (R) or wrong (W)?",
+		"rwText": ["R", "W"],
+		"question": [{
+			"text": "Here <item>comes</item> our train.",
+			"answer": {
+				"right": "R"
+			}
+		}, {
+			"text": "Here <item>is coming</item> our train.",
+			"answer": {
+				"right": "W"
+			}
+		}],
+		"feedback": [{
+			"desc": "<xref-group><a href='u725fd0dd48eeb434.631f8527.158e4161850.7dbb'>34.5</a></xref-group>"
+		}]
+	}, {
+		"template": "single_radio",
+		"question": [{
+			"text": "Which of these is more usual: A or B?",
+			"option": ["<item>It says</item> in the instructions that you need two 9-volt batteries.", "<item>It’s saying</item> in the instructions that you need two 9-volt batteries."],
+			"answer": "It says in the instructions that you need two 9-volt batteries."
+		}],
+		"feedback": [{
+			"desc": "<xref-group><a href='u725fd0dd48eeb434.631f8527.158e4161850.7d9a'>34.4</a></xref-group>"
+		}]
+	}, {
+		"template": "multi_radio",
+		"rubric": "Right (R) or wrong (W)?",
+		"rwText": ["R", "W"],
+		"question": [{
+			"text": "<item>I promise</item> never to smoke again.",
+			"answer": {
+				"right": "R"
+			}
+		}, {
+			"text": "<item>I’m promising</item> never to smoke again.",
+			"answer": {
+				"right": "W"
+			}
+		}],
+		"feedback": [{
+			"desc": "<xref-group><a href='u725fd0dd48eeb434.631f8527.158e4161850.7d79'>34.3</a><br><a href='u725fd0dd48eeb434.631f8527.158e41641c3.5fc2'>262.1</a></xref-group>"
+		}]
+	}, {
+		"template": "single_radio",
+		"question": [{
+			"text": "Which of these sports commentaries uses present tenses correctly: A, B or both?",
+			"option": ["‘Smith <item>passes</item> to Devaney; Harris <item>intercepts</item>. Harris <item>passes back</item> to Simms and Simms <item>shoots</item>!’", "‘Oxford <item>are pulling</item> ahead of Cambridge. They<item>’re rowing</item> steadily. Cambridge <item>are looking</item> a bit disorganised.’", "Both"],
+			"answer": "Both"
+		}],
+		"feedback": [{
+			"desc": "<xref-group><a href='u725fd0dd48eeb434.631f8527.158e4161850.7d0f'>33.2</a></xref-group>"
+		}]
+	}, {
+		"template": "single_radio",
+		"question": [{
+			"text": "Which question is the more likely response: A or B?",
+			"input_text": "‘Jake’s just phoned in to say he’s ill.’",
+			"option": ["‘So <item>who’s going to teach</item> his class this afternoon?’", "‘So <item>who’s teaching</item> his class this afternoon?’"],
+			"answer": "‘So who’s going to teach his class this afternoon?’"
+		}],
+		"feedback": [{
+			"desc": "<xref-group><a href='u725fd0dd48eeb434.631f8527.158e41641c3.-7f79'>36.2</a></xref-group>"
+		}]
+	}, {
+		"template": "single_radio",
+		"question": [{
+			"text": "Which is the best way to end the sentence: A, B or C?",
+			"input_text": "I’m seeing my boss tomorrow and ... ",
+			"option": [" ... <item>I’m complaining</item> about the workload.", " ... <item>I’m going to complain</item> about the workload.", " ... <item>I will complain</item> about the workload."],
+			"answer": " ... I’m going to complain about the workload."
+		}],
+		"feedback": [{
+			"desc": "<xref-group><a href='u725fd0dd48eeb434.631f8527.158e41641c3.-7f79'>36.2</a></xref-group>"
+		}]
+	}, {
+		"template": "multi_radio",
+		"rubric": "Right (R) or wrong (W)?",
+		"rwText": ["R", "W"],
+		"question": [{
+			"text": "<item>It’s snowing</item> before long.",
+			"answer": {
+				"right": "W"
+			}
+		}, {
+			"text": "<item>It’s going to snow</item> before long.",
+			"answer": {
+				"right": "R"
+			}
+		}, {
+			"text": "<item>It’ll be snowing</item> before long.",
+			"answer": {
+				"right": "R"
+			}
+		}],
+		"feedback": [{
+			"desc": "<xref-group><a href='u725fd0dd48eeb434.631f8527.158e41641c3.-7f79'>36.2</a><br><a href='u725fd0dd48eeb434.631f8527.158e41641c3.-7c14'>41.1</a></xref-group>"
+		}]
+	}, {
+		"template": "multi_radio",
+		"rubric": "Right (R) or wrong (W)?",
+		"rwText": ["R", "W"],
+		"question": [{
+			"text": "<item>You’re going to take</item> that medicine, whether you like it or not!",
+			"answer": {
+				"right": "R"
+			}
+		}, {
+			"text": "<item>You’re taking</item> that medicine, whether you like it or not!",
+			"answer": {
+				"right": "R"
+			}
+		}],
+		"feedback": [{
+			"desc": "<xref-group><a href='u725fd0dd48eeb434.631f8527.158e4161850.7ff3'>35.4</a><br><a href='u725fd0dd48eeb434.631f8527.158e41641c3.-7f38'>36.3</a></xref-group>"
+		}]
+	}, {
+		"template": "multi_radio",
+		"rubric": "Right (R) or wrong (W)?",
+		"rwText": ["R", "W"],
+		"question": [{
+			"text": "Don’t phone them now – <item>they’re having</item> dinner.",
+			"answer": {
+				"right": "R"
+			}
+		}, {
+			"text": "Don’t phone them now – <item>they’ll be having</item> dinner.",
+			"answer": {
+				"right": "R"
+			}
+		}],
+		"feedback": [{
+			"desc": "If you thought <item>B</item> was wrong, <xref-group><a href='u725fd0dd48eeb434.631f8527.158e41641c3.-7ca6'>39.7</a></xref-group>."
+		}]
+	}, {
+		"template": "single_radio",
+		"question": [{
+			"text": "Which is the best way to end the sentence: A, B or C?",
+			"input_text": "This time tomorrow ... ",
+			"option": [" ... <item>I’m lying</item> on the beach.", " ... <item>I’ll lie</item> on the beach.", " ... <item>I’ll be lying</item> on the beach."],
+			"answer": " ... I’ll be lying on the beach."
+		}],
+		"feedback": [{
+			"desc": "<xref-group><a href='u725fd0dd48eeb434.631f8527.158e41641c3.-7c14'>41.1</a></xref-group>"
+		}]
+	}, {
+		"template": "multi_radio",
+		"rubric": "Can expressions A–D end the sentence correctly: yes (Y) or no (N)?",
+		"rwText": ["Y", "N"],
+		"question": [{
+			"input_text": "The builders say they <item>will have</item> finished the roof ... ",
+			"text": " ... by Tuesday.",
+			"answer": {
+				"right": "Y"
+			}
+		}, {
+			"text": " ... by the end of the week.",
+			"answer": {
+				"right": "Y"
+			}
+		}, {
+			"text": " ... as soon as they can.",
+			"answer": {
+				"right": "N"
+			}
+		}, {
+			"text": " ... without any more delays.",
+			"answer": {
+				"right": "N"
+			}
+		}],
+		"feedback": [{
+			"desc": "<xref-group><a href='u725fd0dd48eeb434.631f8527.158e41641c3.-7c58'>40</a></xref-group>"
+		}]
+	}, {
+		"template": "single_radio",
+		"question": [{
+			"text": "Which is the correct continuation: A or B?",
+			"input_text": "The roads are icy. ",
+			"option": ["Be careful while <item>you’re driving</item> home tomorrow.", "Be careful while <item>you’ll be driving</item> home tomorrow."],
+			"answer": "Be careful while you’re driving home tomorrow."
+		}],
+		"feedback": [{
+			"desc": "<xref-group><a href='u725fd0dd48eeb434.631f8527.158e4161850.7b34'>31.4</a></xref-group>"
+		}]
+	}, {
+		"template": "multi_radio",
+		"rubric": "Can the verb forms complete the sentence correctly: yes (Y) or no (N)?",
+		"rwText": ["Y", "N"],
+		"question": [{
+			"input_text": "If we <gap/> by lunchtime, we had better hurry.",
+			"text": "get there",
+			"answer": {
+				"right": "N"
+			}
+		}, {
+			"text": "will get there",
+			"answer": {
+				"right": "N"
+			}
+		}, {
+			"text": "would get there",
+			"answer": {
+				"right": "N"
+			}
+		}, {
+			"text": "are to get there",
+			"answer": {
+				"right": "Y"
+			}
+		}],
+		"feedback": [{
+			"desc": "<xref-group><a href='u725fd0dd48eeb434.631f8527.158e41641c3.-7b88'>42.3</a></xref-group>"
+		}]
+	}]
+	}, 
+	"c2" :
+	{
+	"-unit": "03",
+	"-level": "c2",
+	"topic_name": "present and future",
+	"exercise": [{
+		"template": "multi_radio",
+		"rubric": "Right (R) or wrong (W)?",
+		"rwText": ["R", "W"],
+		"question": [{
+			"text": "Why <item>is he hitting</item> that dog?",
+			"answer": {
+				"right": "R"
+			}
+		}, {
+			"text": "<item>I’m going</item> to America about once a month.",
+			"answer": {
+				"right": "W"
+			}
+		}, {
+			"text": "<item>We’re going</item> to a lot of concerts these days.",
+			"answer": {
+				"right": "R"
+			}
+		}],
+		"feedback": [{
+			"desc": "<xref-group><a href='u725fd0dd48eeb434.631f8527.158e4161850.7d49'>34.1</a></xref-group>"
+		}]
+	}, {
+		"template": "multi_radio",
+		"rubric": "Right (R) or wrong (W)?",
+		"rwText": ["R", "W"],
+		"question": [{
+			"text": "My job<item>’s getting</item> less and less interesting.",
+			"answer": {
+				"right": "R"
+			}
+		}, {
+			"text": "The universe <item>is expanding</item>, and has been since its beginning.",
+			"answer": {
+				"right": "R"
+			}
+		}],
+		"feedback": [{
+			"desc": "<xref-group><a href='u725fd0dd48eeb434.631f8527.158e4161850.7d69'>34.2</a></xref-group>"
+		}]
+	}, {
+		"template": "multi_radio",
+		"rubric": "Right (R) or wrong (W)?",
+		"rwText": ["R", "W"],
+		"question": [{
+			"text": "She doesn’t like to be disturbed when <item>she’s working</item>.",
+			"answer": {
+				"right": "R"
+			}
+		}, {
+			"text": "When the mail comes <item>I’m</item> usually <item>having breakfast</item>.",
+			"answer": {
+				"right": "R"
+			}
+		}, {
+			"text": "You look lovely when <item>you smile</item>.",
+			"answer": {
+				"right": "R"
+			}
+		}, {
+			"text": "You look lovely when <item>you’re smiling</item>.",
+			"answer": {
+				"right": "R"
+			}
+		}],
+		"feedback": [{
+			"desc": "<xref-group><a href='u725fd0dd48eeb434.631f8527.158e4161850.7d49'>34.1</a></xref-group>"
+		}]
+	}, {
+		"template": "freetext",
+		"rubric": "What is the difference between these two sentences?",
+		"question": [{
+			"input_text": "<item>I look forward</item> to hearing from you.<br/><item>I’m looking forward</item> to hearing from you.",
+			"text": ""
+		}],
+		"answer": "The first sentence is more formal than the second.",
+		"feedback": [{
+			"desc": "<xref-group><a href='u725fd0dd48eeb434.631f8527.158e4161850.7de6'>34.7</a></xref-group>"
+		}]
+	}, {
+		"template": "single_radio",
+		"question": [{
+			"text": "Three of these sentences mean more or less the same. Which one is different?",
+			"option": ["<item>Are you doing</item> the shopping tomorrow?", "<item>Are you going to do</item> the shopping tomorrow?", "<item>Will you do</item> the shopping tomorrow?", "<item>Will you be doing</item> the shopping tomorrow?"],
+			"answer": "Will you do the shopping tomorrow?"
+		}],
+		"feedback": [{
+			"desc": "<xref-group><a href='u725fd0dd48eeb434.631f8527.158e41641c3.-7cdb'>39.6</a></xref-group>"
+		}]
+	}, {
+		"template": "multi_radio",
+		"rubric": "Are these sentences possible: yes (Y) or no (N)?",
+		"rwText": ["Y", "N"],
+		"question": [{
+			"text": "<item>I’m wanting</item> a taxi to the station now.",
+			"answer": {
+				"right": "N"
+			}
+		}, {
+			"text": "I told the receptionist that <item>I was wanting</item> a taxi to the station.",
+			"answer": {
+				"right": "N"
+			}
+		}, {
+			"text": "<item>I’ll be wanting</item> a taxi to the station at 6.00 tomorrow morning.",
+			"answer": {
+				"right": "Y"
+			}
+		}],
+		"feedback": [{
+			"desc": "<xref-group><a href='u725fd0dd48eeb434.631f8527.158e4161850.6565'>4.2</a><br><a href='u725fd0dd48eeb434.631f8527.158e41641c3.-7c08'>41.2</a></xref-group>"
+		}]
+	}, {
+		"template": "single_radio",
+		"question": [{
+			"text": "Which of these is/are right: A, B or both?",
+			"option": ["<item>I hear</item> you’re getting married.", "<item>I’ve heard</item> you’re getting married.", "Both"],
+			"answer": "Both"
+		}],
+		"feedback": [{
+			"desc": "<xref-group><a href='u725fd0dd48eeb434.631f8527.158e4161850.7d9a'>34.4</a></xref-group>"
+		}]
+	}, {
+		"template": "multi_radio",
+		"rubric": "Are these sentences right (R) or wrong (W)?",
+		"rwText": ["R", "W"],
+		"question": [{
+			"text": "Our house <item>is getting</item> new windows this winter.",
+			"answer": {
+				"right": "R"
+			}
+		}, {
+			"text": "Our house <item>is going to get</item> new windows this winter.",
+			"answer": {
+				"right": "R"
+			}
+		}, {
+			"text": "Their new house <item>is looking</item> over the river.",
+			"answer": {
+				"right": "W"
+			}
+		}, {
+			"text": "Their new house <item>is going to look</item> over the river.",
+			"answer": {
+				"right": "R"
+			}
+		}],
+		"feedback": [{
+			"desc": "<xref-group><a href='u725fd0dd48eeb434.631f8527.158e41641c3.-7f79'>36.2</a></xref-group>"
+		}]
+	}, {
+		"template": "single_radio",
+		"question": [{
+			"text": "What do you think about the use of <i>shall</i>?",
+			"input_text": "The hirer <item>shall be</item> responsible for maintenance of the vehicle.",
+			"option": ["It’s normal.", "It’s typical of very formal language.", "It’s more common in American English than in British English.", "It’s a mistake."],
+			"answer": "It’s typical of very formal language."
+		}],
+		"feedback": [{
+			"desc": "<xref-group><a href='u725fd0dd48eeb434.631f8527.158e41641c3.-7c72'>39.8</a></xref-group>"
+		}]
+	}, {
+		"template": "single_radio",
+		"question": [{
+			"text": "What do you think of the future structure in this sentence?",
+			"input_text": "I’m going to be working late tomorrow.",
+			"option": ["It’s normal.", "It’s correct but unusual.", "It’s incorrect."],
+			"answer": "It’s normal."
+		}],
+		"feedback": [{
+			"desc": "<xref-group><a href='u725fd0dd48eeb434.631f8527.158e41641c3.-7bd6'>41.3</a></xref-group>"
+		}]
+	}, {
+		"template": "single_radio",
+		"question": [{
+			"text": "Choose the best explanation of Anna’s reply.",
+			"input_text": "<speaker>joe</speaker>: Do you think Jack will come to the meeting?<br/><speaker>anna</speaker>: No, he’ll have forgotten.",
+			"option": ["He’s already forgotten.", "He may remember now, but he’ll forget before the meeting takes place."],
+			"answer": "He’s already forgotten."
+		}],
+		"feedback": [{
+			"desc": "<xref-group><a href='u725fd0dd48eeb434.631f8527.158e41641c3.-7ca6'>39.7</a></xref-group>"
+		}]
+	}]
+	}
+}

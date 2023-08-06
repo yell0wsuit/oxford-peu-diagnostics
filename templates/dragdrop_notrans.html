@@ -1,0 +1,29 @@
+<div class="template dnd" ng-controller="dndCtrl">
+  <div class="rubric"><span class="rubricNo">{{d.curr+1}}</span> <span class="rubricText" ng-bind-html="d.exercise.rubric | sanitize"></span></div>
+  <div class="options">
+      <div class="dragWrap">
+    <div class="dragC" ng-repeat="i in d.exercise.option" on-finish-render="setW()">
+        <ng-drag index="{{$index}}" clone="{{d.exercise.clone}}" class="drags" revert="invalid" containment=".activityArea"><span>{{i.text}}</span></ng-drag></div>
+ </div>
+      </div>
+  <div class="questions">
+    <ul class="q_row">
+      <li ng-repeat="i in d.exercise.question">
+           <div class=" input_text" ng-if='i.hasOwnProperty("input_text")' ng-bind-html="i.input_text | sanitize"></div>
+          <div class="dnd_text" ng-bind-html="i.text | dropText | sanitize"></div></li>
+    </ul>
+    <div class="disabler" ng-show="disable"></div>
+  </div>
+  <div class="linkFeedback">
+         <div class="feedback_wrapper">
+ <div class="feedback_header">Where to go in <i>Practical English Usage</i></div>
+    <ul>
+           <li ng-repeat="f in d.exercise.feedback" ng-bind-html="f.desc | sanitize"></li> 
+    </ul>
+    </div>
+  </div>
+    <div class="btn skip" ng-show="!disable" ng-click="nextExercise()" >Skip</div>
+    <div class="btn checkAns" ng-show="!disable" ng-click="checkAnswer()">Check my answers</div>
+    <div class="btn next" ng-click="nextExercise()" ng-if="d.curr < (d.size - 1)">Next</div> 
+    <div class="btn resultsBtn" ng-show="disable" ng-click="results(d.level)" ng-if="d.curr >= (d.size - 1)">Results</div> 
+</div>

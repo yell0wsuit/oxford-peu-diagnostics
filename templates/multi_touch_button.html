@@ -1,0 +1,24 @@
+<div  class="template multi_touch_button" ng-controller="multi_touch_button">
+    <div class="rubric"><span class="rubricNo">{{d.curr + 1}}</span> <span class="rubricText" ng-bind-html="d.exercise.rubric | sanitize"></span></div>
+
+    <div class="questions">
+        <div class="questionSet" ng-repeat="a in d.exercise.question"  on-finish-render="setW()">
+             <div class=" input_text" ng-if='a.hasOwnProperty("input_text")' ng-bind-html="a.input_text | sanitize"></div>
+            <div class="qTxt" data-ques="{{$index}}"  ng-bind-html="a | multiTouchText | sanitize"></div>
+        </div>
+        <div class="disabler" ng-show="disable"></div>
+    </div>
+    <div class="linkFeedback">
+        <div class="feedback_wrapper">
+            <div class="feedback_header">Where to go in <i>Practical English Usage</i></div>
+            <ul>
+                <li ng-repeat="f in d.exercise.feedback.xrefGroup.xref">{{f.text}}</li>
+            </ul>
+        </div>
+    </div>
+    <div class="btn skip" ng-click="nextExercise()">Skip</div>
+    <div class="btn checkAns" ng-show="!disable" ng-click="checkAnswer()">Check my answers</div>
+    <div class="btn next" ng-show="disable" ng-click="nextExercise()" ng-if="d.curr < (d.size - 1)">Next</div>
+    <div class="btn resultsBtn" ng-show="disable" ng-click="results(d.level)" ng-if="d.curr >= (d.size - 1)">Results</div> 
+
+</div>

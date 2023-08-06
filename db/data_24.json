@@ -1,0 +1,1407 @@
+{
+	"b2" :
+	{
+	"-unit": "25",
+	"-level": "b2",
+	"topic_name": "vocabulary areas",
+	"exercise": [{
+		"template": "multi_radio",
+		"rubric": "Right (R) or wrong (W)?",
+		"rwText": ["R", "W"],
+		"question": [{
+			"text": "He’s thirty.",
+			"answer": {
+				"right": "R"
+			}
+		}, {
+			"text": "He’s thirty years.",
+			"answer": {
+				"right": "W"
+			}
+		}, {
+			"text": "He’s thirty years old.",
+			"answer": {
+				"right": "R"
+			}
+		}, {
+			"text": "He’s thirty years of age.",
+			"answer": {
+				"right": "R"
+			}
+		}],
+		"feedback": [{
+			"desc": "<xref-group><a href='u725fd0dd48eeb434.631f8527.158e4170750.-5aea'>323.1</a></xref-group>"
+		}]
+	}, {
+		"template": "multi_radio",
+		"rubric": "Are these sentences right: yes (Y) or no (N)?",
+		"rwText": ["Y", "N"],
+		"question": [{
+			"text": "<item>When I was your age</item> I had a job.",
+			"answer": {
+				"right": "Y"
+			}
+		}, {
+			"text": "<item>When I was at your age</item> I had a job.",
+			"answer": {
+				"right": "N"
+			}
+		}, {
+			"text": "<item>At your age</item> I had a job.",
+			"answer": {
+				"right": "Y"
+			}
+		}, {
+			"text": "He could read <item>at the age</item> of three.",
+			"answer": {
+				"right": "Y"
+			}
+		}, {
+			"text": "He could read <item>in the age</item> of three.",
+			"answer": {
+				"right": "N"
+			}
+		}],
+		"feedback": [{
+			"desc": "<xref-group><a href='u725fd0dd48eeb434.631f8527.158e4170750.-5ac5'>323.2–3</a></xref-group>"
+		}]
+	}, {
+		"template": "gapfill",
+		"hideRight": "true",
+		"ignorePunctuate": "False",
+		"rubric": "Write the dates in the form below.",
+		"sample": {
+			"text": "9 July #gap",
+			"answer": ["9th July"]
+		},
+		"question": [{
+			"text": "3 August #gap",
+			"answer": [
+				["3rd August"]
+			]
+		}, {
+			"text": "13 June #gap",
+			"answer": [
+				["13th June"]
+			]
+		}, {
+			"text": "22 September #gap",
+			"answer": [
+				["22nd September"]
+			]
+		}, {
+			"text": "21 November #gap",
+			"answer": [
+				["21st November"]
+			]
+		}],
+		"feedback": [{
+			"desc": "<xref-group><a href='u725fd0dd48eeb434.631f8527.158e4170750.-5a83'>324.1</a></xref-group>"
+		}]
+	}, {
+		"template": "single_touch_button",
+		"rubric": "What date is 6/9/05 …",
+		"question": [{
+			"text": " In Britain? #singletouch",
+			"option": [
+				["6 September 2005", "9 June 2005"]
+			],
+			"answer": ["6 September 2005"]
+		}, {
+			"text": " In the USA? #singletouch",
+			"option": [
+				["6 September, 2005", "9 June, 2005"]
+			],
+			"answer": ["9 June, 2005"]
+		}],
+		"feedback": [{
+			"desc": "<xref-group><a href='u725fd0dd48eeb434.631f8527.158e4170750.-5a83'>324.1</a></xref-group>"
+		}]
+	}, {
+		"template": "multi_radio",
+		"rubric": "Are these ways of getting someone’s attention normal or not: yes (Y) or no (N)?",
+		"rwText": ["Y", "N"],
+		"question": [{
+			"text": "Excuse me.",
+			"answer": {
+				"right": "Y"
+			}
+		}, {
+			"text": "Excuse me, Mr.",
+			"answer": {
+				"right": "N"
+			}
+		}, {
+			"text": "Excuse me, Mrs.",
+			"answer": {
+				"right": "N"
+			}
+		}, {
+			"text": "Excuse me, sir.",
+			"answer": {
+				"right": "N"
+			}
+		}, {
+			"text": "Excuse me, madam.",
+			"answer": {
+				"right": "N"
+			}
+		}],
+		"feedback": [{
+			"desc": "<xref-group><a href='u725fd0dd48eeb434.631f8527.158e4170750.-58c2'>326.2</a>, <a href='u725fd0dd48eeb434.631f8527.158e4170750.-560e'>329.6</a></xref-group> b<br/><item>D</item> and <item>E</item> are unusual in Britain except when used by shop assistants and other people in service jobs."
+		}]
+	}, {
+		"template": "gapfill",
+		"hideRight": "true",
+		"ignorePunctuate": "False",
+		"rubric": "For each of these countries, write the adjective, the word for a person from there and the word for the whole population.",
+		"sample": {
+			"text": "<item>Brazil</item> – adjective #gap; person #gap; population #gap",
+			"answer": ["Brazilian", "a Brazilian", "the Brazilians"]
+		},
+		"question": [{
+			"text": "Europe / #gap / #gap / #gap",
+			"answer": [
+				["European"],
+				["a European"],
+				["the Europeans"]
+			]
+		}, {
+			"text": "Italy / #gap / #gap / #gap",
+			"answer": [
+				["Italian"],
+				["an Italian"],
+				["the Italians"]
+			]
+		}, {
+			"text": "England / #gap / #gap / #gap",
+			"answer": [
+				["English"],
+				["an Englishwoman/man",
+					"an Englishwoman",
+					"an Englishman"
+				],
+				["the English"]
+			]
+		}, {
+			"text": "Portugal / #gap / #gap / #gap",
+			"answer": [
+				["Portuguese"],
+				["a Portuguese",
+					"a Portuguese person"
+				],
+				["the Portuguese"]
+			]
+		}, {
+			"text": "France / #gap / #gap / #gap",
+			"answer": [
+				["French"],
+				["a Frenchwoman/man",
+					"a Frenchwoman",
+					"a Frenchman"
+				],
+				["the French"]
+			]
+		}, {
+			"text": "China / #gap / #gap / #gap",
+			"answer": [
+				["Chinese"],
+				["a Chinese",
+					"a Chinese person"
+				],
+				["the Chinese"]
+			]
+		}, {
+			"text": "Spain / #gap / #gap / #gap",
+			"answer": [
+				["Spanish"],
+				["a Spaniard"],
+				["the Spanish"]
+			]
+		}, {
+			"text": "Britain / #gap / #gap / #gap",
+			"answer": [
+				["British"],
+				["a British person"],
+				["the British"]
+			]
+		}],
+		"feedback": [{
+			"desc": "<xref-group><a href='u725fd0dd48eeb434.631f8527.158e4170750.-5fbd'>321.2–3</a></xref-group>"
+		}]
+	}, {
+		"template": "multi_radio",
+		"rubric": "Are the replies to the telephone enquiry normal: yes (Y) or no (N)?",
+		"rwText": ["Y", "N"],
+		"question": [{
+			"input_text": "‘Could I speak to Megan Horrabin?’",
+			"text": "‘<item>I’m</item> Megan Horrabin.’",
+			"answer": {
+				"right": "N"
+			}
+		}, {
+			"text": "‘<item>This is</item> Megan Horrabin.’",
+			"answer": {
+				"right": "Y"
+			}
+		}, {
+			"text": "‘<item>This is</item> Megan Horrabin <item>speaking</item>.’",
+			"answer": {
+				"right": "Y"
+			}
+		}, {
+			"text": "‘<item>Speaking</item>.’",
+			"answer": {
+				"right": "Y"
+			}
+		}],
+		"feedback": [{
+			"desc": "<xref-group><a href='u725fd0dd48eeb434.631f8527.158e4170750.-542c'>331.3</a></xref-group>"
+		}]
+	}, {
+		"template": "multi_radio",
+		"rubric": "Are these expressions correct for telephone conversations in British English: yes (Y) or no (N)? Sometimes more than one option is possible.",
+		"rwText": ["Y", "N"],
+		"question": [{
+			"input_text": "I’m afraid she’s not <gap/> at the moment",
+			"text": "in",
+			"answer": {
+				"right": "Y"
+			}
+		}, {
+			"text": "there",
+			"answer": {
+				"right": "N"
+			}
+		}, {
+			"text": "present",
+			"answer": {
+				"right": "N"
+			}
+		}, {
+			"input_text": "Can I <gap/> a message?",
+			"text": "give",
+			"answer": {
+				"right": "N"
+			}
+		}, {
+			"text": "leave",
+			"answer": {
+				"right": "Y"
+			}
+		}, {
+			"text": "pass",
+			"answer": {
+				"right": "N"
+			}
+		}, {
+			"input_text": "Can I <gap/> a message?",
+			"text": "receive",
+			"answer": {
+				"right": "N"
+			}
+		}, {
+			"text": "get",
+			"answer": {
+				"right": "N"
+			}
+		}, {
+			"text": "take",
+			"answer": {
+				"right": "Y"
+			}
+		}, {
+			"input_text": "I’ll <gap/> later.",
+			"text": "ring back",
+			"answer": {
+				"right": "Y"
+			}
+		}, {
+			"text": "call back",
+			"answer": {
+				"right": "Y"
+			}
+		}, {
+			"text": "call again",
+			"answer": {
+				"right": "Y"
+			}
+		}, {
+			"input_text": "Could you ask her to <gap/> 2228 1234?",
+			"text": "call back me on",
+			"answer": {
+				"right": "N"
+			}
+		}, {
+			"text": "call me back on",
+			"answer": {
+				"right": "Y"
+			}
+		}, {
+			"text": "call back me at",
+			"answer": {
+				"right": "N"
+			}
+		}, {
+			"text": "call me back at",
+			"answer": {
+				"right": "Y"
+			}
+		}, {
+			"text": "call back me to",
+			"answer": {
+				"right": "N"
+			}
+		}, {
+			"text": "call me back to",
+			"answer": {
+				"right": "N"
+			}
+		}],
+		"feedback": [{
+			"desc": "<xref-group><a href='u725fd0dd48eeb434.631f8527.158e4170750.-53dd'>331.7</a></xref-group><br/><item>J</item>: <i>ring</i> is unusual in American English."
+		}]
+	}, {
+		"template": "multi_radio",
+		"rubric": "Are these ways of saying the time right (R) or wrong (W) in British English?",
+		"rwText": ["R", "W"],
+		"question": [{
+			"input_text": "08:50",
+			"text": "eight fifty",
+			"answer": {
+				"right": "R"
+			}
+		}, {
+			"text": "ten to nine",
+			"answer": {
+				"right": "R"
+			}
+		}, {
+			"text": "eight fifty a.m.",
+			"answer": {
+				"right": "R"
+			}
+		}, {
+			"input_text": "4.30",
+			"text": "four thirty",
+			"answer": {
+				"right": "R"
+			}
+		}, {
+			"text": "half four",
+			"answer": {
+				"right": "R"
+			}
+		}, {
+			"text": "half past four",
+			"answer": {
+				"right": "R"
+			}
+		}, {
+			"text": "half past four o’clock",
+			"answer": {
+				"right": "W"
+			}
+		}],
+		"feedback": [{
+			"desc": "<xref-group><a href='u725fd0dd48eeb434.631f8527.158e4170750.-59e6'>325.1</a></xref-group>"
+		}]
+	}]
+	}, 
+	"c1" :
+	{
+	"-unit": "25",
+	"-level": "c1",
+	"topic_name": "vocabulary areas",
+	"exercise": [{
+		"template": "multi_radio",
+		"rubric": "Right (R) or wrong (W)?",
+		"rwText": ["R", "W"],
+		"question": [{
+			"text": "30 March 2004",
+			"answer": {
+				"right": "R"
+			}
+		}, {
+			"text": "30 March, 2004",
+			"answer": {
+				"right": "R"
+			}
+		}, {
+			"text": "30th March 2004",
+			"answer": {
+				"right": "R"
+			}
+		}, {
+			"text": "March 30, 2004",
+			"answer": {
+				"right": "R"
+			}
+		}],
+		"feedback": [{
+			"desc": "<xref-group><a href='u725fd0dd48eeb434.631f8527.158e4170750.-5a83'>324.1</a></xref-group>"
+		}]
+	}, {
+		"template": "multi_radio",
+		"rubric": "Are these ways of writing dates in figures correct: yes (Y) or no (N)?",
+		"rwText": ["Y", "N"],
+		"question": [{
+			"text": "30/3/04",
+			"answer": {
+				"right": "Y"
+			}
+		}, {
+			"text": "30-3-04",
+			"answer": {
+				"right": "Y"
+			}
+		}, {
+			"text": "30,3,04",
+			"answer": {
+				"right": "N"
+			}
+		}, {
+			"text": "30.3.04",
+			"answer": {
+				"right": "Y"
+			}
+		}],
+		"feedback": [{
+			"desc": "<xref-group><a href='u725fd0dd48eeb434.631f8527.158e4170750.-5a83'>324.1</a></xref-group>"
+		}]
+	}, {
+		"template": "multi_radio",
+		"rubric": "Are these ways of saying dates normally correct in British English: yes (Y) or no (N)?",
+		"rwText": ["Y", "N"],
+		"question": [{
+			"input_text": "1905",
+			"text": "‘nineteen hundred and five’",
+			"answer": {
+				"right": "Y"
+			}
+		}, {
+			"text": "‘nineteen oh five’",
+			"answer": {
+				"right": "Y"
+			}
+		}, {
+			"text": "‘nineteen five’",
+			"answer": {
+				"right": "N"
+			}
+		}, {
+			"input_text": "2005",
+			"text": "‘two thousand and five’",
+			"answer": {
+				"right": "Y"
+			}
+		}, {
+			"text": "‘two thousand oh five’",
+			"answer": {
+				"right": "N"
+			}
+		}, {
+			"text": "‘two thousand five’",
+			"answer": {
+				"right": "N"
+			}
+		}, {
+			"text": "‘twenty five’",
+			"answer": {
+				"right": "N"
+			}
+		}],
+		"feedback": [{
+			"desc": "<xref-group><a href='u725fd0dd48eeb434.631f8527.158e4170750.-5a3e'>324.2</a></xref-group><br/>In American English, <item>F</item> is normally used, and not <item>D</item>. "
+		}]
+	}, {
+		"template": "dragdrop_notrans",
+		"rubric": "Jim Lembrick is a professional footballer. Here are some of the different ways that people might write or talk to him or about him. Match the form of address with the most appropriate title. (Use each of the titles in the box only once. You won’t need all of them.) One of the forms of address is wrong.",
+		"option": ["Jim",
+			"sir",
+			"Dear Sir",
+			"Mr Jim",
+			"Mr Jim Lembrick",
+			"Lembrick",
+			"Jim Lembrick"
+		],
+		"question": [{
+			"text": "waiter in a restaurant: Excuse me, #drop. I think you’ve dropped your wallet.",
+			"answer": [
+				["sir"]
+			]
+		}, {
+			"text": "sports commentator: #drop had a fantastic game on Saturday.",
+			"answer": [
+				["Lembrick"]
+			]
+		}, {
+			"text": "member of the public: Can you see the man in the corner? Isn’t that the footballer #drop?",
+			"answer": [
+				["Jim Lembrick"]
+			]
+		}, {
+			"text": "someone writing a letter who doesn’t know his name: #drop",
+			"answer": [
+				["Dear Sir"]
+			]
+		}, {
+			"text": "a friend: #drop, are you coming to the party next week?",
+			"answer": [
+				["Jim"]
+			]
+		}, {
+			"text": "the first line of the address in a letter sent to him: #drop",
+			"answer": [
+				["Mr Jim Lembrick"]
+			]
+		}],
+		"feedback": [{
+			"desc": "<xref-group><a href='u725fd0dd48eeb434.631f8527.158e4170750.-5923'>326</a></xref-group>"
+		}]
+	}, {
+		"template": "gapfill",
+		"hideRight": "true",
+		"ignorePunctuate": "False",
+		"rubric": "For each of these countries, write the adjective, the word for a person from there and the word for the whole population. ",
+		"sample": {
+			"text": "<item>Brazil</item> – adjective #gap; person #gap; population #gap",
+			"answer": ["Brazilian", "a Brazilian", "the Brazilians"]
+		},
+		"question": [{
+			"text": "Norway / #gap / #gap / #gap",
+			"answer": [
+				["Norwegian"],
+				["a Norwegian"],
+				["the Norwegians"]
+			]
+		}, {
+			"text": "Sweden / #gap / #gap / #gap",
+			"answer": [
+				["Swedish"],
+				["a Swede"],
+				["the Swedes"]
+			]
+		}, {
+			"text": "Iraq / #gap / #gap / #gap",
+			"answer": [
+				["Iraqi"],
+				["an Iraqi"],
+				["the Iraqis"]
+			]
+		}, {
+			"text": "Thailand / #gap / #gap / #gap",
+			"answer": [
+				["Thai"],
+				["a Thai"],
+				["the Thais"]
+			]
+		}, {
+			"text": "Poland / #gap / #gap / #gap",
+			"answer": [
+				["Polish"],
+				["a Pole"],
+				["the Poles"]
+			]
+		}, {
+			"text": "Turkey / #gap / #gap / #gap",
+			"answer": [
+				["Turkish"],
+				["a Turk"],
+				["the Turks"]
+			]
+		}, {
+			"text": "Japan / #gap / #gap / #gap",
+			"answer": [
+				["Japanese"],
+				["a Japanese"],
+				["the Japanese"]
+			]
+		}],
+		"feedback": [{
+			"desc": "<xref-group><a href='u725fd0dd48eeb434.631f8527.158e4170750.-5fbd'>321.2–3</a></xref-group>"
+		}]
+	}, {
+		"template": "multi_radio",
+		"rubric": "Are these normal ways of asking who is on the phone in British English: yes (Y) or no (N)?",
+		"rwText": ["Y", "N"],
+		"question": [{
+			"text": "<item>Who is that</item>, please?",
+			"answer": {
+				"right": "Y"
+			}
+		}, {
+			"text": "<item>Who is this</item>, please?",
+			"answer": {
+				"right": "N"
+			}
+		}, {
+			"text": "<item>Who’s there</item>, please?",
+			"answer": {
+				"right": "Y"
+			}
+		}, {
+			"text": "Excuse me. <item>Who are you?</item>",
+			"answer": {
+				"right": "N"
+			}
+		}, {
+			"text": "Excuse me. <item>Who am I speaking to?</item>",
+			"answer": {
+				"right": "Y"
+			}
+		}, {
+			"text": "Excuse me. <item>Who is that speaking?</item>",
+			"answer": {
+				"right": "Y"
+			}
+		}],
+		"feedback": [{
+			"desc": "<xref-group><a href='u725fd0dd48eeb434.631f8527.158e4170750.-5410'>331.4</a></xref-group>"
+		}]
+	}, {
+		"template": "multi_radio",
+		"rubric": "Can these expressions complete the sentence correctly: yes (Y) or no (N)?",
+		"rwText": ["Y", "N"],
+		"question": [{
+			"input_text": "What’s the <gap/> for Bristol?",
+			"text": "area code",
+			"answer": {
+				"right": "Y"
+			}
+		}, {
+			"text": "phone code",
+			"answer": {
+				"right": "N"
+			}
+		}, {
+			"text": "dialling code",
+			"answer": {
+				"right": "Y"
+			}
+		}],
+		"feedback": [{
+			"desc": "<xref-group><a href='u725fd0dd48eeb434.631f8527.158e4170750.-53ff'>331.5</a></xref-group><br/><i>Dialling code</i> is most common in British English."
+		}]
+	}, {
+		"template": "single_touch_button",
+		"rubric": "Choose the right option for each sentence.",
+		"question": [{
+			"text": "How do I get an #singletouch line?",
+			"option": [
+				["outside", "external"]
+			],
+			"answer": ["outside"]
+		}, {
+			"text": "I’d like to make a #singletouch call.",
+			"option": [
+				["charge reversed", "reverse charge"]
+			],
+			"answer": ["reverse charge"]
+		}, {
+			"text": "I think you’ve got the #singletouch number.",
+			"option": [
+				["false", "wrong"]
+			],
+			"answer": ["wrong"]
+		}, {
+			"text": "I can’t hear you – you’re #singletouch.",
+			"option": [
+				["breaking up", "cracking up"]
+			],
+			"answer": ["breaking up"]
+		}],
+		"feedback": [{
+			"desc": "<xref-group><a href='u725fd0dd48eeb434.631f8527.158e4170750.-53ff'>331.5–6</a><br><a href='u725fd0dd48eeb434.631f8527.158e4170750.-53ac'>331.10–11</a></xref-group>"
+		}]
+	}, {
+		"template": "multi_radio",
+		"rubric": "Would these expressions normally be used by a switchboard operator: yes (Y) or no (N)?",
+		"rwText": ["Y", "N"],
+		"question": [{
+			"text": "One moment, please. ",
+			"answer": {
+				"right": "Y"
+			}
+		}, {
+			"text": "Hold the line, please. ",
+			"answer": {
+				"right": "Y"
+			}
+		}, {
+			"text": "Hang on, please. ",
+			"answer": {
+				"right": "N"
+			}
+		}, {
+			"text": "I’m trying to connect you. ",
+			"answer": {
+				"right": "Y"
+			}
+		}, {
+			"text": "I’m passing you through now. ",
+			"answer": {
+				"right": "N"
+			}
+		}, {
+			"text": "I’m afraid the number is occupied. ",
+			"answer": {
+				"right": "N"
+			}
+		}, {
+			"text": "I’m afraid there’s no reply from his post. ",
+			"answer": {
+				"right": "N"
+			}
+		}],
+		"feedback": [{
+			"desc": "<xref-group><a href='u725fd0dd48eeb434.631f8527.158e4170750.-53cc'>331.8–9</a></xref-group>"
+		}]
+	}, {
+		"template": "multi_radio",
+		"rubric": "Are these ways of saying times normal in British English: yes (Y) or no (N)?",
+		"rwText": ["Y", "N"],
+		"question": [{
+			"input_text": "8.07",
+			"text": "seven minutes past eight",
+			"answer": {
+				"right": "Y"
+			}
+		}, {
+			"text": "seven past eight",
+			"answer": {
+				"right": "N"
+			}
+		}, {
+			"text": "eight oh seven",
+			"answer": {
+				"right": "Y"
+			}
+		}, {
+			"input_text": "07.10",
+			"text": "ten after seven",
+			"answer": {
+				"right": "N"
+			}
+		}, {
+			"text": "ten past seven",
+			"answer": {
+				"right": "Y"
+			}
+		}, {
+			"text": "ten past seven o’clock",
+			"answer": {
+				"right": "N"
+			}
+		}, {
+			"input_text": "2.35",
+			"text": "twenty-five of three",
+			"answer": {
+				"right": "N"
+			}
+		}, {
+			"text": "twenty-five to three",
+			"answer": {
+				"right": "Y"
+			}
+		}, {
+			"text": "twenty-five before three",
+			"answer": {
+				"right": "N"
+			}
+		}, {
+			"text": "twenty-five till three",
+			"answer": {
+				"right": "N"
+			}
+		}],
+		"feedback": [{
+			"desc": "<xref-group><a href='u725fd0dd48eeb434.631f8527.158e4170750.-59e6'>325.1</a></xref-group>"
+		}]
+	}, {
+		"template": "single_radio",
+		"question": [{
+			"text": "What does this question mean?",
+			"input_text": "What time do you make it?",
+			"option": ["What time is it by your watch?", "What time are you coming?"],
+			"answer": "What time is it by your watch?"
+		}],
+		"feedback": [{
+			"desc": "<xref-group><a href='u725fd0dd48eeb434.631f8527.158e4170750.-597e'>325.2</a></xref-group>"
+		}]
+	}, {
+		"template": "single_touch_button",
+		"rubric": "Which way(s) of giving times is/are right? If both are possible, select ‘both’.",
+		"question": [{
+			"text": "The train is scheduled to leave at #singletouch.",
+			"option": [
+				["five forty-five", "seventeen forty-five", "[both]"]
+			],
+			"answer": ["[both]"]
+		}, {
+			"text": "Meet me in the café at #singletouch.",
+			"option": [
+				["half past three", "fifteen thirty", "[both]"]
+			],
+			"answer": ["half past three"]
+		}, {
+			"text": "The official briefing begins at #singletouch. ",
+			"option": [
+				["two o’clock", "fourteen hundred", "[both]"]
+			],
+			"answer": ["[both]"]
+		}],
+		"feedback": [{
+			"desc": "<xref-group><a href='u725fd0dd48eeb434.631f8527.158e4170750.-596a'>325.3</a></xref-group>"
+		}]
+	}]
+	}, 
+	"c2" :
+	{
+	"-unit": "25",
+	"-level": "c2",
+	"topic_name": "vocabulary areas and kinds of English",
+	"exercise": [{
+		"template": "multi_radio",
+		"rubric": "Right (R) or wrong (W)?",
+		"rwText": ["R", "W"],
+		"question": [{
+			"text": "‘How do you do?’ ‘<item>Fine, thanks</item>.’",
+			"answer": {
+				"right": "W"
+			}
+		}, {
+			"text": "<item>Congratulation</item> on your exam result.",
+			"answer": {
+				"right": "W"
+			}
+		}, {
+			"text": "<item>Excuse me</item>, can I get past?",
+			"answer": {
+				"right": "R"
+			}
+		}, {
+			"text": "<item>I beg your pardon</item>. I didn’t mean to push you.",
+			"answer": {
+				"right": "R"
+			}
+		}, {
+			"text": "‘Are you ready?’ ‘<item>I beg your pardon?</item>’ ‘Are you ready?’ ",
+			"answer": {
+				"right": "R"
+			}
+		}, {
+			"text": "Have a good journey.",
+			"answer": {
+				"right": "R"
+			}
+		}, {
+			"text": "You’re welcome home.",
+			"answer": {
+				"right": "W"
+			}
+		}, {
+			"text": "Good appetite.",
+			"answer": {
+				"right": "W"
+			}
+		}, {
+			"text": "‘Have you got my tickets?’ ‘Yes, <item>here you are</item>.’",
+			"answer": {
+				"right": "R"
+			}
+		}, {
+			"text": "Sleep well.",
+			"answer": {
+				"right": "R"
+			}
+		}],
+		"feedback": [{
+			"desc": "For <item>A</item>, <xref-group><a href='u725fd0dd48eeb434.631f8527.158e4170750.-5665'>329.3</a></xref-group>.<br/>For <item>B</item>, <xref-group><a href='u725fd0dd48eeb434.631f8527.158e4170750.-5635'>329.4</a></xref-group>.<br/>For <item>C</item>, <xref-group><a href='u725fd0dd48eeb434.631f8527.158e4170750.-55fd'>329.7</a></xref-group>.<br/>For <item>D</item>, <xref-group><a href='u725fd0dd48eeb434.631f8527.158e4170750.-55fd'>329.7</a></xref-group>.<br/>For <item>E</item>, <xref-group><a href='u725fd0dd48eeb434.631f8527.158e4170750.-55e8'>329.8</a></xref-group>.<br/>For <item>F</item>, <xref-group><a href='u725fd0dd48eeb434.631f8527.158e4170750.-55b0'>329.9</a></xref-group>.<br/>For <item>G</item>, <xref-group><a href='u725fd0dd48eeb434.631f8527.158e4170750.-55b0'>329.9</a></xref-group>.<br/>For <item>H</item>, <xref-group><a href='u725fd0dd48eeb434.631f8527.158e4170750.-5586'>329.11</a></xref-group>.<br/>For <item>I</item>, <xref-group><a href='u725fd0dd48eeb434.631f8527.158e4170750.-5503'>329.18</a></xref-group>.<br/>For <item>J</item>, <xref-group><a href='u725fd0dd48eeb434.631f8527.158e4170750.-54bb'>329.20</a></xref-group>."
+		}]
+	}, {
+		"template": "multi_radio",
+		"rubric": "Are these possible alternatives to <i>Goodbye</i>: yes (Y) or no (N)?",
+		"rwText": ["Y", "N"],
+		"question": [{
+			"text": "Cheers.",
+			"answer": {
+				"right": "Y"
+			}
+		}, {
+			"text": "Take care.",
+			"answer": {
+				"right": "Y"
+			}
+		}, {
+			"text": "Hey, there.",
+			"answer": {
+				"right": "N"
+			}
+		}, {
+			"text": "See you.",
+			"answer": {
+				"right": "Y"
+			}
+		}, {
+			"text": "See you later.",
+			"answer": {
+				"right": "Y"
+			}
+		}],
+		"feedback": [{
+			"desc": "<xref-group><a href='u725fd0dd48eeb434.631f8527.158e4170750.-568d'>329.2</a></xref-group>"
+		}]
+	}, {
+		"template": "multi_radio",
+		"rubric": "Are these possible replies to <i>Thank you</i>: yes (Y) or no (N)?",
+		"rwText": ["Y", "N"],
+		"question": [{
+			"text": "You’re welcome.",
+			"answer": {
+				"right": "Y"
+			}
+		}, {
+			"text": "You’re welcome to it.",
+			"answer": {
+				"right": "N"
+			}
+		}, {
+			"text": "That’s OK.",
+			"answer": {
+				"right": "Y"
+			}
+		}, {
+			"text": "(silence)",
+			"answer": {
+				"right": "Y"
+			}
+		}, {
+			"text": "No problem.",
+			"answer": {
+				"right": "Y"
+			}
+		}, {
+			"text": "Please.",
+			"answer": {
+				"right": "N"
+			}
+		}, {
+			"text": "Not at all.",
+			"answer": {
+				"right": "Y"
+			}
+		}],
+		"feedback": [{
+			"desc": "<xref-group><a href='u725fd0dd48eeb434.631f8527.158e4170750.-54ea'>329.19</a></xref-group>"
+		}]
+	}, {
+		"template": "gapfill",
+		"hideRight": "true",
+		"rubric": "Can you give the common British equivalents for these American English words?",
+		"question": [{
+			"text": "catalog #gap",
+			"answer": [
+				["catalogue"]
+			]
+		}, {
+			"text": "pants #gap",
+			"answer": [
+				["trousers"]
+			]
+		}, {
+			"text": "elevator #gap",
+			"answer": [
+				["lift"]
+			]
+		}, {
+			"text": "garbage #gap",
+			"answer": [
+				["rubbish"]
+			]
+		}, {
+			"text": "sidewalk #gap",
+			"answer": [
+				["pavement"]
+			]
+		}, {
+			"text": "sneakers #gap",
+			"answer": [
+				["trainers"]
+			]
+		}, {
+			"text": "faucet #gap",
+			"answer": [
+				["tap"]
+			]
+		}],
+		"feedback": [{
+			"desc": "<xref-group><a href='u725fd0dd48eeb434.631f8527.158e4170750.-664b'>319.1</a><br><a href='u725fd0dd48eeb434.631f8527.158e4170750.-642b'>319.3</a></xref-group>"
+		}]
+	}, {
+		"template": "multi_radio",
+		"rubric": "Are these sentences: non-standard but correct in some dialects (D), standard but informal (SI), normal in standard English (SN), or just wrong (W)?",
+		"rwText": ["D", "SI", "SN", "W"],
+		"question": [{
+			"text": "<item>Seen Jack</item> anywhere?",
+			"answer": {
+				"right": "SI"
+			}
+		}, {
+			"text": "<item>Alice and me</item> went to the same school.",
+			"answer": {
+				"right": "SI"
+			}
+		}, {
+			"text": "I <item>ain’t</item> done <item>nothing</item>.",
+			"answer": {
+				"right": "D"
+			}
+		}, {
+			"text": "There were <item>less people</item> than I expected.",
+			"answer": {
+				"right": "SN"
+			}
+		}, {
+			"text": "<item>I wants them papers what I give</item> you yesterday.",
+			"answer": {
+				"right": "D"
+			}
+		}, {
+			"text": "I <item>could not understanding</item> the lecture.",
+			"answer": {
+				"right": "W"
+			}
+		}, {
+			"text": "One of the students hasn’t sent back <item>their</item> registration form.",
+			"answer": {
+				"right": "SN"
+			}
+		}, {
+			"text": "<item>Here’s</item> those books you wanted.",
+			"answer": {
+				"right": "SI"
+			}
+		}],
+		"feedback": [{
+			"desc": "For <item>A</item>, <xref-group><a href='u725fd0dd48eeb434.631f8527.158e41641c3.6f21'>277.1</a></xref-group>.<br/>For <item>B</item>, <xref-group><a href='u725fd0dd48eeb434.631f8527.158e4170750.-689d'>317.3</a></xref-group>.<br/>For <item>C</item>, <xref-group><a href='u725fd0dd48eeb434.631f8527.158e4170750.-68b1'>317.2</a></xref-group>.<br/>For <item>D</item>, <xref-group><a href='u725fd0dd48eeb434.631f8527.158e4170750.-689d'>317.3</a></xref-group>.<br/>For <item>E</item>, <xref-group><a href='u725fd0dd48eeb434.631f8527.158e4170750.-696f'>316.2</a></xref-group>.<br/>For <item>F</item>, <xref-group><a href='u725fd0dd48eeb434.631f8527.158e4170750.-68c8'>317.1</a></xref-group>.<br/>For <item>G</item>, <xref-group><a href='u725fd0dd48eeb434.631f8527.158e41641c3.89e'>175.2</a></xref-group>.<br/>For <item>H</item>, <xref-group><a href='u725fd0dd48eeb434.631f8527.158e41641c3.-24bd'>130.6</a></xref-group>."
+		}]
+	}, {
+		"template": "single_touch_button",
+		"rubric": "Which of the two words or expressions is more formal than the other?",
+		"question": [{
+			"text": "#singletouch",
+			"option": [
+				["repair", "mend"]
+			],
+			"answer": ["repair"]
+		}, {
+			"text": "#singletouch",
+			"option": [
+				["begin", "commence"]
+			],
+			"answer": ["commence"]
+		}, {
+			"text": "#singletouch",
+			"option": [
+				["alight", "get off"]
+			],
+			"answer": ["alight"]
+		}],
+		"feedback": [{
+			"desc": "<xref-group><a href='u725fd0dd48eeb434.631f8527.158e4170750.-52a1'>333</a></xref-group>"
+		}]
+	}, {
+		"template": "multi_radio",
+		"rubric": "Are these statements true of modern English: yes (Y) or no (N)?",
+		"rwText": ["Y", "N"],
+		"question": [{
+			"text": "<item>Who</item> is replacing <item>whom</item>.",
+			"answer": {
+				"right": "Y"
+			}
+		}, {
+			"text": "<item>Will</item> is replacing <item>shall</item>.",
+			"answer": {
+				"right": "Y"
+			}
+		}, {
+			"text": "The present progressive is becoming less common.",
+			"answer": {
+				"right": "N"
+			}
+		}, {
+			"text": "<item>If I were</item> is becoming less common.",
+			"answer": {
+				"right": "Y"
+			}
+		}, {
+			"text": "Comparatives with <item>more</item> are replacing some comparatives with <item>-er</item>.",
+			"answer": {
+				"right": "Y"
+			}
+		}],
+		"feedback": [{
+			"desc": "<xref-group><a href='u725fd0dd48eeb434.631f8527.158e4170750.-67e0'>318.5</a><br><a href='u725fd0dd48eeb434.631f8527.158e4170750.-6764'>318.9</a></xref-group>"
+		}]
+	}, {
+		"template": "multi_radio",
+		"rubric": "Were these forms correct in older English: yes (Y) or no (N)?",
+		"rwText": ["Y", "N"],
+		"question": [{
+			"text": "Alice <item>knowest</item> my mother very well.",
+			"answer": {
+				"right": "N"
+			}
+		}, {
+			"text": "<item>Art thou</item> tired?",
+			"answer": {
+				"right": "Y"
+			}
+		}, {
+			"text": "Where is <item>thine</item> brother?",
+			"answer": {
+				"right": "N"
+			}
+		}, {
+			"text": "<item>Came he</item> by sea or land?",
+			"answer": {
+				"right": "Y"
+			}
+		}, {
+			"text": "<item>Not be</item> afraid.",
+			"answer": {
+				"right": "N"
+			}
+		}, {
+			"text": "Then <item>did he take</item> my hand.",
+			"answer": {
+				"right": "Y"
+			}
+		}, {
+			"text": "We <item>go not</item> out today.",
+			"answer": {
+				"right": "Y"
+			}
+		}],
+		"feedback": [{
+			"desc": "<xref-group><a href='u725fd0dd48eeb434.631f8527.158e4170750.-66c3'>318.10</a></xref-group>"
+		}]
+	}, {
+		"template": "gapfill",
+		"hideRight": "true",
+		"rubric": "Write these numbers in words.",
+		"question": [{
+			"text": "3/7 #gap",
+			"answer": [
+				["three-sevenths",
+					"three over seven",
+					"three sevenths"
+				]
+			]
+		}, {
+			"text": "317/524 #gap",
+			"answer": [
+				["three hundred and seventeen over five hundred and twenty-four"]
+			]
+		}, {
+			"text": "0.375 #gap",
+			"answer": [
+				["nought point three seven five",
+					"zero point three seven five"
+				]
+			]
+		}, {
+			"text": "7/10 litre #gap",
+			"answer": [
+				["seven-tenths of a litre",
+					"seven-tenths of a liter",
+					"seven tenths of a litre",
+					"seven tenths of a liter"
+				]
+			]
+		}, {
+			"text": "0.6 cm #gap",
+			"answer": [
+				["nought point six centimetres",
+					"nought point six centimeters",
+					"zero point six centimetres",
+					"zero point six centimeters"
+				]
+			]
+		}],
+		"feedback": [{
+			"desc": "<xref-group><a href='u725fd0dd48eeb434.631f8527.158e4170750.-5eb9'>322.1</a></xref-group><br/>In <item>D</item> and <item>E</item>, note that <i>litre</i> and <i>centimetre</i> are spelt <i>liter</i> and <i>centimeter</i> in American English."
+		}]
+	}, {
+		"template": "single_radio",
+		"question": [{
+			"text": "Which is right?",
+			"option": ["one and a half <item>hour</item>", "one and a half <item>hours</item>"],
+			"answer": "one and a half hours"
+		}],
+		"feedback": [{
+			"desc": "<xref-group><a href='u725fd0dd48eeb434.631f8527.158e4170750.-5e62'>322.2</a></xref-group>"
+		}]
+	}, {
+		"template": "gapfill",
+		"hideRight": "true",
+		"rubric": "What are the American English equivalents of the following British expressions?",
+		"question": [{
+			"text": "the ground floor #gap",
+			"answer": [
+				["the first floor"]
+			]
+		}, {
+			"text": "the first floor #gap",
+			"answer": [
+				["the second floor"]
+			]
+		}],
+		"feedback": [{
+			"desc": "<xref-group><a href='u725fd0dd48eeb434.631f8527.158e4170750.-5d41'>322.8</a></xref-group>"
+		}]
+	}, {
+	"template": "gapfill",
+	"group": true,
+	"hideRight": "true",
+	"rubric": "How might these numbers be said differently in British and American English?",
+	"question": [{
+		"text": "310: BrE #gap; AmE #gap",
+		"group": "<div style='display:inline-block;float:left'><div class='ques'>310: BrE</div> <div style='display:inline-block'><textarea rows='1' cols='1' class='gapFill' autocorrect='off' autocapitalize='none' spellcheck='false'></textarea>; &nbsp;</div></div><div style='display:inline-block;float:left'><div class='ques'>AmE</div> <div style='display:inline-block'><textarea rows='1' cols='1' class='gapFill' autocorrect='off' autocapitalize='none' spellcheck='false'></textarea></div></div>",
+		"answer": [
+			["three hundred and ten"],
+			["three hundred ten"]
+		]
+	}, {
+		"text": "5,642: BrE #gap; AmE #gap",
+		"group": "<div style='display:inline-block;float:left'><div class='ques'>5,642: BrE </div> <div style='display:inline-block'><textarea rows='1' cols='1' class='gapFill' autocorrect='off' autocapitalize='none' spellcheck='false'></textarea>; &nbsp;</div></div><div style='display:inline-block;float:left'><div class='ques'>AmE</div><div style='display:inline-block '><textarea rows='1 ' cols='1 ' class='gapFill' autocorrect='off ' autocapitalize='none ' spellcheck='false'></textarea></div> </div>",
+		"answer": [
+			["five thousand, six hundred and forty-two"],
+			["five thousand, six hundred forty-two"]
+		]
+	}],
+	"feedback": [{
+		"desc": "<xref-group><a href='u725fd0dd48eeb434.631f8527.158e4170750.-5d33'>322.9</a></xref-group>"
+	}]
+}, {
+		"template": "multi_radio",
+		"rubric": "Is it possible in these numbers to say ‘a’ instead of ‘one’: yes (Y) or no (N)?",
+		"rwText": ["Y", "N"],
+		"question": [{
+			"text": "100",
+			"answer": {
+				"right": "Y"
+			}
+		}, {
+			"text": "1000",
+			"answer": {
+				"right": "Y"
+			}
+		}, {
+			"text": "1,642",
+			"answer": {
+				"right": "N"
+			}
+		}, {
+			"text": "1,027",
+			"answer": {
+				"right": "Y"
+			}
+		}, {
+			"text": "3,196",
+			"answer": {
+				"right": "N"
+			}
+		}],
+		"feedback": [{
+			"desc": "<xref-group><a href='u725fd0dd48eeb434.631f8527.158e4170750.-5cf2'>322.10</a></xref-group>"
+		}]
+	}, {
+		"template": "gapfill",
+		"hideRight": "true",
+		"rubric": "How would you read this email address aloud?",
+		"question": [{
+			"text": "p.watkins@kmail.co.uk #gap",
+			"answer": [
+				["p dot watkins at k mail dot co dot u k",
+					"p dot watkins at kmail dot co dot u k"
+				]
+			]
+		}],
+		"feedback": [{
+			"desc": "<xref-group><a href='u725fd0dd48eeb434.631f8527.158e41641c3.7ad4'>290.1</a></xref-group>"
+		}]
+	}, {
+		"template": "freetext",
+		"rubric": "What does this text message mean?",
+		"question": [{
+			"input_text": "tx 4 a gr8 party c u @ bbq @ 9 ",
+			"text": ""
+		}],
+		"answer": "<i>Thanks for a great party. See you at the barbecue at 9.00.</i>",
+		"feedback": [{
+			"desc": "<xref-group><a href='u725fd0dd48eeb434.631f8527.158e41641c3.7b07'>290.4</a></xref-group>"
+		}]
+	}, {
+		"template": "freetext",
+		"rubric": "Can you compose a five-word newspaper headline to announce the following piece of news?",
+		"question": [{
+			"text": "There has been a strike because of a reduction in wages at a factory that makes furniture."
+		}],
+		"answer": "For example: <i>FURNITURE FACTORY WAGE CUT STRIKE</i>.",
+		"feedback": [{
+			"desc": "<xref-group><a href='u725fd0dd48eeb434.631f8527.158e41641c3.7bdb'>292.2</a></xref-group>"
+		}]
+	}, {
+		"template": "freetext",
+		"rubric": "What does this newspaper headline mean?",
+		"question": [{
+			"text": "<item>TROOPS FOR GLASGOW?</item>"
+		}],
+		"answer": "<i>Will troops be sent to Glasgow?</i> (Or something similar.)",
+		"feedback": [{
+			"desc": "<xref-group><a href='u725fd0dd48eeb434.631f8527.158e41641c3.7bdb'>292.2</a></xref-group>"
+		}]
+	}, {
+		"template": "single_radio",
+		"question": [{
+			"text": "The following headline appeared in the <i>Guardian</i> newspaper on 25 July, 2007. How close to it in meaning is the sentence below it?",
+			"input_text": "MINISTERS WARNED THREE YEARS AGO OVER FLOOD DEFENCE FAILINGS<br/>Three years ago, ministers said that flood defences were unsatisfactory.",
+			"option": ["exactly the same", "close, but slightly different", "completely different"],
+			"answer": "completely different"
+		}],
+		"feedback": [{
+			"desc": "<xref-group><a href='u725fd0dd48eeb434.631f8527.158e41641c3.7bdb'>292.2</a></xref-group>"
+		}]
+	}, {
+		"template": "multi_radio",
+		"rubric": "Formal (F), informal (I), unusual (U) or wrong (W)?",
+		"rwText": ["F", "I", "U", "W"],
+		"question": [{
+			"text": "Joe is the person I am most angry with.",
+			"answer": {
+				"right": "I"
+			}
+		}, {
+			"text": "Joe is the person whom I am most angry with.",
+			"answer": {
+				"right": "U"
+			}
+		}, {
+			"text": "Joe is the person who I am most angry with.",
+			"answer": {
+				"right": "I"
+			}
+		}, {
+			"text": "Joe is the person with whom I am most angry.",
+			"answer": {
+				"right": "F"
+			}
+		}],
+		"feedback": [{
+			"desc": "<xref-group><a href='u725fd0dd48eeb434.631f8527.158e41641c3.7405'>281.2</a></xref-group>"
+		}]
+	}]
+	}
+}

@@ -1,0 +1,1212 @@
+{
+	"b2" :
+	{
+	"-unit": "08",
+	"-level": "b2",
+	"topic_name": "infinitives, -ing forms and past participles (1)",
+	"exercise": [{
+		"template": "single_touch_button",
+		"rubric": "Choose the right verb form to complete the sentences correctly.",
+		"question": [{
+			"text": "You seem #singletouch harder than usual this month.",
+			"option": [
+				["to work", "working", "to be working"]
+			],
+			"answer": ["to be working"]
+		}, {
+			"text": "Why’s she so late? She can’t still #singletouch.",
+			"option": [
+				["work", "to work", "be working", "to be working"]
+			],
+			"answer": ["be working"]
+		}],
+		"feedback": [{
+			"desc": "<xref-group><a href='u725fd0dd48eeb434.631f8527.158e41641c3.-5454'>89.1</a></xref-group>"
+		}]
+	}, {
+		"template": "single_touch_button",
+		"rubric": "Choose the right verb form to complete the sentences correctly.",
+		"question": [{
+			"text": "I’m sorry not #singletouch on Thursday. ",
+			"option": [
+				["to come", "have come", "to have come"]
+			],
+			"answer": ["to have come"]
+		}, {
+			"text": "You should #singletouch me you were coming today.",
+			"option": [
+				["told", "have told", "to have told"]
+			],
+			"answer": ["have told"]
+		}],
+		"feedback": [{
+			"desc": "<xref-group><a href='u725fd0dd48eeb434.631f8527.158e41641c3.-5435'>89.2</a></xref-group>"
+		}]
+	}, {
+		"template": "multi_radio",
+		"rubric": "Which sentence is normal (N), which is unusual (U) and which is wrong (W)?",
+		"rwText": ["N", "U", "W"],
+		"question": [{
+			"text": "Try <item>to not</item> be late.",
+			"answer": {
+				"right": "U"
+			}
+		}, {
+			"text": "Try <item>not to</item> be late.",
+			"answer": {
+				"right": "N"
+			}
+		}, {
+			"text": "Try <item>to don’t be</item> late.",
+			"answer": {
+				"right": "W"
+			}
+		}],
+		"feedback": [{
+			"desc": "<xref-group><a href='u725fd0dd48eeb434.631f8527.158e41641c3.-53d3'>89.5</a></xref-group>"
+		}]
+	}, {
+		"template": "single_touch_button",
+		"rubric": "<i>Carry</i>, <i>to carry</i> or both?",
+		"question": [{
+			"text": "I watched her #singletouch her bags from the baggage hall.",
+			"option": [
+				["carry", "to carry", "[both]"]
+			],
+			"answer": ["carry"]
+		}, {
+			"text": "‘Could you help me #singletouch my bags to the taxi rank?’ she asked.",
+			"option": [
+				["carry", "to carry", "[both]"]
+			],
+			"answer": ["[both]"]
+		}, {
+			"text": "In the end, she let me #singletouch all three of her bags.",
+			"option": [
+				["carry", "to carry", "[both]"]
+			],
+			"answer": ["carry"]
+		}],
+		"feedback": [{
+			"desc": "<xref-group><a href='u725fd0dd48eeb434.631f8527.158e41641c3.-52bc'>91.2</a></xref-group>"
+		}]
+	}, {
+		"template": "multi_radio",
+		"rubric": "Can the verb forms complete the question correctly: yes (Y) or no (N)?",
+		"rwText": ["Y", "N"],
+		"question": [{
+			"input_text": "You look tired. Why not <gap/> a break?",
+			"text": "take",
+			"answer": {
+				"right": "Y"
+			}
+		}, {
+			"text": "to take",
+			"answer": {
+				"right": "N"
+			}
+		}, {
+			"text": "taking",
+			"answer": {
+				"right": "N"
+			}
+		}],
+		"feedback": [{
+			"desc": "<xref-group><a href='u725fd0dd48eeb434.631f8527.158e41641c3.-5239'>91.3</a></xref-group>"
+		}]
+	}, {
+		"template": "single_radio",
+		"question": [{
+			"text": "Which of these sounds more natural?",
+			"option": ["To read documents carefully before signing them is very important.", "It is very important to read documents carefully before signing them."],
+			"answer": "It is very important to read documents carefully before signing them."
+		}],
+		"feedback": [{
+			"desc": "<xref-group><a href='u725fd0dd48eeb434.631f8527.158e41641c3.-51cd'>92.1</a></xref-group>"
+		}]
+	}, {
+		"template": "multi_radio",
+		"rubric": "Right (R) or wrong (W)?",
+		"rwText": ["R", "W"],
+		"question": [{
+			"text": "Knowing not what to do, I went home.",
+			"answer": {
+				"right": "W"
+			}
+		}],
+		"feedback": [{
+			"desc": "<xref-group><a href='u725fd0dd48eeb434.631f8527.158e41641c3.-511d'>93.2</a></xref-group>"
+		}]
+	}, {
+		"template": "multi_radio",
+		"rubric": "Right (R) or wrong (W)?",
+		"rwText": ["R", "W"],
+		"question": [{
+			"text": "‘Does <item>my smoking</item> annoy you?’ asked Fred.",
+			"answer": {
+				"right": "R"
+			}
+		}, {
+			"text": "<item>Fred’s smoking</item> really annoyed her.",
+			"answer": {
+				"right": "R"
+			}
+		}, {
+			"text": "<item>He smoking</item> really annoyed her.",
+			"answer": {
+				"right": "W"
+			}
+		}, {
+			"text": "<item>His smoking</item> really annoyed her. ",
+			"answer": {
+				"right": "R"
+			}
+		}],
+		"feedback": [{
+			"desc": "<xref-group><a href='u725fd0dd48eeb434.631f8527.158e41641c3.-50b0'>94.3</a></xref-group>"
+		}]
+	}, {
+		"template": "multi_radio",
+		"rubric": "Can the words complete the question correctly: yes (Y) or no (N)?",
+		"rwText": ["Y", "N"],
+		"question": [{
+			"input_text": "Do you mind <gap/> smoking?",
+			"text": "them",
+			"answer": {
+				"right": "Y"
+			}
+		}, {
+			"text": "their",
+			"answer": {
+				"right": "Y"
+			}
+		}, {
+			"text": "they",
+			"answer": {
+				"right": "N"
+			}
+		}],
+		"feedback": [{
+			"desc": "<xref-group><a href='u725fd0dd48eeb434.631f8527.158e41641c3.-50b0'>94.3–4</a></xref-group>"
+		}]
+	}, {
+		"template": "single_touch_button",
+		"rubric": "Which is the right word for each gap?",
+		"question": [{
+			"text": "I was really #singletouch in the play I saw yesterday, but the complicated plot made me #singletouch.",
+			"option": [
+				["interesting", "interested"],
+				["confusing", "confused"]
+			],
+			"answer": ["interested", "confused"]
+		}],
+		"feedback": [{
+			"desc": "<xref-group><a href='u725fd0dd48eeb434.631f8527.158e41641c3.-4f53'>96.3</a></xref-group>"
+		}]
+	}, {
+		"template": "multi_radio",
+		"rubric": "Right (R) or wrong (W)?",
+		"rwText": ["R", "W"],
+		"question": [{
+			"text": "I don’t know <item>what to say</item>.",
+			"answer": {
+				"right": "R"
+			}
+		}, {
+			"text": "I wonder <item>who to ask</item>.",
+			"answer": {
+				"right": "R"
+			}
+		}, {
+			"text": "I can’t decide <item>whether to reply</item>.",
+			"answer": {
+				"right": "R"
+			}
+		}],
+		"feedback": [{
+			"desc": "<xref-group><a href='u725fd0dd48eeb434.631f8527.158e41641c3.-3ceb'>111.1</a></xref-group>"
+		}]
+	}, {
+		"template": "multi_radio",
+		"rubric": "Are these possible: yes (Y) or no (N)?",
+		"rwText": ["Y", "N"],
+		"question": [{
+			"text": "<item>What should we do</item> if there’s a fire?",
+			"answer": {
+				"right": "Y"
+			}
+		}, {
+			"text": "<item>What to do</item> if there’s a fire?",
+			"answer": {
+				"right": "N"
+			}
+		}, {
+			"text": "[<speaker>company notice</speaker>]: <item>WHAT TO DO</item> IF FIRE BREAKS OUT",
+			"answer": {
+				"right": "Y"
+			}
+		}],
+		"feedback": [{
+			"desc": "<xref-group><a href='u725fd0dd48eeb434.631f8527.158e41641c3.-3cc3'>111.2–3</a></xref-group>"
+		}]
+	}, {
+		"template": "multi_radio",
+		"rubric": "Can the verb phrases finish the sentence correctly: yes (Y) or no (N)?",
+		"rwText": ["Y", "N"],
+		"question": [{
+			"input_text": "When it was my turn, I stood up …",
+			"text": "… to speak ",
+			"answer": {
+				"right": "Y"
+			}
+		}, {
+			"text": "… for to speak ",
+			"answer": {
+				"right": "N"
+			}
+		}, {
+			"text": "… for speaking",
+			"answer": {
+				"right": "N"
+			}
+		}],
+		"feedback": [{
+			"desc": "<xref-group><a href='u725fd0dd48eeb434.631f8527.158e41641c3.-3c7d'>112</a></xref-group>"
+		}]
+	}, {
+		"template": "multi_radio",
+		"rubric": "Can the expressions end the sentence correctly: yes (Y) or no (N)?",
+		"rwText": ["Y", "N"],
+		"question": [{
+			"input_text": "I’m very happy ... ",
+			"text": " ... <item>to</item> help you.",
+			"answer": {
+				"right": "Y"
+			}
+		}, {
+			"text": "... <item>for the company to</item> help you.",
+			"answer": {
+				"right": "Y"
+			}
+		}, {
+			"text": "... <item>for they to</item> help you.",
+			"answer": {
+				"right": "N"
+			}
+		}, {
+			"text": "... <item>that they can</item> help you.",
+			"answer": {
+				"right": "Y"
+			}
+		}],
+		"feedback": [{
+			"desc": "<xref-group><a href='u725fd0dd48eeb434.631f8527.158e41641c3.-3c1c'>113.1</a></xref-group>"
+		}]
+	}, {
+		"template": "multi_radio",
+		"rubric": "Is this sentence right (R) or wrong (W)?",
+		"rwText": ["R", "W"],
+		"question": [{
+			"text": "Is there anybody for Louise to play with in the village? ",
+			"answer": {
+				"right": "R"
+			}
+		}],
+		"feedback": [{
+			"desc": "<xref-group><a href='u725fd0dd48eeb434.631f8527.158e41641c3.-3b59'>113.6</a></xref-group>"
+		}]
+	}]
+	}, 
+	"c1" :
+	{
+	"-unit": "08",
+	"-level": "c1",
+	"topic_name": "infinitives, -ing forms and past participles (1)",
+	"exercise": [{
+		"template": "multi_radio",
+		"rubric": "Right (R) or wrong (W)?",
+		"rwText": ["R", "W"],
+		"question": [{
+			"text": "I meant to call her, but I <item>forgot to have called</item>.",
+			"answer": {
+				"right": "W"
+			}
+		}, {
+			"text": "She <item>was to have been</item> the next president, but she resigned suddenly.",
+			"answer": {
+				"right": "R"
+			}
+		}],
+		"feedback": [{
+			"desc": "<xref-group><a href='u725fd0dd48eeb434.631f8527.158e41641c3.-5375'>90.1–2</a></xref-group>"
+		}]
+	}, {
+		"template": "single_radio",
+		"question": [{
+			"text": "What does this sentence mean?",
+			"input_text": "I was to have started work last week.",
+			"option": ["I was supposed to start work before last week.", "I was supposed to start work last week, but I didn’t."],
+			"answer": "I was supposed to start work last week, but I didn’t."
+		}],
+		"feedback": [{
+			"desc": "<xref-group><a href='u725fd0dd48eeb434.631f8527.158e41641c3.-5363'>90.2</a></xref-group>"
+		}]
+	}, {
+		"template": "multi_radio",
+		"rubric": "Right (R) or wrong (W)?",
+		"rwText": ["R", "W"],
+		"question": [{
+			"text": "It’s as easy to smile <item>as to frown</item>.",
+			"answer": {
+				"right": "R"
+			}
+		}, {
+			"text": "It’s as easy to smile <item>as frown</item>.",
+			"answer": {
+				"right": "R"
+			}
+		}],
+		"feedback": [{
+			"desc": "<xref-group><a href='u725fd0dd48eeb434.631f8527.158e41641c3.-5221'>91.4</a></xref-group>"
+		}]
+	}, {
+		"template": "single_radio",
+		"question": [{
+			"text": "Which two sentences sound most natural?",
+			"input_text": "<item>A</item> <item>Your task was</item> to steal the secret formula, Mr Bond.<br/><item>B</item> To steal the secret formula <item>was your task</item>, Mr Bond.<br/><item>C</item> <item>It was your task</item> to steal the secret formula, Mr Bond.",
+			"option": ["A and B", "A and C", "B and C"],
+			"answer": "A and C"
+		}],
+		"feedback": [{
+			"desc": "<xref-group><a href='u725fd0dd48eeb434.631f8527.158e41641c3.-51a2'>92.2</a></xref-group>"
+		}]
+	}, {
+		"template": "multi_radio",
+		"rubric": "Right (R) or wrong (W)?",
+		"rwText": ["R", "W"],
+		"question": [{
+			"text": "She’s worried about <item>not being</item> careful enough with her translation.",
+			"answer": {
+				"right": "R"
+			}
+		}, {
+			"text": "She’s worried about <item>not having been</item> careful enough with her translation.",
+			"answer": {
+				"right": "R"
+			}
+		}],
+		"feedback": [{
+			"desc": "<xref-group><a href='u725fd0dd48eeb434.631f8527.158e41641c3.-511d'>93.2</a></xref-group>"
+		}]
+	}, {
+		"template": "multi_radio",
+		"rubric": "Right (R) or wrong (W)?",
+		"rwText": ["R", "W"],
+		"question": [{
+			"text": "<item>THE SMOKING CIGARETTES IS STRICTLY PROHIBITED.</item>",
+			"answer": {
+				"right": "W"
+			}
+		}, {
+			"text": "<item>THE SMOKING OF CIGARETTES IS STRICTLY PROHIBITED.</item>",
+			"answer": {
+				"right": "R"
+			}
+		}, {
+			"text": "Sorry – there’s no smoking here.",
+			"answer": {
+				"right": "R"
+			}
+		}],
+		"feedback": [{
+			"desc": "<xref-group><a href='u725fd0dd48eeb434.631f8527.158e41641c3.-50b0'>94.3</a></xref-group>"
+		}]
+	}, {
+		"template": "single_touch_button",
+		"rubric": "<i>Him</i>, <i>his</i> or both?",
+		"question": [{
+			"text": "I understood #singletouch feeling angry with his daughter.",
+			"option": [
+				["him", "his", "[both]"]
+			],
+			"answer": ["[both]"]
+		}, {
+			"text": "I saw #singletouch getting angry with his daughter.",
+			"option": [
+				["him", "his", "[both]"]
+			],
+			"answer": ["him"]
+		}],
+		"feedback": [{
+			"desc": "<xref-group><a href='u725fd0dd48eeb434.631f8527.158e41641c3.-50b0'>94.3–4</a></xref-group>"
+		}]
+	}, {
+		"template": "single_radio",
+		"question": [{
+			"text": "Which is more usual?",
+			"option": ["We’re all shocked by his <item>resigning</item>.", "We’re all shocked by his <item>resignation</item>."],
+			"answer": "We’re all shocked by his resignation."
+		}],
+		"feedback": [{
+			"desc": "<xref-group><a href='u725fd0dd48eeb434.631f8527.158e41641c3.-5018'>94.6</a></xref-group>"
+		}]
+	}, {
+		"template": "multi_radio",
+		"rubric": "Right (R) or wrong (W)?",
+		"rwText": ["R", "W"],
+		"question": [{
+			"text": "The police announced today that the <item>escaped</item> prisoner they were looking for had been recaptured.",
+			"answer": {
+				"right": "R"
+			}
+		}, {
+			"text": "The <item>questioned</item> burglar refused to say where he had hidden the stolen goods.",
+			"answer": {
+				"right": "W"
+			}
+		}, {
+			"text": "A <item>retired</item> general has criticised the government for its defence policy.",
+			"answer": {
+				"right": "R"
+			}
+		}],
+		"feedback": [{
+			"desc": "<xref-group><a href='u725fd0dd48eeb434.631f8527.158e41641c3.-4f0e'>96.4</a></xref-group><br/>If you thought <item>B</item> was right, <xref-group><a href='u725fd0dd48eeb434.631f8527.158e41641c3.-4e8c'>96.6</a></xref-group>."
+		}]
+	}, {
+		"template": "multi_radio",
+		"rubric": "Are these sentence endings normal: yes (Y) or no (N)?",
+		"rwText": ["Y", "N"],
+		"question": [{
+			"input_text": "I moved house ... ",
+			"text": " ... <item>to be</item> nearer to my office.",
+			"answer": {
+				"right": "Y"
+			}
+		}, {
+			"text": " ... <item>in order to be</item> nearer to my office.",
+			"answer": {
+				"right": "Y"
+			}
+		}, {
+			"text": " ... <item>so as to be</item> nearer to my office.",
+			"answer": {
+				"right": "Y"
+			}
+		}, {
+			"text": " ... <item>not to be</item> too far from my office.",
+			"answer": {
+				"right": "N"
+			}
+		}, {
+			"text": " ... <item>so as not to be</item> too far from my office.",
+			"answer": {
+				"right": "Y"
+			}
+		}],
+		"feedback": [{
+			"desc": "<xref-group><a href='u725fd0dd48eeb434.631f8527.158e41641c3.-3c7d'>112</a></xref-group>"
+		}]
+	}, {
+		"template": "multi_radio",
+		"rubric": "Are these sentence endings possible: yes (Y) or no (N)?",
+		"rwText": ["Y", "N"],
+		"question": [{
+			"input_text": "I left the door unlocked ... ",
+			"text": " ... for to get in.",
+			"answer": {
+				"right": "N"
+			}
+		}, {
+			"text": " ... for me to get in.",
+			"answer": {
+				"right": "N"
+			}
+		}, {
+			"text": " ... for Sarah to get in.",
+			"answer": {
+				"right": "Y"
+			}
+		}],
+		"feedback": [{
+			"desc": "<xref-group><a href='u725fd0dd48eeb434.631f8527.158e41641c3.-3c5a'>112.2</a><br><a href='u725fd0dd48eeb434.631f8527.158e41641c3.-3c1c'>113.1</a></xref-group>"
+		}]
+	}, {
+		"template": "single_touch_button",
+		"rubric": "<i>It</i>, <i>it was</i> or both?",
+		"question": [{
+			"text": "I thought #singletouch strange for her to be out so late.",
+			"option": [
+				["it", "it was", "[both]"]
+			],
+			"answer": ["[both]"]
+		}],
+		"feedback": [{
+			"desc": "<xref-group><a href='u725fd0dd48eeb434.631f8527.158e41641c3.-3bc7'>113.4</a></xref-group>"
+		}]
+	}, {
+		"template": "multi_radio",
+		"rubric": "Is this sentence right (R) or wrong (W)?",
+		"rwText": ["R", "W"],
+		"question": [{
+			"text": "It is essential <item>for the papers to be</item> ready before Thursday. ",
+			"answer": {
+				"right": "R"
+			}
+		}],
+		"feedback": [{
+			"desc": "<xref-group><a href='u725fd0dd48eeb434.631f8527.158e41641c3.-3beb'>113.2</a></xref-group>"
+		}]
+	}, {
+		"template": "gapfill",
+		"rubric": "Look at this sentence. Fill in the four missing words below it to make a sentence with the same meaning. ",
+		"question": [{
+			"input_text": "They didn’t keep Jack as their manager, which was a big mistake.",
+			"text": "It was a big mistake for #gap #gap #gap #gap Jack as their manager.",
+			"answer": [
+				["them"],
+				["not"],
+				["to"],
+				["keep"]
+			]
+		}],
+		"feedback": [{
+			"desc": "<xref-group><a href='u725fd0dd48eeb434.631f8527.158e41641c3.-3b77'>113.5</a></xref-group>"
+		}]
+	}, {
+		"template": "multi_radio",
+		"rubric": "Right (R) or wrong (W)?",
+		"rwText": ["R", "W"],
+		"question": [{
+			"text": "There wasn’t <item>enough light for me to see</item> what I was doing.",
+			"answer": {
+				"right": "R"
+			}
+		}, {
+			"text": "There’s hardly <item>enough room to breathe</item> in here.",
+			"answer": {
+				"right": "R"
+			}
+		}, {
+			"text": "There’s hardly <item>room to breathe</item> in here.",
+			"answer": {
+				"right": "R"
+			}
+		}],
+		"feedback": [{
+			"desc": "<xref-group><a href='u725fd0dd48eeb434.631f8527.158e41641c3.-4556'>102.4</a></xref-group>"
+		}]
+	}, {
+		"template": "single_radio",
+		"question": [{
+			"text": "What does this sentence mean?",
+			"input_text": "I arrived at the shop <item>to find that</item> the door was locked.",
+			"option": ["The speaker couldn’t remember whether she had locked the door of the shop, and went back to check.", "The speaker was expecting the door of the shop to be unlocked when she arrived, but it wasn’t."],
+			"answer": "The speaker was expecting the door of the shop to be unlocked when she arrived, but it wasn’t."
+		}],
+		"feedback": [{
+			"desc": "<xref-group><a href='u725fd0dd48eeb434.631f8527.158e41641c3.-3a86'>114.1</a></xref-group>"
+		}]
+	}, {
+		"template": "single_radio",
+		"question": [{
+			"text": "Look at this sentence. What does the speaker mean?",
+			"input_text": "<item>To see them</item>, you would think that they were best friends.",
+			"option": ["It’s obvious that they really like each other.", "They don’t really like each other, but are pretending that they do."],
+			"answer": "They don’t really like each other, but are pretending that they do."
+		}],
+		"feedback": [{
+			"desc": "<xref-group><a href='u725fd0dd48eeb434.631f8527.158e41641c3.-3a75'>114.2</a></xref-group>"
+		}]
+	}, {
+		"template": "multi_radio",
+		"rubric": "Can the prepositions complete the sentences correctly: yes (Y) or no (N)? (More than one may be correct.)",
+		"rwText": ["Y", "N"],
+		"question": [{
+			"input_text": "I was shocked <gap/> your behaviour.",
+			"text": "at",
+			"answer": {
+				"right": "Y"
+			}
+		}, {
+			"text": "by",
+			"answer": {
+				"right": "Y"
+			}
+		}, {
+			"text": "of",
+			"answer": {
+				"right": "N"
+			}
+		}, {
+			"input_text": "I was worried <gap/> his reaction.",
+			"text": "about",
+			"answer": {
+				"right": "Y"
+			}
+		}, {
+			"text": "at",
+			"answer": {
+				"right": "N"
+			}
+		}, {
+			"text": "by",
+			"answer": {
+				"right": "Y"
+			}
+		}, {
+			"input_text": "I was frightened <gap/> the spiders.",
+			"text": "about",
+			"answer": {
+				"right": "N"
+			}
+		}, {
+			"text": "at",
+			"answer": {
+				"right": "N"
+			}
+		}, {
+			"text": "by",
+			"answer": {
+				"right": "Y"
+			}
+		}],
+		"feedback": [{
+			"desc": "<xref-group><a href='u725fd0dd48eeb434.631f8527.158e41641c3.-4de8'>96.9</a></xref-group>"
+		}]
+	}, {
+		"template": "single_touch_button",
+		"rubric": "<i>And</i>, <i>to</i> or both?",
+		"question": [{
+			"text": "Try #singletouch eat something – you’ll feel better if you do.",
+			"option": [
+				["and", "to", "[both]"]
+			],
+			"answer": ["[both]"]
+		}, {
+			"text": "I’ll try #singletouch call you tomorrow.",
+			"option": [
+				["and", "to", "[both]"]
+			],
+			"answer": ["[both]"]
+		}, {
+			"text": "Be sure #singletouch ask Uncle Joe about his garden.",
+			"option": [
+				["and", "to", "[both]"]
+			],
+			"answer": ["[both]"]
+		}],
+		"feedback": [{
+			"desc": "<xref-group><a href='u725fd0dd48eeb434.631f8527.158e41641c3.-4957'>99</a></xref-group>"
+		}]
+	}]
+	}, 
+	"c2" :
+	{
+	"-unit": "08",
+	"-level": "c2",
+	"topic_name": "infinitives, -ing forms and past participles (1)",
+	"exercise": [{
+		"template": "multi_radio",
+		"rubric": "Right (R) or wrong (W)?",
+		"rwText": ["R", "W"],
+		"question": [{
+			"text": "He began <item>to slowly get up</item> off the floor.",
+			"answer": {
+				"right": "R"
+			}
+		}, {
+			"text": "He began <item>slowly to get up</item> off the floor.",
+			"answer": {
+				"right": "R"
+			}
+		}],
+		"feedback": [{
+			"desc": "<xref-group><a href='u725fd0dd48eeb434.631f8527.158e41641c3.-539f'>89.7</a></xref-group>"
+		}]
+	}, {
+		"template": "multi_radio",
+		"rubric": "Right (R) or wrong (W)?",
+		"rwText": ["R", "W"],
+		"question": [{
+			"text": "I <item>would like to have seen</item> his face when he found the frogs.",
+			"answer": {
+				"right": "R"
+			}
+		}, {
+			"text": "I <item>would have liked to have seen</item> his face when he found the frogs.",
+			"answer": {
+				"right": "R"
+			}
+		}],
+		"feedback": [{
+			"desc": "<xref-group><a href='u725fd0dd48eeb434.631f8527.158e41641c3.-5363'>90.2</a></xref-group>"
+		}]
+	}, {
+		"template": "multi_radio",
+		"rubric": "Right (R) or wrong (W)?",
+		"rwText": ["R", "W"],
+		"question": [{
+			"text": "All I did was <item>to give</item> him a little push.",
+			"answer": {
+				"right": "R"
+			}
+		}, {
+			"text": "All I did was <item>give</item> him a little push.",
+			"answer": {
+				"right": "R"
+			}
+		}],
+		"feedback": [{
+			"desc": "<xref-group><a href='u725fd0dd48eeb434.631f8527.158e41641c3.-51f5'>91.5</a></xref-group>"
+		}]
+	}, {
+		"template": "multi_radio",
+		"rubric": "Are these expressions normal or not: yes (Y) or no (N)?",
+		"rwText": ["Y", "N"],
+		"question": [{
+			"text": "a fallen leaf",
+			"answer": {
+				"right": "Y"
+			}
+		}, {
+			"text": "an escaped prisoner",
+			"answer": {
+				"right": "Y"
+			}
+		}, {
+			"text": "an arrived train",
+			"answer": {
+				"right": "N"
+			}
+		}, {
+			"text": "a developed country",
+			"answer": {
+				"right": "Y"
+			}
+		}, {
+			"text": "a slept child",
+			"answer": {
+				"right": "N"
+			}
+		}, {
+			"text": "a vanished civilisation",
+			"answer": {
+				"right": "Y"
+			}
+		}, {
+			"text": "a retired police officer",
+			"answer": {
+				"right": "Y"
+			}
+		}, {
+			"text": "a started race",
+			"answer": {
+				"right": "N"
+			}
+		}, {
+			"text": "a collapsed building",
+			"answer": {
+				"right": "Y"
+			}
+		}],
+		"feedback": [{
+			"desc": "<xref-group><a href='u725fd0dd48eeb434.631f8527.158e41641c3.-4f0e'>96.4</a></xref-group>"
+		}]
+	}, {
+		"template": "multi_radio",
+		"rubric": "Right (R) or wrong (W)?",
+		"rwText": ["R", "W"],
+		"question": [{
+			"text": "He’s a <item>well-read</item> man.",
+			"answer": {
+				"right": "R"
+			}
+		}, {
+			"text": "She’s a <item>much-travelled</item> woman.",
+			"answer": {
+				"right": "R"
+			}
+		}, {
+			"text": "The <item>recently-arrived</item> train is the 14.50 from Hereford.",
+			"answer": {
+				"right": "R"
+			}
+		}],
+		"feedback": [{
+			"desc": "<xref-group><a href='u725fd0dd48eeb434.631f8527.158e41641c3.-4f0e'>96.4</a></xref-group>"
+		}]
+	}, {
+		"template": "multi_radio",
+		"rubric": "Are these possible: yes (Y) or no (N)?",
+		"rwText": ["Y", "N"],
+		"question": [{
+			"text": "Why <item>are</item> those cars <item>stopped</item> at the crossroads?",
+			"answer": {
+				"right": "Y"
+			}
+		}, {
+			"text": "<item>Is</item> Jack completely <item>recovered</item>?",
+			"answer": {
+				"right": "Y"
+			}
+		}, {
+			"text": "Where <item>are</item> you <item>camped</item>?",
+			"answer": {
+				"right": "Y"
+			}
+		}, {
+			"text": "I’<item>ll be finished</item> in a few minutes.",
+			"answer": {
+				"right": "Y"
+			}
+		}, {
+			"text": "Those days <item>are gone</item> now.",
+			"answer": {
+				"right": "Y"
+			}
+		}],
+		"feedback": [{
+			"desc": "<xref-group><a href='u725fd0dd48eeb434.631f8527.158e41641c3.-4f0e'>96.4</a></xref-group>"
+		}]
+	}, {
+		"template": "single_radio",
+		"question": [{
+			"text": "What can Canadians who speak English be called?",
+			"option": ["<item>English-speaking</item> Canadians.", "<item>English-speaker</item> Canadians.", "<item>speaking-English</item> Canadians.", "<item>speaker-English</item> Canadians."],
+			"answer": "English-speaking Canadians."
+		}],
+		"feedback": [{
+			"desc": "<xref-group><a href='u725fd0dd48eeb434.631f8527.158e41641c3.-4ead'>96.5</a></xref-group>"
+		}]
+	}, {
+		"template": "multi_radio",
+		"rubric": "Right (R) or wrong (W)?",
+		"rwText": ["R", "W"],
+		"question": [{
+			"text": "We didn’t reach agreement on any of the <item>discussed problems</item>.",
+			"answer": {
+				"right": "W"
+			}
+		}, {
+			"text": "The <item>questioned people</item> were released without charge.",
+			"answer": {
+				"right": "W"
+			}
+		}, {
+			"text": "<item>Those selected</item> will begin training on Monday.",
+			"answer": {
+				"right": "R"
+			}
+		}],
+		"feedback": [{
+			"desc": "<xref-group><a href='u725fd0dd48eeb434.631f8527.158e41641c3.-4e8c'>96.6</a></xref-group>"
+		}]
+	}, {
+		"template": "dragdrop_notrans",
+		"alphaOrder": "false",
+		"clone": "true",
+		"rubric": "Some past participles have different meanings when used before or after nouns – compare <i>an adopted child</i> and <i>the solution adopted</i>. Which two of these past participles change their meaning in the same way?",
+		"option": ["involved",
+			"concerned",
+			"estimated",
+			"expected",
+			"revised"
+		],
+		"question": [{
+			"text": "#drop",
+			"answer": [
+				["concerned",
+					"involved"
+				]
+			]
+		}, {
+			"text": "#drop",
+			"answer": [
+				["concerned",
+					"involved"
+				]
+			]
+		}],
+		"feedback": [{
+			"desc": "<xref-group><a href='u725fd0dd48eeb434.631f8527.158e41641c3.-4e54'>96.7</a></xref-group>"
+		}]
+	}, {
+		"template": "multi_radio",
+		"rubric": "Can <i>very</i>, <i>much</i> or <i>very much</i> complete the sentences in a natural way: yes (Y) or no (N)? (More than one may be possible.)",
+		"rwText": ["Y", "N"],
+		"question": [{
+			"input_text": "She’s <gap/> admired by her colleagues.",
+			"text": "very",
+			"answer": {
+				"right": "N"
+			}
+		}, {
+			"text": "much",
+			"answer": {
+				"right": "Y"
+			}
+		}, {
+			"text": "very much",
+			"answer": {
+				"right": "Y"
+			}
+		}, {
+			"input_text": "The children were <gap/> frightened by the thunder.",
+			"text": "very",
+			"answer": {
+				"right": "Y"
+			}
+		}, {
+			"text": "much",
+			"answer": {
+				"right": "N"
+			}
+		}, {
+			"text": "very much",
+			"answer": {
+				"right": "Y"
+			}
+		}, {
+			"input_text": "Alexander has been <gap/> weakened by his illness.",
+			"text": "very",
+			"answer": {
+				"right": "N"
+			}
+		}, {
+			"text": "much",
+			"answer": {
+				"right": "Y"
+			}
+		}, {
+			"text": "very much",
+			"answer": {
+				"right": "Y"
+			}
+		}, {
+			"input_text": "We were <gap/> surpised by Joe’s response.",
+			"text": "very",
+			"answer": {
+				"right": "Y"
+			}
+		}, {
+			"text": "much",
+			"answer": {
+				"right": "N"
+			}
+		}, {
+			"text": "very much",
+			"answer": {
+				"right": "Y"
+			}
+		}, {
+			"input_text": "The next station is ours, unless I’m <gap/> mistaken.",
+			"text": "very",
+			"answer": {
+				"right": "N"
+			}
+		}, {
+			"text": "much",
+			"answer": {
+				"right": "Y"
+			}
+		}, {
+			"text": "very much",
+			"answer": {
+				"right": "Y"
+			}
+		}],
+		"feedback": [{
+			"desc": "<xref-group><a href='u725fd0dd48eeb434.631f8527.158e41641c3.-4e32'>96.8</a></xref-group>"
+		}]
+	}, {
+		"template": "multi_radio",
+		"rubric": "Are these continuations possible: yes (Y) or no (N)?",
+		"rwText": ["Y", "N"],
+		"question": [{
+			"input_text": "I’m not sure ...",
+			"text": "... who to invite.",
+			"answer": {
+				"right": "Y"
+			}
+		}, {
+			"text": "... how to mend this.",
+			"answer": {
+				"right": "Y"
+			}
+		}, {
+			"text": "... where to put the bottles.",
+			"answer": {
+				"right": "Y"
+			}
+		}, {
+			"text": "... why to tell Jack.",
+			"answer": {
+				"right": "N"
+			}
+		}, {
+			"text": "... when to arrive.",
+			"answer": {
+				"right": "Y"
+			}
+		}],
+		"feedback": [{
+			"desc": "<xref-group><a href='u725fd0dd48eeb434.631f8527.158e41641c3.-3ceb'>111.1</a></xref-group>"
+		}]
+	}, {
+		"template": "multi_radio",
+		"rubric": "Are these sentences possible: yes (Y) or no (N)?",
+		"rwText": ["Y", "N"],
+		"question": [{
+			"text": "Can you arrange <item>for the gold to be delivered</item> on Friday?",
+			"answer": {
+				"right": "Y"
+			}
+		}, {
+			"text": "I need <item>for you to help</item> me.",
+			"answer": {
+				"right": "Y"
+			}
+		}, {
+			"text": "She asked <item>for the designs to be sent</item> to her office.",
+			"answer": {
+				"right": "Y"
+			}
+		}, {
+			"text": "We’d like <item>for you to stay</item> as long as you want.",
+			"answer": {
+				"right": "Y"
+			}
+		}, {
+			"text": "She hates <item>for people to feel</item> sad.",
+			"answer": {
+				"right": "Y"
+			}
+		}],
+		"feedback": [{
+			"desc": "<xref-group><a href='u725fd0dd48eeb434.631f8527.158e41641c3.-3b44'>113.7</a></xref-group><br/><item>A</item> and <item>C</item> are normal.<br/><item>B</item>, <item>D</item> and <item>E</item> are also possible in informal American English. "
+		}]
+	}, {
+		"template": "single_radio",
+		"question": [{
+			"text": "What do you feel about these two sentences?",
+			"input_text": "It’s important <item>for there to be</item> a fire escape at the back of the building.<br/>It’s important <item>that there should be</item> a fire escape at the back of the building.",
+			"option": ["There’s no important difference.", "The second is wrong.", "The first is wrong."],
+			"answer": "There’s no important difference."
+		}],
+		"feedback": [{
+			"desc": "<xref-group><a href='u725fd0dd48eeb434.631f8527.158e41641c3.-3ad4'>113.10</a></xref-group><br/><item>B</item> is perhaps a little more formal. "
+		}]
+	}, {
+		"template": "single_touch_button",
+		"rubric": "Which extra word makes the speaker sound more disappointed?",
+		"question": [{
+			"text": "I came home #singletouchto find that my parents had already left.",
+			"option": [
+				["even", "just", "only"]
+			],
+			"answer": ["only"]
+		}],
+		"feedback": [{
+			"desc": "<xref-group><a href='u725fd0dd48eeb434.631f8527.158e41641c3.-3a86'>114.1</a></xref-group>"
+		}]
+	}, {
+		"template": "multi_radio",
+		"rubric": "Right (R) or wrong (W)?",
+		"rwText": ["R", "W"],
+		"question": [{
+			"text": "Who’s <item>the girl dancing</item> on the table?",
+			"answer": {
+				"right": "R"
+			}
+		}, {
+			"text": "Most of <item>those invited</item> failed to turn up.",
+			"answer": {
+				"right": "R"
+			}
+		}, {
+			"text": "Do you know <item>anyone having lost</item> a cat?",
+			"answer": {
+				"right": "W"
+			}
+		}],
+		"feedback": [{
+			"desc": "<xref-group><a href='u725fd0dd48eeb434.631f8527.158e41641c3.-3a27'>115.2</a></xref-group>"
+		}]
+	}, {
+		"template": "multi_radio",
+		"rubric": "Right (R) or wrong (W)?",
+		"rwText": ["R", "W"],
+		"question": [{
+			"text": "<item>Looking out of the window</item>, the mountains seemed very close.",
+			"answer": {
+				"right": "W"
+			}
+		}, {
+			"text": "<item>Having so little time</item>, there was not much I could do.",
+			"answer": {
+				"right": "R"
+			}
+		}, {
+			"text": "<item>Generally speaking</item>, men can run faster than women.",
+			"answer": {
+				"right": "R"
+			}
+		}],
+		"feedback": [{
+			"desc": "<xref-group><a href='u725fd0dd48eeb434.631f8527.158e41641c3.-39d1'>115.4</a></xref-group><br/>Many people would consider <item>A</item> to be wrong (because it seems to say that the mountains were looking out of the window). "
+		}]
+	}, {
+		"template": "multi_radio",
+		"rubric": "Right (R) or wrong (W)?",
+		"rwText": ["R", "W"],
+		"question": [{
+			"text": "<item>Nobody having</item> any more to say, the meeting was closed.",
+			"answer": {
+				"right": "R"
+			}
+		}, {
+			"text": "<item>Hands held high</item>, the dancers circle to the left.",
+			"answer": {
+				"right": "R"
+			}
+		}],
+		"feedback": [{
+			"desc": "<xref-group><a href='u725fd0dd48eeb434.631f8527.158e41641c3.-39a6'>115.5</a></xref-group>"
+		}]
+	}, {
+		"template": "multi_radio",
+		"rubric": "Right (R) or wrong (W)?",
+		"rwText": ["R", "W"],
+		"question": [{
+			"text": "<item>If asked</item>, say nothing.",
+			"answer": {
+				"right": "R"
+			}
+		}, {
+			"text": "<item>Keep refrigerated</item> when opened.",
+			"answer": {
+				"right": "R"
+			}
+		}, {
+			"text": "She was upset <item>because shouted at</item>.",
+			"answer": {
+				"right": "W"
+			}
+		}, {
+			"text": "<item>Once deprived</item> of oxygen, they die within minutes.",
+			"answer": {
+				"right": "R"
+			}
+		}, {
+			"text": "Keep stirring <item>until cooked</item>.",
+			"answer": {
+				"right": "R"
+			}
+		}],
+		"feedback": [{
+			"desc": "<xref-group><a href='u725fd0dd48eeb434.631f8527.158e41641c3.-3990'>115.6</a></xref-group>"
+		}]
+	}]
+	}
+}

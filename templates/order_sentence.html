@@ -1,0 +1,45 @@
+<div  class="template" ng-controller="orderSentence">
+		
+	<div class="rubric"><span class="rubricNo">{{d.curr+1}}</span> <span class="rubricText" ng-bind-html="d.exercise.rubric | sanitize"></span></div>
+     
+     <div class="order_activityArea">
+           
+         <div class="questionSet_orderdnd" ng-repeat="a in d.exercise['question'] track by $index" >
+        <ul ui-sortable="sortableOptions" ng-model="d.exercise['question'][$index]['text']" class="quesWrap">       
+		
+               <li class="reorderli qword " ng-repeat="i in d.exercise['question'][$index]['text'] track by $index"  >
+                  <div class="reorderOptions" ng-class="d.exercise['question'][$parent.$index]['class']">
+                  {{d.exercise['question'][$parent.$index]['text'][$index]["item"]}}
+                  </div>
+              </li> 
+              <li class="reorderli">
+                 <div class="reorderQuestion">
+                  {{d.exercise['question'][$index]['last']}}
+                 </div>
+               
+                 <div class="status">
+                  
+                </div>
+                       
+                       
+              </li>
+        </ul>
+        </div>
+            <div class="disabler" ng-show="disable"></div>
+    </div>
+		<div class="linkFeedback">
+		     <div class="feedback_wrapper">
+ <div class="feedback_header">Where to go in <i>Practical English Usage</i></div>
+    <ul>
+          <li ng-repeat="f in d.exercise.feedback" ng-bind-html="f.desc | sanitize"></li>
+    </ul>
+    </div>
+	</div>
+    <div class="btn skip" ng-show="!disable" ng-click="nextExercise()">Skip</div>
+           
+    <div class="btn checkAns" ng-show="!disable" ng-click="checkAnswer()">Check my answers</div>
+    <div class="btn next" ng-show="disable" ng-click="nextExercise()" ng-if="d.curr < (d.size - 1)">Next</div> 
+        <div class="btn resultsBtn" ng-show="disable" ng-click="results(d.level)" ng-if="d.curr >= (d.size - 1)">Results</div> 
+    
+        
+</div>

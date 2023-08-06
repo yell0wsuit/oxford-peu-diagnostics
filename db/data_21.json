@@ -1,0 +1,663 @@
+{
+	"b2" :
+	{
+	"-unit": "22",
+	"-level": "b2",
+	"topic_name": "indirect speech ",
+	"exercise": [{
+		"template": "single_radio",
+		"question": [{
+			"text": "Is there anything wrong with the indirect speech: yes (Y) or no (N)?",
+			"input_text": "<speaker>direct</speaker>: ‘Where is the money?’<br/><speaker>indirect</speaker>: We asked where the money was?",
+			"option": ["Y", "N"],
+			"answer": "Y"
+		}],
+		"feedback": [{
+			"desc": "<xref-group><a href='u725fd0dd48eeb434.631f8527.158e41641c3.5eb9'>260.2</a></xref-group>"
+		}]
+	}, {
+		"template": "multi_radio",
+		"rubric": "Right (R) or wrong (W)?",
+		"rwText": ["R", "W"],
+		"question": [{
+			"text": "Sarah <item>said that she</item> was coming soon.",
+			"answer": {
+				"right": "R"
+			}
+		}, {
+			"text": "Sarah <item>said she</item> was coming soon.",
+			"answer": {
+				"right": "R"
+			}
+		}],
+		"feedback": [{
+			"desc": "<xref-group><a href='u725fd0dd48eeb434.631f8527.158e41641c3.5cfa'>258.5</a></xref-group>"
+		}]
+	}, {
+		"template": "multi_radio",
+		"rubric": "Are these sentence endings right: yes (Y) or no (N)?",
+		"rwText": ["Y", "N"],
+		"question": [{
+			"input_text": "I knew my English ...",
+			"text": " ... is getting better.",
+			"answer": {
+				"right": "N"
+			}
+		}, {
+			"text": " ... was getting better.",
+			"answer": {
+				"right": "Y"
+			}
+		}, {
+			"text": "... got better.",
+			"answer": {
+				"right": "N"
+			}
+		}],
+		"feedback": [{
+			"desc": "<xref-group><a href='u725fd0dd48eeb434.631f8527.158e41641c3.5d45'>259.2</a></xref-group>"
+		}]
+	}, {
+		"template": "single_touch_button",
+		"rubric": "Which of these verb forms can fill the gap correctly?",
+		"question": [{
+			"text": "I found out that Daniel #singletouch in Cairo ten years ago.",
+			"option": [
+				["grows up", "has grown up", "had grown up"]
+			],
+			"answer": ["had grown up"]
+		}],
+		"feedback": [{
+			"desc": "<xref-group><a href='u725fd0dd48eeb434.631f8527.158e41641c3.5d45'>259.2</a></xref-group>"
+		}]
+	}, {
+		"template": "single_touch_button",
+		"rubric": "Which verb can fill the gap correctly?",
+		"question": [{
+			"text": "She said she #singletouch see us later. ",
+			"option": [
+				["may", "might", "will"]
+			],
+			"answer": ["might"]
+		}],
+		"feedback": [{
+			"desc": "<xref-group><a href='u725fd0dd48eeb434.631f8527.158e41641c3.5d45'>259.2</a></xref-group>"
+		}]
+	}, {
+		"template": "single_touch_button",
+		"rubric": "Which word(s) can end the sentence?",
+		"question": [{
+			"text": "I was talking to James on Saturday. He was a bit upset; he said he’d had an accident #singletouch.",
+			"option": [
+				["yesterday", "the day before", "[both]"]
+			],
+			"answer": ["the day before"]
+		}],
+		"feedback": [{
+			"desc": "<xref-group><a href='u725fd0dd48eeb434.631f8527.158e41641c3.5c9f'>258.3</a></xref-group>"
+		}]
+	}, {
+		"template": "multi_radio",
+		"rubric": "Is this sentence right (R) or wrong (W)?",
+		"rwText": ["R", "W"],
+		"question": [{
+			"text": "I told the police <item>I was British</item>.",
+			"answer": {
+				"right": "R"
+			}
+		}],
+		"feedback": [{
+			"desc": "<xref-group><a href='u725fd0dd48eeb434.631f8527.158e41641c3.5dd7'>259.4</a></xref-group>"
+		}]
+	}, {
+		"template": "multi_radio",
+		"rubric": "Can the continuations end the sentence correctly: yes (Y) or no (N)?",
+		"rwText": ["Y", "N"],
+		"question": [{
+			"input_text": "I asked where ... ",
+			"text": " ... Alice is.",
+			"answer": {
+				"right": "N"
+			}
+		}, {
+			"text": "... is Alice.",
+			"answer": {
+				"right": "N"
+			}
+		}, {
+			"text": " ... Alice was.",
+			"answer": {
+				"right": "Y"
+			}
+		}, {
+			"text": " ... was Alice.",
+			"answer": {
+				"right": "Y"
+			}
+		}],
+		"feedback": [{
+			"desc": "<xref-group><a href='u725fd0dd48eeb434.631f8527.158e41641c3.5d26'>259.1–2</a><br><a href='u725fd0dd48eeb434.631f8527.158e41641c3.5e59'>260.1</a></xref-group>"
+		}]
+	}, {
+		"template": "multi_radio",
+		"rubric": "Right (R) or wrong (W)?",
+		"rwText": ["R", "W"],
+		"question": [{
+			"text": "I’m not sure if I <item>see</item> her tomorrow.",
+			"answer": {
+				"right": "W"
+			}
+		}, {
+			"text": "I’m not sure if I<item>’ll see</item> her tomorrow.",
+			"answer": {
+				"right": "R"
+			}
+		}],
+		"feedback": [{
+			"desc": "<xref-group><a href='u725fd0dd48eeb434.631f8527.158e41641c3.5e19'>259.5</a><br><a href='u725fd0dd48eeb434.631f8527.158e41641c3.5ec8'>260.3</a></xref-group>"
+		}]
+	}, {
+		"template": "single_touch_button",
+		"rubric": "Which would be normal in these situations: <i>if</i>, <i>whether</i> or both?",
+		"question": [{
+			"text": "[in a shop] I can’t decide #singletouch I prefer the blue dress or the red one. What do you think?",
+			"option": [
+				["if", "whether", "[both]"]
+			],
+			"answer": ["[both]"]
+		}, {
+			"text": "[in a newspaper] The Finance Minister has not yet decided #singletouch she will recommend a tax cut or an increase in public spending.",
+			"option": [
+				["if", "whether", "[both]"]
+			],
+			"answer": ["whether"]
+		}],
+		"feedback": [{
+			"desc": "<xref-group><a href='u725fd0dd48eeb434.631f8527.158e41641c3.5f28'>261.1</a></xref-group>"
+		}]
+	}]
+	}, 
+	"c1" :
+	{
+	"-unit": "22",
+	"-level": "c1",
+	"topic_name": "noun clauses and indirect speech",
+	"exercise": [{
+		"template": "single_radio",
+		"question": [{
+			"text": "A, B, or both?",
+			"input_text": "Didn’t you hear me? ... ",
+			"option": [" ... I asked you how old you <item>are</item>.", " ... I asked you how old you <item>were</item>.", "Both"],
+			"answer": "Both"
+		}],
+		"feedback": [{
+			"desc": "<xref-group><a href='u725fd0dd48eeb434.631f8527.158e41641c3.5dd7'>259.4</a></xref-group>"
+		}]
+	}, {
+		"template": "multi_radio",
+		"rubric": "Can these verb forms complete the sentence correctly: yes (Y) or no (N)?",
+		"rwText": ["Y", "N"],
+		"question": [{
+			"input_text": "He says he <gap/> to stay out late tomorrow evening.",
+			"text": "doesn’t want",
+			"answer": {
+				"right": "Y"
+			}
+		}, {
+			"text": "didn’t want",
+			"answer": {
+				"right": "N"
+			}
+		}, {
+			"text": "hasn’t wanted",
+			"answer": {
+				"right": "N"
+			}
+		}],
+		"feedback": [{
+			"desc": "<xref-group><a href='u725fd0dd48eeb434.631f8527.158e41641c3.5e19'>259.5</a></xref-group>"
+		}]
+	}, {
+		"template": "multi_radio",
+		"rubric": "Can phrases A–D complete the indirect speech sentence correctly: yes (Y) or no (N)?",
+		"rwText": ["Y", "N"],
+		"question": [{
+			"input_text": "<speaker>direct</speaker>: ‘What do I need?’<br/><speaker>indirect</speaker>: She asked what ...",
+			"text": " ... she needs.",
+			"answer": {
+				"right": "N"
+			}
+		}, {
+			"text": "... she needed.",
+			"answer": {
+				"right": "Y"
+			}
+		}, {
+			"text": "... does she need.",
+			"answer": {
+				"right": "N"
+			}
+		}, {
+			"text": " ... did she need.",
+			"answer": {
+				"right": "N"
+			}
+		}],
+		"feedback": [{
+			"desc": "<xref-group><a href='u725fd0dd48eeb434.631f8527.158e41641c3.5d26'>259.1–2</a><br><a href='u725fd0dd48eeb434.631f8527.158e41641c3.5e59'>260.1</a></xref-group>"
+		}]
+	}, {
+		"template": "multi_radio",
+		"rubric": "Right (R) or wrong (W)?",
+		"rwText": ["R", "W"],
+		"question": [{
+			"text": "He <item>said he would</item> write every day, if he could.",
+			"answer": {
+				"right": "R"
+			}
+		}, {
+			"text": "He <item>promised he would</item> write every day, if he could.",
+			"answer": {
+				"right": "R"
+			}
+		}, {
+			"text": "He <item>said to</item> write every day, if he could.",
+			"answer": {
+				"right": "W"
+			}
+		}, {
+			"text": "He <item>promised to</item> write every day, if he could.",
+			"answer": {
+				"right": "R"
+			}
+		}],
+		"feedback": [{
+			"desc": "<xref-group><a href='u725fd0dd48eeb434.631f8527.158e41641c3.5fc2'>262.1</a><br><a href='u725fd0dd48eeb434.631f8527.158e41641c3.5ffe'>262.3</a></xref-group>"
+		}]
+	}, {
+		"template": "multi_radio",
+		"rubric": "Can phrases A–C complete the indirect speech sentence correctly: yes (Y) or no (N)?",
+		"rwText": ["Y", "N"],
+		"question": [{
+			"input_text": "<speaker>direct</speaker>: ‘What should I do next?’<br/><speaker>indirect</speaker>: He asked me what ...",
+			"text": " ... he should do next.",
+			"answer": {
+				"right": "Y"
+			}
+		}, {
+			"text": "... to do next.",
+			"answer": {
+				"right": "Y"
+			}
+		}, {
+			"text": "... he should have done next.",
+			"answer": {
+				"right": "N"
+			}
+		}],
+		"feedback": [{
+			"desc": "<xref-group><a href='u725fd0dd48eeb434.631f8527.158e41641c3.5dba'>259.3</a><br><a href='u725fd0dd48eeb434.631f8527.158e41641c3.5fe4'>262.2</a></xref-group>"
+		}]
+	}, {
+		"template": "multi_radio",
+		"rubric": "Can phrases A–D complete the sentence correctly: yes (Y) or no (N)?",
+		"rwText": ["Y", "N"],
+		"question": [{
+			"input_text": "I suggested <gap/> the main car park.",
+			"text": "that he should try",
+			"answer": {
+				"right": "Y"
+			}
+		}, {
+			"text": "him to try",
+			"answer": {
+				"right": "N"
+			}
+		}, {
+			"text": "that he try",
+			"answer": {
+				"right": "Y"
+			}
+		}, {
+			"text": "trying",
+			"answer": {
+				"right": "Y"
+			}
+		}],
+		"feedback": [{
+			"desc": "<xref-group><a href='u725fd0dd48eeb434.631f8527.158e41641c3.5ffe'>262.3</a></xref-group>"
+		}]
+	}, {
+		"template": "multi_radio",
+		"rubric": "Can expressions A–F complete the sentence correctly: yes (Y) or no (N)?",
+		"rwText": ["Y", "N"],
+		"question": [{
+			"input_text": "The driver <gap/> the town centre.",
+			"text": "asked that I wanted",
+			"answer": {
+				"right": "N"
+			}
+		}, {
+			"text": "asked if I wanted",
+			"answer": {
+				"right": "Y"
+			}
+		}, {
+			"text": "asked whether I wanted",
+			"answer": {
+				"right": "Y"
+			}
+		}, {
+			"text": "said that I wanted",
+			"answer": {
+				"right": "N"
+			}
+		}, {
+			"text": "said if I wanted",
+			"answer": {
+				"right": "N"
+			}
+		}, {
+			"text": "said whether I wanted",
+			"answer": {
+				"right": "N"
+			}
+		}],
+		"feedback": [{
+			"desc": "<xref-group><a href='u725fd0dd48eeb434.631f8527.158e41641c3.5ec8'>260.3–4</a></xref-group>"
+		}]
+	}, {
+		"template": "single_touch_button",
+		"rubric": "<i>If</i>, <i>whether</i> or both?",
+		"question": [{
+			"text": "I’m not sure #singletouch I’ll have time.",
+			"option": [
+				["if", "whether", "[both]"]
+			],
+			"answer": ["[both]"]
+		}, {
+			"text": "#singletouch I’ll have time, I’m not sure at the moment.",
+			"option": [
+				["If", "Whether", "[both]"]
+			],
+			"answer": ["Whether"]
+		}, {
+			"text": "There was a big argument about #singletouch we should move house.",
+			"option": [
+				["if", "whether", "[both]"]
+			],
+			"answer": ["whether"]
+		}, {
+			"text": "They can’t decide #singletouch to get married now or wait.",
+			"option": [
+				["if", "whether", "[both]"]
+			],
+			"answer": ["whether"]
+		}],
+		"feedback": [{
+			"desc": "<xref-group><a href='u725fd0dd48eeb434.631f8527.158e41641c3.5f28'>261.1</a></xref-group>"
+		}]
+	}, {
+		"template": "multi_radio",
+		"rubric": "Right (R) or wrong (W)?",
+		"rwText": ["R", "W"],
+		"question": [{
+			"text": "<item>Who you invite</item> is your business.",
+			"answer": {
+				"right": "R"
+			}
+		}, {
+			"text": "<item>Where we stay</item> doesn’t matter.",
+			"answer": {
+				"right": "R"
+			}
+		}, {
+			"text": "You can eat it <item>how you like</item>.",
+			"answer": {
+				"right": "R"
+			}
+		}, {
+			"text": "I’m surprised at <item>how fast she can run</item>.",
+			"answer": {
+				"right": "R"
+			}
+		}],
+		"feedback": [{
+			"desc": "<xref-group><a href='u725fd0dd48eeb434.631f8527.158e41641c3.6462'>266</a></xref-group>"
+		}]
+	}]
+	}, 
+	"c2" :
+	{
+	"-unit": "22",
+	"-level": "c2",
+	"topic_name": "noun clauses and indirect speech",
+	"exercise": [{
+		"template": "multi_radio",
+		"rubric": "Right (R) or wrong (W)?",
+		"rwText": ["R", "W"],
+		"question": [{
+			"text": "We were glad to hear that you <item>enjoyed</item> your trip to Denmark.",
+			"answer": {
+				"right": "R"
+			}
+		}, {
+			"text": "We were glad to hear that you <item>had enjoyed</item> your trip to Denmark.",
+			"answer": {
+				"right": "R"
+			}
+		}],
+		"feedback": [{
+			"desc": "<xref-group><a href='u725fd0dd48eeb434.631f8527.158e41641c3.604b'>263.1</a></xref-group>"
+		}]
+	}, {
+		"template": "multi_radio",
+		"rubric": "Are these sentences normal and correct: yes (Y) or no (N)?",
+		"rwText": ["Y", "N"],
+		"question": [{
+			"text": "The Greeks believed that the sun <item>goes</item> round the earth.",
+			"answer": {
+				"right": "N"
+			}
+		}, {
+			"text": "The Greeks believed that the sun <item>went</item> round the earth.",
+			"answer": {
+				"right": "Y"
+			}
+		}, {
+			"text": "Copernicus proved that the earth <item>goes</item> round the sun.",
+			"answer": {
+				"right": "Y"
+			}
+		}, {
+			"text": "Copernicus proved that the earth <item>went</item> round the sun.",
+			"answer": {
+				"right": "Y"
+			}
+		}],
+		"feedback": [{
+			"desc": "<xref-group><a href='u725fd0dd48eeb434.631f8527.158e41641c3.6078'>263.2</a></xref-group>"
+		}]
+	}, {
+		"template": "single_touch_button",
+		"rubric": "Which are the right words to complete the indirect speech sentence?",
+		"question": [{
+			"input_text": "<speaker>direct</speaker>: It would be nice if I could see you again.<br/><speaker>indirect</speaker>: He said it would be nice if he <gap/> me again. ",
+			"text": "#singletouch",
+			"option": [
+				["could see", "could have seen", "would see"]
+			],
+			"answer": ["could see"]
+		}],
+		"feedback": [{
+			"desc": "<xref-group><a href='u725fd0dd48eeb434.631f8527.158e41641c3.60b0'>263.3</a></xref-group>"
+		}]
+	}, {
+		"template": "single_touch_button",
+		"rubric": "Choose the right word to complete the indirect speech sentence.",
+		"question": [{
+			"input_text": "<speaker>direct</speaker>: Shall I be needed tomorrow?<br/><speaker>indirect</speaker>: He wants to know if he <gap/> be needed tomorrow.",
+			"text": "#singletouch",
+			"option": [
+				["shall", "will", "should", "would"]
+			],
+			"answer": ["will"]
+		}],
+		"feedback": [{
+			"desc": "<xref-group><a href='u725fd0dd48eeb434.631f8527.158e41641c3.6116'>263.4</a></xref-group>"
+		}]
+	}, {
+		"template": "single_touch_button",
+		"rubric": "Choose the right word to complete the indirect speech sentence.",
+		"question": [{
+			"input_text": "<speaker>direct</speaker>: Shall I carry that bag?<br/><speaker>indirect</speaker>: He wants to know if he <gap/> carry that bag.",
+			"text": "#singletouch",
+			"option": [
+				["shall", "will", "should", "would"]
+			],
+			"answer": ["should"]
+		}],
+		"feedback": [{
+			"desc": "<xref-group><a href='u725fd0dd48eeb434.631f8527.158e41641c3.6116'>263.4</a></xref-group>"
+		}]
+	}, {
+		"template": "single_radio",
+		"question": [{
+			"text": "What is the indirect speech equivalent of this sentence: A, B or both? ",
+			"input_text": "‘If I had any money, I’d buy you a drink.’",
+			"option": ["She said if <item>she had</item> any money <item>she’d buy</item> me a drink.", "She said if <item>she’d had</item> any money <item>she’d have bought</item> me a drink.", "Both"],
+			"answer": "Both"
+		}],
+		"feedback": [{
+			"desc": "<xref-group><a href='u725fd0dd48eeb434.631f8527.158e41641c3.6138'>263.5</a></xref-group>"
+		}]
+	}, {
+		"template": "multi_radio",
+		"rubric": "Are the sentences below indirect speech equivalents of this sentence: yes (Y) or no (N)?",
+		"rwText": ["Y", "N"],
+		"question": [{
+			"input_text": "‘Isn’t she lovely!’",
+			"text": "I remarked how lovely she was.",
+			"answer": {
+				"right": "Y"
+			}
+		}, {
+			"text": "I exclaimed that she was lovely.",
+			"answer": {
+				"right": "Y"
+			}
+		}, {
+			"text": "I asked if she wasn’t lovely.",
+			"answer": {
+				"right": "N"
+			}
+		}],
+		"feedback": [{
+			"desc": "<xref-group><a href='u725fd0dd48eeb434.631f8527.158e41641c3.615e'>263.6</a></xref-group><br/>Though <item>B</item> is possible, <item>A</item> is the most natural. "
+		}]
+	}, {
+		"template": "single_radio",
+		"question": [{
+			"text": "What is the indirect speech equivalent of this sentence: A, B or both?",
+			"input_text": "‘Who’s the best player?’",
+			"option": ["She asked me <item>who was the best player</item>.", "She asked me <item>who the best player was</item>.", "Both"],
+			"answer": "Both"
+		}],
+		"feedback": [{
+			"desc": "<xref-group><a href='u725fd0dd48eeb434.631f8527.158e41641c3.6189'>263.7</a></xref-group>"
+		}]
+	}, {
+		"template": "multi_radio",
+		"rubric": "Right (R) or wrong (W)?",
+		"rwText": ["R", "W"],
+		"question": [{
+			"text": "He’s gone I don’t know where. ",
+			"answer": {
+				"right": "R"
+			}
+		}],
+		"feedback": [{
+			"desc": "<xref-group><a href='u725fd0dd48eeb434.631f8527.158e41641c3.61dd'>263.8</a></xref-group>"
+		}]
+	}, {
+		"template": "multi_radio",
+		"rubric": "Right (R) or wrong (W)?",
+		"rwText": ["R", "W"],
+		"question": [{
+			"text": "Who do you think <item>wrote this</item>?",
+			"answer": {
+				"right": "R"
+			}
+		}, {
+			"text": "Who do you think <item>that wrote this</item>?",
+			"answer": {
+				"right": "W"
+			}
+		}, {
+			"text": "Who do you wish <item>you’d married</item>?",
+			"answer": {
+				"right": "R"
+			}
+		}, {
+			"text": "Who do you wish <item>that you’d married</item>?",
+			"answer": {
+				"right": "R"
+			}
+		}],
+		"feedback": [{
+			"desc": "<xref-group><a href='u725fd0dd48eeb434.631f8527.158e41641c3.637e'>264.8</a></xref-group>"
+		}]
+	}, {
+		"template": "multi_radio",
+		"rubric": "Would it be natural to leave out <i>that</i> in these sentences: yes (Y) or no (N)?",
+		"rwText": ["Y", "N"],
+		"question": [{
+			"text": "He said <item>that</item> he was feeling better.",
+			"answer": {
+				"right": "Y"
+			}
+		}, {
+			"text": "James replied <item>that</item> he was feeling better.",
+			"answer": {
+				"right": "N"
+			}
+		}, {
+			"text": "We were surprised <item>that</item> she came.",
+			"answer": {
+				"right": "Y"
+			}
+		}, {
+			"text": "There was strong opposition to Copernicus’ theory <item>that</item> the earth went round the sun.",
+			"answer": {
+				"right": "N"
+			}
+		}, {
+			"text": "Come in quietly so <item>that</item> she doesn’t hear you.",
+			"answer": {
+				"right": "Y"
+			}
+		}],
+		"feedback": [{
+			"desc": "<xref-group><a href='u725fd0dd48eeb434.631f8527.158e41641c3.63d0'>265</a></xref-group>"
+		}]
+	}, {
+		"template": "multi_radio",
+		"rubric": "Right (R) or wrong (W)?",
+		"rwText": ["R", "W"],
+		"question": [{
+			"text": "<item>Whether we can stay with my mother</item> is another matter.",
+			"answer": {
+				"right": "R"
+			}
+		}, {
+			"text": "<item>Whether I’m happy?</item> What do you think?",
+			"answer": {
+				"right": "W"
+			}
+		}],
+		"feedback": [{
+			"desc": "<xref-group><a href='u725fd0dd48eeb434.631f8527.158e41641c3.5f78'>261.4–5</a></xref-group>"
+		}]
+	}]
+	}
+}

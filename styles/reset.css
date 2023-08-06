@@ -1,0 +1,106 @@
+@font-face {
+    font-family: 'Inter';
+    src: url("fonts/Inter.var.woff2") format("woff2-variations");
+    font-weight: 300 900;
+    font-stretch: 35% 100%;
+    font-style: normal;
+}
+
+* {
+    font-family: Inter, system-ui, sans-serif;
+}
+
+.mshell html,.mshell body,.mshell div,.mshell span,.mshell object,.mshell iframe,.mshell
+h1,.mshell h2,.mshell h3,.mshell h4,.mshell h5,.mshell h6,.mshell p,.mshell blockquote,.mshell pre,.mshell
+abbr,.mshell address,.mshell cite,.mshell code,.mshell
+del,.mshell dfn,.mshell em,.mshell img,.mshell ins,.mshell kbd,.mshell q,.mshell samp,.mshell
+small,.mshell strong,.mshell sub,.mshell sup,.mshell var,.mshell
+b,.mshell i,.mshell
+dl,.mshell dt,.mshell dd,.mshell ol,.mshell ul,.mshell li,.mshell
+fieldset,.mshell form,.mshell label,.mshell legend,.mshell
+table,.mshell caption,.mshell tbody,.mshell tfoot,.mshell thead,.mshell tr,.mshell th,.mshell td,.mshell
+article,.mshell aside,.mshell canvas,.mshell details,.mshell figcaption,.mshell figure,.mshell 
+footer,.mshell header,.mshell hgroup,.mshell menu,.mshell nav,.mshell section,.mshell summary,.mshell
+time,.mshell mark,.mshell audio,.mshell video {
+    margin:0;
+    padding:0;
+    border:0;
+    outline:0;
+    font-size:100%;
+    vertical-align:baseline;
+    //background:transparent;
+}
+
+.mshell body {
+    line-height:1;
+}
+
+.mshell article,.mshell aside,.mshell details,.mshell figcaption,.mshell figure,
+footer,.mshell header,.mshell hgroup,.mshell menu,.mshell nav,.mshell section { 
+    display:block;
+}
+
+.mshell nav ul {
+    list-style:none;
+}
+
+.mshell blockquote,.mshell  q {
+    quotes:none;
+}
+
+.mshell blockquote:before,.mshell  blockquote:after,.mshell 
+q:before,.mshell  q:after {
+    content:'';
+    content:none;
+}
+
+.mshell a {
+    margin:0;
+    padding:0;
+    font-size:100%;
+    vertical-align:baseline;
+    background:transparent;
+}
+
+/* change colours to suit your needs */
+.mshell ins {
+    background-color:#ff9;
+    color:#000;
+    text-decoration:none;
+}
+
+/* change colours to suit your needs */
+.mshell mark {
+    background-color:#ff9;
+    color:#000; 
+    font-style:italic;
+    font-weight:bold;
+}
+
+.mshell del {
+    text-decoration: line-through;
+}
+
+.mshell abbr[title],.mshell  dfn[title] {
+    border-bottom:1px dotted;
+    cursor:help;
+}
+
+.mshell table {
+    border-collapse:collapse;
+    border-spacing:0;
+}
+
+/* change border colour to suit your needs */
+.mshell hr {
+    display:block;
+    height:1px;
+    border:0;   
+    border-top:1px solid #cccccc;
+    margin:1em 0;
+    padding:0;
+}
+
+.mshell input,.mshell select {
+    vertical-align:middle;
+}

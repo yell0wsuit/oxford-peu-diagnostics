@@ -1,0 +1,835 @@
+{
+	"b2" :
+	{
+	"-unit": "17",
+	"-level": "b2",
+	"topic_name": "basic clause types",
+	"exercise": [{
+		"template": "multi_radio",
+		"rubric": "Right (R) or wrong (W)?",
+		"rwText": ["R", "W"],
+		"question": [{
+			"text": "When was your reservation made?",
+			"answer": {
+				"right": "R"
+			}
+		}, {
+			"text": "Where are staying the President and his family?",
+			"answer": {
+				"right": "W"
+			}
+		}],
+		"feedback": [{
+			"desc": "<xref-group><a href='u725fd0dd48eeb434.631f8527.158e41641c3.36c9'>216.5</a></xref-group>"
+		}]
+	}, {
+		"template": "multi_radio",
+		"rubric": "Are these normal questions: yes (Y) or no (N)?",
+		"rwText": ["Y", "N"],
+		"question": [{
+			"text": "Who did phone just now?",
+			"answer": {
+				"right": "N"
+			}
+		}, {
+			"text": "What sort of music does make you happy?",
+			"answer": {
+				"right": "N"
+			}
+		}, {
+			"text": "What sort of music does your mother like?",
+			"answer": {
+				"right": "Y"
+			}
+		}],
+		"feedback": [{
+			"desc": "<xref-group><a href='u725fd0dd48eeb434.631f8527.158e41641c3.3675'>216.2</a></xref-group><br/><item>A</item> and <item>B</item> are possible for emphasis, <xref-group><a href='u725fd0dd48eeb434.631f8527.158e41641c3.36f3'>216.6</a></xref-group>."
+		}]
+	}, {
+		"template": "multi_radio",
+		"rubric": "Are these questions correct: yes (Y) or no (N)?",
+		"rwText": ["Y", "N"],
+		"question": [{
+			"text": "Who did you phone?",
+			"answer": {
+				"right": "Y"
+			}
+		}, {
+			"text": "Who phoned you?",
+			"answer": {
+				"right": "Y"
+			}
+		}, {
+			"text": "Who phoned?",
+			"answer": {
+				"right": "Y"
+			}
+		}, {
+			"text": "Who did phone?",
+			"answer": {
+				"right": "N"
+			}
+		}],
+		"feedback": [{
+			"desc": "<xref-group><a href='u725fd0dd48eeb434.631f8527.158e41641c3.36f3'>216.6</a></xref-group>"
+		}]
+	}, {
+		"template": "multi_radio_textEntry",
+		"hideRight": "true",
+		"rubric": "Are these sentences right (R) or wrong (W)? When you have checked your answers, correct any wrong sentences.",
+		"rwText": ["R", "W"],
+		"question": [{
+			"text": "It is important <item>to don’t worry</item>. ",
+			"answer": [{
+				"right": "W"
+			}, {
+				"right": "It is important not to worry."
+			}]
+		}, {
+			"text": "The best thing about the weekend is <item>not working</item>. ",
+			"answer": {
+				"right": "R"
+			}
+		}],
+		"feedback": [{
+			"desc": "<xref-group><a href='u725fd0dd48eeb434.631f8527.158e41641c3.3829'>217.3</a></xref-group>"
+		}]
+	}, {
+		"template": "multi_radio",
+		"rubric": "Right (R) or wrong (W)?",
+		"rwText": ["R", "W"],
+		"question": [{
+			"text": "He does never work.",
+			"answer": {
+				"right": "W"
+			}
+		}, {
+			"text": "He hardly ever works.",
+			"answer": {
+				"right": "R"
+			}
+		}, {
+			"text": "He doesn’t hardly ever work.",
+			"answer": {
+				"right": "W"
+			}
+		}],
+		"feedback": [{
+			"desc": "<xref-group><a href='u725fd0dd48eeb434.631f8527.158e41641c3.386f'>217.5</a></xref-group>"
+		}]
+	}, {
+		"template": "multi_radio",
+		"rubric": "Are these questions correct: yes (Y) or no (N)?",
+		"rwText": ["Y", "N"],
+		"question": [{
+			"text": "<item>Why haven’t they</item> replied to my emails yet?",
+			"answer": {
+				"right": "Y"
+			}
+		}, {
+			"text": "<item>Why they have not</item> replied to my emails yet?",
+			"answer": {
+				"right": "N"
+			}
+		}, {
+			"text": "<item>Why have they not</item> replied to my emails yet?",
+			"answer": {
+				"right": "Y"
+			}
+		}, {
+			"text": "<item>Doesn’t she have</item> any friends to help her?",
+			"answer": {
+				"right": "Y"
+			}
+		}, {
+			"text": "<item>Hasn’t she</item> any friends to help her?",
+			"answer": {
+				"right": "Y"
+			}
+		}],
+		"feedback": [{
+			"desc": "<xref-group><a href='u725fd0dd48eeb434.631f8527.158e41641c3.38f8'>218.1</a></xref-group>"
+		}]
+	}, {
+		"template": "single_radio",
+		"question": [{
+			"text": "Look at these questions. Which of the statements that follow them is correct?",
+			"input_text": "<speaker>speaker 1</speaker>: <item>Did</item> you go and see Ella yesterday?<br/><speaker>speaker 2</speaker>: <item>Didn’t</item> you go and see Ella yesterday?",
+			"option": ["Speaker 1 expects the answer ‘Yes’.", "Speaker 2 expects the answer ‘Yes’.", "We don’t know whether either speaker expects the answer ‘Yes’."],
+			"answer": "Speaker 2 expects the answer ‘Yes’."
+		}],
+		"feedback": [{
+			"desc": "<xref-group><a href='u725fd0dd48eeb434.631f8527.158e41641c3.391e'>218.2</a></xref-group> a"
+		}]
+	}, {
+		"template": "single_touch_button",
+		"rubric": "Which meaning of each reply is correct? ",
+		"question": [{
+			"input_text": "‘<item>Haven’t</item> you written to Emily?’",
+			"text": "#singletouch",
+			"option": [
+				["‘Yes.’ (= I have written to her.)", "‘Yes.’ (= I haven’t written to her.)"]
+			],
+			"answer": ["‘Yes.’ (= I have written to her.)"]
+		}, {
+			"input_text": "‘<item>Didn’t</item> you go to work this morning?’",
+			"text": "#singletouch",
+			"option": [
+				["‘No.’ (= I went to work.)", "‘No.’ (= I didn’t go to work.)"]
+			],
+			"answer": ["‘No.’ (= I didn’t go to work.)"]
+		}],
+		"feedback": [{
+			"desc": "<xref-group><a href='u725fd0dd48eeb434.631f8527.158e41641c3.3990'>218.4</a></xref-group>"
+		}]
+	}, {
+		"template": "multi_radio",
+		"rubric": "Right (R) or wrong (W)?",
+		"rwText": ["R", "W"],
+		"question": [{
+			"text": "Be careful!",
+			"answer": {
+				"right": "R"
+			}
+		}, {
+			"text": "Do be careful!",
+			"answer": {
+				"right": "R"
+			}
+		}, {
+			"text": "Don’t be silly!",
+			"answer": {
+				"right": "R"
+			}
+		}],
+		"feedback": [{
+			"desc": "<xref-group><a href='u725fd0dd48eeb434.631f8527.158e41641c3.3d3f'>224.4</a></xref-group>"
+		}]
+	}, {
+		"template": "multi_radio",
+		"rubric": "Are these sentences right: yes (Y) or no (N)?",
+		"rwText": ["Y", "N"],
+		"question": [{
+			"text": "<item>Always remember</item> what I told you.",
+			"answer": {
+				"right": "Y"
+			}
+		}, {
+			"text": "<item>Remember always</item> what I told you.",
+			"answer": {
+				"right": "N"
+			}
+		}, {
+			"text": "<item>Never speak</item> to me like that again!",
+			"answer": {
+				"right": "Y"
+			}
+		}, {
+			"text": "<item>Speak never</item> to me like that again!",
+			"answer": {
+				"right": "N"
+			}
+		}],
+		"feedback": [{
+			"desc": "<xref-group><a href='u725fd0dd48eeb434.631f8527.158e41641c3.3da5'>224.7</a></xref-group>"
+		}]
+	}, {
+		"template": "multi_radio",
+		"rubric": "Are these exclamations right: yes (Y) or no (N)?",
+		"rwText": ["Y", "N"],
+		"question": [{
+			"text": "How nice!",
+			"answer": {
+				"right": "Y"
+			}
+		}, {
+			"text": "How it is cold!",
+			"answer": {
+				"right": "N"
+			}
+		}, {
+			"text": "How cold it is!",
+			"answer": {
+				"right": "Y"
+			}
+		}, {
+			"text": "How beautifully you sing!",
+			"answer": {
+				"right": "Y"
+			}
+		}, {
+			"text": "How you sing beautifully!",
+			"answer": {
+				"right": "N"
+			}
+		}, {
+			"text": "How have you grown!",
+			"answer": {
+				"right": "N"
+			}
+		}, {
+			"text": "How you’ve grown!",
+			"answer": {
+				"right": "Y"
+			}
+		}],
+		"feedback": [{
+			"desc": "<xref-group><a href='u725fd0dd48eeb434.631f8527.158e41641c3.3c1a'>223.1</a></xref-group>"
+		}]
+	}, {
+		"template": "multi_radio_textEntry",
+		"hideRight": "true",
+		"rubric": "Is this sentence right (R) or wrong (W)? When you have checked your answer, correct the sentence if it’s wrong.",
+		"rwText": ["R", "W"],
+		"question": [{
+			"text": "What a beautiful smile <item>has your sister</item>! ",
+			"answer": [{
+				"right": "W"
+			}, {
+				"right": [
+					"What a beautiful smile your sister has! ",
+					"What a beautiful smile your sister has got! ",
+					"What a beautiful smile your sister's got! ",
+					"What a beautiful smile your sister’s got! "
+				]
+			}]
+
+		}],
+		"feedback": [{
+			"desc": "<xref-group><a href='u725fd0dd48eeb434.631f8527.158e41641c3.3c49'>223.2</a></xref-group>"
+		}]
+	}, {
+		"template": "multi_radio_textEntry",
+		"hideRight": "true",
+		"rubric": "Are these exclamations right (R) or wrong (W)? When you have checked your answers, correct any wrong exclamations.",
+		"rwText": ["R", "W"],
+		"question": [{
+			"text": "What rude man! ",
+			"answer": [{
+				"right": "W"
+			}, {
+				"right": "What a rude man!"
+			}]
+		}, {
+			"text": "What beautiful weather! ",
+			"answer": {
+				"right": "R"
+			}
+		}],
+		"feedback": [{
+			"desc": "<xref-group><a href='u725fd0dd48eeb434.631f8527.158e41641c3.3c49'>223.2</a></xref-group>"
+		}]
+	}]
+	}, 
+	"c1" :
+	{
+	"-unit": "17",
+	"-level": "c1",
+	"topic_name": "basic clause types",
+	"exercise": [{
+		"template": "single_touch_button",
+		"rubric": "What options are possible?",
+		"question": [{
+			"text": "Who #singletouch just now?",
+			"option": [
+				["spoke", "did speak", "[both]"]
+			],
+			"answer": ["spoke"]
+		}, {
+			"text": "If it wasn’t Daniel, who #singletouch just now? ",
+			"option": [
+				["phoned", "did phone", "[both]"]
+			],
+			"answer": ["[both]"]
+		}, {
+			"text": "‘I’ve split up with my girlfriend.’ ‘I’m not surprised: I never #singletouch her.’",
+			"option": [
+				["liked", "did like", "[both]"]
+			],
+			"answer": ["[both]"]
+		}],
+		"feedback": [{
+			"desc": "<xref-group><a href='u725fd0dd48eeb434.631f8527.158e41641c3.36f3'>216.6</a></xref-group>"
+		}]
+	}, {
+		"template": "multi_radio",
+		"rubric": "Right (R) or wrong (W)?",
+		"rwText": ["R", "W"],
+		"question": [{
+			"text": "George’s brother came, but not George.",
+			"answer": {
+				"right": "R"
+			}
+		}, {
+			"text": "Not George came, but his brother.",
+			"answer": {
+				"right": "W"
+			}
+		}, {
+			"text": "It was not George who came, but his brother.",
+			"answer": {
+				"right": "R"
+			}
+		}],
+		"feedback": [{
+			"desc": "<xref-group><a href='u725fd0dd48eeb434.631f8527.158e41641c3.383f'>217.4</a></xref-group>"
+		}]
+	}, {
+		"template": "multi_radio",
+		"rubric": "Are these questions polite invitations: yes (Y) or no (N)?",
+		"rwText": ["Y", "N"],
+		"question": [{
+			"text": "<item>Won’t you</item> have a drink with us?",
+			"answer": {
+				"right": "Y"
+			}
+		}, {
+			"text": "<item>Why won’t you</item> have a drink with us?",
+			"answer": {
+				"right": "N"
+			}
+		}, {
+			"text": "<item>Why don’t you</item> have a drink with us?",
+			"answer": {
+				"right": "Y"
+			}
+		}, {
+			"text": "<item>Would you like to</item> have a drink with us?",
+			"answer": {
+				"right": "Y"
+			}
+		}, {
+			"text": "<item>Wouldn’t you like to</item> have a drink with us?",
+			"answer": {
+				"right": "Y"
+			}
+		}],
+		"feedback": [{
+			"desc": "<xref-group><a href='u725fd0dd48eeb434.631f8527.158e41641c3.3965'>218.3</a></xref-group>"
+		}]
+	}, {
+		"template": "multi_radio",
+		"rubric": "Look at this sentence. Do sentences A–C mean the same: yes (Y) or no (N)?",
+		"rwText": ["Y", "N"],
+		"question": [{
+			"input_text": "You aren’t helping us, and I think you should.",
+			"text": "Can you help us for a moment?",
+			"answer": {
+				"right": "N"
+			}
+		}, {
+			"text": "Can’t you help us for a moment?",
+			"answer": {
+				"right": "Y"
+			}
+		}, {
+			"text": "You can’t help us for a moment, can you?",
+			"answer": {
+				"right": "N"
+			}
+		}],
+		"feedback": [{
+			"desc": "<xref-group><a href='u725fd0dd48eeb434.631f8527.158e41641c3.3965'>218.3</a></xref-group>"
+		}]
+	}, {
+		"template": "multi_radio",
+		"rubric": "Look at this sentence. Do sentences A–C mean the same: yes (Y) or no (N)?",
+		"rwText": ["Y", "N"],
+		"question": [{
+			"input_text": "Do that again and you’ll be in trouble!",
+			"text": "Don’t do that again or you’ll be in trouble.",
+			"answer": {
+				"right": "Y"
+			}
+		}, {
+			"text": "If you do that again, you’ll be in trouble.",
+			"answer": {
+				"right": "Y"
+			}
+		}, {
+			"text": "When you do that again, you’ll be in trouble.",
+			"answer": {
+				"right": "N"
+			}
+		}],
+		"feedback": [{
+			"desc": "<xref-group><a href='u725fd0dd48eeb434.631f8527.158e41641c3.3cea'>224.1</a></xref-group>"
+		}]
+	}, {
+		"template": "multi_radio",
+		"rubric": "Right (R) or wrong (W)?",
+		"rwText": ["R", "W"],
+		"question": [{
+			"text": "<item>Get a vaccination</item> as soon as you can.",
+			"answer": {
+				"right": "R"
+			}
+		}, {
+			"text": "<item>Get vaccinated</item> as soon as you can.",
+			"answer": {
+				"right": "R"
+			}
+		}],
+		"feedback": [{
+			"desc": "If you thought <item>B</item> was wrong, <xref-group><a href='u725fd0dd48eeb434.631f8527.158e41641c3.3d29'>224.3</a></xref-group>."
+		}]
+	}, {
+		"template": "multi_radio",
+		"rubric": "Are these question tags used correctly: yes (Y) or no (N)?",
+		"rwText": ["Y", "N"],
+		"question": [{
+			"input_text": "Wait here for a moment, ... ",
+			"text": " ... can you?",
+			"answer": {
+				"right": "Y"
+			}
+		}, {
+			"text": " ... could you?",
+			"answer": {
+				"right": "Y"
+			}
+		}, {
+			"text": " ... do you?",
+			"answer": {
+				"right": "N"
+			}
+		}, {
+			"text": " ... did you?",
+			"answer": {
+				"right": "N"
+			}
+		}, {
+			"text": " ... will you?",
+			"answer": {
+				"right": "Y"
+			}
+		}, {
+			"text": " ... would you?",
+			"answer": {
+				"right": "Y"
+			}
+		}],
+		"feedback": [{
+			"desc": "<xref-group><a href='u725fd0dd48eeb434.631f8527.158e41641c3.3d80'>224.6</a></xref-group>"
+		}]
+	}, {
+		"template": "multi_radio",
+		"rubric": "Are the replies right in informal English: yes (Y) or no (N)?",
+		"rwText": ["Y", "N"],
+		"question": [{
+			"input_text": "‘I’m absolutely furious!’",
+			"text": "‘Now <item>let’s not get</item> angry.’",
+			"answer": {
+				"right": "Y"
+			}
+		}, {
+			"text": "‘Now <item>don’t let’s get</item> angry.’",
+			"answer": {
+				"right": "Y"
+			}
+		}, {
+			"text": "‘Now <item>let’s don’t get</item> angry.’",
+			"answer": {
+				"right": "N"
+			}
+		}, {
+			"input_text": "‘What do you think of their policy? ",
+			"text": "‘Let me think.’",
+			"answer": {
+				"right": "Y"
+			}
+		}, {
+			"text": "‘Let me see.’",
+			"answer": {
+				"right": "Y"
+			}
+		}, {
+			"text": "‘Let me consider.’",
+			"answer": {
+				"right": "N"
+			}
+		}, {
+			"text": "‘Let’s see.’",
+			"answer": {
+				"right": "Y"
+			}
+		}],
+		"feedback": [{
+			"desc": "<xref-group><a href='u725fd0dd48eeb434.631f8527.158e41641c3.3de1'>225.1–2</a></xref-group>"
+		}]
+	}, {
+		"template": "multi_radio",
+		"rubric": "Right (R) or wrong (W)?",
+		"rwText": ["R", "W"],
+		"question": [{
+			"text": "<item>Let there is</item> no doubt in your minds about our intentions.",
+			"answer": {
+				"right": "W"
+			}
+		}, {
+			"text": "<item>Let there be</item> no doubt in your minds about our intentions.",
+			"answer": {
+				"right": "R"
+			}
+		}, {
+			"text": "<item>Be in</item> no doubt about our intentions.",
+			"answer": {
+				"right": "R"
+			}
+		}, {
+			"text": "<item>Let you be in</item> no doubt about our intentions.",
+			"answer": {
+				"right": "W"
+			}
+		}],
+		"feedback": [{
+			"desc": "<xref-group><a href='u725fd0dd48eeb434.631f8527.158e41641c3.3e41'>225.3</a></xref-group>"
+		}]
+	}, {
+		"template": "single_radio",
+		"question": [{
+			"text": "Look at these sentences. Do they mean the same?",
+			"input_text": "How you’ve grown!<br/>Haven’t you grown!",
+			"option": ["Yes", "No"],
+			"answer": "Yes"
+		}],
+		"feedback": [{
+			"desc": "<xref-group><a href='u725fd0dd48eeb434.631f8527.158e41641c3.3c1a'>223.1</a><br><a href='u725fd0dd48eeb434.631f8527.158e41641c3.3cb9'>223.4</a></xref-group>"
+		}]
+	}]
+	}, 
+	"c2" :
+	{
+	"-unit": "17",
+	"-level": "c2",
+	"topic_name": "basic clause types",
+	"exercise": [{
+		"template": "single_touch_button",
+		"rubric": "The sentences in each pair mean the same. Which sentences are more natural?",
+		"question": [{
+			"text": "#singletouch",
+			"option": [
+				["I hope Alice isn’t coming.", "I don’t hope Alice is coming."]
+			],
+			"answer": ["I hope Alice isn’t coming."]
+		}, {
+			"text": "#singletouch",
+			"option": [
+				["I think you haven’t met my wife.", "I don’t think you’ve met my wife."]
+			],
+			"answer": ["I don’t think you’ve met my wife."]
+		}, {
+			"text": "#singletouch",
+			"option": [
+				["I believe it won’t rain.", "I don’t believe it will rain."]
+			],
+			"answer": ["I don’t believe it will rain."]
+		}],
+		"feedback": [{
+			"desc": "For <item>A</item>, <xref-group><a href='u725fd0dd48eeb434.631f8527.158e41641c3.3a0c'>219.2</a></xref-group>.<br/>For <item>B</item> and <item>C</item>, <xref-group><a href='u725fd0dd48eeb434.631f8527.158e41641c3.39e4'>219.1</a></xref-group>."
+		}]
+	}, {
+		"template": "multi_radio",
+		"rubric": "Are these sentences unnatural in conversation: yes (Y) or no (N)?",
+		"rwText": ["Y", "N"],
+		"question": [{
+			"text": "I believe not.",
+			"answer": {
+				"right": "Y"
+			}
+		}, {
+			"text": "I don’t believe so.",
+			"answer": {
+				"right": "N"
+			}
+		}, {
+			"text": "I suppose not.",
+			"answer": {
+				"right": "N"
+			}
+		}, {
+			"text": "I don’t suppose so.",
+			"answer": {
+				"right": "N"
+			}
+		}, {
+			"text": "I think not.",
+			"answer": {
+				"right": "Y"
+			}
+		}, {
+			"text": "I don’t think so.",
+			"answer": {
+				"right": "N"
+			}
+		}, {
+			"text": "I hope not.",
+			"answer": {
+				"right": "N"
+			}
+		}, {
+			"text": "I don’t hope so.",
+			"answer": {
+				"right": "Y"
+			}
+		}],
+		"feedback": [{
+			"desc": "<xref-group><a href='u725fd0dd48eeb434.631f8527.158e41641c3.3a1d'>219.3</a></xref-group>"
+		}]
+	}, {
+		"template": "multi_radio",
+		"rubric": "Formal (F), normal (N) or wrong (W)?",
+		"rwText": ["F", "N", "W"],
+		"question": [{
+			"text": "The dog seems not to like you.",
+			"answer": {
+				"right": "F"
+			}
+		}, {
+			"text": "She wants not to speak to anybody.",
+			"answer": {
+				"right": "W"
+			}
+		}, {
+			"text": "I don’t expect to see her for some time.",
+			"answer": {
+				"right": "N"
+			}
+		}],
+		"feedback": [{
+			"desc": "<xref-group><a href='u725fd0dd48eeb434.631f8527.158e41641c3.3a58'>219.4</a></xref-group>"
+		}]
+	}, {
+		"template": "multi_radio",
+		"rubric": "Are statements A–E true: yes (Y) or no (N)?",
+		"rwText": ["Y", "N"],
+		"question": [{
+			"input_text": "Don’t tell them nothing.",
+			"text": "The sentence is incorrect.",
+			"answer": {
+				"right": "N"
+			}
+		}, {
+			"text": "In standard English, the sentence means ‘Tell them something’.",
+			"answer": {
+				"right": "Y"
+			}
+		}, {
+			"text": "In all varieties of English, the sentence means ‘Tell them something’.",
+			"answer": {
+				"right": "N"
+			}
+		}, {
+			"text": "In many dialects, the sentence is correct and means the same as ‘Don’t tell them anything’.",
+			"answer": {
+				"right": "Y"
+			}
+		}, {
+			"text": "Nobody would ever say this sentence.",
+			"answer": {
+				"right": "N"
+			}
+		}],
+		"feedback": [{
+			"desc": "<xref-group><a href='u725fd0dd48eeb434.631f8527.158e41641c3.3b20'>220.4</a></xref-group><br/>On dialects and correctness, <xref-group><a href='u725fd0dd48eeb434.631f8527.158e4170750.-6988'>316–317</a></xref-group>."
+		}]
+	}, {
+		"template": "multi_radio",
+		"rubric": "Emphatic (E), normal (N) or wrong (W)?",
+		"rwText": ["E", "N", "W"],
+		"question": [{
+			"text": "She was happy nowhere.",
+			"answer": {
+				"right": "E"
+			}
+		}, {
+			"text": "She wasn’t happy anywhere.",
+			"answer": {
+				"right": "N"
+			}
+		}, {
+			"text": "Not anywhere was safe.",
+			"answer": {
+				"right": "W"
+			}
+		}, {
+			"text": "Nowhere was safe.",
+			"answer": {
+				"right": "E"
+			}
+		}],
+		"feedback": [{
+			"desc": "<xref-group><a href='u725fd0dd48eeb434.631f8527.158e41641c3.3ad2'>220.2</a></xref-group>"
+		}]
+	}, {
+		"template": "multi_radio",
+		"rubric": "Right (R) or wrong (W)?",
+		"rwText": ["R", "W"],
+		"question": [{
+			"text": "She hasn’t got much chance, <item>I don’t think</item>.",
+			"answer": {
+				"right": "R"
+			}
+		}, {
+			"text": "I wonder whether I <item>oughtn’t</item> to go and see the doctor.",
+			"answer": {
+				"right": "R"
+			}
+		}],
+		"feedback": [{
+			"desc": "<xref-group><a href='u725fd0dd48eeb434.631f8527.158e41641c3.3b42'>220.5–6</a></xref-group>"
+		}]
+	}, {
+		"template": "multi_radio",
+		"rubric": "Right (R) or wrong (W)?",
+		"rwText": ["R", "W"],
+		"question": [{
+			"text": "Somebody answer the phone, please. I’m busy.",
+			"answer": {
+				"right": "R"
+			}
+		}, {
+			"text": "You just sit down and relax for a bit.",
+			"answer": {
+				"right": "R"
+			}
+		}, {
+			"text": "You take your hands off me!",
+			"answer": {
+				"right": "R"
+			}
+		}],
+		"feedback": [{
+			"desc": "<xref-group><a href='u725fd0dd48eeb434.631f8527.158e41641c3.3d57'>224.5</a></xref-group>"
+		}]
+	}, {
+		"template": "multi_radio",
+		"rubric": "Right (R) or wrong (W)?",
+		"rwText": ["R", "W"],
+		"question": [{
+			"text": "Don’t you touch that bag or I’ll call the police.",
+			"answer": {
+				"right": "R"
+			}
+		}, {
+			"text": "You don’t touch that bag or I’ll call the police.",
+			"answer": {
+				"right": "W"
+			}
+		}, {
+			"text": "Don’t anybody say a word.",
+			"answer": {
+				"right": "R"
+			}
+		}, {
+			"text": "Anybody don’t say a word.",
+			"answer": {
+				"right": "W"
+			}
+		}],
+		"feedback": [{
+			"desc": "<xref-group><a href='u725fd0dd48eeb434.631f8527.158e41641c3.3d57'>224.5</a></xref-group>"
+		}]
+	}]
+	}
+}
