@@ -74,10 +74,7 @@
                 </div>
                 <div class="wrapper">
     
-                    <div class="myApp" ng-app="myApp" ng-controller="mainCtrl">
-                        <div class="del_disabler" ng-show="deleteAll"
-                            style="position:absolute;z-index:999999;width:100%;height:100%"></div>
-    
+                    <div class="myApp" ng-app="myApp" ng-controller="mainCtrl">    
                         <div class="home_page">
                             <div class="d-flex justify-content-end">
                                 <button type="button" class="btn btn-primary common_page mb-md-5 ng-binding" ng-click="help_btn()">Help</button>
@@ -93,8 +90,8 @@
                                     <span class="pract_eng"></span>
                                 </div>
                                 <div class="d-flex justify-content-center" id="sound_page">
-                                    <button type="button" class="btn btn-success fs-3 rounded-4" ng-click="load_section()">Start</button>
-                                    <!-- <h2 ng-click="delete_all()">Delete All</h2>-->
+                                    <button type="button" class="btn btn-success fs-3 rounded-4 me-2" ng-click="load_section()">Start</button>
+                                    <button type="button" class="btn btn-warning fs-3 rounded-4 d-none" id="resetButtonHome" data-bs-toggle="modal" data-bs-target="#confirmResetModal">Reset all</button>
                                 </div>
                             </div>
                         </div>
@@ -142,7 +139,7 @@
                                 <div class="col-lg-2 col-4" ng-repeat="d in i.status track by $index">
                                     <div ng-switch on="d">
                                         <button type="button" ng-switch-when="0" class="btn btn-success w-100" ng-click="go($index, $parent.$parent.$index, i.text)">Try</button>
-                                        <button type="button" ng-switch-when="2" class="btn btn-warning w-100" ng-click="results($index, $parent.$parent.$index, i.text)">Try
+                                        <button type="button" ng-switch-when="2" class="btn btn-secondary w-100" ng-click="results($index, $parent.$parent.$index, i.text)">Try
                                             again</button>
                                         <button type="button" ng-switch-when="1" class="btn btn-info w-100">&ndash;</button>
                                     </div>
@@ -157,6 +154,23 @@
                             <span>Practical English Usage</span><span class="peuLogo"></span>
                         </div>
                     </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div id="confirmResetModal" class="modal" tabindex="-1" aria-labelledby="resetModalLabel" aria-hidden="true">
+        <div class="modal-dialog modal-dialog-centered">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title" id="resetModalLabel">Confirm reset data?</h5>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                    Are you sure you want to reset all of your data? This action cannot be undone.
+                </div>
+                <div class="modal-footer d-flex">
+                    <button type="button" class="btn btn-secondary flex-fill" data-dismiss="modal">Cancel</button>
+                    <button type="button" class="btn btn-danger flex-fill" id="confirmResetButton">Confirm</button>
                 </div>
             </div>
         </div>

@@ -41,12 +41,6 @@ app.controller("mainCtrl", function ($rootScope, $scope, $http, $templateRequest
             $rootScope.loadJson(level, index, _topic);
         };
 
-        $scope.delete_all = function () {
-            $("#iLoader").removeClass("d-none");
-            $scope.deleteAll = true;
-            scormApi.deleteMain();
-        };
-
         $scope.load_section = function () {
             $(".header").css("display", "table");
 

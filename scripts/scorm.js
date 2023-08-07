@@ -67,4 +67,22 @@ var Scrom = function () {
                 console.error("Error fetching data:", error);
             });
     };
+
+    function getKeysWithPrefix(prefix) {
+        return Object.keys(localStorage).filter(key => key.startsWith(prefix));
+    }
+    const prefix = "peu-diagnostic-data_";
+    let keys = getKeysWithPrefix(prefix);
+    const resetButtonHome = document.getElementById("resetButtonHome");
+    const modalElement = document.getElementById("confirmResetModal");
+    const modal = new bootstrap.Modal(modalElement);
+    if (keys.length > 0) {
+        resetButtonHome.classList.remove("d-none");
+    }
+
+    document.getElementById("confirmResetButton").addEventListener("click", function () {
+        localStorage.clear();
+        modal.hide();
+        location.reload();
+    });
 };
