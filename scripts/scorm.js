@@ -1,8 +1,15 @@
 var Scrom = function () {
     var _this = this;
     this.checkUserAnswer = function (index, cb) {
-        console.log('stubbed')
-    };
+        let controller_status = false;
+        let dataItem = localStorage.getItem("peu-diagnostic-data_" + index);
+        if (dataItem !== null) {
+            controller_status = true;
+            cb(true);
+        } else {
+            cb(false);
+        }
+    }
 
     this.getExcercisedata = function (cb) {
         const peuDiagnosticData = localStorage.getItem("peu-diagnostic-main");
