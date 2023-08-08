@@ -1,33 +1,39 @@
-<div  class="template correction " ng-controller="correctionSent">
-<div class="rubric"><span class="rubricNo">{{d.curr+1}}</span> <span class="rubricText" ng-bind-html="d.exercise.rubric | sanitize"> </span></div>
- <div class="correctionSample" ng-if='d.exercise.hasOwnProperty("sample")'>
-     <span class="correctionSample_eg" ng-bind-html="d.exercise['sample'].text | sanitize"></span>
-     <span class="correctionArrow">&#8594;</span>
-     <span class="correctionSample_eg" ng-bind-html="d.exercise['sample']['answer'][0] | sanitize"></span>
- </div>    
-<div class="questions">
-		<div class="questionSet" ng-repeat="a in d.exercise.question">
-                     <div class=" input_text" ng-if='a.hasOwnProperty("input_text")' ng-bind-html="a.input_text | sanitize"></div>
-			<div class="qTxt correct_ques" ng-bind-html="a.text | sanitize"></div>
-			
-                        <textarea rows="1" ng-keyup="keypress($event)"  class="qTxt userInput form-control" autocorrect="off" autocapitalize="none" spellcheck='false'></textarea>
-		</div>
-    <div class="disabler" ng-show="disable"></div>
+<div class="template correction" ng-controller="correctionSent">
+    <div class="rubric"><span class="rubricNo">{{d.curr+1}}</span> <span class="rubricText" ng-bind-html="d.exercise.rubric | sanitize"> </span></div>
+    <div class="correctionSample" ng-if='d.exercise.hasOwnProperty("sample")'>
+        <span class="correctionSample_eg" ng-bind-html="d.exercise['sample'].text | sanitize"></span>
+        <span class="correctionArrow">&#8594;</span>
+        <span class="correctionSample_eg" ng-bind-html="d.exercise['sample']['answer'][0] | sanitize"></span>
     </div>
-			<div class="linkFeedback">
-		     <div class="feedback_wrapper">
- <div class="feedback_header">Explanations / answers</div>
-    <ul>
-           <li ng-repeat="f in d.exercise.feedback" ng-bind-html="f.desc | sanitize"></li>
-    </ul>
-    </div>
-	</div>
-    <button type="button" class="btn btn-secondary skip" ng-show="!disable" ng-click="nextExercise()" >Skip</button>
-           
-    <button type="button" class="btn btn-success checkAns" ng-show="!disable" ng-click="checkAnswer()">Check my answers</button>
-    <button type="button" class="btn btn-success next" ng-click="nextExercise()" ng-if="d.curr < (d.size - 1)">Next</button> 
-    <button type="button" class="btn btn-success resultsBtn" ng-show="disable" ng-click="results(d.level)" ng-if="d.curr >= (d.size - 1)">Results</button> 
-	</div>
- 
-        
+    <div class="questions">
+        <div class="questionSet" ng-repeat="a in d.exercise.question">
+            <div class="input_text" ng-if='a.hasOwnProperty("input_text")' ng-bind-html="a.input_text | sanitize"></div>
+            <div class="qTxt correct_ques" ng-bind-html="a.text | sanitize"></div>
 
+            <textarea
+                rows="1"
+                ng-keyup="keypress($event)"
+                class="qTxt userInput form-control"
+                autocorrect="off"
+                autocapitalize="none"
+                spellcheck="false"
+            ></textarea>
+        </div>
+        <div class="disabler" ng-show="disable"></div>
+    </div>
+    <div class="linkFeedback">
+        <div class="feedback_wrapper">
+            <div class="feedback_header">Explanations / answers</div>
+            <ul>
+                <li ng-repeat="f in d.exercise.feedback" ng-bind-html="f.desc | sanitize"></li>
+            </ul>
+        </div>
+    </div>
+    <button type="button" class="btn btn-secondary skip" ng-show="!disable" ng-click="nextExercise()">Skip</button>
+
+    <button type="button" class="btn btn-success checkAns" ng-show="!disable" ng-click="checkAnswer()">Check my answers</button>
+    <button type="button" class="btn btn-success next" ng-click="nextExercise()" ng-if="d.curr < (d.size - 1)">Next</button>
+    <button type="button" class="btn btn-success resultsBtn" ng-show="disable" ng-click="results(d.level)" ng-if="d.curr >= (d.size - 1)">
+        Results
+    </button>
+</div>
