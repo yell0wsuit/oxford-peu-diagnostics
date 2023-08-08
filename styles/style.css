@@ -196,10 +196,7 @@
     margin-top: 20px;
     margin-bottom: 20px;
 }
-.mshell .rubricText i {
-    // margin-left: 2px;
-    //   margin-right: 3px;
-}
+
 .mshell .rwDiv {
     text-align: right;
 }
@@ -312,7 +309,6 @@
 }
 .mshell .radioTxtEntry {
     display: inline-block;
-    // margin-top: 20px;
     float: left;
     width: 100%;
     clear: both;
@@ -426,7 +422,6 @@
 }
 .mshell .mRadioCtrl .input_text {
     margin-bottom: 0px;
-    //margin-top: 25px;
 }
 
 .mshell .mRadioCtrl .qTxt:not(:empty):before {
@@ -859,14 +854,11 @@ should_be:parent {
     vertical-align: top;
     min-height: 26px;
     line-height: 26px;
-    //float: left;
 }
 .empty {
     display: none !important;
 }
-.mshell .gap .ques:not(.empty) {
-    // min-width: 80px;
-}
+
 .mshell .gap .status {
     float: left;
 }
@@ -888,7 +880,6 @@ should_be:parent {
 .mshell .multi_touch_button .qTxt {
     margin-top: 0px;
     margin-right: 10px;
-    //width:95%;
 }
 .mshell .multi_touch_button .questionSet:last-child {
     margin-bottom: 0px;
@@ -986,10 +977,8 @@ should_be:parent {
 .mshell .dnd .tick {
     position: relative;
     top: 0px;
-
     right: 0;
     height: 40px;
-    // margin-bottom: 10px;
 }
 .mshell .dnd .drags.ui-draggable-dragging {
     border: 1px solid var(--bs-body-color);
@@ -1028,17 +1017,13 @@ should_be:parent {
     margin: 9px 0 0 0;
 }
 .mshell .dragC {
-    //float: left;
-    //width: 50%;
     text-align: center;
     display: inline-block;
 }
 .mshell .dragWrap {
     display: inline-block;
 }
-.mshell .dragC:nth-child(odd) {
-    //clear: both;
-}
+
 .mshell .dnd .rubric {
     margin-bottom: 12px;
 }
@@ -1049,20 +1034,13 @@ should_be:parent {
     vertical-align: middle;
     border-radius: 20px;
     border: 1px solid var(--bs-body-color);
-    //margin: 0 25px;
-    //margin-right: 0px;
-    //float: left;
     position: relative;
 }
-/*.ui-droppable .drags {
-    margin: 0;
-    padding: 0 13px;
-}*/
+
 .mshell .q_row li > span.ng-binding {
     float: left;
     margin-top: 9px;
     margin-bottom: 9px;
-    // max-width: 600px;
 }
 .mshell .q_row li > span.ng-binding:empty {
     height: 0px;
@@ -1078,7 +1056,6 @@ should_be:parent {
 }
 .mshell .dnd .feedback {
     clear: none;
-    // margin: 0px 0 0 23px;
     min-height: 0px;
     line-height: none;
     padding: 5px 0px;
@@ -1376,7 +1353,6 @@ should_be:parent {
         margin: 0px;
     }
     .mshell .mRadioTextCtrl .questionSet .feedback {
-        //margin-top: 6px;
         margin-left: 0px;
         clear: both;
         float: left;
@@ -1434,14 +1410,7 @@ should_be:parent {
         margin-bottom: 5px;
         margin-top: 30px;
     }
-    .mshell .patch {
-        //margin-left: -22px;
-    }
     /* Drag n drop*/
-    .mshell .dragC {
-        //clear: both;
-        // width: 100%;
-    }
     .mshell .dnd .drags {
         margin: 0 0px 10px 0;
     }
@@ -1452,8 +1421,6 @@ should_be:parent {
         top: 17px;
     }
     .mshell ng-drop.ui-droppable {
-        // clear: both;
-        // margin-left: 23px;
         margin-bottom: 5px;
     }
     .summary .options:empty {
@@ -1683,7 +1650,6 @@ should_be:parent {
         margin: 0px;
     }
     .mshell .mRadioTextCtrl .questionSet .feedback {
-        //margin-top: 6px;
         margin-left: 0px;
         clear: both;
         float: left;
@@ -1734,27 +1700,12 @@ should_be:parent {
     .mshell .radioC :last-child {
         margin-bottom: 0px;
     }
-    //.mshell .radioC .radioBtn:first-child {
-    //   margin-right: 19px;
-    //  }
     .mshell .radioC .radioBtn {
         margin-right: 19px;
     }
-    .mshell .patch {
-        //margin-left: -22px;
-    }
     /* Drag n drop*/
-    .mshell .dragC {
-        // clear: both;
-        //width: 100%;
-    }
     .mshell .dnd .drags {
         margin: 0 0px 10px 0;
-    }
-    .mshell ng-drop.ui-droppable {
-        //clear: both;
-        // margin-left: 23px;
-        //margin-bottom: 10px;
     }
     .summary .options:empty {
         display: none;
@@ -1774,15 +1725,6 @@ should_be:parent {
 
 .responsive_entry_center_wrap {
     padding: 0px !important;
-}
-.responsive_row {
-    //margin-bottom: 0px;
-}
-.responsive_entry_center_right {
-    //margin-bottom: 18px;
-}
-.responsive_container {
-    //margin-bottom: 0px;
 }
 @media only screen and (max-width: 350px) {
     .mshell .gapFill {
