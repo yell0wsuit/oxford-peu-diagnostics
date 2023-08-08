@@ -36,6 +36,7 @@ app.controller("mainCtrl", function ($rootScope, $scope, $http, $templateRequest
             $rootScope.fIndex = level;
             $rootScope.fLevel = index;
             $rootScope.main[index]["status"][level] = 2;
+            scrollToStart();
 
             main_data = $rootScope.main;
             $rootScope.loadJson(level, index, _topic);
@@ -43,6 +44,7 @@ app.controller("mainCtrl", function ($rootScope, $scope, $http, $templateRequest
 
         $scope.load_section = function () {
             $(".header").css("display", "table");
+            scrollToStart();
 
             if ($(".resultFeedback").length > 0 && typeof uAnswer[$rootScope.fLevel] != "undefined") {
                 uAnswer[$rootScope.fLevel]["desc"] = $(".resultFeedback").text();
@@ -107,6 +109,7 @@ app.controller("mainCtrl", function ($rootScope, $scope, $http, $templateRequest
             //console.log("level-->" + level);
             //console.log("index---->" + index);
             $(".summaryWrapper").show();
+            scrollToStart();
             $("#iLoader").removeClass("d-none");
 
             $(".summary").empty();
@@ -241,6 +244,7 @@ app.controller("mainCtrl", function ($rootScope, $scope, $http, $templateRequest
     };
 
     $rootScope.nextExercise = function () {
+        scrollToStart();
         $("#iLoader").removeClass("d-none");
         $scope.disable = false;
         if ($rootScope.d.curr < $rootScope.d.size - 1) {
@@ -253,6 +257,7 @@ app.controller("mainCtrl", function ($rootScope, $scope, $http, $templateRequest
                 $("#iLoader").addClass("d-none");
             });
         } else {
+            scrollToStart();
             $scope.activity = true;
             $scope.template = "templates/summary.html";
         }
@@ -273,6 +278,7 @@ angular.module("myApp.summaryCtrl", []).controller("summaryCtrl", function ($sco
         c = 0;
     $rootScope.d.curr = 0;
     $rootScope.goInner = function () {
+        scrollToStart();
         $rootScope.uData = [];
         $rootScope.d.curr = 0;
         $rootScope.summary = false;
@@ -315,6 +321,7 @@ angular.module("myApp.summaryCtrl", []).controller("summaryCtrl", function ($sco
                     //console.log("-------------------------");
                     //console.log("----------All template loaded---------------");
                     //console.log("-------------------------");
+                    scrollToStart();
 
                     $(".myApp").removeAttr("style");
                     $("#iLoader").addClass("d-none");
@@ -337,7 +344,7 @@ angular.module("myApp.summaryCtrl", []).controller("summaryCtrl", function ($sco
                     $(".tryAgain").click(function () {
                         //location.reload();
                         var i = Number($(this).attr("data-index"));
-
+                        scrollToStart();
                         if (typeof uAnswer[$rootScope.fLevel] != "undefined") {
                             uAnswer[$rootScope.fLevel]["desc"] = $(".resultFeedback").text();
                             uploadUserData($rootScope.fIndex, $rootScope.fLevel, $rootScope.uData);
@@ -1749,6 +1756,11 @@ var checkAns = function (uAns, rAns, exact) {
     return correct_flag;
 };
 
+var scrollToStart = function () {
+    var targetOffset = $(".mshell").offset().top - 10;
+    window.scrollTo({top: targetOffset, behavior: "smooth"});
+};
+
 var updateAtag = function () {
     var cLink = "./";
     $(".mshell .linkFeedback a").each(function () {
@@ -1777,3 +1789,7 @@ var uploadUserData = function (index, level, data) {
     uAnswer[level]["exerciseData"] = data;
     scormApi.updateUserData(fname, uAnswer, function () {});
 };
+
+$(document).ready(function () {
+    scrollToStart();
+});
