@@ -51,19 +51,6 @@
 .mshell esc {
     font-variant: small-caps;
 }
-.mshell est {
-    text-decoration: line-through;
-}
-.mshell speaker {
-    font-variant: small-caps;
-}
-.mshell phon {
-    font-family: "Lucida Sans Unicode";
-    font-weight: normal;
-}
-.mshell .rubricText phon {
-    font-weight: bold;
-}
 .mshell .activityArea a {
     position: relative;
     margin-left: 10px;
@@ -129,30 +116,6 @@
     width: 100%;
     display: none;
 }
-
-.mshell .totalQues_wrap {
-    display: table-cell;
-    vertical-align: middle;
-    width: 70px;
-}
-.mshell .header .levelHolder {
-    bottom: 7px;
-    float: left;
-    clear: both;
-    margin-top: 5px;
-    position: relative;
-    font-size: 12px;
-
-    color: var(--bs-primary-text);
-}
-
-.mshell .topicCounter {
-    background: #f2f2f2;
-    color: var(--bs-primary-text);
-    padding: 3px;
-    display: inline-block;
-    float: right;
-}
 .mshell .topicFooter {
     border-top: 1px solid var(--bs-primary-text);
     padding-top: 10px;
@@ -211,10 +174,6 @@
 }
 .mshell item {
     font-weight: 900;
-}
-.mshell punc {
-    font-family: "open_sansbold";
-    font-size: 17px;
 }
 .mshell .radioC {
     float: right;
@@ -665,16 +624,6 @@ should_be:parent {
     left: 0px;
     line-height: 42px;
 }
-.mshell .reorderOptions.ng-enter {
-    -webkit-transition: left 0.3s;
-    transition: left 0.3s;
-}
-.mshell .reorderOptions.ng-enter[data-direction="left"] {
-    left: -80px; /* 60px width + 20px marginLeft */
-}
-.mshell .reorderOptions.ng-enter[data-direction="right"] {
-    left: 80px; /* 60px width + 20px marginLeft */
-}
 .mshell .reorderOptions {
     float: left;
     padding: 10px;
@@ -1092,12 +1041,6 @@ should_be:parent {
     max-width: 1172px;
     z-index: 1;
 }
-.mshell .learningRow {
-    float: left;
-    width: 100%;
-    padding: 11px 0 12px 0;
-    border-bottom: 1px solid var(--bs-border-color);
-}
 .mshell .tableTitle span {
     width: 115px;
     display: inline-block;
@@ -1105,56 +1048,6 @@ should_be:parent {
     margin: 8px 6px 0 0;
     text-align: center;
 
-}
-.mshell .lrnBtn {
-    position: relative;
-
-    background-color: rgba(135, 176, 63, 0.5);
-    font: 13px "Inter";
-    width: 115px;
-    display: table-cell;
-    vertical-align: middle;
-    text-align: center;
-    margin-right: 6px;
-    font-size: 14px;
-    height: 26px;
-    line-height: 26px;
-    cursor: pointer;
-    transition: 0.3s all;
-    border: 2px solid transparent;
-
-}
-.mshell .lrnBtn.results {
-    background-color: #ffffff;
-    border: 2px solid rgba(135, 176, 63, 0.5);
-}
-.mshell .lrnBtn.hover {
-    background-color: #678c0d;
-    font-family: "open_sansbold";
-    color: #ffffff;
-    border: 2px solid transparent;
-}
-.mshell .lrnBtn.cd {
-    background-color: #ecedf2;
-    color: #4b6076;
-}
-.mshell span.lrnTxt {
-    width: 260px;
-    display: inline-block;
-    float: left;
-    line-height: 26px;
-
-    padding-right: 10px;
-    font-size: 14px;
-}
-.mshell .lrnBtnC {
-    display: inline-block;
-}
-.mshell .lrnBtnC > div {
-    display: inline-block;
-}
-.mshell .lrnBtnC > div:last-child .lrnBtn {
-    margin-right: 0;
 }
 /* Single radio */
 .mshell .single_radio .questionSet.bef:before {
@@ -1300,9 +1193,6 @@ should_be:parent {
     .mshell .lrnData {
         padding: 0;
     }
-    .mshell .lrnBtn {
-        width: 105px;
-    }
     .mshell .tableTitle span {
         width: 105px;
     }
@@ -1428,25 +1318,14 @@ should_be:parent {
     }
     /* Drag n drop End*/
     /* Learning record*/
-    .mshell .lrnBtnC {
-        clear: both;
-    }
     .mshell .tableTitle {
         padding-left: 0;
-    }
-    .mshell span.lrnTxt {
-        line-height: 14px;
-        margin-bottom: 9px;
-        width: 100%;
     }
     /* Learning record End*/
 }
 @media only screen and (max-width: 430px) {
     .mshell .btn.tryTest {
         float: left;
-    }
-    .mshell .lrnBtn {
-        width: 93px;
     }
     .mshell .tableTitle span {
         width: 93px;
@@ -1712,20 +1591,8 @@ should_be:parent {
     }
     /* Drag n drop End*/
     /* Learning record*/
-    .mshell .lrnBtnC {
-        clear: both;
-    }
 }
 /*---Overwrite responsive css---*/
-
-.responsive_entry_center_wrap > #main_column {
-    padding: 0px !important;
-    margin-bottom: 0;
-}
-
-.responsive_entry_center_wrap {
-    padding: 0px !important;
-}
 @media only screen and (max-width: 350px) {
     .mshell .gapFill {
         max-width: 245px !important;
@@ -1750,8 +1617,5 @@ should_be:parent {
 @media screen and (max-width: 388px) {
     .mshell .tableTitle span {
         width: 89px;
-    }
-    .mshell .lrnBtn {
-        width: 87px;
     }
 }
