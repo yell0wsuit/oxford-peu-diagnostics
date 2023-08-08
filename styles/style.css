@@ -1813,27 +1813,3 @@ should_be:parent {
         width: 87px;
     }
 }
-/*---Overwrite responsive css end---*/
-/*
- 
- 
-.home_page .btn:not(.inactive):hover {
-    background: #4577bf;
-    border: 2px solid #4577bf;
-}
-.home_page .btn:not(.inactive):hover a{
-    font-weight: normal;
-    color: #ffffff;
-}
-/*.home_page .btn > a{
-    display: table-cell;
-    padding: 0 12px;
-    color: #4577bf;
-    height: 26px;
-    white-space: nowrap;
-    font-weight: normal;
-    text-decoration: none;
-    cursor: pointer;
-    line-height: 28px;
-}*/
-/* Home CSS end*/
