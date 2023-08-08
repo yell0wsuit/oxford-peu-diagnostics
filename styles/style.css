@@ -99,11 +99,6 @@
     margin-top: 20px;
 }
 
-.mshell .myApp:after {
-    content: "";
-    display: block;
-    clear: both;
-}
 .mshell input {
     -webkit-appearance: none;
     border-radius: 0;
@@ -132,12 +127,9 @@
     border-bottom: 1px solid var(--bs-primary-text);
     float: left;
     width: 100%;
-
     display: none;
 }
-.mshell .lvlWrapper {
-    display: table-cell;
-}
+
 .mshell .totalQues_wrap {
     display: table-cell;
     vertical-align: middle;
@@ -254,19 +246,11 @@
 
 }
 .mshell .activityArea {
-
-    padding: 0 20px;
-    font-size: 16px;
     float: left;
     width: 100%;
 
 }
-.mshell .activityArea:after {
-    content: initial;
-    display: block;
-    clear: both;
-    visibility: hidden;
-}
+
 .mshell .disable {
     cursor: default;
 }
@@ -1336,18 +1320,6 @@ should_be:parent {
     .mshell .tableTitle.tabFix {
         width: 100%;
     }
-    .mshell .header {
-        padding-left: 0;
-        padding-right: 0;
-    }
-    .mshell .summaryWrapper .topicHeader {
-        padding-left: 0;
-        padding-right: 0;
-    }
-    .mshell .summaryWrapper span {
-        padding-left: 0;
-        padding-right: 0;
-    }
     .mshell .lrnData {
         padding: 0;
     }
@@ -1514,120 +1486,13 @@ should_be:parent {
     }
 }
 /* Home CSS sart*/
-.mshell .home_h1 span {
-    color: #20286d;
-    font: 38px "open_sanssemibold";
-}
-.mshell .home_h1 {
-    margin-top: 15px;
-    text-align: center;
-    font-size: 35px;
-}
-.mshell .home_h2 span {
-    color: #6f6f6f;
-    font: 16px "Inter";
-}
-.mshell .home_h2 span.ff_first:after {
-    content: "\007C";
-    color: #20286d;
-    margin: 0 0 0 3px;
-    font-weight: bold;
-}
-.mshell .home_h3 span {
-    font: 14px "Inter";
-    color: #6f6f6f;
-}
+
 .mshell .pract_eng {
     background: url("../images/home_img.png") no-repeat center right;
     height: 32px;
     width: 30px;
     display: table-cell;
     background-size: 100% 100%;
-}
-.mshell .home_h2 {
-    text-align: center;
-    font-weight: normal;
-    margin: 8px 0;
-    float: left;
-    width: 100%;
-}
-.mshell .home_ispeaker_txt {
-    background-color: #8bb53c;
-    border-radius: 21px;
-    display: inline-block;
-    padding: 5px 15px;
-    box-shadow: inset -5px -5px 5px rgba(128, 128, 128, 0.22), inset 5px 5px 5px rgba(255, 255, 255, 0.43);
-}
-.mshell .home_page ._row {
-    margin: 0 auto;
-    width: 90%;
-    display: table;
-    text-align: center;
-}
-.mshell .home_page .mbox {
-    position: relative;
-    margin: 0 auto;
-    display: block;
-}
-.mshell .home_page .mbox h2 {
-    transition: 0.3s all;
-    padding: 0;
-    text-align: center;
-    font-size: 20px;
-    line-height: 54px;
-    font-weight: normal;
-
-    height: 54px;
-    background-color: rgba(135, 176, 63, 0.5);
-    border-radius: 34px;
-    width: 124px;
-    margin: 46px auto 0 auto;
-    cursor: pointer;
-}
-.mshell .home_page .mbox h2:hover {
-    background-color: #678c0d;
-    color: #ffffff;
-}
-.mshell .icon_wrp {
-    margin: 0 auto;
-    width: 90px;
-}
-.mshell .icon_wrp img {
-    display: block;
-    margin: 0 auto;
-    width: 100%;
-}
-.mshell .hme_btn_wrp {
-    overflow: hidden;
-    position: relative;
-    margin-bottom: 41px;
-}
-.mshell .home_help {
-    float: right;
-    margin: 10px !important;
-    display: inline-block;
-    width: 50px;
-    height: 30px;
-    line-height: 30px;
-    border-radius: 15px;
-    -webkit-appearance: none;
-    text-align: center;
-    position: relative;
-    vertical-align: middle;
-    border: 1px solid #5f6979;
-    background-color: #d0d0d0;
-
-
-    padding: 0px;
-}
-.mshell .home_help:hover {
-    background-color: #a0a0a0;
-    color: black;
-    border: 1px solid #5f6979;
-}
-.mshell .row1 {
-    text-align: center;
-    display: inline-block;
 }
 
 /* Summary Result start */
@@ -1638,9 +1503,7 @@ should_be:parent {
     position: relative;
 }
 .mshell .summaryWrapper .topicHeader {
-    font: 20px "open_sanssemibold";
     color: var(--bs-primary-text);
-    padding: 0px 20px;
     float: left;
     display: block;
     margin-bottom: 5px;
@@ -1649,8 +1512,7 @@ should_be:parent {
 .mshell .summaryWrapper span {
     bottom: 7px;
     position: relative;
-    padding: 0px 20px;
-    color: var(--bs-primary-text);
+    color: var(--bs-info-text);
 }
 .mshell .resultSummary {
     position: relative;
@@ -1720,7 +1582,6 @@ should_be:parent {
 .mshell .radioText {
     display: table-cell;
     vertical-align: middle;
-    line-height: 20px;
     padding-right: 6px;
 }
 .mshell .icon_wrap {
