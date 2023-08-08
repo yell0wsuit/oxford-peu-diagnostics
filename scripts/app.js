@@ -74,22 +74,22 @@ app.controller("mainCtrl", function ($rootScope, $scope, $http, $templateRequest
                     $(".template")
                         .last()
                         .append(
-                            '<div ng-click="try(' +
+                            '<button type="button" ng-click="try(' +
                                 $rootScope.d.curr +
                                 ')" class="btn btn-secondary tryAgain" data-index="' +
                                 $rootScope.d.curr +
-                                '">Try again</div>'
+                                '">Try again</button>'
                         );
                     $rootScope.userStoredAnswer($rootScope.uData[$rootScope.d.curr]);
                 } else {
                     $(".current").html(
                         '<div class="emptyDiv"><div class="noResTitle"><div class="rubric"><span class="rubricNo">' +
                             ($rootScope.d.curr + 1) +
-                            '</span> <span class="rubricText">No results</span></div></div><div ng-click="try(' +
+                            '</span> <span class="rubricText">No results</span></div></div><button type="button" ng-click="try(' +
                             $rootScope.d.curr +
                             ')" data-index="' +
                             $rootScope.d.curr +
-                            '" class="btn btn-secondary tryAgain">Try</div></div>'
+                            '" class="btn btn-secondary tryAgain">Try</div></button>'
                     );
                     $(".template").removeClass("current").removeClass("template");
                 }

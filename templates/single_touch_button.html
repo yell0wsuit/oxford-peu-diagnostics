@@ -16,9 +16,9 @@
             </ul>
         </div>
     </div>
-    <div class="btn btn-secondary skip" ng-click="nextExercise()">Skip</div>
-    <div class="btn btn-success checkAns" ng-show="!disable" ng-click="checkAnswer()">Check my answers</div>
-    <div class="btn btn-success next" ng-show="disable" ng-click="nextExercise()" ng-if="d.curr < (d.size - 1)">Next</div>
-    <div class="btn btn-success resultsBtn" ng-show="disable" ng-click="results(d.level)" ng-if="d.curr >= (d.size - 1)">Results</div> 
+    <button type="button" class="btn btn-secondary skip" ng-click="nextExercise()">Skip</button>
+    <button type="button" class="btn btn-success checkAns" ng-show="!disable" ng-click="checkAnswer()">Check my answers</button>
+    <button type="button" class="btn btn-success next" ng-show="disable" ng-click="nextExercise()" ng-if="d.curr < (d.size - 1)">Next</button>
+    <button type="button" class="btn btn-success resultsBtn" ng-show="disable" ng-click="results(d.level)" ng-if="d.curr >= (d.size - 1)">Results</button> 
 
 </div>
