@@ -1,5 +1,5 @@
 <div class="template multi_radio_textEntry" ng-class="class" ng-controller="mRadioTextCtrl">
-    <div class="rubric"><span class="rubricNo">{{d.curr+1}}</span> <span class="rubricText" ng-bind-html="d.exercise.rubric | sanitize"></span></div>
+    <div class="rubric"><span class="rubricNo">{{d.curr+1}}</span> <span class="rubricText fw-semibold" ng-bind-html="d.exercise.rubric | sanitize"></span></div>
     <div class="questions">
         <div class="rwDiv"><span ng-repeat="x in d.exercise.rwText track by $index">{{x}}</span></div>
         <div class="questionSet" ng-repeat="a in d.exercise.question" repeat-done="loaded()">

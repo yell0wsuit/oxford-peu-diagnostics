@@ -144,7 +144,6 @@
 }
 .mshell .rubric {
     margin: 20px 0 20px 0;
-    font-weight: 600;
     display: table;
 }
 .mshell .rubricNo {
@@ -173,6 +172,12 @@
     display: none !important;
 }
 .mshell item {
+    font-weight: 700;
+}
+.mshell speaker {
+    text-transform: capitalize;
+}
+.mshell punc {
     font-weight: 900;
 }
 .mshell .radioC {

@@ -2,7 +2,7 @@
     <div class="rubric" style="counter-reset: listStyle">
         <div ng-repeat="x in d.exercise.question track by $index">
             <span ng-if="$index==0" class="rubricNo">{{d.curr+1}}</span>
-            <span class="rubricText" ng-bind-html="d.exercise['question'][$index]['text']  | sanitize"></span>
+            <span class="rubricText fw-semibold" ng-bind-html="d.exercise['question'][$index]['text']  | sanitize"></span>
 
             <div class="questions">
                 <div class="questionSet1">

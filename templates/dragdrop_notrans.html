@@ -1,5 +1,5 @@
 <div class="template dnd" ng-controller="dndCtrl">
-    <div class="rubric"><span class="rubricNo">{{d.curr+1}}</span> <span class="rubricText" ng-bind-html="d.exercise.rubric | sanitize"></span></div>
+    <div class="rubric"><span class="rubricNo">{{d.curr+1}}</span> <span class="rubricText fw-semibold" ng-bind-html="d.exercise.rubric | sanitize"></span></div>
     <div class="options bg-primary-subtle">
         <div class="dragWrap">
             <div class="dragC" ng-repeat="i in d.exercise.option" on-finish-render="setW()">

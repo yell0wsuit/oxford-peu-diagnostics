@@ -1,5 +1,5 @@
 <div class="template correction" ng-controller="correctionSent">
-    <div class="rubric"><span class="rubricNo">{{d.curr+1}}</span> <span class="rubricText" ng-bind-html="d.exercise.rubric | sanitize"> </span></div>
+    <div class="rubric"><span class="rubricNo">{{d.curr+1}}</span> <span class="rubricText fw-semibold" ng-bind-html="d.exercise.rubric | sanitize"> </span></div>
     <div class="correctionSample" ng-if='d.exercise.hasOwnProperty("sample")'>
         <span class="correctionSample_eg" ng-bind-html="d.exercise['sample'].text | sanitize"></span>
         <span class="correctionArrow">&#8594;</span>

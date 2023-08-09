@@ -1,5 +1,5 @@
 <div class="template mRadioCtrl" ng-controller="mRadioCtrl">
-    <div class="rubric"><span class="rubricNo">{{d.curr+1}}</span> <span class="rubricText" ng-bind-html="d.exercise.rubric | sanitize"></span></div>
+    <div class="rubric"><span class="rubricNo">{{d.curr+1}}</span> <span class="rubricText fw-semibold" ng-bind-html="d.exercise.rubric | sanitize"></span></div>
     <div class="questions">
         <div class="rwDiv"><span ng-repeat="x in d.exercise.rwText track by $index" ng-bind-html="x | sanitize"></span></div>
         <div class="sampleSet" ng-if='d.exercise.hasOwnProperty("sample")' ng-repeat="a in d.exercise.sample" repeat-done="loaded()">

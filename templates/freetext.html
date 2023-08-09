@@ -1,5 +1,5 @@
 <div class="template freeText" ng-controller="freeText">
-    <div class="rubric"><span class="rubricNo">{{d.curr+1}}</span> <span class="rubricText" ng-bind-html="d.exercise.rubric | sanitize"></span></div>
+    <div class="rubric"><span class="rubricNo">{{d.curr+1}}</span> <span class="rubricText fw-semibold" ng-bind-html="d.exercise.rubric | sanitize"></span></div>
 
     <div class="questions">
         <div class="" ng-repeat="a in d.exercise.question" on-finish-render="setW()">
