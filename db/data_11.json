@@ -1050,7 +1050,7 @@
 		"rubric": "Look at these sentences. Do determiners A–D follow the same pattern: yes (Y) or no (N)?",
 		"rwText": ["Y", "N"],
 		"question": [{
-			"input_text": "<item>Most nurses</item> are still women. <item>Right</item><br/><est>Most of nurses are still women.</est> <item>Wrong</item><br/><item>Most of the/our/these nurses</item> are still women. <item>Right</item><br/><item>Most of them</item> are still women. <item>Right</item>",
+			"input_text": "<item>Most nurses</item> are still women. <item>Right</item><br/><s>Most of nurses are still women.</s> <item>Wrong</item><br/><item>Most of the/our/these nurses</item> are still women. <item>Right</item><br/><item>Most of them</item> are still women. <item>Right</item>",
 			"text": "many",
 			"answer": {
 				"right": "Y"
