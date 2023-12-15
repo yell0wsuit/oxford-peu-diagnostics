@@ -1365,26 +1365,6 @@ should_be:parent {
     position: relative;
     color: var(--bs-info-text);
 }
-.mshell .resultSummary {
-    position: relative;
-    min-height: 78px;
-    border: 4px solid var(--bs-secondary);
-    overflow: hidden;
-
-    top: 8px;
-}
-.mshell .resultHeader {
-    background: var(--bs-secondary);
-    min-height: 21px;
-    padding-left: 9px;
-    padding-bottom: 5px;
-    font-weight: 600;
-    color: #ffffff;
-}
-.mshell .resultOption_wrapper {
-    overflow: hidden;
-    background: #a0a0a0;
-}
 .mshell .radioParent {
     position: relative;
     float: left;
@@ -1440,9 +1420,6 @@ should_be:parent {
     vertical-align: middle;
     width: 5%;
 }
-.mshell .resulFooter {
-    overflow: hidden;
-}
 .mshell .resulttfooterHeader {
     padding: 4px 8px;
 }
@@ -1458,25 +1435,6 @@ should_be:parent {
 }
 /*--------Summary Result end-------------*/
 /*--------feed back start-------------*/
-.mshell .feedback_wrapper {
-    position: relative;
-    min-height: 85px;
-    border: 3px solid var(--bs-purple);
-    overflow: hidden;
-
-}
-.mshell .feedback_header {
-    background: var(--bs-purple);
-    font-weight: 600;
-    color: #ffffff;
-    min-height: 21px;
-    padding-left: 9px;
-    padding-bottom: 5px;
-}
-
-.mshell .feedback_wrapper i {
-    margin-right: 3px;
-}
 
 .resultFeedback span {
     background-color: transparent !important;
