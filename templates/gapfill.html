@@ -13,11 +13,13 @@
         <div class="disabler" ng-show="disable"></div>
     </div>
     <div class="linkFeedback">
-        <div class="feedback_wrapper">
-            <div class="feedback_header">Explanations / answers</div>
-            <ul>
-                <li ng-repeat="f in d.exercise.feedback" ng-bind-html="f.desc | sanitize"></li>
-            </ul>
+        <div class="card">
+            <div class="card-header bg-primary-subtle fw-bold">Explanations / answers</div>
+            <div class="card-body">
+                <ul>
+                    <li ng-repeat="f in d.exercise.feedback" ng-bind-html="f.desc | sanitize"></li>
+                </ul>
+            </div>
         </div>
     </div>
 

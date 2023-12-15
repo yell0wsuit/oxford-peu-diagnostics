@@ -1,7 +1,7 @@
-<div class="summary" ng-controller="summaryCtrl"></div>
-<div class="resultSummary">
-    <div class="resultHeader">How did you do on this test?</div>
-    <div class="resultOption_wrapper">
+<div class="summary mb-4" ng-controller="summaryCtrl"></div>
+<div class="card">
+    <div class="card-header fw-bold text-bg-secondary">How did you do on this test?</div>
+    <div class="card-body">
         <div class="radioParent">
             <div class="radioRow" data-index="0">
                 <div class="icon_wrap">
@@ -10,13 +10,13 @@
                     </div>
                 </div>
                 <div class="radioText" ng-if="d.level == 'b2'">
-                    <span>I got almost everything right.</span><br />You could try the Advanced test on the same topic.
+                    <span class="fw-semibold">I got almost everything right.</span><br />You could try the Advanced test on the same topic.
                 </div>
                 <div class="radioText" ng-if="d.level == 'c1'">
-                    <span>I got almost everything right.</span><br />You could try the Expert test on the same topic.
+                    <span class="fw-semibold">I got almost everything right.</span><br />You could try the Expert test on the same topic.
                 </div>
                 <div class="radioText" ng-if="d.level == 'c2'">
-                    <span>I got almost everything right.</span><br />You clearly have an excellent knowledge of the topic.
+                    <span class="fw-semibold">I got almost everything right.</span><br />You clearly have an excellent knowledge of the topic.
                 </div>
             </div>
         </div>
@@ -29,7 +29,7 @@
                     </div>
                 </div>
                 <div class="radioText">
-                    <span>I gave a few wrong answers.</span><br />You could study the relevant entries in <i>Practical English Usage</i> (see
+                    <span class="fw-semibold">I gave a few wrong answers.</span><br />You could study the relevant entries in <i>Practical English Usage</i> (see
                     'Explanations / answers'), come back to the test a bit later, and try those questions again.
                 </div>
             </div>
@@ -42,20 +42,20 @@
                     </div>
                 </div>
                 <div class="radioText" ng-if="d.level == 'b2'">
-                    <span>I gave quite a lot of wrong answers.</span><br />You need to revise the basics in <i>Practical English Usage</i>.
+                    <span class="fw-semibold">I gave quite a lot of wrong answers.</span><br />You need to revise the basics in <i>Practical English Usage</i>.
                 </div>
                 <div class="radioText" ng-if="d.level == 'c1'">
-                    <span>I gave quite a lot of wrong answers.</span><br />You could try the Upper Intermediate test on the same topic.
+                    <span class="fw-semibold">I gave quite a lot of wrong answers.</span><br />You could try the Upper Intermediate test on the same topic.
                 </div>
                 <div class="radioText" ng-if="d.level == 'c2'">
-                    <span>I gave quite a lot of wrong answers.</span><br />You could try the Advanced test on the same topic.
+                    <span class="fw-semibold">I gave quite a lot of wrong answers.</span><br />You could try the Advanced test on the same topic.
                 </div>
             </div>
         </div>
     </div>
-    <div class="resulFooter">
+    <div class="card-footer">
         <div class="resulttfooterHeader">
-            <span>Look back at the test.</span><br /><span>Which entries in <i>Practical English Usage</i> do you think you should study?</span>
+            <span class="fw-semibold">Look back at the test.</span><br /><span>Which entries in <i>Practical English Usage</i> do you think you should study?</span>
         </div>
         <div class="resultFeedback form-control" contenteditable="true" spellcheck="false"></div>
     </div>
