@@ -1305,7 +1305,7 @@ angular.module("myApp.mRadioCtrl", []).controller("mRadioCtrl", function ($scope
                         $(this)
                             .find(".radioBtn")
                             .find(".patch.p_" + right + "")
-                            .css("background-color", "#87b03f");
+                            .css("background-color", "var(--bs-success-border-subtle)");
                     }
                 }
                 if (q[i].answer.hasOwnProperty("feedback")) {
@@ -1419,7 +1419,7 @@ angular.module("myApp.single_radio", []).controller("single_radio", function ($s
                         _this
                             .find(".radioBtn")
                             .find(".patch.p_" + q.rIndex + "")
-                            .css("background-color", "#87b03f");
+                            .css("background-color", "var(--bs-success-border-subtle)");
                     }
                     if (q.answer.hasOwnProperty("feedback")) {
                         _this.after('<div class="feedback">' + q.answer.feedback.should_be + "</div>");
@@ -1527,7 +1527,7 @@ angular.module("myApp.mRadioTextCtrl", []).controller("mRadioTextCtrl", function
                         .find(".radioTxt:contains(" + r_Ans + ")")
                         .prev()
                         .prev()
-                        .css("background-color", "#87b03f");
+                        .css("background-color", "var(--bs-success-border-subtle)");
 
                     //  }
                     if (q[i].answer.hasOwnProperty("feedback")) {
@@ -1769,7 +1769,7 @@ var updateAtag = function () {
             temp = "language-terminology";
             cLink = "./";
         }
-        $(this).attr("href", "#");
+        $(this).attr("href");
     });
 };
 var uploadUserData = function (index, level, data) {
