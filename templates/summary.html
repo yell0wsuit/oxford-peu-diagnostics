@@ -1,20 +1,23 @@
-
-<div class="summary" ng-controller="summaryCtrl">
-</div>
-<div class="resultSummary">
-    <div class="resultHeader">How did you do on this test?</div>
-    <div class="resultOption_wrapper">
+<div class="summary mb-4" ng-controller="summaryCtrl"></div>
+<div class="card">
+    <div class="card-header fw-bold text-bg-secondary">How did you do on this test?</div>
+    <div class="card-body">
         <div class="radioParent">
             <div class="radioRow" data-index="0">
                 <div class="icon_wrap">
                     <div class="iconParent">
-                        <div class="iconChild">
-                        </div>
+                        <div class="iconChild"></div>
                     </div>
                 </div>
-                <div class="radioText" ng-if="d.level == 'b2'" ><span style="font-family: open_sanssemibold">I got almost everything right.</span><br>You could try the Advanced test on the same topic.</div>
-                <div class="radioText" ng-if="d.level == 'c1'" ><span style="font-family: open_sanssemibold">I got almost everything right.</span><br>You could try the Expert test on the same topic.</div>
-                <div class="radioText" ng-if="d.level == 'c2'" ><span style="font-family: open_sanssemibold">I got almost everything right.</span><br>You clearly have an excellent knowledge of the topic.</div>
+                <div class="radioText" ng-if="d.level == 'b2'">
+                    <span class="fw-semibold">I got almost everything right.</span><br />You could try the Advanced test on the same topic.
+                </div>
+                <div class="radioText" ng-if="d.level == 'c1'">
+                    <span class="fw-semibold">I got almost everything right.</span><br />You could try the Expert test on the same topic.
+                </div>
+                <div class="radioText" ng-if="d.level == 'c2'">
+                    <span class="fw-semibold">I got almost everything right.</span><br />You clearly have an excellent knowledge of the topic.
+                </div>
             </div>
         </div>
 
@@ -22,38 +25,42 @@
             <div class="radioRow" data-index="1">
                 <div class="icon_wrap">
                     <div class="iconParent">
-                        <div class="iconChild">
-                        </div>
+                        <div class="iconChild"></div>
                     </div>
                 </div>
-                <div class="radioText"><span style="font-family: open_sanssemibold">I gave a few wrong answers.</span><br>You could study the relevant entries in <i>Practical English Usage</i> (see 'Where to go in <i>Practical English Usage</i>'), come back to the test a bit later, and try those questions again.</div>
+                <div class="radioText">
+                    <span class="fw-semibold">I gave a few wrong answers.</span><br />You could study the relevant entries in <i>Practical English Usage</i> (see
+                    'Explanations / answers'), come back to the test a bit later, and try those questions again.
+                </div>
             </div>
         </div>
         <div class="radioParent">
             <div class="radioRow" data-index="2">
                 <div class="icon_wrap">
                     <div class="iconParent">
-                        <div class="iconChild">
-                        </div>
+                        <div class="iconChild"></div>
                     </div>
                 </div>
-                <div class="radioText" ng-if="d.level == 'b2'"><span style="font-family: open_sanssemibold">I gave quite a lot of wrong answers.</span><br>You need to revise the basics in <i>Practical English Usage</i>.</div>
-                <div class="radioText" ng-if="d.level == 'c1'"><span style="font-family: open_sanssemibold">I gave quite a lot of wrong answers.</span><br>You could try the Upper Intermediate test on the same topic.</div>
-                <div class="radioText" ng-if="d.level == 'c2'"><span style="font-family: open_sanssemibold">I gave quite a lot of wrong answers.</span><br>You could try the Advanced test on the same topic.</div>
+                <div class="radioText" ng-if="d.level == 'b2'">
+                    <span class="fw-semibold">I gave quite a lot of wrong answers.</span><br />You need to revise the basics in <i>Practical English Usage</i>.
+                </div>
+                <div class="radioText" ng-if="d.level == 'c1'">
+                    <span class="fw-semibold">I gave quite a lot of wrong answers.</span><br />You could try the Upper Intermediate test on the same topic.
+                </div>
+                <div class="radioText" ng-if="d.level == 'c2'">
+                    <span class="fw-semibold">I gave quite a lot of wrong answers.</span><br />You could try the Advanced test on the same topic.
+                </div>
             </div>
         </div>
     </div>
-    <div class="resulFooter">
-        <div class="resulttfooterHeader"><span style="font-family: open_sanssemibold">Look back at the test.</span><br><span style="font-family: open_sansregular">Which entries in <i>Practical English Usage</i> do you think you should study?</span></div>
-        <div class="resultFeedback" contenteditable="true" spellcheck='false'></div>
+    <div class="card-footer">
+        <div class="resulttfooterHeader">
+            <span class="fw-semibold">Look back at the test.</span><br /><span>Which entries in <i>Practical English Usage</i> do you think you should study?</span>
+        </div>
+        <div class="resultFeedback form-control" contenteditable="true" spellcheck="false"></div>
     </div>
 </div>
 <div class="summaryBtn">
-    <div class="btn tryTest" ng-click="goInner()" style="clear:both;">Try test again</div><div ng-click="load_section()" class="btn lrnRec">Go to list of tests</div>
+    <button type="button" class="btn btn-secondary tryTest" ng-click="goInner()">Try test again</button>
+    <button type="button" ng-click="load_section()" class="btn btn-success lrnRec">Go to list of tests</button>
 </div>
-<style type="text/css">
-    .activityArea {
-        width: 100%;
-        box-sizing: border-box;
-    }
-</style>

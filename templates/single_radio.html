@@ -1,39 +1,48 @@
 <div class="template single_radio" ng-controller="single_radio">
-	<div class="rubric" style="counter-reset: listStyle;">
-            <div ng-repeat="x in d.exercise.question track by $index">
-                <span ng-if="$index==0" class="rubricNo">{{d.curr+1}}</span>
-            <span class="rubricText" ng-bind-html="d.exercise['question'][$index]['text']  | sanitize"></span>
-       
-	<div class="questions">
-		<div class="questionSet1">
-			 <div class=" input_text" ng-if='d.exercise.question[$index].hasOwnProperty("input_text")' ng-bind-html="d.exercise.question[$index].input_text | sanitize"></div>
-			<div class="radioC" data-group="{{$index}}" data-ans="">
-				<div class="optionSet radioBtn" ng-click="radioClick($event,y)" ng-repeat="y in d.exercise.question[$index]['option'] track by $index">
-					
-                                    <span class="optionSet patch p_{{$index}}"></span>
-					<span class="radio"><i></i></span>
-					<span class="radioTxt" ng-bind-html="y | sanitize"></span>
-				</div>
-				
-			</div>
-		</div>
-		<div class="disabler" ng-show="disable"></div>
-	</div>
-            
-    </div></div>
-	<div class="linkFeedback">
-		     <div class="feedback_wrapper">
- <div class="feedback_header">Where to go in <i>Practical English Usage</i></div>
-    <ul>
-     <li ng-repeat="f in d.exercise.feedback" ng-bind-html="f.desc | sanitize"></li>
-    </ul>
-    </div>
-	</div>
+    <div class="rubric" style="counter-reset: listStyle">
+        <div ng-repeat="x in d.exercise.question track by $index">
+            <span ng-if="$index==0" class="rubricNo">{{d.curr+1}}</span>
+            <span class="rubricText fw-semibold" ng-bind-html="d.exercise['question'][$index]['text']  | sanitize"></span>
 
-        
-            <div class="btn skip" ng-show="!disable" ng-click="nextExercise()">Skip</div>
-           
-    <div class="btn checkAns" ng-show="!disable" ng-click="checkAns()">Check my answers</div>
-    <div class="btn next" ng-click="nextExercise()" ng-if="d.curr < (d.size - 1)">Next</div> 
-    <div class="btn resultsBtn" ng-show="disable" ng-click="results(d.level)" ng-if="d.curr >= (d.size - 1)">Results</div> 
+            <div class="questions">
+                <div class="questionSet1">
+                    <div
+                        class="input_text"
+                        ng-if='d.exercise.question[$index].hasOwnProperty("input_text")'
+                        ng-bind-html="d.exercise.question[$index].input_text | sanitize"
+                    ></div>
+                    <div class="radioC" data-group="{{$index}}" data-ans="">
+                        <div
+                            class="optionSet radioBtn"
+                            ng-click="radioClick($event,y)"
+                            ng-repeat="y in d.exercise.question[$index]['option'] track by $index"
+                        >
+                            <span class="optionSet patch p_{{$index}}"></span>
+                            <span class="radio"><i></i></span>
+                            <span class="radioTxt" ng-bind-html="y | sanitize"></span>
+                        </div>
+                    </div>
+                </div>
+                <div class="disabler" ng-show="disable"></div>
+            </div>
+        </div>
+    </div>
+    <div class="linkFeedback">
+        <div class="card">
+            <div class="card-header bg-primary-subtle fw-bold">Explanations / answers</div>
+            <div class="card-body">
+                <ul>
+                    <li ng-repeat="f in d.exercise.feedback" ng-bind-html="f.desc | sanitize"></li>
+                </ul>
+            </div>
+        </div>
+    </div>
+
+    <button type="button" class="btn btn-secondary skip" ng-show="!disable" ng-click="nextExercise()">Skip</button>
+
+    <button type="button" class="btn btn-success checkAns" ng-show="!disable" ng-click="checkAns()">Check my answers</button>
+    <button type="button" class="btn btn-success next" ng-click="nextExercise()" ng-if="d.curr < (d.size - 1)">Next</button>
+    <button type="button" class="btn btn-success resultsBtn" ng-show="disable" ng-click="results(d.level)" ng-if="d.curr >= (d.size - 1)">
+        Results
+    </button>
 </div>

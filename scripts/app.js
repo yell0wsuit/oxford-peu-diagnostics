@@ -22,7 +22,7 @@ var uAnswer = {};
 app.controller("mainCtrl", function ($rootScope, $scope, $http, $templateRequest, $compile) {
     // $scope.deleteAll = false;
     scormApi.getExcercisedata(function (main) {
-        $(".mloader").hide();
+        $("#iLoader").addClass("d-none");
         $rootScope.main = main.data;
         $scope.hoverC = "";
         $rootScope.d = {};
@@ -32,24 +32,20 @@ app.controller("mainCtrl", function ($rootScope, $scope, $http, $templateRequest
         $scope.template = "templates/blank.html";
         $rootScope.go = function (level, index, _topic) {
             mFlag = false;
-            $(".loader").show();
+            $("#iLoader").removeClass("d-none");
             $rootScope.fIndex = level;
             $rootScope.fLevel = index;
             $rootScope.main[index]["status"][level] = 2;
             scrollToStart();
+
             main_data = $rootScope.main;
             $rootScope.loadJson(level, index, _topic);
-        };
-
-        $scope.delete_all = function () {
-            $(".mloader").show();
-            $scope.deleteAll = true;
-            scormApi.deleteMain();
         };
 
         $scope.load_section = function () {
             $(".header").css("display", "table");
             scrollToStart();
+
             if ($(".resultFeedback").length > 0 && typeof uAnswer[$rootScope.fLevel] != "undefined") {
                 uAnswer[$rootScope.fLevel]["desc"] = $(".resultFeedback").text();
             }
@@ -78,29 +74,29 @@ app.controller("mainCtrl", function ($rootScope, $scope, $http, $templateRequest
                     $(".template")
                         .last()
                         .append(
-                            '<div ng-click="try(' +
+                            '<button type="button" ng-click="try(' +
                                 $rootScope.d.curr +
-                                ')" class="btn tryAgain" data-index="' +
+                                ')" class="btn btn-secondary tryAgain" data-index="' +
                                 $rootScope.d.curr +
-                                '">Try again</div>'
+                                '">Try again</button>'
                         );
                     $rootScope.userStoredAnswer($rootScope.uData[$rootScope.d.curr]);
                 } else {
                     $(".current").html(
                         '<div class="emptyDiv"><div class="noResTitle"><div class="rubric"><span class="rubricNo">' +
                             ($rootScope.d.curr + 1) +
-                            '</span> <span class="rubricText">No results</span></div></div><div ng-click="try(' +
+                            '</span> <span class="rubricText">No results</span></div></div><button type="button" ng-click="try(' +
                             $rootScope.d.curr +
                             ')" data-index="' +
                             $rootScope.d.curr +
-                            '" class="btn tryAgain">Try</div></div>'
+                            '" class="btn btn-secondary tryAgain">Try</div></button>'
                     );
                     $(".template").removeClass("current").removeClass("template");
                 }
             } else {
                 if ($rootScope.d.curr < $rootScope.d.size - 1) {
-                    $(".loader").hide();
-                    $(".template").append('<span class="btn endTest">Exit test</span>');
+                    $("#iLoader").addClass("d-none");
+                    $(".template").append('<div class="btn btn-secondary endTest">Exit test</div>');
                     $(".endTest").bind("click", function () {
                         $rootScope.$apply(function () {
                             $scope.results($rootScope.fLevel, $rootScope.fIndex);
@@ -113,8 +109,9 @@ app.controller("mainCtrl", function ($rootScope, $scope, $http, $templateRequest
             //console.log("level-->" + level);
             //console.log("index---->" + index);
             $(".summaryWrapper").show();
-            $(".loader").show();
             scrollToStart();
+            $("#iLoader").removeClass("d-none");
+
             $(".summary").empty();
             if (typeof index != "undefined") {
                 $rootScope.fIndex = index;
@@ -248,8 +245,7 @@ app.controller("mainCtrl", function ($rootScope, $scope, $http, $templateRequest
 
     $rootScope.nextExercise = function () {
         scrollToStart();
-
-        $(".loader").show();
+        $("#iLoader").removeClass("d-none");
         $scope.disable = false;
         if ($rootScope.d.curr < $rootScope.d.size - 1) {
             $scope.template = "templates/blank.html";
@@ -258,7 +254,7 @@ app.controller("mainCtrl", function ($rootScope, $scope, $http, $templateRequest
             setTimeout(function () {
                 $rootScope.resetData();
                 $scope.template = "templates/" + $rootScope.d.exercise["template"] + ".html";
-                $(".loader").fadeOut(300);
+                $("#iLoader").addClass("d-none");
             });
         } else {
             scrollToStart();
@@ -276,7 +272,7 @@ app.controller("mainCtrl", function ($rootScope, $scope, $http, $templateRequest
 });
 angular.module("myApp.summaryCtrl", []).controller("summaryCtrl", function ($scope, $rootScope, $filter, $timeout, $templateRequest, $compile) {
     $(".myApp").css({ height: "500px", position: "relative", overflow: "hidden" });
-    $(".loader").show();
+    $("#iLoader").removeClass("d-none");
     var tplC = angular.element(".summary"); //template container
     var data = $scope.data.exercise,
         c = 0;
@@ -296,7 +292,7 @@ angular.module("myApp.summaryCtrl", []).controller("summaryCtrl", function ($sco
     };
 
     function a() {
-        $(".loader").show();
+        $("#iLoader").removeClass("d-none");
         $templateRequest("templates/" + data[c].template + ".html").then(function (html) {
             $rootScope.d.exercise = data[c];
             $rootScope.resetData();
@@ -326,8 +322,9 @@ angular.module("myApp.summaryCtrl", []).controller("summaryCtrl", function ($sco
                     //console.log("----------All template loaded---------------");
                     //console.log("-------------------------");
                     scrollToStart();
+
                     $(".myApp").removeAttr("style");
-                    $(".loader").fadeOut(300);
+                    $("#iLoader").addClass("d-none");
                     $(".radioRow").find(".iconParent").removeClass("clicked");
                     if (typeof uAnswer[$rootScope.fLevel] != "undefined" && typeof uAnswer[$rootScope.fLevel]["index"] != "undefined") {
                         $(".radioRow").eq(uAnswer[$rootScope.fLevel]["index"]).find(".iconParent").addClass("clicked");
@@ -1308,7 +1305,7 @@ angular.module("myApp.mRadioCtrl", []).controller("mRadioCtrl", function ($scope
                         $(this)
                             .find(".radioBtn")
                             .find(".patch.p_" + right + "")
-                            .css("background-color", "#87b03f");
+                            .css("background-color", "var(--bs-success-border-subtle)");
                     }
                 }
                 if (q[i].answer.hasOwnProperty("feedback")) {
@@ -1422,7 +1419,7 @@ angular.module("myApp.single_radio", []).controller("single_radio", function ($s
                         _this
                             .find(".radioBtn")
                             .find(".patch.p_" + q.rIndex + "")
-                            .css("background-color", "#87b03f");
+                            .css("background-color", "var(--bs-success-border-subtle)");
                     }
                     if (q.answer.hasOwnProperty("feedback")) {
                         _this.after('<div class="feedback">' + q.answer.feedback.should_be + "</div>");
@@ -1530,7 +1527,7 @@ angular.module("myApp.mRadioTextCtrl", []).controller("mRadioTextCtrl", function
                         .find(".radioTxt:contains(" + r_Ans + ")")
                         .prev()
                         .prev()
-                        .css("background-color", "#87b03f");
+                        .css("background-color", "var(--bs-success-border-subtle)");
 
                     //  }
                     if (q[i].answer.hasOwnProperty("feedback")) {
@@ -1545,13 +1542,13 @@ angular.module("myApp.mRadioTextCtrl", []).controller("mRadioTextCtrl", function
                 if ((r_Ans == "Wrong" || r_Ans == "W" || r_Ans == "N" || r_Ans == "Y") && typeof q[i].answer[1] != "undefined") {
                     if (maxW < $(".questionSet").width()) {
                         var temp = $compile(
-                            '<div class="radioTxtEntry"><textarea rows="1" class="textEntry userInput" ng-keyup="keypress($event)" style="max-width:' +
+                            '<div class="radioTxtEntry"><textarea rows="1" class="textEntry userInput form-control" ng-keyup="keypress($event)" style="max-width:' +
                                 maxW +
                                 'px"  autocorrect="off" autocapitalize="none" spellcheck="false"></textarea></div>'
                         )($scope);
                     } else {
                         var temp = $compile(
-                            '<div class="radioTxtEntry"><textarea rows="1" class="textEntry userInput" ng-keyup="keypress($event)"   autocorrect="off" autocapitalize="none" spellcheck="false"></textarea></div>'
+                            '<div class="radioTxtEntry"><textarea rows="1" class="textEntry userInput form-control" ng-keyup="keypress($event)"   autocorrect="off" autocapitalize="none" spellcheck="false"></textarea></div>'
                         )($scope);
                     }
                     $(this).after(temp);
@@ -1559,7 +1556,6 @@ angular.module("myApp.mRadioTextCtrl", []).controller("mRadioTextCtrl", function
             });
             $(".textEntry").autogrow({ vertical: true, horizontal: false, flickering: false });
             angular.element(".current .radioBtn").unbind();
-            scrollToStart();
         } else {
             $(".current .feedback2").remove();
             clicks = 1;
@@ -1759,13 +1755,10 @@ var checkAns = function (uAns, rAns, exact) {
     }
     return correct_flag;
 };
+
 var scrollToStart = function () {
     var targetOffset = $(".mshell").offset().top - 10;
-    //console.log("targetOffset--->" + targetOffset);
-    setTimeout(function () {
-        $("html, body").animate({ scrollTop: targetOffset }, 500);
-        //$(window).scrollTop(targetOffset);
-    }, 200);
+    window.scrollTo({top: targetOffset, behavior: "smooth"});
 };
 
 var updateAtag = function () {
@@ -1776,7 +1769,7 @@ var updateAtag = function () {
             temp = "language-terminology";
             cLink = "./";
         }
-        $(this).attr("href", '#');
+        $(this).attr("href");
     });
 };
 var uploadUserData = function (index, level, data) {
@@ -1798,7 +1791,8 @@ var uploadUserData = function (index, level, data) {
 };
 
 $(document).ready(function () {
-    setTimeout(function () {
-        scrollToStart();
-    }, 2500);
+    scrollToStart();
 });
+
+const tooltipTriggerList = document.querySelectorAll('[data-bs-toggle="tooltip"]')
+const tooltipList = [...tooltipTriggerList].map(tooltipTriggerEl => new bootstrap.Tooltip(tooltipTriggerEl))
